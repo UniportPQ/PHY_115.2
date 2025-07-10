@@ -276,7 +276,7 @@
       "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Fundamental Interval Calculation:</strong></p><p>\\[ ΔT = T_{upper} - T_{lower} \\]</p><p>\\[ ΔT = 150°C - (-32°C) = 182°C \\]</p><p>This represents the calibrated range between fixed points.</p></div>"
     }
   },
-
+  
   {
     "type": "Question",
     "name": "Question 13",
@@ -344,22 +344,22 @@
     }
   },
   {
-  "type": "Question",
-  "name": "Question 16",
-  "Question": {
-    "content": "No question text provided",
-    "type": "OBJ",
-    "options": []
+    "type": "Question",
+    "name": "Question 16",
+    "Question": {
+      "content": "No question text provided",
+      "type": "OBJ",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N/A"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>This question number was intentionally left blank in the original exam.</p></div>"
+    }
   },
-  "Answer": {
-    "type": "string",
-    "content": "N/A"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial; line-height: 1.6'><p>This question number was intentionally left blank in the original exam.</p></div>"
-  }
-},
   {
     "type": "Question",
     "name": "Question 17",
@@ -624,7 +624,7 @@
       "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Light in Media:</strong></p><table border='1'><tr><th>Property</th><th>Changes?</th><th>Reason</th></tr><tr><td>Frequency (f)</td><td>No</td><td>Determined by source</td></tr><tr><td>Velocity (v)</td><td>Yes</td><td>v = c/n</td></tr><tr><td>Wavelength (λ)</td><td>Yes</td><td>λ = λ₀/n</td></tr><tr><td>Amplitude</td><td>Yes</td><td>Energy absorption</td></tr></table><p>Frequency is fundamental - color doesn't change in media!</p></div>"
     }
   },
-
+  
   {
     "type": "Question",
     "name": "Question 29",
@@ -647,27 +647,31 @@
       "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Wave Equation Calculation:</strong></p><p>Using the fundamental wave relationship:</p><p>\\[ c = λf \\]</p><p>Where:<br>• c = speed of light (3.0×10⁸ m/s)<br>• λ = wavelength (2.0×10⁻⁸ m)</p><p>Rearranged formula:<br>\\[ f = \\frac{c}{λ} = \\frac{3.0×10⁸}{2.0×10⁻⁸} = 1.5×10¹⁶\\,Hz \\]</p><p>This frequency corresponds to <strong>X-rays</strong> in the electromagnetic spectrum.</p></div>"
     }
   },
-{
-  "type": "Question",
-  "name": "Question 30",
-  "Question": {
-    "content": "The wave nature of light is demonstrated by (i) refraction (ii) interference (iii) diffraction",
-    "type": "OBJ",
-    "options": [
-      "I and ii only",
-      "I and iii only",
-      "II and iii only",
-      "I, ii, and iii"
-    ]
+  {
+    "type": "Question",
+    "name": "Question 30",
+    "Question": {
+      "content": "The wave nature of light is demonstrated by (i) refraction (ii) interference (iii) diffraction",
+      "type": "OBJ",
+      "options": [
+        "I and ii only",
+        "I and iii only",
+        "II and iii only",
+        "I, ii, and iii"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "I, ii, and iii"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Wave Properties of Light:</strong></p><ol><li><u>Refraction (i)</u>:<br>• Shows light changes speed in different media<br>• Explained by wavefronts bending at boundaries<br>• Example: Prism separating white light into colors</li><li><u>Interference (ii)</u>:<br>• Requires superposition of waves<br>• Demonstrated in Young's double-slit experiment<br>• Produces characteristic bright/dark fringes</li><li><u>Diffraction (iii)</u>:<br>• Shows light bends around obstacles<br>• Creates patterns when passing through small openings<br>• Impossible to explain with pure particle theory</li></ol><p><strong>Why all three?</strong> While refraction can be partially explained by particles, interference and diffraction are <em>exclusive</em> wave phenomena. The combination of all three definitively proves wave nature.</p><p class='note'>Note: The options use Roman numerals (i, ii, iii) corresponding to the phenomena listed in the question.</p></div>"
+    }
   },
-  "Answer": {
-    "type": "string",
-    "content": "I, ii, and iii"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Wave Properties of Light:</strong></p><ol><li><u>Refraction (i)</u>:<br>• Shows light changes speed in different media<br>• Explained by wavefronts bending at boundaries<br>• Example: Prism separating white light into colors</li><li><u>Interference (ii)</u>:<br>• Requires superposition of waves<br>• Demonstrated in Young's double-slit experiment<br>• Produces characteristic bright/dark fringes</li><li><u>Diffraction (iii)</u>:<br>• Shows light bends around obstacles<br>• Creates patterns when passing through small openings<br>• Impossible to explain with pure particle theory</li></ol><p><strong>Why all three?</strong> While refraction can be partially explained by particles, interference and diffraction are <em>exclusive</em> wave phenomena. The combination of all three definitively proves wave nature.</p><p class='note'>Note: The options use Roman numerals (i, ii, iii) corresponding to the phenomena listed in the question.</p></div>"
-  }
+  {
+  "type": "heading",
+  "heading": "Section B"
 },
   {
     "type": "Question",
@@ -718,4 +722,3 @@
     }
   }
 ]
-
