@@ -33,7 +33,6 @@
       "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Calculation:</strong></p><p>\\[ f = \\frac{c}{λ} = \\frac{3×10⁸\\,m/s}{6×10⁻⁷\\,m} = 5×10¹⁴\\,Hz \\]</p><p>Note: Converted 6×10⁻⁵cm to 6×10⁻⁷m first. This matches the visible light spectrum (yellow light ≈ 570-590nm).</p></div>"
     }
   },
-  
   {
     "type": "Question",
     "name": "Question 2",
@@ -850,6 +849,122 @@
     "Explanation": {
       "type": "string",
       "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Step 1:</strong> Convert Celsius to Kelvin:</p>\\[ T(\\text{K}) = T(^\\circ \\text{C}) + 273.15 \\]<p><strong>Step 2:</strong> Substitute \\( -73^\\circ \\text{C} \\):</p>\\[ T = -73 + 273 = 200 \\, \\text{K} \\]</div>"
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Section B"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1a",
+    "Question": {
+      "content": "State the laws of reflection.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. The incident ray, reflected ray, and normal all lie in the same plane. <br> 2. The angle of incidence is equal to the angle of reflection."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Laws of Reflection</h3> <p>When light reflects off a surface, two fundamental laws govern its behavior:</p> <ol style='padding-left: 20px;'> <li><strong>First Law:</strong> The incident ray, the reflected ray, and the normal (a line perpendicular to the surface at the point of incidence) all lie in the same plane. <br> <small><i>Visualization: Imagine a flat mirror. The incoming light, bounced light, and an imaginary perpendicular line all fit on a single sheet of paper.</i></small></li> <li><strong>Second Law:</strong> The angle of incidence (\\(\\theta_i\\)) equals the angle of reflection (\\(\\theta_r\\)). <br> \\[ \\theta_i = \\theta_r \\] <br> <small><i>Example: If light hits a mirror at 30°, it bounces off at 30°.</i></small></li> </ol> </div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1a (ii)",
+    "Question": {
+      "content": "What is total internal reflection?",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Total internal reflection is the complete reflection of light at a boundary between two media when the angle of incidence exceeds the critical angle, and light travels from a denser to a rarer medium."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Total Internal Reflection</h3> <p>This phenomenon occurs under specific conditions:</p> <ol style='padding-left: 20px;'> <li><strong>Denser to Rarer Medium:</strong> Light must travel from a medium with a higher refractive index (e.g., water, glass) to one with a lower index (e.g., air). <br> <small><i>Example: Light inside a glass prism trying to exit into air.</i></small></li> <li><strong>Critical Angle:</strong> The angle of incidence must exceed the critical angle (\\(\\theta_c\\)), calculated as: <br> \\[ \\theta_c = \\sin^{-1}\\left(\\frac{n_2}{n_1}\\right) \\] <br> where \\(n_1\\) (denser) > \\(n_2\\) (rarer).</li> </ol> <p><strong>Why it matters:</strong> Used in fiber optics to transmit light signals with minimal loss.</p> </div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1b",
+    "Question": {
+      "content": "With the aid of a diagram, explain the working principle of a compound microscope.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A compound microscope uses two lenses (objective and eyepiece) to magnify small objects. The objective lens forms a real, inverted image, which the eyepiece further magnifies into a virtual image for the eye."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Compound Microscope Principle</h3> <p><strong>Key Components:</strong></p> <ol style='padding-left: 20px;'> <li><strong>Objective Lens:</strong> <br> - Placed close to the specimen. <br> - Forms a real, inverted, and magnified image at its focal point. <br> - Typical magnification: 4× to 100×.</li> <li><strong>Eyepiece Lens:</strong> <br> - Acts like a magnifying glass. <br> - Further enlarges the image from the objective into a virtual image. <br> - Typical magnification: 10× to 15×.</li> </ol> <p><strong>Total Magnification:</strong> <br> \\[ M_{\\text{total}} = M_{\\text{objective}} \\times M_{\\text{eyepiece}} \\] <br> <small><i>Example: 40× (objective) × 10× (eyepiece) = 400× total magnification.</i></small></p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> A diagram would show light rays converging through both lenses, with the final image appearing larger and inverted.</p> </div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "Question": {
+      "content": "Show that for refraction at a single refracting surface: \\[\\frac{n_1}{u} + \\frac{n_2}{v} = \\frac{n_2 - n_1}{r}\\]",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The equation is derived using Snell's law and the paraxial approximation for small angles."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Derivation of Refraction Formula</h3> <p><strong>Step 1: Apply Snell’s Law</strong> <br> For small angles (\\(\\sin \\theta \\approx \\theta\\)): <br> \\[ n_1 i = n_2 r \\]</p> <p><strong>Step 2: Relate Angles to Distances</strong> <br> From geometry: <br> \\[ i = \\alpha + \\gamma \\quad \\text{and} \\quad r = \\gamma - \\beta \\] <br> where: <br> 1. \\(\\alpha = \\frac{h}{u}\\) (object distance) <br> 2. \\(\\beta = \\frac{h}{v}\\) (image distance) <br> 3. \\(\\gamma = \\frac{h}{r}\\) (radius of curvature).</p> <p><strong>Step 3: Substitute and Simplify</strong> <br> Combining Snell’s law and geometric relations: <br> \\[ n_1\\left(\\frac{h}{u} + \\frac{h}{r}\\right) = n_2\\left(\\frac{h}{r} - \\frac{h}{v}\\right) \\] <br> Cancel \\(h\\) and rearrange to get: <br> \\[ \\frac{n_1}{u} + \\frac{n_2}{v} = \\frac{n_2 - n_1}{r} \\]</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Key Assumption:</strong> Paraxial rays (close to the optical axis) ensure small angles.</p> </div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3a",
+    "Question": {
+      "content": "Explain the term ideal gas and write its equation.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "An ideal gas is a theoretical gas that obeys the ideal gas law: \\[PV = nRT\\], where \\(P\\) is pressure, \\(V\\) is volume, \\(n\\) is moles, \\(R\\) is the gas constant, and \\(T\\) is temperature."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Ideal Gas Concept</h3> <p><strong>Definition:</strong> An ideal gas is a simplified model where:</p> <ol style='padding-left: 20px;'> <li>Gas molecules occupy negligible space (point masses). <br> <small><i>No volume → simplifies calculations.</i></small></li> <li>No intermolecular forces (except during collisions). <br> <small><i>Molecules move freely without attraction/repulsion.</i></small></li> </ol> <p><strong>Ideal Gas Law:</strong> <br> \\[ PV = nRT \\] <br> <strong>Variables:</strong> <br> 1. \\(P\\) = Pressure (Pa) <br> 2. \\(V\\) = Volume (m³) <br> 3. \\(n\\) = Moles of gas <br> 4. \\(R\\) = Universal gas constant (8.314 J/mol·K) <br> 5. \\(T\\) = Temperature (K).</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Real vs. Ideal:</strong> Real gases approximate ideal behavior at high temperatures and low pressures.</p> </div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3a (ii)",
+    "Question": {
+      "content": "State the basic assumptions of the kinetic theory of ideal gas and write the expression for the pressure exerted by the gas enclosed in a cuboid.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Assumptions: <br> 1. Gas molecules are point masses. <br> 2. No intermolecular forces. <br> 3. Collisions are elastic. <br> 4. Random motion. <br> Pressure: \\[P = \\frac{1}{3} \\rho \\langle v^2 \\rangle\\], where \\(\\rho\\) is density and \\(\\langle v^2 \\rangle\\) is mean square speed."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Kinetic Theory of Gases</h3> <p><strong>Assumptions:</strong></p> <ol style='padding-left: 20px;'> <li><strong>Point Masses:</strong> Molecules have negligible volume. <br> <small><i>Like tiny dots moving in space.</i></small></li> <li><strong>No Forces:</strong> Except during collisions, molecules don’t interact. <br> <small><i>No attraction/repulsion between them.</i></small></li> <li><strong>Elastic Collisions:</strong> No energy is lost when molecules collide. <br> <small><i>Like perfect billiard balls bouncing.</i></small></li> <li><strong>Random Motion:</strong> Molecules move in straight lines until collisions.</li> </ol> <p><strong>Pressure Formula:</strong> <br> \\[ P = \\frac{1}{3} \\rho \\langle v^2 \\rangle \\] <br> <strong>Where:</strong> <br> 1. \\(\\rho\\) = Density (mass per unit volume). <br> 2. \\(\\langle v^2 \\rangle\\) = Mean square speed of molecules. <br> <small><i>Derived from momentum change during wall collisions.</i></small></p> </div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3b",
+    "Question": {
+      "content": "Calculate the average kinetic energy of a gas at \\(100^\\circ C\\) (\\(k = 1.38 \\times 10^{-23}\\)).",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(7.72 \\times 10^{-21} \\text{ J}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #d35400; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Average Kinetic Energy Calculation</h3> <p><strong>Step 1: Convert Temperature</strong> <br> \\[ T = 100^\\circ C + 273.15 = 373.15 \\text{ K} \\]</p> <p><strong>Step 2: Use Kinetic Energy Formula</strong> <br> For one molecule: <br> \\[ \\text{KE}_{\\text{avg}} = \\frac{3}{2} k T \\] <br> where \\(k\\) (Boltzmann constant) = \\(1.38 \\times 10^{-23} \\text{ J/K}\\).</p> <p><strong>Step 3: Plug in Values</strong> <br> \\[ \\text{KE}_{\\text{avg}} = \\frac{3}{2} \\times 1.38 \\times 10^{-23} \\times 373.15 \\] <br> \\[ \\text{KE}_{\\text{avg}} = 7.72 \\times 10^{-21} \\text{ J} \\]</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> This is the energy per molecule. Multiply by Avogadro’s number (\\(6.022 \\times 10^{23}\\)) for molar kinetic energy.</p> </div>"
     }
   }
 ]
