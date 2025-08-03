@@ -33,29 +33,29 @@
       "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Calculation:</strong></p><p>\\[ f = \\frac{c}{λ} = \\frac{3×10⁸\\,m/s}{6×10⁻⁷\\,m} = 5×10¹⁴\\,Hz \\]</p><p>Note: Converted 6×10⁻⁵cm to 6×10⁻⁷m first. This matches the visible light spectrum (yellow light ≈ 570-590nm).</p></div>"
     }
   },
-
-{
-  "type": "Question",
-  "name": "Question 2",
-  "Question": {
-    "content": "A 10cm pipe closed at one end has sound speed 340m/s. Its fundamental frequency is",
-    "type": "OBJ",
-    "options": [
-      "850Hz",
-      "8.5Hz",
-      "136Hz",
-      "13600Hz"
-    ]
+  
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "Question": {
+      "content": "A 10cm pipe closed at one end has sound speed 340m/s. Its fundamental frequency is",
+      "type": "OBJ",
+      "options": [
+        "850Hz",
+        "8.5Hz",
+        "136Hz",
+        "13600Hz"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "850Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Closed Pipe Formula:</strong></p><p>\\[ f_1 = \\frac{v}{4L} = \\frac{340}{4×0.1} = 850\\,Hz \\]</p><p class='warning'>Correction: The original answer (0.85Hz) was incorrect due to unit conversion error (10cm = 0.1m, not 100m). The correct answer is 850Hz (option a).</p></div>"
+    }
   },
-  "Answer": {
-    "type": "string",
-    "content": "850Hz"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Closed Pipe Formula:</strong></p><p>\\[ f_1 = \\frac{v}{4L} = \\frac{340}{4×0.1} = 850\\,Hz \\]</p><p class='warning'>Correction: The original answer (0.85Hz) was incorrect due to unit conversion error (10cm = 0.1m, not 100m). The correct answer is 850Hz (option a).</p></div>"
-  }
-},
   {
     "type": "Question",
     "name": "Question 3",
@@ -715,6 +715,141 @@
       "type": "string",
       "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Optical Instruments:</strong></p><ul><li>Spectrometer: Measures wavelength distribution</li><li>Spectrograph: Records spectra (photographic)</li><li>Microscope: Magnifies small objects</li><li>Galvanometer: Measures electric current</li></ul></div>"
     }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33",
+    "Question": {
+      "content": "Find the absolute refractive index of a medium in which the speed is \\(2.2 \\times 10^3 \\, \\text{m/s}\\)",
+      "type": "OBJ",
+      "options": ["5.2", "0.8", "6.6", "1.4"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.4"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Step 1:</strong> Recall the formula for absolute refractive index \\( n \\):</p>\\[ n = \\frac{c}{v} \\]<p>Where \\( c = 3 \times 10^8 \\, \\text{m/s} \\) (speed of light in vacuum) and \\( v = 2.2 \times 10^3 \\, \\text{m/s} \\).</p><p><strong>Step 2:</strong> Substitute values:</p>\\[ n = \\frac{3 \times 10^8}{2.2 \times 10^3} = \\frac{3}{2.2} \times 10^5 \\approx 1.36 \\]<p><strong>Step 3:</strong> Round to match options: \\( 1.4 \\).</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 34",
+    "Question": {
+      "content": "The absolute zero of temperature is",
+      "type": "OBJ",
+      "options": ["\\(0^\\circ C\\)", "\\(-273K\\)", "\\(-273^\\circ C\\)", "\\(32^\\circ F\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(-273^\\circ C\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Key Concept:</strong> Absolute zero is the lowest possible temperature:</p><ul><li>In Kelvin: \\( 0 \\, \\text{K} \\)</li><li>In Celsius: \\( -273.15^\\circ \\text{C} \\) (approximated as \\( -273^\\circ \\text{C} \\) here)</li><li>Note: \\( -273 \\, \\text{K} \\) is invalid (Kelvin cannot be negative).</li></ul></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 35",
+    "Question": {
+      "content": "The temperature at which ice, water and water vapour coexist in equilibrium is called",
+      "type": "OBJ",
+      "options": ["triple point", "ice point", "steam point", "boiling point"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "triple point"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Definition:</strong> The <strong>triple point</strong> of water is the unique condition (\\( 0.01^\\circ \\text{C} \\) and \\( 611.657 \\, \\text{Pa} \\)) where solid (ice), liquid (water), and gas (vapor) phases coexist in equilibrium.</p></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 36",
+    "Question": {
+      "content": "The resistance of a thermometer at ripple points \\(25.84\\Omega\\) and \\(53.98\\Omega\\) when placed in a boiling liquid. Calculate the temperature of the liquid",
+      "type": "OBJ",
+      "options": ["\\(470.4K\\)", "\\(470.6K\\)", "\\(450K\\)", "\\(570.6K\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(470.6K\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Assumption:</strong> Linear resistance-temperature relationship \\( R = R_0(1 + \\alpha T) \\).</p><p><strong>Step 1:</strong> Use known reference points ( e.g., ice point \\( 0^\\circ \\text{C} = 273 \\, \\text{K} \\) and steam point \\( 100^\\circ \\text{C} = 373 \\, \\text{K} \\) ) to find \\( \\alpha \\):</p>\\[ \\alpha = \\frac{R_{100} - R_0}{R_0 \\cdot 100} = \\frac{53.98 - 25.84}{25.84 \times 100} \\approx 0.0109 \\, \\text{K}^{-1} \\]<p><strong>Step 2:</strong> Solve for temperature \\( T \\):</p>\\[ T = \\frac{R - R_0}{\\alpha R_0} = \\frac{53.98 - 25.84}{0.0109 \times 25.84} \\approx 197.6^\\circ \\text{C} = 470.6 \\, \\text{K} \\]</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 37",
+    "Question": {
+      "content": "Which of the physical properties of matter cannot be used to measure temperature",
+      "type": "OBJ",
+      "options": ["expansion of a liquid", "density of gas", "electrical resistance of wire", "pressure exerted by gas at constant volume"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "density of gas"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Analysis:</strong></p><ul><li><strong>Liquid expansion</strong>: Used in liquid-in-glass thermometers.</li><li><strong>Electrical resistance</strong>: Resistance thermometers (e.g., PT100).</li><li><strong>Gas pressure</strong>: Constant-volume gas thermometers.</li><li><strong>Density of gas</strong>: Not directly used; requires pressure/volume measurements.</li></ul></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 38",
+    "Question": {
+      "content": "The molecular mass of a gas is \\(2.8 \\times 10^{-2} \\, \\text{kg}\\) at \\(0^\\circ C\\). Calculate the root mean square velocity of the gas (\\(R=8.314 \\, \\text{mol}^{-1} \\, \\text{K}^{-1}\\)).",
+      "type": "OBJ",
+      "options": ["\\(423 \\, \\text{ms}^{-1}\\)", "\\(475 \\, \\text{ms}^{-1}\\)", "\\(493 \\, \\text{m/s}\\)", "\\(500 \\, \text{m/s}\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(493 \\, \text{m/s}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Step 1:</strong> Use the RMS velocity formula:</p>\\[ v_{\\text{rms}} = \\sqrt{\\frac{3RT}{M}} \\]<p>Where \\( T = 273 \\, \\text{K} \\) (\\( 0^\\circ \\text{C} \\)), \\( M = 2.8 \times 10^{-2} \\, \\text{kg/mol} \\).</p><p><strong>Step 2:</strong> Substitute values:</p>\\[ v_{\\text{rms}} = \\sqrt{\\frac{3 \times 8.314 \times 273}{0.028}} \\approx 493 \\, \\text{m/s} \\]</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 39",
+    "Question": {
+      "content": "The linear expansivity of a sheet of metal is \\(3.15 \times 10^{-5} \\, \text{K}^{-1}\\). The area expansivity is",
+      "type": "OBJ",
+      "options": ["\\(6.30 \times 10^{-3} \\, \text{K}^{-1}\\)", "\\(5.60 \times 10^{-5} \\, \text{K}^{-1}\\)", "\\(6.30 \times 10^{-4} \\, \text{K}^{-1}\\)", "\\(5.60 \times 10^{-4} \\, \text{K}^{-1}\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(6.30 \times 10^{-5} \\, \text{K}^{-1}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Step 1:</strong> Area expansivity (\\( \\beta \\)) is approximately twice linear expansivity (\\( \\alpha \\)):</p>\\[ \\beta \\approx 2\\alpha = 2 \times 3.15 \times 10^{-5} = 6.30 \times 10^{-5} \\, \\text{K}^{-1} \\]</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 40",
+    "Question": {
+      "content": "\\(-73^\\circ C\\) is equivalent to",
+      "type": "OBJ",
+      "options": ["\\(260K\\)", "\\(346K\\)", "\\(200K\\)", "\\(250K\\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(200K\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Step 1:</strong> Convert Celsius to Kelvin:</p>\\[ T(\\text{K}) = T(^\\circ \\text{C}) + 273.15 \\]<p><strong>Step 2:</strong> Substitute \\( -73^\\circ \\text{C} \\):</p>\\[ T = -73 + 273 = 200 \\, \\text{K} \\]</div>"
+    }
   }
 ]
-

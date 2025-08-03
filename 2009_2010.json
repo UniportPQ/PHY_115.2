@@ -670,9 +670,9 @@
     }
   },
   {
-  "type": "heading",
-  "heading": "Section B"
-},
+    "type": "heading",
+    "heading": "Section B"
+  },
   {
     "type": "Question",
     "name": "Question B1",
