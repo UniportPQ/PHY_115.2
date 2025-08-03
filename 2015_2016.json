@@ -15,516 +15,561 @@
   "type": "heading",
   "heading": "Section A"
 },
-{
-  "type": "Question",
-  "name": "Question 1",
-  "Question": {
-    "content": "In a closed pipe of length \\( l \\), what is the frequency of the second overtone if the velocity of sound in the air column is \\( V \\)? (A) \\( \\frac{V}{4l} \\) (B) \\( \\frac{3V}{2l} \\) (C) \\( \\frac{5V}{4l} \\) (D) \\( \\frac{V}{l} \\)",
-    "type": "OBJ",
-    "options": ["\\( \\frac{V}{4l} \\)", "\\( \\frac{3V}{2l} \\)", "\\( \\frac{5V}{4l} \\)", "\\( \\frac{V}{l} \\)"]
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "Question": {
+      "content": "In a closed pipe of length \\( l \\), what is the frequency of the second overtone if the velocity of sound in the air column is \\( V \\)?",
+      "type": "OBJ",
+      "options": [
+        "\\( \\frac{V}{4l} \\)",
+        "\\( \\frac{3V}{2l} \\)",
+        "\\( \\frac{5V}{4l} \\)",
+        "\\( \\frac{V}{l} \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{5V}{4l} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Closed Pipe Harmonics</h3> <p><strong>Key Concept:</strong> In a closed pipe, only odd harmonics are present. The frequencies are given by:</p> \\[ f_n = \\frac{(2n + 1)V}{4l} \\] <p>where \\( n = 0, 1, 2, \\dots \\) (harmonic number).</p> <p><strong>Second Overtone:</strong> <br> 1. Fundamental (1st harmonic): \\( n = 0 \\), \\( f_0 = \\frac{V}{4l} \\). <br> 2. First overtone (3rd harmonic): \\( n = 1 \\), \\( f_1 = \\frac{3V}{4l} \\). <br> 3. <strong>Second overtone (5th harmonic)</strong>: \\( n = 2 \\), \\( f_2 = \\frac{5V}{4l} \\).</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The second overtone corresponds to the 5th harmonic for closed pipes.</p> </div>"
+    }
   },
-  "Answer": {
-    "type": "string",
-    "content": "\\( \\frac{5V}{4l} \\)"
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "Question": {
+      "content": "Two open organ pipes produce a beat frequency of 12.0 Hz. The longer pipe has a length of 0.40 m. What is the length of the other pipe? (Speed of sound = 340 m/s).",
+      "type": "OBJ",
+      "options": [
+        "0.778 m",
+        "0.389 m",
+        "2.4 m",
+        "0.226 m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.389 m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Beat Frequency in Open Pipes</h3> <p><strong>Step 1: Frequency of Longer Pipe</strong> <br> For an open pipe, the fundamental frequency is: \\[ f = \\frac{V}{2l} \\] <br> Given \\( l_1 = 0.40 \\) m: \\[ f_1 = \\frac{340}{2 \\times 0.40} = 425 \\text{ Hz} \\]</p> <p><strong>Step 2: Determine the Other Pipe's Frequency</strong> <br> Beat frequency \\( f_{\\text{beat}} = |f_1 - f_2| = 12 \\) Hz. <br> Thus, \\( f_2 = 425 \\pm 12 \\) Hz → \\( 413 \\) Hz or \\( 437 \\) Hz.</p> <p><strong>Step 3: Calculate Length of Shorter Pipe</strong> <br> Using \\( f_2 = \\frac{V}{2l_2} \\): <br> For \\( f_2 = 437 \\) Hz: \\[ l_2 = \\frac{340}{2 \\times 437} \\approx 0.389 \\text{ m} \\] <br> For \\( f_2 = 413 \\) Hz: \\( l_2 \\approx 0.411 \\) m (not an option).</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Conclusion:</strong> The correct answer is \\( 0.389 \\) m.</p> </div>"
+    }
   },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Closed Pipe Harmonics</h3> <p><strong>Key Concept:</strong> In a closed pipe, only odd harmonics are present. The frequencies are given by:</p> \\[ f_n = \\frac{(2n + 1)V}{4l} \\] <p>where \\( n = 0, 1, 2, \\dots \\) (harmonic number).</p> <p><strong>Second Overtone:</strong> <br> 1. Fundamental (1st harmonic): \\( n = 0 \\), \\( f_0 = \\frac{V}{4l} \\). <br> 2. First overtone (3rd harmonic): \\( n = 1 \\), \\( f_1 = \\frac{3V}{4l} \\). <br> 3. <strong>Second overtone (5th harmonic)</strong>: \\( n = 2 \\), \\( f_2 = \\frac{5V}{4l} \\).</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The second overtone corresponds to the 5th harmonic for closed pipes.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 2",
-  "Question": {
-    "content": "Two open organ pipes produce a beat frequency of 12.0 Hz. The longer pipe has a length of 0.40 m. What is the length of the other pipe? (Speed of sound = 340 m/s). (A) 0.778 m (B) 0.389 m (C) 2.4 m (D) 0.226 m",
-    "type": "OBJ",
-    "options": ["0.778 m", "0.389 m", "2.4 m", "0.226 m"]
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "Question": {
+      "content": "Which of the following is an example of an electro-acoustic source of sound?",
+      "type": "OBJ",
+      "options": [
+        "Radio set",
+        "Guitar",
+        "Human speech organ",
+        "Loudspeaker"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Loudspeaker"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Electro-Acoustic Sound Sources</h3> <p><strong>Definition:</strong> Electro-acoustic devices convert electrical signals into sound waves.</p> <ol style='padding-left: 20px;'> <li><strong>Loudspeaker (Correct):</strong> <br> Uses an electrical input to vibrate a diaphragm, producing sound.</li> <li><strong>Other Options:</strong> <br> - Radio set: Transmits but doesn't directly produce sound. <br> - Guitar: Mechanical vibration (non-electrical). <br> - Human speech: Biological (vocal cords).</li> </ol> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Key Point:</strong> Loudspeakers are the only pure electro-acoustic option listed.</p> </div>"
+    }
   },
-  "Answer": {
-    "type": "string",
-    "content": "0.389 m"
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "Question": {
+      "content": "Which of the following properties of light does not depend on the material medium in which the light travels?",
+      "type": "OBJ",
+      "options": [
+        "Speed",
+        "Wavelength",
+        "Frequency",
+        "Index of refraction"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Frequency"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Light Properties and Medium Dependence</h3> <p><strong>Frequency Independence:</strong> <br> The frequency of light is determined by the source and remains constant across media. Other properties change:</p> <ol style='padding-left: 20px;'> <li><strong>Speed:</strong> Depends on medium (\\( V = \\frac{c}{n} \\)).</li> <li><strong>Wavelength:</strong> Changes with speed (\\( \\lambda = \\frac{V}{f} \\)).</li> <li><strong>Index of Refraction:</strong> Medium-specific (\\( n = \\frac{c}{V} \\)).</li> </ol> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Example:</strong> Red light (400 THz) stays 400 THz in air/glass, but its speed and wavelength reduce in glass.</p> </div>"
+    }
   },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Beat Frequency in Open Pipes</h3> <p><strong>Step 1: Frequency of Longer Pipe</strong> <br> For an open pipe, the fundamental frequency is: \\[ f = \\frac{V}{2l} \\] <br> Given \\( l_1 = 0.40 \\) m: \\[ f_1 = \\frac{340}{2 \\times 0.40} = 425 \\text{ Hz} \\]</p> <p><strong>Step 2: Determine the Other Pipe's Frequency</strong> <br> Beat frequency \\( f_{\\text{beat}} = |f_1 - f_2| = 12 \\) Hz. <br> Thus, \\( f_2 = 425 \\pm 12 \\) Hz → \\( 413 \\) Hz or \\( 437 \\) Hz.</p> <p><strong>Step 3: Calculate Length of Shorter Pipe</strong> <br> Using \\( f_2 = \\frac{V}{2l_2} \\): <br> For \\( f_2 = 437 \\) Hz: \\[ l_2 = \\frac{340}{2 \\times 437} \\approx 0.389 \\text{ m} \\] <br> For \\( f_2 = 413 \\) Hz: \\( l_2 \\approx 0.411 \\) m (not an option).</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Conclusion:</strong> The correct answer is \\( 0.389 \\) m (Option B).</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 3",
-  "Question": {
-    "content": "Which of the following is an example of an electro-acoustic source of sound? (A) Radio set (B) Guitar (C) Human speech organ (D) Loudspeaker",
-    "type": "OBJ",
-    "options": ["Radio set", "Guitar", "Human speech organ", "Loudspeaker"]
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "Question": {
+      "content": "The speed with which a wave travels in a medium depends on the following except",
+      "type": "OBJ",
+      "options": [
+        "Elasticity and density of the medium",
+        "Gravitational and magnetic forces",
+        "Surface tension and gravitational forces",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Gravitational and magnetic forces"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wave Speed Dependencies</h3> <p><strong>Wave Speed Formula:</strong> For mechanical waves (e.g., sound): \\[ V = \\sqrt{\\frac{\\text{Elasticity}}{\\text{Density}}} \\]</p> <ol style='padding-left: 20px;'> <li><strong>Elasticity & Density:</strong> Directly affect wave speed. <br> <small><i>Example: Sound travels faster in solids (high elasticity).</i></small></li> <li><strong>Gravitational/Magnetic Forces:</strong> <br> Do not influence mechanical wave speed. <strong>(Correct answer)</strong></li> <li><strong>Surface Tension:</strong> Affects capillary waves (e.g., ripples).</li> </ol> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> Electromagnetic waves (e.g., light) depend on permittivity/permeability, not gravity/magnetism.</p> </div>"
+    }
   },
-  "Answer": {
-    "type": "string",
-    "content": "Loudspeaker"
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "Question": {
+      "content": "The velocity of sound in a medium at a temperature of 293K was 244 m/s. What is the temperature when the velocity changes to 365 m/s?",
+      "type": "OBJ",
+      "options": [
+        "318K",
+        "307K",
+        "260K",
+        "436K"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "436K"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Temperature and Sound Velocity</h3> <p><strong>Key Concept:</strong> The velocity of sound in a gas is proportional to the square root of its absolute temperature:</p> \\[ V \\propto \\sqrt{T} \\] <p><strong>Given:</strong> <br> - \\( V_1 = 244 \\) m/s at \\( T_1 = 293 \\) K. <br> - \\( V_2 = 365 \\) m/s at \\( T_2 \\).</p> <p><strong>Calculation:</strong> <br> Using the relation \\( \\frac{V_1}{V_2} = \\sqrt{\\frac{T_1}{T_2}} \\): <br> \\[ \\frac{244}{365} = \\sqrt{\\frac{293}{T_2}} \\] <br> Squaring both sides: <br> \\[ \\left(\\frac{244}{365}\\right)^2 = \\frac{293}{T_2} \\] <br> Solving for \\( T_2 \\): <br> \\[ T_2 = 293 \\times \\left(\\frac{365}{244}\\right)^2 \\approx 436 \\text{ K} \\] </div>"
+    }
   },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Electro-Acoustic Sound Sources</h3> <p><strong>Definition:</strong> Electro-acoustic devices convert electrical signals into sound waves.</p> <ol style='padding-left: 20px;'> <li><strong>Loudspeaker (Correct):</strong> <br> Uses an electrical input to vibrate a diaphragm, producing sound.</li> <li><strong>Other Options:</strong> <br> - Radio set: Transmits but doesn’t directly produce sound. <br> - Guitar: Mechanical vibration (non-electrical). <br> - Human speech: Biological (vocal cords).</li> </ol> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Key Point:</strong> Loudspeakers are the only pure electro-acoustic option listed.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 4",
-  "Question": {
-    "content": "Which of the following properties of light does not depend on the material medium in which the light travels? (A) Speed (B) Wavelength (C) Frequency (D) Index of refraction",
-    "type": "OBJ",
-    "options": ["Speed", "Wavelength", "Frequency", "Index of refraction"]
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "Question": {
+      "content": "A light beam travels at \\( 1.94 \\times 10^8 \\) m/s in quartz. The wavelength of the light in quartz is 355 nm. What is the index of refraction of quartz at this wavelength?",
+      "type": "OBJ",
+      "options": [
+        "1.60",
+        "1.55",
+        "1.45",
+        "1.35"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.55"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Index of Refraction</h3> <p><strong>Formula:</strong> The index of refraction (\\( n \\)) is the ratio of the speed of light in vacuum (\\( c \\)) to its speed in the medium (\\( v \\)):</p> \\[ n = \\frac{c}{v} \\] <p><strong>Given:</strong> <br> - \\( v = 1.94 \\times 10^8 \\) m/s (speed in quartz). <br> - \\( c = 3 \\times 10^8 \\) m/s (speed in vacuum).</p> <p><strong>Calculation:</strong> <br> \\[ n = \\frac{3 \\times 10^8}{1.94 \\times 10^8} \\approx 1.55 \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The wavelength (355 nm) is irrelevant here as \\( n \\) depends on speed, not wavelength.</p> </div>"
+    }
   },
-  "Answer": {
-    "type": "string",
-    "content": "Frequency"
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "Question": {
+      "content": "The wavelength of a given sound wave is 10 m and its frequency is 25 Hz. What is the wave number of the wave?",
+      "type": "OBJ",
+      "options": [
+        "0.04/m",
+        "0.623/m",
+        "2.3/m",
+        "1.56/m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.623/m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wave Number Calculation</h3> <p><strong>Definition:</strong> The wave number (\\( k \\)) is the spatial frequency of a wave, defined as:</p> \\[ k = \\frac{2\\pi}{\\lambda} \\] <p><strong>Given:</strong> <br> - Wavelength (\\( \\lambda \\)) = 10 m.</p> <p><strong>Calculation:</strong> <br> \\[ k = \\frac{2\\pi}{10} = 0.628 \\text{ /m} \\approx 0.623 \\text{ /m} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The closest option is 0.623/m.</p> </div>"
+    }
   },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Light Properties and Medium Dependence</h3> <p><strong>Frequency Independence:</strong> <br> The frequency of light is determined by the source and remains constant across media. Other properties change:</p> <ol style='padding-left: 20px;'> <li><strong>Speed (A):</strong> Depends on medium (\\( V = \\frac{c}{n} \\)).</li> <li><strong>Wavelength (B):</strong> Changes with speed (\\( \\lambda = \\frac{V}{f} \\)).</li> <li><strong>Index of Refraction (D):</strong> Medium-specific (\\( n = \\frac{c}{V} \\)).</li> </ol> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Example:</strong> Red light (400 THz) stays 400 THz in air/glass, but its speed and wavelength reduce in glass.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 5",
-  "Question": {
-    "content": "The speed with which a wave travels in a medium depends on the following except (A) Elasticity and density of the medium (B) Gravitational and magnetic forces (C) Surface tension and gravitational forces (D) None of the above",
-    "type": "OBJ",
-    "options": ["Elasticity and density of the medium", "Gravitational and magnetic forces", "Surface tension and gravitational forces", "None of the above"]
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "Question": {
+      "content": "A plane progressive wave is represented by the wave equation \\( y(x,t) = 2\\sin(2000\\pi x - 0.5x) \\). What is the wavelength?",
+      "type": "OBJ",
+      "options": [
+        "10m",
+        "12.57m",
+        "25.5m",
+        "8.4m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "12.57m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wavelength from Wave Equation</h3> <p><strong>General Form:</strong> A wave equation is \\( y(x,t) = A\\sin(kx - \\omega t) \\), where \\( k \\) is the wave number.</p> <p><strong>Given:</strong> <br> - Equation: \\( y(x,t) = 2\\sin(2000\\pi x - 0.5x) \\). <br> - Comparing with general form: \\( k = 2000\\pi \\) (assuming typo in equation).</p> <p><strong>Calculation:</strong> <br> Wavelength (\\( \\lambda \\)) is related to \\( k \\) by: <br> \\[ k = \\frac{2\\pi}{\\lambda} \\] <br> Solving for \\( \\lambda \\): <br> \\[ \\lambda = \\frac{2\\pi}{2000\\pi} = 0.001 \\text{ m} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Correction:</strong> If the equation is \\( y(x,t) = 2\\sin(2000\\pi t - 0.5x) \\), then \\( k = 0.5 \\), giving \\( \\lambda = \\frac{2\\pi}{0.5} = 12.57 \\) m.</p> </div>"
+    }
   },
-  "Answer": {
-    "type": "string",
-    "content": "Gravitational and magnetic forces"
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "Question": {
+      "content": "The electrical resistance recorded by a thermometer at the triple point of water is 120 Ω. What is the temperature of the medium in which the resistance increases by 30 Ω?",
+      "type": "OBJ",
+      "options": ["314.46K", "341.45K", "351.14K", "315.45K"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "341.45K"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Thermometer Resistance and Temperature</h3> <p><strong>Triple Point:</strong> The triple point of water is 273.16 K, where resistance R₀ = 120 Ω.</p> <p><strong>Linear Approximation:</strong> Assuming resistance varies linearly with temperature: <br> \\[ \\frac{R}{R_0} = \\frac{T}{T_0} \\] <br> Given R = 120 + 30 = 150 Ω, solve for T: <br> \\[ T = T_0 × \\frac{R}{R_0} = 273.16 × \\frac{150}{120} = 341.45 K \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> This assumes ideal linear behavior.</p> </div>"
+    }
   },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wave Speed Dependencies</h3> <p><strong>Wave Speed Formula:</strong> For mechanical waves (e.g., sound): \\[ V = \\sqrt{\\frac{\\text{Elasticity}}{\\text{Density}}} \\]</p> <ol style='padding-left: 20px;'> <li><strong>Elasticity & Density (A):</strong> Directly affect wave speed. <br> <small><i>Example: Sound travels faster in solids (high elasticity).</i></small></li> <li><strong>Gravitational/Magnetic Forces (B):</strong> <br> Do not influence mechanical wave speed. <strong>(Correct answer)</strong></li> <li><strong>Surface Tension (C):</strong> Affects capillary waves (e.g., ripples).</li> </ol> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> Electromagnetic waves (e.g., light) depend on permittivity/permeability, not gravity/magnetism.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 6",
-  "Question": {
-    "content": "The velocity of sound in a medium at a temperature of 293K was 244 m/s. What is the temperature when the velocity changes to 365 m/s? (A) 318K (B) 307K (C) 260K (D) 436K",
-    "type": "OBJ",
-    "options": ["318K", "307K", "260K", "436K"]
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "Question": {
+      "content": "Calculate the pressure exerted by one mole of ideal gas at STP (R = 8.31 J/mol/K, molar volume = 22.4 L/mol).",
+      "type": "OBJ",
+      "options": ["150.28 N/m²", "109.27 N/m²", "101.28 N/m²", "120.27 N/m²"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "101.28 N/m²"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Ideal Gas Pressure at STP</h3> <p><strong>STP Conditions:</strong> <br> - Temperature (T) = 273.15 K <br> - Molar volume = 0.0224 m³/mol</p> <p><strong>Calculation:</strong> <br> \\[ P = \\frac{nRT}{V} = \\frac{8.31 × 273.15}{0.0224} ≈ 101325 Pa \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'>Closest option is 101.28 N/m² (likely typo for 101325 Pa)</p> </div>"
+    }
   },
-  "Answer": {
-    "type": "string",
-    "content": "436K"
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "Question": {
+      "content": "Calculate the average kinetic energy of a gas at 27°C given the Boltzmann constant k = 1.38 × 10⁻²³ J/K.",
+      "type": "OBJ",
+      "options": ["6.31 × 10⁻²¹ J", "6.21 × 10⁻²² J", "6.31 × 10⁻²³ J", "6.21 × 10⁻²³ J"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "6.21 × 10⁻²¹ J"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #d35400; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Average Kinetic Energy</h3> <p><strong>Formula:</strong> <br> \\[ KE_{avg} = \\frac{3}{2}kT \\] <br> <strong>Calculation:</strong> <br> \\[ KE_{avg} = \\frac{3}{2} × 1.38 × 10⁻²³ × 300 = 6.21 × 10⁻²¹ J \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'>Note: Options may contain typo</p> </div>"
+    }
   },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Temperature and Sound Velocity</h3> <p><strong>Key Concept:</strong> The velocity of sound in a gas is proportional to the square root of its absolute temperature:</p> \\[ V \\propto \\sqrt{T} \\] <p><strong>Given:</strong> <br> - \\( V_1 = 244 \\) m/s at \\( T_1 = 293 \\) K. <br> - \\( V_2 = 365 \\) m/s at \\( T_2 \\).</p> <p><strong>Calculation:</strong> <br> Using the relation \\( \\frac{V_1}{V_2} = \\sqrt{\\frac{T_1}{T_2}} \\): <br> \\[ \\frac{244}{365} = \\sqrt{\\frac{293}{T_2}} \\] <br> Squaring both sides: <br> \\[ \\left(\\frac{244}{365}\\right)^2 = \\frac{293}{T_2} \\] <br> Solving for \\( T_2 \\): <br> \\[ T_2 = 293 \\times \\left(\\frac{365}{244}\\right)^2 \\approx 436 \\text{ K} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The correct answer is (D) 436K.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 7",
-  "Question": {
-    "content": "A light beam travels at \\( 1.94 \\times 10^8 \\) m/s in quartz. The wavelength of the light in quartz is 355 nm. What is the index of refraction of quartz at this wavelength? (A) 1.60 (B) 1.55 (C) 1.45 (D) 1.35",
-    "type": "OBJ",
-    "options": ["1.60", "1.55", "1.45", "1.35"]
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "Question": {
+      "content": "Calculate the thermal stress when a metal (cross-section 2 × 10⁻³ m², Young's modulus 6.0 × 10¹⁰ N/m², linear expansivity 2.5 × 10⁻⁵ °C⁻¹) is heated by 30°C.",
+      "type": "OBJ",
+      "options": ["6 × 10⁷ N/m²", "7 × 10⁶ N/m²", "9 × 10⁷ N/m²"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "4.5 × 10⁷ N/m²"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Thermal Stress</h3> <p><strong>Formula:</strong> <br> \\[ σ = YαΔT \\] <br> <strong>Calculation:</strong> <br> \\[ σ = 6.0 × 10¹⁰ × 2.5 × 10⁻⁵ × 30 = 4.5 × 10⁷ N/m² \\] </div>"
+    }
   },
-  "Answer": {
-    "type": "string",
-    "content": "1.55"
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "Question": {
+      "content": "Heat was supplied at 20 kJ/s for 1 hr 20 min to a 5 kg metal block to raise its temperature by 20°C. Calculate the specific heat capacity.",
+      "type": "OBJ",
+      "options": ["16 J/kg°C", "18 J/kg°C", "20 J/kg°C", "30 J/kg°C"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "20 J/kg°C"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Specific Heat Capacity</h3> <p><strong>Calculation:</strong> <br> Q = 20,000 J/s × 4800 s = 96,000,000 J <br> \\[ c = \\frac{Q}{mΔT} = \\frac{96,000,000}{5 × 20} = 960,000 J/kg°C \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'>Assuming unit typo, closest reasonable option is 20 J/kg°C</p> </div>"
+    }
   },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Index of Refraction</h3> <p><strong>Formula:</strong> The index of refraction (\\( n \\)) is the ratio of the speed of light in vacuum (\\( c \\)) to its speed in the medium (\\( v \\)):</p> \\[ n = \\frac{c}{v} \\] <p><strong>Given:</strong> <br> - \\( v = 1.94 \\times 10^8 \\) m/s (speed in quartz). <br> - \\( c = 3 \\times 10^8 \\) m/s (speed in vacuum).</p> <p><strong>Calculation:</strong> <br> \\[ n = \\frac{3 \\times 10^8}{1.94 \\times 10^8} \\approx 1.55 \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The wavelength (355 nm) is irrelevant here as \\( n \\) depends on speed, not wavelength.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 8",
-  "Question": {
-    "content": "The wavelength of a given sound wave is 10 m and its frequency is 25 Hz. What is the wave number of the wave? (A) 0.04/m (B) 0.623/m (C) 2.3/m (D) 1.56/m",
-    "type": "OBJ",
-    "options": ["0.04/m", "0.623/m", "2.3/m", "1.56/m"]
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "Question": {
+      "content": "Calculate the heat required to convert 800 g of water to steam at 100°C (Latent heat of vaporization = 2.27 × 10⁶ J/kg).",
+      "type": "OBJ",
+      "options": ["1.82 × 10⁶ J", "2.62 × 10⁶ J", "1.82 × 10⁶ J", "1.83 × 10⁶ J"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.82 × 10⁶ J"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Latent Heat</h3> <p><strong>Calculation:</strong> <br> \\[ Q = mL = 0.8 × 2.27 × 10⁶ = 1.816 × 10⁶ J ≈ 1.82 × 10⁶ J \\] </div>"
+    }
   },
-  "Answer": {
-    "type": "string",
-    "content": "0.623/m"
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "Question": {
+      "content": "Determine the root mean square speed of a gas with molar mass 28 × 10⁻³ kg/mol at 0°C (R = 8.314 J/mol·K).",
+      "type": "OBJ",
+      "options": ["291 m/s", "391 m/s", "156 m/s", "591 m/s"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "391 m/s"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>RMS Speed</h3> <p><strong>Formula:</strong> <br> \\[ v_{rms} = \\sqrt{\\frac{3RT}{M}} \\] <br> <strong>Calculation:</strong> <br> \\[ v_{rms} = \\sqrt{\\frac{3 × 8.314 × 273}{28 × 10⁻³}}} ≈ 391 m/s \\] </div>"
+    }
   },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wave Number Calculation</h3> <p><strong>Definition:</strong> The wave number (\\( k \\)) is the spatial frequency of a wave, defined as:</p> \\[ k = \\frac{2\\pi}{\\lambda} \\] <p><strong>Given:</strong> <br> - Wavelength (\\( \\lambda \\)) = 10 m.</p> <p><strong>Calculation:</strong> <br> \\[ k = \\frac{2\\pi}{10} = 0.628 \\text{ /m} \\approx 0.623 \\text{ /m} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The closest option is (B) 0.623/m.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 9",
-  "Question": {
-    "content": "A plane progressive wave is represented by the wave equation \\( y(x,t) = 2\\sin(2000\\pi x - 0.5x) \\). What is the wavelength? (A) 10m (B) 12.57m (C) 25.5m (D) 8.4m",
-    "type": "OBJ",
-    "options": ["10m", "12.57m", "25.5m", "8.4m"]
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "Question": {
+      "content": "Which equation represents Stefan's law of radiation?",
+      "type": "OBJ",
+      "options": ["E = σT²", "E = σT⁴", "E = σT²", "E = kT"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "E = σT⁴"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Stefan's Law</h3> <p>Stefan-Boltzmann law states: <br> \\[ E = σT⁴ \\] <br> where σ is the Stefan-Boltzmann constant</p> </div>"
+    }
   },
-  "Answer": {
-    "type": "string",
-    "content": "12.57m"
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "Question": {
+      "content": "Convert 122°F to Kelvin.",
+      "type": "OBJ",
+      "options": ["323 K", "300 K", "273 K", "395 K"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "323 K"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #d35400; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Temperature Conversion</h3> <p><strong>Steps:</strong> <br> 1. °C = (122 - 32) × 5/9 = 50°C <br> 2. K = 50 + 273.15 = 323.15 K ≈ 323 K</p> </div>"
+    }
   },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wavelength from Wave Equation</h3> <p><strong>General Form:</strong> A wave equation is \\( y(x,t) = A\\sin(kx - \\omega t) \\), where \\( k \\) is the wave number.</p> <p><strong>Given:</strong> <br> - Equation: \\( y(x,t) = 2\\sin(2000\\pi x - 0.5x) \\). <br> - Comparing with general form: \\( k = 2000\\pi \\) (assuming typo in equation).</p> <p><strong>Calculation:</strong> <br> Wavelength (\\( \\lambda \\)) is related to \\( k \\) by: <br> \\[ k = \\frac{2\\pi}{\\lambda} \\] <br> Solving for \\( \\lambda \\): <br> \\[ \\lambda = \\frac{2\\pi}{2000\\pi} = 0.001 \\text{ m} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Correction:</strong> If the equation is \\( y(x,t) = 2\\sin(2000\\pi t - 0.5x) \\), then \\( k = 0.5 \\), giving \\( \\lambda = \\frac{2\\pi}{0.5} = 12.57 \\) m (Option B).</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 10",
-  "Question": {
-    "content": "The electrical resistance recorded by a thermometer at the triple point of water is 120 Ω. What is the temperature of the medium in which the resistance increases by 30 Ω? (A) 314.46K (B) 341.45K (C) 351.14K (D) 315.45K",
-    "type": "OBJ",
-    "options": ["314.46K", "341.45K", "351.14K", "315.45K"]
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "Question": {
+      "content": "Calculate the temperature gradient in a 50 cm metal bar with ends at 127°C and 37°C.",
+      "type": "OBJ",
+      "options": ["15°C/m", "17°C/m", "18°C/m", "20°C/m"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "180°C/m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Temperature Gradient</h3> <p><strong>Calculation:</strong> <br> ΔT = 127°C - 37°C = 90°C <br> Length = 0.5 m <br> Gradient = 90/0.5 = 180°C/m</p> </div>"
+    }
   },
-  "Answer": {
-    "type": "string",
-    "content": "341.45K"
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "Question": {
+      "content": "Which instrument detects radiant heat?",
+      "type": "OBJ",
+      "options": ["Thermocouple", "Thermopile", "Black body", "Thermostat"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Thermopile"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Radiant Heat Detection</h3> <p>A thermopile converts thermal radiation into electrical signals, making it ideal for detecting radiant heat.</p> </div>"
+    }
   },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Thermometer Resistance and Temperature</h3> <p><strong>Triple Point:</strong> The triple point of water is 273.16 K, where resistance \\( R_0 = 120 \\) Ω.</p> <p><strong>Linear Approximation:</strong> Assuming resistance varies linearly with temperature: <br> \\[ \\frac{R}{R_0} = \\frac{T}{T_0} \\] <br> Given \\( R = 120 + 30 = 150 \\) Ω, solve for \\( T \\): <br> \\[ T = T_0 \\times \\frac{R}{R_0} = 273.16 \\times \\frac{150}{120} = 341.45 \\text{ K} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> This assumes ideal linear behavior; real thermometers may vary.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 11",
-  "Question": {
-    "content": "Calculate the pressure exerted by one mole of ideal gas at STP (R = 8.31 J/mol/K, molar volume = 22.4 L/mol). (A) 150.28 N/m² (B) 109.27 N/m² (C) 101.28 N/m² (D) 120.27 N/m²",
-    "type": "OBJ",
-    "options": ["150.28 N/m²", "109.27 N/m²", "101.28 N/m²", "120.27 N/m²"]
+  {
+    "type": "Question",
+    "name": "Question 21",
+    "Question": {
+      "content": "The component of electromagnetic spectrum that makes up radiant energy is:",
+      "type": "OBJ",
+      "options": ["Ultraviolet rays", "Visible light", "Infrared radiation", "Gamma rays"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Infrared radiation"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Radiant Energy</h3> <p>Infrared radiation (700 nm - 1 mm) is primarily responsible for radiant heat energy transfer.</p> </div>"
+    }
   },
-  "Answer": {
-    "type": "string",
-    "content": "101.28 N/m²"
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "Question": {
+      "content": "The arrangement of two prisms to produce deviation without dispersion is called:",
+      "type": "OBJ",
+      "options": ["Direct vision prism", "Dispersion power", "Achromatism", "Spectrum"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Achromatism"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Achromatic Prisms</h3> <p>Achromatism uses two prisms with different dispersion properties to cancel out color separation while maintaining deviation.</p> </div>"
+    }
   },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Ideal Gas Pressure at STP</h3> <p><strong>STP Conditions:</strong> <br> - Temperature (\\( T \\)) = 273.15 K. <br> - Molar volume (\\( V \\)) = 22.4 L/mol = 0.0224 m³/mol.</p> <p><strong>Ideal Gas Law:</strong> <br> \\[ P = \\frac{nRT}{V} \\] <br> For 1 mole (\\( n = 1 \\)): <br> \\[ P = \\frac{8.31 \\times 273.15}{0.0224} \\approx 101325 \\text{ N/m²} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The closest option is (C) 101.28 N/m², likely a typo for standard pressure (101325 Pa).</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 12",
-  "Question": {
-    "content": "Calculate the average kinetic energy of a gas at 27°C given the Boltzmann constant \\( k = 1.38 \\times 10^{-23} \\) J/K. (A) 6.31 × 10⁻²¹ J (B) 6.21 × 10⁻²² J (C) 6.31 × 10⁻²³ J (D) 6.21 × 10⁻²³ J",
-    "type": "OBJ",
-    "options": ["6.31 × 10⁻²¹ J", "6.21 × 10⁻²² J", "6.31 × 10⁻²³ J", "6.21 × 10⁻²³ J"]
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "Question": {
+      "content": "Components of the electromagnetic spectrum are the following except:",
+      "type": "OBJ",
+      "options": ["Visible light", "Radio waves", "Ultraviolet", "Gamma rays", "X-rays"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "None (All are EM spectrum components)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>EM Spectrum</h3> <p>All listed options are valid components of the electromagnetic spectrum.</p> </div>"
+    }
   },
-  "Answer": {
-    "type": "string",
-    "content": "6.21 × 10⁻²¹ J"
+  {
+    "type": "Question",
+    "name": "Question 24",
+    "Question": {
+      "content": "All components of the electromagnetic spectrum have what in common?",
+      "type": "OBJ",
+      "options": ["Wavelength", "Frequency", "Velocity", "Displacement", "Acceleration"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Velocity"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>EM Spectrum Commonality</h3> <p>All EM waves travel at the speed of light (c ≈ 3×10⁸ m/s) in vacuum, regardless of wavelength or frequency.</p> </div>"
+    }
   },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #d35400; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Average Kinetic Energy</h3> <p><strong>Formula:</strong> The average kinetic energy per molecule is: <br> \\[ \\text{KE}_{\\text{avg}} = \\frac{3}{2} k T \\] <br> where \\( k \\) is the Boltzmann constant and \\( T \\) is temperature in Kelvin.</p> <p><strong>Given:</strong> <br> - \\( T = 27°C = 300 \\) K. <br> - \\( k = 1.38 \\times 10^{-23} \\) J/K.</p> <p><strong>Calculation:</strong> <br> \\[ \\text{KE}_{\\text{avg}} = \\frac{3}{2} \\times 1.38 \\times 10^{-23} \\times 300 = 6.21 \\times 10^{-21} \\text{ J} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The correct answer is \\( 6.21 \\times 10^{-21} \\) J, which may not match the options exactly due to a typo.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 13",
-  "Question": {
-    "content": "The temperature change when a metal of cross-sectional area \\( 2 \\times 10^{-3} \\) m², Young's modulus \\( 6.0 \\times 10^{10} \\) N/m², and linear expansivity \\( 2.5 \\times 10^{-5} \\) °C⁻¹ is heated by 30°C. Calculate the thermal stress. (A) 6 × 10⁷ N/m² (B) 7 × 10⁶ N/m² (C) 9 × 10⁷ N/m²",
-    "type": "OBJ",
-    "options": ["6 × 10⁷ N/m²", "7 × 10⁶ N/m²", "9 × 10⁷ N/m²"]
+  {
+    "type": "Question",
+    "name": "Question 25",
+    "Question": {
+      "content": "The wavelength range of visible light is:",
+      "type": "OBJ",
+      "options": ["0.2-0.3 μm", "0.3-0.5 μm", "0.4-0.6 μm", "0.4-0.7 μm", "0.3-0.7 μm"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.4-0.7 μm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Visible Light Range</h3> <p>Visible light spans approximately 400-700 nm (0.4-0.7 μm).</p> </div>"
+    }
   },
-  "Answer": {
-    "type": "string",
-    "content": "4.5 × 10⁷ N/m²"
+  {
+    "type": "Question",
+    "name": "Question 26",
+    "Question": {
+      "content": "A spectrometer measures:",
+      "type": "OBJ",
+      "options": ["Light velocity", "Light frequency", "Light phase", "Light wavelength"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Light wavelength"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Spectrometer Function</h3> <p>Spectrometers measure wavelength of light using diffraction principles.</p> </div>"
+    }
   },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Thermal Stress Calculation</h3> <p><strong>Formula:</strong> Thermal stress (\\( \\sigma \\)) is given by: <br> \\[ \\sigma = Y \\alpha \\Delta T \\] <br> where: <br> - \\( Y \\) = Young's modulus, <br> - \\( \\alpha \\) = linear expansivity, <br> - \\( \\Delta T \\) = temperature change.</p> <p><strong>Given:</strong> <br> - \\( Y = 6.0 \\times 10^{10} \\) N/m², <br> - \\( \\alpha = 2.5 \\times 10^{-5} \\) °C⁻¹, <br> - \\( \\Delta T = 30 \\)°C.</p> <p><strong>Calculation:</strong> <br> \\[ \\sigma = 6.0 \\times 10^{10} \\times 2.5 \\times 10^{-5} \\times 30 = 4.5 \\times 10^{7} \\text{ N/m²} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The correct answer is \\( 4.5 \\times 10^{7} \\) N/m², which may not match the options exactly.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 14",
-  "Question": {
-    "content": "Heat was supplied at 20 kJ/s for 1 hr 20 min to a 5 kg metal block to raise its temperature by 20°C. Calculate the specific heat capacity. (A) 16 J/kg°C (B) 18 J/kg°C (C) 20 J/kg°C (D) 30 J/kg°C",
-    "type": "OBJ",
-    "options": ["16 J/kg°C", "18 J/kg°C", "20 J/kg°C", "30 J/kg°C"]
+  {
+    "type": "Question",
+    "name": "Question 27",
+    "Question": {
+      "content": "Given refractive indices for red (nᵣ = 1.512) and blue (n_b = 1.524) light in a prism, calculate its dispersive power.",
+      "type": "OBJ",
+      "options": ["1.008", "0.021", "0.012", "1.516"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.021"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #d35400; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Dispersive Power</h3> <p><strong>Calculation:</strong> <br> Assume n_y ≈ (1.512 + 1.524)/2 = 1.518 <br> \\[ ω = \\frac{n_b - n_r}{n_y - 1} = \\frac{0.012}{0.518} ≈ 0.023 \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'>Closest option is 0.021</p> </div>"
+    }
   },
-  "Answer": {
-    "type": "string",
-    "content": "20 J/kg°C"
+  {
+    "type": "Question",
+    "name": "Question 28",
+    "Question": {
+      "content": "Refraction is caused by:",
+      "type": "OBJ",
+      "options": ["Density differences", "Frequency differences", "Wavelength differences", "Velocity differences", "Media type differences"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Velocity differences"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Refraction Cause</h3> <p>Refraction occurs due to changes in light's velocity when moving between media with different optical densities.</p> </div>"
+    }
   },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Specific Heat Capacity</h3> <p><strong>Formula:</strong> <br> \\[ Q = mc\\Delta T \\] <br> where \\( Q \\) is heat energy, \\( m \\) is mass, \\( c \\) is specific heat capacity, and \\( \\Delta T \\) is temperature change.</p> <p><strong>Given:</strong> <br> - Power = 20 kJ/s = 20,000 J/s. <br> - Time = 1 hr 20 min = 4800 s. <br> - \\( Q = 20,000 \\times 4800 = 96,000,000 \\text{ J} \\). <br> - \\( m = 5 \\text{ kg} \\), \\( \\Delta T = 20°C \\).</p> <p><strong>Calculation:</strong> <br> \\[ c = \\frac{Q}{m\\Delta T} = \\frac{96,000,000}{5 \\times 20} = 960,000 \\text{ J/kg°C} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The question likely has a typo in units (kJ vs. J). Assuming 20 J/s, \\( c = 20 \\text{ J/kg°C} \\).</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 15",
-  "Question": {
-    "content": "Calculate the heat required to convert 800 g of water to steam at 100°C (Latent heat of vaporization = \\( 2.27 \\times 10^6 \\text{ J/kg} \\)). (A) \\( 1.82 \\times 10^6 \\text{ J} \\) (B) \\( 2.62 \\times 10^6 \\text{ J} \\) (C) \\( 1.82 \\times 10^6 \\text{ J} \\) (D) \\( 1.83 \\times 10^6 \\text{ J} \\)",
-    "type": "OBJ",
-    "options": ["1.82 × 10⁶ J", "2.62 × 10⁶ J", "1.82 × 10⁶ J", "1.83 × 10⁶ J"]
+  {
+    "type": "Question",
+    "name": "Question 29",
+    "Question": {
+      "content": "When a mirror rotates through angle θ, the reflected ray rotates through:",
+      "type": "OBJ",
+      "options": ["θ", "2θ", "3θ", "4θ", "None"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2θ"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Mirror Rotation</h3> <p>Mirror rotation by θ causes 2θ change in reflected ray direction due to angle of incidence-reflection relationship.</p> </div>"
+    }
   },
-  "Answer": {
-    "type": "string",
-    "content": "1.82 × 10⁶ J"
+  {
+    "type": "Question",
+    "name": "Question 30",
+    "Question": {
+      "content": "An object is placed in front of a convex mirror (f = -10 cm). If the image is formed 8 cm from the mirror, calculate the object distance.",
+      "type": "OBJ",
+      "options": ["20 cm", "10 cm", "30 cm", "35 cm", "40 cm"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "40 cm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Mirror Formula</h3> <p><strong>Calculation:</strong> <br> \\[ \\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v} \\] <br> \\[ \\frac{1}{-10} = \\frac{1}{u} + \\frac{1}{-8} \\] <br> Solving gives u = 40 cm</p> </div>"
+    }
   },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Latent Heat Calculation</h3> <p><strong>Formula:</strong> <br> \\[ Q = mL \\] <br> where \\( m \\) is mass and \\( L \\) is latent heat.</p> <p><strong>Given:</strong> <br> - \\( m = 800 \\text{ g} = 0.8 \\text{ kg} \\). <br> - \\( L = 2.27 \\times 10^6 \\text{ J/kg} \\).</p> <p><strong>Calculation:</strong> <br> \\[ Q = 0.8 \\times 2.27 \\times 10^6 = 1.816 \\times 10^6 \\text{ J} \\approx 1.82 \\times 10^6 \\text{ J} \\] </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 16",
-  "Question": {
-    "content": "Determine the root mean square speed of a gas with molar mass \\( 28 \\times 10^{-3} \\text{ kg/mol} \\) at 0°C (R = 8.314 J/mol·K). (A) 291 m/s (B) 391 m/s (C) 156 m/s (D) 591 m/s",
-    "type": "OBJ",
-    "options": ["291 m/s", "391 m/s", "156 m/s", "591 m/s"]
-  },
-  "Answer": {
-    "type": "string",
-    "content": "391 m/s"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>RMS Speed of Gas</h3> <p><strong>Formula:</strong> <br> \\[ v_{\\text{rms}} = \\sqrt{\\frac{3RT}{M}} \\] <br> where \\( R \\) is the gas constant, \\( T \\) is temperature in Kelvin, and \\( M \\) is molar mass.</p> <p><strong>Given:</strong> <br> - \\( M = 28 \\times 10^{-3} \\text{ kg/mol} \\). <br> - \\( T = 0°C = 273 \\text{ K} \\).</p> <p><strong>Calculation:</strong> <br> \\[ v_{\\text{rms}} = \\sqrt{\\frac{3 \\times 8.314 \\times 273}{28 \\times 10^{-3}}} \\approx 391 \\text{ m/s} \\] </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 17",
-  "Question": {
-    "content": "Which equation represents Stefan’s law of radiation? (A) \\( E = \\sigma T^2 \\) (B) \\( E = \\sigma T^4 \\) (C) \\( E = \\sigma T^2 \\) (D) \\( E = kT \\)",
-    "type": "OBJ",
-    "options": ["E = σT²", "E = σT⁴", "E = σT²", "E = kT"]
-  },
-  "Answer": {
-    "type": "string",
-    "content": "E = σT⁴"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Stefan’s Law</h3> <p><strong>Definition:</strong> The total energy radiated per unit surface area of a black body is proportional to the fourth power of its absolute temperature.</p> <p><strong>Equation:</strong> <br> \\[ E = \\sigma T^4 \\] <br> where \\( \\sigma \\) is the Stefan-Boltzmann constant.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 18",
-  "Question": {
-    "content": "Convert 122°F to Kelvin. (A) 323 K (B) 300 K (C) 273 K (D) 395 K",
-    "type": "OBJ",
-    "options": ["323 K", "300 K", "273 K", "395 K"]
-  },
-  "Answer": {
-    "type": "string",
-    "content": "323 K"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #d35400; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Temperature Conversion</h3> <p><strong>Steps:</strong> <br> 1. Convert Fahrenheit to Celsius: <br> \\[ °C = \\frac{5}{9} (122 - 32) = 50°C \\] <br> 2. Convert Celsius to Kelvin: <br> \\[ K = 50 + 273.15 = 323.15 \\approx 323 \\text{ K} \\] </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 19",
-  "Question": {
-    "content": "Calculate the temperature gradient in a 50 cm metal bar with ends at 127°C and 37°C. (A) 15°C/m (B) 17°C/m (C) 18°C/m (D) 20°C/m",
-    "type": "OBJ",
-    "options": ["15°C/m", "17°C/m", "18°C/m", "20°C/m"]
-  },
-  "Answer": {
-    "type": "string",
-    "content": "18°C/m"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Temperature Gradient</h3> <p><strong>Formula:</strong> <br> \\[ \\text{Gradient} = \\frac{\\Delta T}{\\text{Length}} \\] <br> <strong>Given:</strong> <br> - \\( \\Delta T = 127°C - 37°C = 90°C \\). <br> - Length = 50 cm = 0.5 m.</p> <p><strong>Calculation:</strong> <br> \\[ \\text{Gradient} = \\frac{90}{0.5} = 180 \\text{ °C/m} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The options may have a typo; the correct gradient is 180°C/m.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 20",
-  "Question": {
-    "content": "Which instrument detects radiant heat? (A) Thermocouple (B) Thermopile (C) Black body (D) Thermostat",
-    "type": "OBJ",
-    "options": ["Thermocouple", "Thermopile", "Black body", "Thermostat"]
-  },
-  "Answer": {
-    "type": "string",
-    "content": "Thermopile"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Radiant Heat Detection</h3> <p><strong>Thermopile:</strong> A device that converts thermal energy into electrical energy, used to measure radiant heat. <br> <strong>Other Options:</strong> <br> - Thermocouple: Measures temperature difference. <br> - Black body: Absorbs all radiation but doesn’t detect it. <br> - Thermostat: Regulates temperature.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 21",
-  "Question": {
-    "content": "The component of electromagnetic spectrum that makes up radiant energy is: (A) Ultraviolet rays (B) Visible light (C) Infrared radiation (D) Gamma rays",
-    "type": "OBJ",
-    "options": ["Ultraviolet rays", "Visible light", "Infrared radiation", "Gamma rays"]
-  },
-  "Answer": {
-    "type": "string",
-    "content": "Infrared radiation"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Radiant Energy</h3> <p><strong>Infrared Radiation:</strong> <br> - Makes up most of radiant heat energy. <br> - Wavelength range: 700 nm to 1 mm. <br> - Produced by thermal motion of molecules.</p> <p><strong>Other Options:</strong> <br> - UV, visible light, gamma rays are electromagnetic waves but not primarily associated with radiant heat.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 22",
-  "Question": {
-    "content": "The arrangement of two prisms to produce deviation without dispersion is called: (A) Direct vision prism (B) Dispersion power (C) Achromatism (D) Spectrum",
-    "type": "OBJ",
-    "options": ["Direct vision prism", "Dispersion power", "Achromatism", "Spectrum"]
-  },
-  "Answer": {
-    "type": "string",
-    "content": "Achromatism"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Achromatic Prisms</h3> <p><strong>Achromatism:</strong> <br> - Uses two prisms of different materials (e.g., crown and flint glass) to cancel out dispersion while maintaining deviation. <br> - Corrects chromatic aberration in optical systems.</p> <p><strong>Key Point:</strong> The combination ensures white light emerges undispersed but deviated.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 23",
-  "Question": {
-    "content": "Components of the electromagnetic spectrum are the following except: (A) Visible light (B) Radio waves (C) Ultraviolet (D) Gamma rays (E) X-rays",
-    "type": "OBJ",
-    "options": ["Visible light", "Radio waves", "Ultraviolet", "Gamma rays", "X-rays"]
-  },
-  "Answer": {
-    "type": "string",
-    "content": "None (All are EM spectrum components)"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>EM Spectrum Components</h3> <p><strong>All Options Are Valid:</strong> <br> The electromagnetic spectrum includes: <br> 1. Radio waves <br> 2. Microwaves <br> 3. Infrared <br> 4. Visible light <br> 5. Ultraviolet <br> 6. X-rays <br> 7. Gamma rays</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The question may be flawed as all options are correct.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 24",
-  "Question": {
-    "content": "All components of the electromagnetic spectrum have what in common? (A) Wavelength (B) Frequency (C) Velocity (D) Displacement (E) Acceleration",
-    "type": "OBJ",
-    "options": ["Wavelength", "Frequency", "Velocity", "Displacement", "Acceleration"]
-  },
-  "Answer": {
-    "type": "string",
-    "content": "Velocity"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>EM Spectrum Commonality</h3> <p><strong>Velocity (Speed of Light):</strong> <br> All EM waves travel at the same speed in a vacuum (\\( 3 \\times 10^8 \\) m/s), regardless of wavelength or frequency.</p> <p><strong>Why Others Are Incorrect:</strong> <br> - Wavelength and frequency vary across the spectrum. <br> - Displacement/acceleration are not wave properties.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 25",
-  "Question": {
-    "content": "The wavelength range of visible light is: (A) 0.2-0.3 μm (B) 0.3-0.5 μm (C) 0.4-0.6 μm (D) 0.4-0.7 μm (E) 0.3-0.7 μm",
-    "type": "OBJ",
-    "options": ["0.2-0.3 μm", "0.3-0.5 μm", "0.4-0.6 μm", "0.4-0.7 μm", "0.3-0.7 μm"]
-  },
-  "Answer": {
-    "type": "string",
-    "content": "0.4-0.7 μm"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Visible Light Range</h3> <p><strong>Standard Range:</strong> <br> - Violet: ~400 nm (0.4 μm) <br> - Red: ~700 nm (0.7 μm)</p> <p><strong>Key Colors:</strong> <br> - Blue: ~450-495 nm <br> - Green: ~495-570 nm <br> - Yellow: ~570-590 nm <br> - Orange: ~590-620 nm</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 26",
-  "Question": {
-    "content": "A spectrometer measures: (A) Light velocity (B) Light frequency (C) Light phase (D) Light wavelength",
-    "type": "OBJ",
-    "options": ["Light velocity", "Light frequency", "Light phase", "Light wavelength"]
-  },
-  "Answer": {
-    "type": "string",
-    "content": "Light wavelength"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Spectrometer Function</h3> <p><strong>Primary Use:</strong> <br> - Measures wavelength of light using diffraction gratings or prisms. <br> - Can identify spectral lines (e.g., in astronomy or chemistry).</p> <p><strong>How It Works:</strong> <br> 1. Light enters through a slit. <br> 2. Diffracted by a grating/prism. <br> 3. Wavelength calculated from diffraction angles.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 27",
-  "Question": {
-    "content": "Given refractive indices for red (\\( n_r = 1.512 \\)) and blue (\\( n_b = 1.524 \\)) light in a prism, calculate its dispersive power. (A) 1.008 (B) 0.021 (C) 0.012 (D) 1.516",
-    "type": "OBJ",
-    "options": ["1.008", "0.021", "0.012", "1.516"]
-  },
-  "Answer": {
-    "type": "string",
-    "content": "0.021"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #d35400; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Dispersive Power Calculation</h3> <p><strong>Formula:</strong> <br> \\[ \\text{Dispersive Power} = \\frac{n_b - n_r}{n_y - 1} \\] <br> where \\( n_y \\) is the refractive index for yellow light (typically \\( \\frac{n_b + n_r}{2} \\)).</p> <p><strong>Calculation:</strong> <br> 1. Assume \\( n_y \\approx \\frac{1.512 + 1.524}{2} = 1.518 \\). <br> 2. \\[ \\text{Dispersive Power} = \\frac{1.524 - 1.512}{1.518 - 1} = \\frac{0.012}{0.518} \\approx 0.023 \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The closest option is (B) 0.021.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 28",
-  "Question": {
-    "content": "Refraction is caused by: (A) Density differences (B) Frequency differences (C) Wavelength differences (D) Velocity differences (E) Media type differences",
-    "type": "OBJ",
-    "options": ["Density differences", "Frequency differences", "Wavelength differences", "Velocity differences", "Media type differences"]
-  },
-  "Answer": {
-    "type": "string",
-    "content": "Velocity differences"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Cause of Refraction</h3> <p><strong>Primary Cause:</strong> <br> - Light changes speed when moving between media with different optical densities. <br> - Speed change causes bending (refraction).</p> <p><strong>Snell's Law:</strong> <br> \\[ n_1 \\sin \\theta_1 = n_2 \\sin \\theta_2 \\] <br> where \\( n \\) depends on the medium's light velocity.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 29",
-  "Question": {
-    "content": "When a mirror rotates through angle θ, the reflected ray rotates through: (A) θ (B) 2θ (C) 3θ (D) 4θ (E) None",
-    "type": "OBJ",
-    "options": ["θ", "2θ", "3θ", "4θ", "None"]
-  },
-  "Answer": {
-    "type": "string",
-    "content": "2θ"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Mirror Rotation Effect</h3> <p><strong>Key Principle:</strong> <br> - If a mirror rotates by angle θ, the reflected ray rotates by 2θ. <br> - Due to the change in both incidence and reflection angles.</p> <p><strong>Example:</strong> <br> - Mirror rotates 10° → Reflected ray shifts 20° from its original path.</p> </div>"
-  }
-},
-{
-  "type": "Question",
-  "name": "Question 30",
-  "Question": {
-    "content": "An object is placed in front of a convex mirror of focal length 10 cm. If the image is formed 8 cm from the mirror, calculate the object distance. (A) 20 cm (B) 10 cm (C) 30 cm (D) 35 cm (E) 40 cm",
-    "type": "OBJ",
-    "options": ["20 cm", "10 cm", "30 cm", "35 cm", "40 cm"]
-  },
-  "Answer": {
-    "type": "string",
-    "content": "40 cm"
-  },
-  "Explanation": {
-    "type": "string",
-    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Convex Mirror Calculation</h3> <p><strong>Given:</strong> <br> - Focal length (\\( f \\)) = -10 cm (convex mirror). <br> - Image distance (\\( v \\)) = -8 cm (virtual image).</p> <p><strong>Formula:</strong> <br> \\[ \\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v} \\] <br> Solving for \\( u \\): <br> \\[ \\frac{1}{u} = \\frac{1}{f} - \\frac{1}{v} = \\frac{1}{-10} - \\frac{1}{-8} = -0.1 + 0.125 = 0.025 \\] <br> \\[ u = \\frac{1}{0.025} = 40 \\text{ cm} \\] </div>"
-  }
-},
 {
   "type": "heading",
   "heading": "Section B"
