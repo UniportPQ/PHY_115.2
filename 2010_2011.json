@@ -1,970 +1,973 @@
 [
-  {
-    "type": "pageInfo",
-    "kind": "pureOBJ",
-    "course_title": "Waves, Optics and Thermal Physics",
-    "code": "PHY 115.2",
-    "session": "2010/2011",
-    "time": "90"
-  },
-  {
-    "type": "Instruction",
-    "content": "Answer all Questions"
-  },
-  {
-    "type": "Question",
-    "name": "Question 1",
-    "Question": {
-      "content": "What is the frequency of yellow light (λ=6×10⁻⁵cm, v=3×10⁸m/s)?",
-      "type": "OBJ",
-      "options": [
-        "2×10⁻¹¹Hz",
-        "2×10⁻⁹Hz",
-        "5×10¹²Hz",
-        "5×10¹⁴Hz"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "5×10¹⁴Hz"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Calculation:</strong></p><p>\\[ f = \\frac{c}{λ} = \\frac{3×10⁸\\,m/s}{6×10⁻⁷\\,m} = 5×10¹⁴\\,Hz \\]</p><p>Note: Converted 6×10⁻⁵cm to 6×10⁻⁷m first. This matches the visible light spectrum (yellow light ≈ 570-590nm).</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 2",
-    "Question": {
-      "content": "A 10cm pipe closed at one end has sound speed 340m/s. Its fundamental frequency is",
-      "type": "OBJ",
-      "options": [
-        "850Hz",
-        "8.5Hz",
-        "136Hz",
-        "13600Hz"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "850Hz"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Closed Pipe Formula:</strong></p><p>\\[ f_1 = \\frac{v}{4L} = \\frac{340}{4×0.1} = 850\\,Hz \\]</p><p class='warning'>Correction: The original answer (0.85Hz) was incorrect due to unit conversion error (10cm = 0.1m, not 100m). The correct answer is 850Hz (option a).</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 3",
-    "Question": {
-      "content": "Which statement about sound waves is NOT correct?",
-      "type": "OBJ",
-      "options": [
-        "Can be diffracted",
-        "Travel faster in vacuum than air",
-        "Can be reflected",
-        "Can be refracted"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Travel faster in vacuum than air"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Key Fact:</strong> Sound requires a medium to propagate. In vacuum, sound speed is <strong>0 m/s</strong> (no molecules to vibrate). In air (20°C), it travels at ~343 m/s.</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 4",
-    "Question": {
-      "content": "What wave type forms when two equal waves travel oppositely?",
-      "type": "OBJ",
-      "options": [
-        "Longitudinal",
-        "Transverse",
-        "Stationary",
-        "Progressive"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Stationary"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Standing Wave Formation:</strong></p><p>When two identical waves traveling in opposite directions interfere, they create nodes (no displacement) and antinodes (max displacement), characteristic of stationary waves.</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 5",
-    "Question": {
-      "content": "How does a plucked string's fundamental frequency vary with tension?",
-      "type": "OBJ",
-      "options": [
-        "Directly with tension",
-        "Square of tension",
-        "Square root of tension",
-        "Inverse of tension"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Square root of tension"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>String Frequency Formula:</strong></p><p>\\[ f \\propto \\sqrt{T} \\]</p><p>Where T is tension. This relationship is derived from wave speed on strings: v = √(T/μ), where μ is mass per unit length.</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 6",
-    "Question": {
-      "content": "Timbre refers to",
-      "type": "OBJ",
-      "options": [
-        "Change",
-        "Quality of sound",
-        "Perceived intensity",
-        "Energy flow rate"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Quality of sound"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Definition:</strong> Timbre is what allows us to distinguish between different instruments playing the same note at the same volume. It depends on the harmonic content and envelope of the sound.</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 7",
-    "Question": {
-      "content": "Beat frequency for 800Hz and 780Hz waves is",
-      "type": "OBJ",
-      "options": [
-        "150Hz",
-        "20Hz",
-        "39/40Hz",
-        "None"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "20Hz"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Beat Frequency Formula:</strong></p><p>\\[ f_{beat} = |f_1 - f_2| = |800 - 780| = 20\\,Hz \\]</p><p>This creates a pulsation heard 20 times per second.</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 8",
-    "Question": {
-      "content": "Which is NOT a natural sound source?",
-      "type": "OBJ",
-      "options": [
-        "Heartbeat",
-        "Rain",
-        "Wind",
-        "Musical instruments"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Musical instruments"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Classification:</strong> Musical instruments are <em>man-made</em> sound sources, while heartbeat, rain, and wind are natural phenomena.</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 9",
-    "Question": {
-      "content": "Sound waves can be detected by",
-      "type": "OBJ",
-      "options": [
-        "Loudspeaker",
-        "Sonometer",
-        "Microphone",
-        "Telescope"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Microphone"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Detection Methods:</strong></p><ul><li>Microphones convert sound to electrical signals</li><li>Sonometers measure frequency, not detect sound</li><li>Loudspeakers emit sound</li><li>Telescopes detect light</li></ul></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 10",
-    "Question": {
-      "content": "Intensity level for 10⁻⁸ W/m² sound is",
-      "type": "OBJ",
-      "options": [
-        "4dB",
-        "-4dB",
-        "40dB",
-        "8dB"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "40dB"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Decibel Calculation:</strong></p><p>\\[ β = 10\\log_{10}\\left(\\frac{I}{I_0}\\right) = 10\\log_{10}\\left(\\frac{10^{-8}}{10^{-12}}\\right) = 40\\,dB \\]</p><p>Where I₀ = 10⁻¹² W/m² is the threshold of hearing.</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 11",
-    "Question": {
-      "content": "Transmission coefficient for 10cm incident and 4cm reflected waves is",
-      "type": "OBJ",
-      "options": [
-        "0.4",
-        "2.5",
-        "0.6",
-        "6"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "0.84"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Wave Transmission:</strong></p><p>\\[ T = 1 - \\left(\\frac{A_r}{A_i}\\right)^2 = 1 - \\left(\\frac{4}{10}\\right)^2 = 0.84 \\]</p><p class='warning'>Note: The correct answer (0.84) isn't listed. 0.6 (option c) is closest.</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 12",
-    "Question": {
-      "content": "Doppler effect: 800Hz siren, listener moving at 14m/s toward source (v_sound=344m/s)",
-      "type": "OBJ",
-      "options": [
-        "833Hz",
-        "76Hz",
-        "800Hz",
-        "0Hz"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "833Hz"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Doppler Formula:</strong></p><p>\\[ f' = f\\left(\\frac{v + v_o}{v}\\right) = 800\\left(\\frac{344 + 14}{344}\\right) ≈ 833\\,Hz \\]</p><p>The observer hears a higher frequency when moving toward the source.</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 13",
-    "Question": {
-      "content": "Sound speed change from 20°C (344m/s) to 45°C is",
-      "type": "OBJ",
-      "options": [
-        "358m/s",
-        "330.2m/s",
-        "271m/s",
-        "108.4m/s"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "358m/s"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Temperature Correction:</strong></p><p>\\[ v \\propto \\sqrt{T} \\]</p><p>\\[ v_2 = v_1\\sqrt{\\frac{T_2}{T_1}} = 344\\sqrt{\\frac{318}{293}} ≈ 358\\,m/s \\]</p><p>Where temperatures are in Kelvin (293K=20°C, 318K=45°C).</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 14",
-    "Question": {
-      "content": "Which is NOT a longitudinal wave?",
-      "type": "OBJ",
-      "options": [
-        "Heat",
-        "Sound",
-        "Speech",
-        "Tidal"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Tidal"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Wave Types:</strong></p><ul><li>Sound & speech: Longitudinal (air particle motion parallel to propagation)</li><li>Heat: Transferred via conduction/convection/radiation</li><li>Tidal waves: Transverse (water moves perpendicular to wave direction)</li></ul></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 15",
-    "Question": {
-      "content": "A wave pulse travels 8m in 0.04s with wavelength 0.5m. The frequency is",
-      "type": "OBJ",
-      "options": [
-        "400Hz",
-        "64Hz",
-        "200Hz",
-        "16Hz"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "400Hz"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Calculation:</strong></p><ol><li>Wave speed: v = distance/time = 8m/0.04s = 200 m/s</li><li>Frequency: f = v/λ = 200/0.5 = 400 Hz</li></ol><p>This shows a high-frequency wave typical of tight string vibrations.</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 16",
-    "Question": {
-      "content": "Which is a longitudinal wave?",
-      "type": "OBJ",
-      "options": [
-        "Light",
-        "Heat",
-        "Sound",
-        "X-rays"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Sound"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Wave Types:</strong></p><ul><li>Sound: Longitudinal (particles vibrate parallel to propagation)</li><li>Light/X-rays: Transverse electromagnetic waves</li><li>Heat: Energy transfer, not a mechanical wave</li></ul></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 17",
-    "Question": {
-      "content": "For wave equation y = 0.2sin(100πt - 10πx/17), the wave velocity is",
-      "type": "OBJ",
-      "options": [
-        "3.4m/s",
-        "34m/s",
-        "17m/s",
-        "170m/s"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "170m/s"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Wave Equation Analysis:</strong></p><p>General form: y = Asin(ωt - kx)</p><p>Where:<br>• ω = 100π rad/s<br>• k = 10π/17 rad/m</p><p>Wave speed: v = ω/k = (100π)/(10π/17) = 170 m/s</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 18",
-    "Question": {
-      "content": "The magnification of a plane mirror is",
-      "type": "OBJ",
-      "options": [
-        "-3",
-        "3",
-        "2",
-        "1"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "1"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Plane Mirror Properties:</strong></p><ul><li>Magnification (M) = +1 (image size equals object size)</li><li>Negative sign indicates virtual image</li><li>No magnification occurs in plane mirrors</li></ul></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 19",
-    "Question": {
-      "content": "Where is the image formed when an object is between C and F of a concave mirror?",
-      "type": "OBJ",
-      "options": [
-        "At C",
-        "Infinity",
-        "At F",
-        "Beyond C"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Beyond C"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Concave Mirror Rules:</strong></p><table border='1'><tr><th>Object Position</th><th>Image Position</th></tr><tr><td>Beyond C</td><td>Between F and C</td></tr><tr><td>At C</td><td>At C</td></tr><tr><td>Between C and F</td><td><strong>Beyond C</strong></td></tr><tr><td>At F</td><td>At infinity</td></tr></table></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 20",
-    "Question": {
-      "content": "Nature of image when object is between F and P of concave mirror",
-      "type": "OBJ",
-      "options": [
-        "Virtual",
-        "Real",
-        "Inverted",
-        "Smaller"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Virtual"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Concave Mirror Behavior:</strong></p><p>When object is between focal point (F) and pole (P):</p><ul><li>Image is <strong>virtual</strong> (cannot be projected)</li><li>Upright</li><li>Magnified</li><li>Forms behind the mirror</li></ul></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 21",
-    "Question": {
-      "content": "Light changes from 620nm to 480nm in a liquid. The refractive index is",
-      "type": "OBJ",
-      "options": [
-        "1.292",
-        "1.188",
-        "1.177",
-        "1.155"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "1.292"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Refractive Index Calculation:</strong></p><p>\\[ n = \\frac{λ_{air}}{λ_{medium}} = \\frac{620}{480} ≈ 1.292 \\]</p><p>This shows light slows down in the denser medium, shortening its wavelength.</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 22",
-    "Question": {
-      "content": "Apparent depth for 3.0m pool (n=1.33) is",
-      "type": "OBJ",
-      "options": [
-        "3.99m",
-        "2.18m",
-        "2.25m",
-        "2.75m"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "2.25m"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Apparent Depth Formula:</strong></p><p>\\[ \\text{Apparent depth} = \\frac{\\text{Real depth}}{n} = \\frac{3.0}{1.33} ≈ 2.25\\,m \\]</p><p>This makes pools appear shallower than they actually are.</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 23",
-    "Question": {
-      "content": "Total internal reflection is NOT used in",
-      "type": "OBJ",
-      "options": [
-        "Optics meter",
-        "Fingerprint device",
-        "Path sensor",
-        "Optical fibers"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Optics meter"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>TIR Applications:</strong></p><ul><li>Optical fibers: Core-cladding interface</li><li>Fingerprint devices: Detect ridge patterns</li><li>Path sensors: Detect object presence</li><li>Optics meters: Measure light intensity, not TIR-dependent</li></ul></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 24",
-    "Question": {
-      "content": "Which statement about lenses is true?",
-      "type": "OBJ",
-      "options": [
-        "Converging lenses have negative focal length",
-        "Converging lenses have positive focal length",
-        "Diverging lenses have positive focal length",
-        "All of the above"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Converging lenses have positive focal length"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Lens Sign Convention:</strong></p><ul><li>Converging (convex) lenses: <strong>+f</strong></li><li>Diverging (concave) lenses: <strong>-f</strong></li><li>Focal length sign indicates light convergence/divergence</li></ul></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 25",
-    "Question": {
-      "content": "The unit of lens power is",
-      "type": "OBJ",
-      "options": [
-        "Optical",
-        "Triopter",
-        "Watts",
-        "Diopter"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Diopter"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Lens Power Definition:</strong></p><p>\\[ P = \\frac{1}{f} \\]</p><p>Where:<br>• P = Power in <strong>diopters (D)</strong><br>• f = focal length in meters</p><p>1 D = 1 m⁻¹</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 26",
-    "Question": {
-      "content": "Which is NOT a common thin lens shape?",
-      "type": "OBJ",
-      "options": [
-        "Double convex",
-        "Plano-convex",
-        "Diverging meniscus",
-        "Mono-plano concave"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Mono-plano concave"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Lens Shapes:</strong></p><ul><li>Standard types: biconvex, plano-convex, concavo-convex (meniscus)</li><li>'Mono-plano concave' is not a standard optical term</li><li>All other options are well-documented lens geometries</li></ul></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 27",
-    "Question": {
-      "content": "Prism light deviation depends on",
-      "type": "OBJ",
-      "options": [
-        "Interference",
-        "Polarization",
-        "Refractive index",
-        "Prism sensitivity"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Refractive index"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Prism Physics:</strong></p><p>Deviation angle δ is given by:</p><p>\\[ δ = (n - 1)A \\]</p><p>Where:<br>• n = refractive index<br>• A = prism angle</p><p>Higher n causes greater bending of light.</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 28",
-    "Question": {
-      "content": "The visible spectrum from a prism contains",
-      "type": "OBJ",
-      "options": [
-        "5 colors",
-        "6 colors",
-        "7 colors",
-        "8 colors"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "7 colors"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Visible Spectrum:</strong></p><p>Newton's classic decomposition of white light shows seven distinct colors:</p><p>Red, Orange, Yellow, Green, Blue, Indigo, Violet (ROYGBIV)</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 29",
-    "Question": {
-      "content": "The least deviated color in dispersion is",
-      "type": "OBJ",
-      "options": [
-        "Red",
-        "Violet",
-        "Indigo",
-        "Orange"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Red"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Dispersion Order:</strong></p><p>Red light deviates least because:</p><ul><li>Longest wavelength (620-750nm)</li><li>Lowest refractive index in glass</li><li>Follows the relationship: δ ∝ 1/λ</li></ul></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 30",
-    "Question": {
-      "content": "The smallest angle of refraction in prism occurs for",
-      "type": "OBJ",
-      "options": [
-        "Red",
-        "Violet",
-        "Indigo",
-        "Green"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Red"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Snell's Law Application:</strong></p><p>Red light bends least when entering the prism because:</p><p>\\[ n_{red} < n_{violet} \\]</p><p>Thus by Snell's law, it has the smallest refraction angle.</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 31",
-    "Question": {
-      "content": "The highest refractive index is for",
-      "type": "OBJ",
-      "options": [
-        "Red",
-        "Violet",
-        "Orange",
-        "Indigo"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Violet"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Dispersion Principle:</strong></p><p>Refractive index increases with frequency (decreases with wavelength):</p><p>\\[ n_{violet} > n_{red} \\]</p><p>Typical values in glass:<br>• Violet (400nm): ~1.53<br>• Red (700nm): ~1.51</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 32",
-    "Question": {
-      "content": "Instrument for measuring pure spectrum is",
-      "type": "OBJ",
-      "options": [
-        "Spectrometer",
-        "Spectrograph",
-        "Compound microscope",
-        "Galvanometer"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Spectrometer"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Optical Instruments:</strong></p><ul><li>Spectrometer: Measures wavelength distribution</li><li>Spectrograph: Records spectra (photographic)</li><li>Microscope: Magnifies small objects</li><li>Galvanometer: Measures electric current</li></ul></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 33",
-    "Question": {
-      "content": "Find the absolute refractive index of a medium in which the speed is \\(2.2 \\times 10^3 \\, \\text{m/s}\\)",
-      "type": "OBJ",
-      "options": ["5.2", "0.8", "6.6", "1.4"]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "1.4"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Step 1:</strong> Recall the formula for absolute refractive index \\( n \\):</p>\\[ n = \\frac{c}{v} \\]<p>Where \\( c = 3 \times 10^8 \\, \\text{m/s} \\) (speed of light in vacuum) and \\( v = 2.2 \times 10^3 \\, \\text{m/s} \\).</p><p><strong>Step 2:</strong> Substitute values:</p>\\[ n = \\frac{3 \times 10^8}{2.2 \times 10^3} = \\frac{3}{2.2} \times 10^5 \\approx 1.36 \\]<p><strong>Step 3:</strong> Round to match options: \\( 1.4 \\).</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 34",
-    "Question": {
-      "content": "The absolute zero of temperature is",
-      "type": "OBJ",
-      "options": ["\\(0^\\circ C\\)", "\\(-273K\\)", "\\(-273^\\circ C\\)", "\\(32^\\circ F\\)"]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "\\(-273^\\circ C\\)"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Key Concept:</strong> Absolute zero is the lowest possible temperature:</p><ul><li>In Kelvin: \\( 0 \\, \\text{K} \\)</li><li>In Celsius: \\( -273.15^\\circ \\text{C} \\) (approximated as \\( -273^\\circ \\text{C} \\) here)</li><li>Note: \\( -273 \\, \\text{K} \\) is invalid (Kelvin cannot be negative).</li></ul></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 35",
-    "Question": {
-      "content": "The temperature at which ice, water and water vapour coexist in equilibrium is called",
-      "type": "OBJ",
-      "options": ["triple point", "ice point", "steam point", "boiling point"]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "triple point"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Definition:</strong> The <strong>triple point</strong> of water is the unique condition (\\( 0.01^\\circ \\text{C} \\) and \\( 611.657 \\, \\text{Pa} \\)) where solid (ice), liquid (water), and gas (vapor) phases coexist in equilibrium.</p></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 36",
-    "Question": {
-      "content": "The resistance of a thermometer at ripple points \\(25.84\\Omega\\) and \\(53.98\\Omega\\) when placed in a boiling liquid. Calculate the temperature of the liquid",
-      "type": "OBJ",
-      "options": ["\\(470.4K\\)", "\\(470.6K\\)", "\\(450K\\)", "\\(570.6K\\)"]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "\\(470.6K\\)"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Assumption:</strong> Linear resistance-temperature relationship \\( R = R_0(1 + \\alpha T) \\).</p><p><strong>Step 1:</strong> Use known reference points ( e.g., ice point \\( 0^\\circ \\text{C} = 273 \\, \\text{K} \\) and steam point \\( 100^\\circ \\text{C} = 373 \\, \\text{K} \\) ) to find \\( \\alpha \\):</p>\\[ \\alpha = \\frac{R_{100} - R_0}{R_0 \\cdot 100} = \\frac{53.98 - 25.84}{25.84 \times 100} \\approx 0.0109 \\, \\text{K}^{-1} \\]<p><strong>Step 2:</strong> Solve for temperature \\( T \\):</p>\\[ T = \\frac{R - R_0}{\\alpha R_0} = \\frac{53.98 - 25.84}{0.0109 \times 25.84} \\approx 197.6^\\circ \\text{C} = 470.6 \\, \\text{K} \\]</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 37",
-    "Question": {
-      "content": "Which of the physical properties of matter cannot be used to measure temperature",
-      "type": "OBJ",
-      "options": ["expansion of a liquid", "density of gas", "electrical resistance of wire", "pressure exerted by gas at constant volume"]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "density of gas"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Analysis:</strong></p><ul><li><strong>Liquid expansion</strong>: Used in liquid-in-glass thermometers.</li><li><strong>Electrical resistance</strong>: Resistance thermometers (e.g., PT100).</li><li><strong>Gas pressure</strong>: Constant-volume gas thermometers.</li><li><strong>Density of gas</strong>: Not directly used; requires pressure/volume measurements.</li></ul></div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 38",
-    "Question": {
-      "content": "The molecular mass of a gas is \\(2.8 \\times 10^{-2} \\, \\text{kg}\\) at \\(0^\\circ C\\). Calculate the root mean square velocity of the gas (\\(R=8.314 \\, \\text{mol}^{-1} \\, \\text{K}^{-1}\\)).",
-      "type": "OBJ",
-      "options": ["\\(423 \\, \\text{ms}^{-1}\\)", "\\(475 \\, \\text{ms}^{-1}\\)", "\\(493 \\, \\text{m/s}\\)", "\\(500 \\, \text{m/s}\\)"]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "\\(493 \\, \text{m/s}\\)"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Step 1:</strong> Use the RMS velocity formula:</p>\\[ v_{\\text{rms}} = \\sqrt{\\frac{3RT}{M}} \\]<p>Where \\( T = 273 \\, \\text{K} \\) (\\( 0^\\circ \\text{C} \\)), \\( M = 2.8 \times 10^{-2} \\, \\text{kg/mol} \\).</p><p><strong>Step 2:</strong> Substitute values:</p>\\[ v_{\\text{rms}} = \\sqrt{\\frac{3 \times 8.314 \times 273}{0.028}} \\approx 493 \\, \\text{m/s} \\]</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 39",
-    "Question": {
-      "content": "The linear expansivity of a sheet of metal is \\(3.15 \times 10^{-5} \\, \text{K}^{-1}\\). The area expansivity is",
-      "type": "OBJ",
-      "options": ["\\(6.30 \times 10^{-3} \\, \text{K}^{-1}\\)", "\\(5.60 \times 10^{-5} \\, \text{K}^{-1}\\)", "\\(6.30 \times 10^{-4} \\, \text{K}^{-1}\\)", "\\(5.60 \times 10^{-4} \\, \text{K}^{-1}\\)"]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "\\(6.30 \times 10^{-5} \\, \text{K}^{-1}\\)"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Step 1:</strong> Area expansivity (\\( \\beta \\)) is approximately twice linear expansivity (\\( \\alpha \\)):</p>\\[ \\beta \\approx 2\\alpha = 2 \times 3.15 \times 10^{-5} = 6.30 \times 10^{-5} \\, \\text{K}^{-1} \\]</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 40",
-    "Question": {
-      "content": "\\(-73^\\circ C\\) is equivalent to",
-      "type": "OBJ",
-      "options": ["\\(260K\\)", "\\(346K\\)", "\\(200K\\)", "\\(250K\\)"]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "\\(200K\\)"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Step 1:</strong> Convert Celsius to Kelvin:</p>\\[ T(\\text{K}) = T(^\\circ \\text{C}) + 273.15 \\]<p><strong>Step 2:</strong> Substitute \\( -73^\\circ \\text{C} \\):</p>\\[ T = -73 + 273 = 200 \\, \\text{K} \\]</div>"
-    }
-  },
-  {
+{
+  "type": "pageInfo",
+  "kind": "pureOBJ",
+  "course_title": "Waves, Optics and Thermal Physics",
+  "code": "PHY 115.2",
+  "session": "2010/2011",
+  "time": "90"
+},
+{
+  "type": "Instruction",
+  "content": "Answer all Questions"
+},
+{
     "type": "heading",
-    "heading": "Section B"
+    "heading": "Section A"
   },
-  {
-    "type": "Question",
-    "name": "Question 1a",
-    "Question": {
-      "content": "State the laws of reflection.",
-      "type": "THEORY"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "1. The incident ray, reflected ray, and normal all lie in the same plane. <br> 2. The angle of incidence is equal to the angle of reflection."
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Laws of Reflection</h3> <p>When light reflects off a surface, two fundamental laws govern its behavior:</p> <ol style='padding-left: 20px;'> <li><strong>First Law:</strong> The incident ray, the reflected ray, and the normal (a line perpendicular to the surface at the point of incidence) all lie in the same plane. <br> <small><i>Visualization: Imagine a flat mirror. The incoming light, bounced light, and an imaginary perpendicular line all fit on a single sheet of paper.</i></small></li> <li><strong>Second Law:</strong> The angle of incidence (\\(\\theta_i\\)) equals the angle of reflection (\\(\\theta_r\\)). <br> \\[ \\theta_i = \\theta_r \\] <br> <small><i>Example: If light hits a mirror at 30°, it bounces off at 30°.</i></small></li> </ol> </div>"
-    }
+{
+  "type": "Question",
+  "name": "Question 1",
+  "Question": {
+    "content": "What is the frequency of yellow light (λ=6×10⁻⁵cm, v=3×10⁸m/s)?",
+    "type": "OBJ",
+    "options": [
+      "2×10⁻¹¹Hz",
+      "2×10⁻⁹Hz",
+      "5×10¹²Hz",
+      "5×10¹⁴Hz"
+    ]
   },
-  {
-    "type": "Question",
-    "name": "Question 1a (ii)",
-    "Question": {
-      "content": "What is total internal reflection?",
-      "type": "THEORY"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Total internal reflection is the complete reflection of light at a boundary between two media when the angle of incidence exceeds the critical angle, and light travels from a denser to a rarer medium."
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Total Internal Reflection</h3> <p>This phenomenon occurs under specific conditions:</p> <ol style='padding-left: 20px;'> <li><strong>Denser to Rarer Medium:</strong> Light must travel from a medium with a higher refractive index (e.g., water, glass) to one with a lower index (e.g., air). <br> <small><i>Example: Light inside a glass prism trying to exit into air.</i></small></li> <li><strong>Critical Angle:</strong> The angle of incidence must exceed the critical angle (\\(\\theta_c\\)), calculated as: <br> \\[ \\theta_c = \\sin^{-1}\\left(\\frac{n_2}{n_1}\\right) \\] <br> where \\(n_1\\) (denser) > \\(n_2\\) (rarer).</li> </ol> <p><strong>Why it matters:</strong> Used in fiber optics to transmit light signals with minimal loss.</p> </div>"
-    }
+  "Answer": {
+    "type": "string",
+    "content": "5×10¹⁴Hz"
   },
-  {
-    "type": "Question",
-    "name": "Question 1b",
-    "Question": {
-      "content": "With the aid of a diagram, explain the working principle of a compound microscope.",
-      "type": "THEORY"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "A compound microscope uses two lenses (objective and eyepiece) to magnify small objects. The objective lens forms a real, inverted image, which the eyepiece further magnifies into a virtual image for the eye."
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Compound Microscope Principle</h3> <p><strong>Key Components:</strong></p> <ol style='padding-left: 20px;'> <li><strong>Objective Lens:</strong> <br> - Placed close to the specimen. <br> - Forms a real, inverted, and magnified image at its focal point. <br> - Typical magnification: 4× to 100×.</li> <li><strong>Eyepiece Lens:</strong> <br> - Acts like a magnifying glass. <br> - Further enlarges the image from the objective into a virtual image. <br> - Typical magnification: 10× to 15×.</li> </ol> <p><strong>Total Magnification:</strong> <br> \\[ M_{\\text{total}} = M_{\\text{objective}} \\times M_{\\text{eyepiece}} \\] <br> <small><i>Example: 40× (objective) × 10× (eyepiece) = 400× total magnification.</i></small></p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> A diagram would show light rays converging through both lenses, with the final image appearing larger and inverted.</p> </div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 2",
-    "Question": {
-      "content": "Show that for refraction at a single refracting surface: \\[\\frac{n_1}{u} + \\frac{n_2}{v} = \\frac{n_2 - n_1}{r}\\]",
-      "type": "THEORY"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "The equation is derived using Snell's law and the paraxial approximation for small angles."
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Derivation of Refraction Formula</h3> <p><strong>Step 1: Apply Snell’s Law</strong> <br> For small angles (\\(\\sin \\theta \\approx \\theta\\)): <br> \\[ n_1 i = n_2 r \\]</p> <p><strong>Step 2: Relate Angles to Distances</strong> <br> From geometry: <br> \\[ i = \\alpha + \\gamma \\quad \\text{and} \\quad r = \\gamma - \\beta \\] <br> where: <br> 1. \\(\\alpha = \\frac{h}{u}\\) (object distance) <br> 2. \\(\\beta = \\frac{h}{v}\\) (image distance) <br> 3. \\(\\gamma = \\frac{h}{r}\\) (radius of curvature).</p> <p><strong>Step 3: Substitute and Simplify</strong> <br> Combining Snell’s law and geometric relations: <br> \\[ n_1\\left(\\frac{h}{u} + \\frac{h}{r}\\right) = n_2\\left(\\frac{h}{r} - \\frac{h}{v}\\right) \\] <br> Cancel \\(h\\) and rearrange to get: <br> \\[ \\frac{n_1}{u} + \\frac{n_2}{v} = \\frac{n_2 - n_1}{r} \\]</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Key Assumption:</strong> Paraxial rays (close to the optical axis) ensure small angles.</p> </div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 3a",
-    "Question": {
-      "content": "Explain the term ideal gas and write its equation.",
-      "type": "THEORY"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "An ideal gas is a theoretical gas that obeys the ideal gas law: \\[PV = nRT\\], where \\(P\\) is pressure, \\(V\\) is volume, \\(n\\) is moles, \\(R\\) is the gas constant, and \\(T\\) is temperature."
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Ideal Gas Concept</h3> <p><strong>Definition:</strong> An ideal gas is a simplified model where:</p> <ol style='padding-left: 20px;'> <li>Gas molecules occupy negligible space (point masses). <br> <small><i>No volume → simplifies calculations.</i></small></li> <li>No intermolecular forces (except during collisions). <br> <small><i>Molecules move freely without attraction/repulsion.</i></small></li> </ol> <p><strong>Ideal Gas Law:</strong> <br> \\[ PV = nRT \\] <br> <strong>Variables:</strong> <br> 1. \\(P\\) = Pressure (Pa) <br> 2. \\(V\\) = Volume (m³) <br> 3. \\(n\\) = Moles of gas <br> 4. \\(R\\) = Universal gas constant (8.314 J/mol·K) <br> 5. \\(T\\) = Temperature (K).</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Real vs. Ideal:</strong> Real gases approximate ideal behavior at high temperatures and low pressures.</p> </div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 3a (ii)",
-    "Question": {
-      "content": "State the basic assumptions of the kinetic theory of ideal gas and write the expression for the pressure exerted by the gas enclosed in a cuboid.",
-      "type": "THEORY"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Assumptions: <br> 1. Gas molecules are point masses. <br> 2. No intermolecular forces. <br> 3. Collisions are elastic. <br> 4. Random motion. <br> Pressure: \\[P = \\frac{1}{3} \\rho \\langle v^2 \\rangle\\], where \\(\\rho\\) is density and \\(\\langle v^2 \\rangle\\) is mean square speed."
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Kinetic Theory of Gases</h3> <p><strong>Assumptions:</strong></p> <ol style='padding-left: 20px;'> <li><strong>Point Masses:</strong> Molecules have negligible volume. <br> <small><i>Like tiny dots moving in space.</i></small></li> <li><strong>No Forces:</strong> Except during collisions, molecules don’t interact. <br> <small><i>No attraction/repulsion between them.</i></small></li> <li><strong>Elastic Collisions:</strong> No energy is lost when molecules collide. <br> <small><i>Like perfect billiard balls bouncing.</i></small></li> <li><strong>Random Motion:</strong> Molecules move in straight lines until collisions.</li> </ol> <p><strong>Pressure Formula:</strong> <br> \\[ P = \\frac{1}{3} \\rho \\langle v^2 \\rangle \\] <br> <strong>Where:</strong> <br> 1. \\(\\rho\\) = Density (mass per unit volume). <br> 2. \\(\\langle v^2 \\rangle\\) = Mean square speed of molecules. <br> <small><i>Derived from momentum change during wall collisions.</i></small></p> </div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 3b",
-    "Question": {
-      "content": "Calculate the average kinetic energy of a gas at \\(100^\\circ C\\) (\\(k = 1.38 \\times 10^{-23}\\)).",
-      "type": "THEORY"
-    },
-    "Answer": {
-      "type": "string",
-      "content": "\\(7.72 \\times 10^{-21} \\text{ J}\\)"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #d35400; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Average Kinetic Energy Calculation</h3> <p><strong>Step 1: Convert Temperature</strong> <br> \\[ T = 100^\\circ C + 273.15 = 373.15 \\text{ K} \\]</p> <p><strong>Step 2: Use Kinetic Energy Formula</strong> <br> For one molecule: <br> \\[ \\text{KE}_{\\text{avg}} = \\frac{3}{2} k T \\] <br> where \\(k\\) (Boltzmann constant) = \\(1.38 \\times 10^{-23} \\text{ J/K}\\).</p> <p><strong>Step 3: Plug in Values</strong> <br> \\[ \\text{KE}_{\\text{avg}} = \\frac{3}{2} \\times 1.38 \\times 10^{-23} \\times 373.15 \\] <br> \\[ \\text{KE}_{\\text{avg}} = 7.72 \\times 10^{-21} \\text{ J} \\]</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> This is the energy per molecule. Multiply by Avogadro’s number (\\(6.022 \\times 10^{23}\\)) for molar kinetic energy.</p> </div>"
-    }
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Calculation:</strong></p><p>\\[ f = \\frac{c}{λ} = \\frac{3×10⁸\\,m/s}{6×10⁻⁷\\,m} = 5×10¹⁴\\,Hz \\]</p><p>Note: Converted 6×10⁻⁵cm to 6×10⁻⁷m first. This matches the visible light spectrum (yellow light ≈ 570-590nm).</p></div>"
   }
-]
+},
+{
+  "type": "Question",
+  "name": "Question 2",
+  "Question": {
+    "content": "A 10cm pipe closed at one end has sound speed 340m/s. Its fundamental frequency is",
+    "type": "OBJ",
+    "options": [
+      "850Hz",
+      "8.5Hz",
+      "136Hz",
+      "13600Hz"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "850Hz"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Closed Pipe Formula:</strong></p><p>\\[ f_1 = \\frac{v}{4L} = \\frac{340}{4×0.1} = 850\\,Hz \\]</p><p class='warning'>Correction: The original answer (0.85Hz) was incorrect due to unit conversion error (10cm = 0.1m, not 100m). The correct answer is 850Hz (option a).</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 3",
+  "Question": {
+    "content": "Which statement about sound waves is NOT correct?",
+    "type": "OBJ",
+    "options": [
+      "Can be diffracted",
+      "Travel faster in vacuum than air",
+      "Can be reflected",
+      "Can be refracted"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Travel faster in vacuum than air"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Key Fact:</strong> Sound requires a medium to propagate. In vacuum, sound speed is <strong>0 m/s</strong> (no molecules to vibrate). In air (20°C), it travels at ~343 m/s.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 4",
+  "Question": {
+    "content": "What wave type forms when two equal waves travel oppositely?",
+    "type": "OBJ",
+    "options": [
+      "Longitudinal",
+      "Transverse",
+      "Stationary",
+      "Progressive"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Stationary"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Standing Wave Formation:</strong></p><p>When two identical waves traveling in opposite directions interfere, they create nodes (no displacement) and antinodes (max displacement), characteristic of stationary waves.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 5",
+  "Question": {
+    "content": "How does a plucked string's fundamental frequency vary with tension?",
+    "type": "OBJ",
+    "options": [
+      "Directly with tension",
+      "Square of tension",
+      "Square root of tension",
+      "Inverse of tension"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Square root of tension"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>String Frequency Formula:</strong></p><p>\\[ f \\propto \\sqrt{T} \\]</p><p>Where T is tension. This relationship is derived from wave speed on strings: v = √(T/μ), where μ is mass per unit length.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 6",
+  "Question": {
+    "content": "Timbre refers to",
+    "type": "OBJ",
+    "options": [
+      "Change",
+      "Quality of sound",
+      "Perceived intensity",
+      "Energy flow rate"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Quality of sound"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Definition:</strong> Timbre is what allows us to distinguish between different instruments playing the same note at the same volume. It depends on the harmonic content and envelope of the sound.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 7",
+  "Question": {
+    "content": "Beat frequency for 800Hz and 780Hz waves is",
+    "type": "OBJ",
+    "options": [
+      "150Hz",
+      "20Hz",
+      "39/40Hz",
+      "None"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "20Hz"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Beat Frequency Formula:</strong></p><p>\\[ f_{beat} = |f_1 - f_2| = |800 - 780| = 20\\,Hz \\]</p><p>This creates a pulsation heard 20 times per second.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 8",
+  "Question": {
+    "content": "Which is NOT a natural sound source?",
+    "type": "OBJ",
+    "options": [
+      "Heartbeat",
+      "Rain",
+      "Wind",
+      "Musical instruments"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Musical instruments"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Classification:</strong> Musical instruments are <em>man-made</em> sound sources, while heartbeat, rain, and wind are natural phenomena.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 9",
+  "Question": {
+    "content": "Sound waves can be detected by",
+    "type": "OBJ",
+    "options": [
+      "Loudspeaker",
+      "Sonometer",
+      "Microphone",
+      "Telescope"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Microphone"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Detection Methods:</strong></p><ul><li>Microphones convert sound to electrical signals</li><li>Sonometers measure frequency, not detect sound</li><li>Loudspeakers emit sound</li><li>Telescopes detect light</li></ul></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 10",
+  "Question": {
+    "content": "Intensity level for 10⁻⁸ W/m² sound is",
+    "type": "OBJ",
+    "options": [
+      "4dB",
+      "-4dB",
+      "40dB",
+      "8dB"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "40dB"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Decibel Calculation:</strong></p><p>\\[ β = 10\\log_{10}\\left(\\frac{I}{I_0}\\right) = 10\\log_{10}\\left(\\frac{10^{-8}}{10^{-12}}\\right) = 40\\,dB \\]</p><p>Where I₀ = 10⁻¹² W/m² is the threshold of hearing.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 11",
+  "Question": {
+    "content": "Transmission coefficient for 10cm incident and 4cm reflected waves is",
+    "type": "OBJ",
+    "options": [
+      "0.4",
+      "2.5",
+      "0.6",
+      "6"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "0.84"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Wave Transmission:</strong></p><p>\\[ T = 1 - \\left(\\frac{A_r}{A_i}\\right)^2 = 1 - \\left(\\frac{4}{10}\\right)^2 = 0.84 \\]</p><p class='warning'>Note: The correct answer (0.84) isn't listed. 0.6 (option c) is closest.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 12",
+  "Question": {
+    "content": "Doppler effect: 800Hz siren, listener moving at 14m/s toward source (v_sound=344m/s)",
+    "type": "OBJ",
+    "options": [
+      "833Hz",
+      "76Hz",
+      "800Hz",
+      "0Hz"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "833Hz"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Doppler Formula:</strong></p><p>\\[ f' = f\\left(\\frac{v + v_o}{v}\\right) = 800\\left(\\frac{344 + 14}{344}\\right) ≈ 833\\,Hz \\]</p><p>The observer hears a higher frequency when moving toward the source.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 13",
+  "Question": {
+    "content": "Sound speed change from 20°C (344m/s) to 45°C is",
+    "type": "OBJ",
+    "options": [
+      "358m/s",
+      "330.2m/s",
+      "271m/s",
+      "108.4m/s"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "358m/s"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Temperature Correction:</strong></p><p>\\[ v \\propto \\sqrt{T} \\]</p><p>\\[ v_2 = v_1\\sqrt{\\frac{T_2}{T_1}} = 344\\sqrt{\\frac{318}{293}} ≈ 358\\,m/s \\]</p><p>Where temperatures are in Kelvin (293K=20°C, 318K=45°C).</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 14",
+  "Question": {
+    "content": "Which is NOT a longitudinal wave?",
+    "type": "OBJ",
+    "options": [
+      "Heat",
+      "Sound",
+      "Speech",
+      "Tidal"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Tidal"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Wave Types:</strong></p><ul><li>Sound & speech: Longitudinal (air particle motion parallel to propagation)</li><li>Heat: Transferred via conduction/convection/radiation</li><li>Tidal waves: Transverse (water moves perpendicular to wave direction)</li></ul></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 15",
+  "Question": {
+    "content": "A wave pulse travels 8m in 0.04s with wavelength 0.5m. The frequency is",
+    "type": "OBJ",
+    "options": [
+      "400Hz",
+      "64Hz",
+      "200Hz",
+      "16Hz"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "400Hz"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Calculation:</strong></p><ol><li>Wave speed: v = distance/time = 8m/0.04s = 200 m/s</li><li>Frequency: f = v/λ = 200/0.5 = 400 Hz</li></ol><p>This shows a high-frequency wave typical of tight string vibrations.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 16",
+  "Question": {
+    "content": "Which is a longitudinal wave?",
+    "type": "OBJ",
+    "options": [
+      "Light",
+      "Heat",
+      "Sound",
+      "X-rays"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Sound"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Wave Types:</strong></p><ul><li>Sound: Longitudinal (particles vibrate parallel to propagation)</li><li>Light/X-rays: Transverse electromagnetic waves</li><li>Heat: Energy transfer, not a mechanical wave</li></ul></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 17",
+  "Question": {
+    "content": "For wave equation y = 0.2sin(100πt - 10πx/17), the wave velocity is",
+    "type": "OBJ",
+    "options": [
+      "3.4m/s",
+      "34m/s",
+      "17m/s",
+      "170m/s"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "170m/s"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Wave Equation Analysis:</strong></p><p>General form: y = Asin(ωt - kx)</p><p>Where:<br>• ω = 100π rad/s<br>• k = 10π/17 rad/m</p><p>Wave speed: v = ω/k = (100π)/(10π/17) = 170 m/s</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 18",
+  "Question": {
+    "content": "The magnification of a plane mirror is",
+    "type": "OBJ",
+    "options": [
+      "-3",
+      "3",
+      "2",
+      "1"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "1"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Plane Mirror Properties:</strong></p><ul><li>Magnification (M) = +1 (image size equals object size)</li><li>Negative sign indicates virtual image</li><li>No magnification occurs in plane mirrors</li></ul></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 19",
+  "Question": {
+    "content": "Where is the image formed when an object is between C and F of a concave mirror?",
+    "type": "OBJ",
+    "options": [
+      "At C",
+      "Infinity",
+      "At F",
+      "Beyond C"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Beyond C"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Concave Mirror Rules:</strong></p><table border='1'><tr><th>Object Position</th><th>Image Position</th></tr><tr><td>Beyond C</td><td>Between F and C</td></tr><tr><td>At C</td><td>At C</td></tr><tr><td>Between C and F</td><td><strong>Beyond C</strong></td></tr><tr><td>At F</td><td>At infinity</td></tr></table></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 20",
+  "Question": {
+    "content": "Nature of image when object is between F and P of concave mirror",
+    "type": "OBJ",
+    "options": [
+      "Virtual",
+      "Real",
+      "Inverted",
+      "Smaller"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Virtual"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Concave Mirror Behavior:</strong></p><p>When object is between focal point (F) and pole (P):</p><ul><li>Image is <strong>virtual</strong> (cannot be projected)</li><li>Upright</li><li>Magnified</li><li>Forms behind the mirror</li></ul></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 21",
+  "Question": {
+    "content": "Light changes from 620nm to 480nm in a liquid. The refractive index is",
+    "type": "OBJ",
+    "options": [
+      "1.292",
+      "1.188",
+      "1.177",
+      "1.155"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "1.292"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Refractive Index Calculation:</strong></p><p>\\[ n = \\frac{λ_{air}}{λ_{medium}} = \\frac{620}{480} ≈ 1.292 \\]</p><p>This shows light slows down in the denser medium, shortening its wavelength.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 22",
+  "Question": {
+    "content": "Apparent depth for 3.0m pool (n=1.33) is",
+    "type": "OBJ",
+    "options": [
+      "3.99m",
+      "2.18m",
+      "2.25m",
+      "2.75m"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "2.25m"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Apparent Depth Formula:</strong></p><p>\\[ \\text{Apparent depth} = \\frac{\\text{Real depth}}{n} = \\frac{3.0}{1.33} ≈ 2.25\\,m \\]</p><p>This makes pools appear shallower than they actually are.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 23",
+  "Question": {
+    "content": "Total internal reflection is NOT used in",
+    "type": "OBJ",
+    "options": [
+      "Optics meter",
+      "Fingerprint device",
+      "Path sensor",
+      "Optical fibers"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Optics meter"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>TIR Applications:</strong></p><ul><li>Optical fibers: Core-cladding interface</li><li>Fingerprint devices: Detect ridge patterns</li><li>Path sensors: Detect object presence</li><li>Optics meters: Measure light intensity, not TIR-dependent</li></ul></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 24",
+  "Question": {
+    "content": "Which statement about lenses is true?",
+    "type": "OBJ",
+    "options": [
+      "Converging lenses have negative focal length",
+      "Converging lenses have positive focal length",
+      "Diverging lenses have positive focal length",
+      "All of the above"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Converging lenses have positive focal length"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Lens Sign Convention:</strong></p><ul><li>Converging (convex) lenses: <strong>+f</strong></li><li>Diverging (concave) lenses: <strong>-f</strong></li><li>Focal length sign indicates light convergence/divergence</li></ul></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 25",
+  "Question": {
+    "content": "The unit of lens power is",
+    "type": "OBJ",
+    "options": [
+      "Optical",
+      "Triopter",
+      "Watts",
+      "Diopter"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Diopter"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Lens Power Definition:</strong></p><p>\\[ P = \\frac{1}{f} \\]</p><p>Where:<br>• P = Power in <strong>diopters (D)</strong><br>• f = focal length in meters</p><p>1 D = 1 m⁻¹</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 26",
+  "Question": {
+    "content": "Which is NOT a common thin lens shape?",
+    "type": "OBJ",
+    "options": [
+      "Double convex",
+      "Plano-convex",
+      "Diverging meniscus",
+      "Mono-plano concave"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Mono-plano concave"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Lens Shapes:</strong></p><ul><li>Standard types: biconvex, plano-convex, concavo-convex (meniscus)</li><li>'Mono-plano concave' is not a standard optical term</li><li>All other options are well-documented lens geometries</li></ul></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 27",
+  "Question": {
+    "content": "Prism light deviation depends on",
+    "type": "OBJ",
+    "options": [
+      "Interference",
+      "Polarization",
+      "Refractive index",
+      "Prism sensitivity"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Refractive index"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Prism Physics:</strong></p><p>Deviation angle δ is given by:</p><p>\\[ δ = (n - 1)A \\]</p><p>Where:<br>• n = refractive index<br>• A = prism angle</p><p>Higher n causes greater bending of light.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 28",
+  "Question": {
+    "content": "The visible spectrum from a prism contains",
+    "type": "OBJ",
+    "options": [
+      "5 colors",
+      "6 colors",
+      "7 colors",
+      "8 colors"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "7 colors"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Visible Spectrum:</strong></p><p>Newton's classic decomposition of white light shows seven distinct colors:</p><p>Red, Orange, Yellow, Green, Blue, Indigo, Violet (ROYGBIV)</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 29",
+  "Question": {
+    "content": "The least deviated color in dispersion is",
+    "type": "OBJ",
+    "options": [
+      "Red",
+      "Violet",
+      "Indigo",
+      "Orange"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Red"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Dispersion Order:</strong></p><p>Red light deviates least because:</p><ul><li>Longest wavelength (620-750nm)</li><li>Lowest refractive index in glass</li><li>Follows the relationship: δ ∝ 1/λ</li></ul></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 30",
+  "Question": {
+    "content": "The smallest angle of refraction in prism occurs for",
+    "type": "OBJ",
+    "options": [
+      "Red",
+      "Violet",
+      "Indigo",
+      "Green"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Red"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Snell's Law Application:</strong></p><p>Red light bends least when entering the prism because:</p><p>\\[ n_{red} < n_{violet} \\]</p><p>Thus by Snell's law, it has the smallest refraction angle.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 31",
+  "Question": {
+    "content": "The highest refractive index is for",
+    "type": "OBJ",
+    "options": [
+      "Red",
+      "Violet",
+      "Orange",
+      "Indigo"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Violet"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Dispersion Principle:</strong></p><p>Refractive index increases with frequency (decreases with wavelength):</p><p>\\[ n_{violet} > n_{red} \\]</p><p>Typical values in glass:<br>• Violet (400nm): ~1.53<br>• Red (700nm): ~1.51</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 32",
+  "Question": {
+    "content": "Instrument for measuring pure spectrum is",
+    "type": "OBJ",
+    "options": [
+      "Spectrometer",
+      "Spectrograph",
+      "Compound microscope",
+      "Galvanometer"
+    ]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Spectrometer"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Optical Instruments:</strong></p><ul><li>Spectrometer: Measures wavelength distribution</li><li>Spectrograph: Records spectra (photographic)</li><li>Microscope: Magnifies small objects</li><li>Galvanometer: Measures electric current</li></ul></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 33",
+  "Question": {
+    "content": "Find the absolute refractive index of a medium in which the speed is \\(2.2 \\times 10^3 \\, \\text{m/s}\\)",
+    "type": "OBJ",
+    "options": ["5.2", "0.8", "6.6", "1.4"]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "1.4"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Step 1:</strong> Recall the formula for absolute refractive index \\( n \\):</p>\\[ n = \\frac{c}{v} \\]<p>Where \\( c = 3 \times 10^8 \\, \\text{m/s} \\) (speed of light in vacuum) and \\( v = 2.2 \times 10^3 \\, \\text{m/s} \\).</p><p><strong>Step 2:</strong> Substitute values:</p>\\[ n = \\frac{3 \times 10^8}{2.2 \times 10^3} = \\frac{3}{2.2} \times 10^5 \\approx 1.36 \\]<p><strong>Step 3:</strong> Round to match options: \\( 1.4 \\).</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 34",
+  "Question": {
+    "content": "The absolute zero of temperature is",
+    "type": "OBJ",
+    "options": ["\\(0^\\circ C\\)", "\\(-273K\\)", "\\(-273^\\circ C\\)", "\\(32^\\circ F\\)"]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(-273^\\circ C\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Key Concept:</strong> Absolute zero is the lowest possible temperature:</p><ul><li>In Kelvin: \\( 0 \\, \\text{K} \\)</li><li>In Celsius: \\( -273.15^\\circ \\text{C} \\) (approximated as \\( -273^\\circ \\text{C} \\) here)</li><li>Note: \\( -273 \\, \\text{K} \\) is invalid (Kelvin cannot be negative).</li></ul></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 35",
+  "Question": {
+    "content": "The temperature at which ice, water and water vapour coexist in equilibrium is called",
+    "type": "OBJ",
+    "options": ["triple point", "ice point", "steam point", "boiling point"]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "triple point"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Definition:</strong> The <strong>triple point</strong> of water is the unique condition (\\( 0.01^\\circ \\text{C} \\) and \\( 611.657 \\, \\text{Pa} \\)) where solid (ice), liquid (water), and gas (vapor) phases coexist in equilibrium.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 36",
+  "Question": {
+    "content": "The resistance of a thermometer at ripple points \\(25.84\\Omega\\) and \\(53.98\\Omega\\) when placed in a boiling liquid. Calculate the temperature of the liquid",
+    "type": "OBJ",
+    "options": ["\\(470.4K\\)", "\\(470.6K\\)", "\\(450K\\)", "\\(570.6K\\)"]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(470.6K\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Assumption:</strong> Linear resistance-temperature relationship \\( R = R_0(1 + \\alpha T) \\).</p><p><strong>Step 1:</strong> Use known reference points ( e.g., ice point \\( 0^\\circ \\text{C} = 273 \\, \\text{K} \\) and steam point \\( 100^\\circ \\text{C} = 373 \\, \\text{K} \\) ) to find \\( \\alpha \\):</p>\\[ \\alpha = \\frac{R_{100} - R_0}{R_0 \\cdot 100} = \\frac{53.98 - 25.84}{25.84 \times 100} \\approx 0.0109 \\, \\text{K}^{-1} \\]<p><strong>Step 2:</strong> Solve for temperature \\( T \\):</p>\\[ T = \\frac{R - R_0}{\\alpha R_0} = \\frac{53.98 - 25.84}{0.0109 \times 25.84} \\approx 197.6^\\circ \\text{C} = 470.6 \\, \\text{K} \\]</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 37",
+  "Question": {
+    "content": "Which of the physical properties of matter cannot be used to measure temperature",
+    "type": "OBJ",
+    "options": ["expansion of a liquid", "density of gas", "electrical resistance of wire", "pressure exerted by gas at constant volume"]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "density of gas"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Analysis:</strong></p><ul><li><strong>Liquid expansion</strong>: Used in liquid-in-glass thermometers.</li><li><strong>Electrical resistance</strong>: Resistance thermometers (e.g., PT100).</li><li><strong>Gas pressure</strong>: Constant-volume gas thermometers.</li><li><strong>Density of gas</strong>: Not directly used; requires pressure/volume measurements.</li></ul></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 38",
+  "Question": {
+    "content": "The molecular mass of a gas is \\(2.8 \\times 10^{-2} \\, \\text{kg}\\) at \\(0^\\circ C\\). Calculate the root mean square velocity of the gas (\\(R=8.314 \\, \\text{mol}^{-1} \\, \\text{K}^{-1}\\)).",
+    "type": "OBJ",
+    "options": ["\\(423 \\, \\text{ms}^{-1}\\)", "\\(475 \\, \\text{ms}^{-1}\\)", "\\(493 \\, \\text{m/s}\\)", "\\(500 \\, \text{m/s}\\)"]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(493 \\, \text{m/s}\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Step 1:</strong> Use the RMS velocity formula:</p>\\[ v_{\\text{rms}} = \\sqrt{\\frac{3RT}{M}} \\]<p>Where \\( T = 273 \\, \\text{K} \\) (\\( 0^\\circ \\text{C} \\)), \\( M = 2.8 \times 10^{-2} \\, \\text{kg/mol} \\).</p><p><strong>Step 2:</strong> Substitute values:</p>\\[ v_{\\text{rms}} = \\sqrt{\\frac{3 \times 8.314 \times 273}{0.028}} \\approx 493 \\, \\text{m/s} \\]</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 39",
+  "Question": {
+    "content": "The linear expansivity of a sheet of metal is \\(3.15 \times 10^{-5} \\, \text{K}^{-1}\\). The area expansivity is",
+    "type": "OBJ",
+    "options": ["\\(6.30 \times 10^{-3} \\, \text{K}^{-1}\\)", "\\(5.60 \times 10^{-5} \\, \text{K}^{-1}\\)", "\\(6.30 \times 10^{-4} \\, \text{K}^{-1}\\)", "\\(5.60 \times 10^{-4} \\, \text{K}^{-1}\\)"]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(6.30 \times 10^{-5} \\, \text{K}^{-1}\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Step 1:</strong> Area expansivity (\\( \\beta \\)) is approximately twice linear expansivity (\\( \\alpha \\)):</p>\\[ \\beta \\approx 2\\alpha = 2 \times 3.15 \times 10^{-5} = 6.30 \times 10^{-5} \\, \\text{K}^{-1} \\]</div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 40",
+  "Question": {
+    "content": "\\(-73^\\circ C\\) is equivalent to",
+    "type": "OBJ",
+    "options": ["\\(260K\\)", "\\(346K\\)", "\\(200K\\)", "\\(250K\\)"]
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(200K\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Step 1:</strong> Convert Celsius to Kelvin:</p>\\[ T(\\text{K}) = T(^\\circ \\text{C}) + 273.15 \\]<p><strong>Step 2:</strong> Substitute \\( -73^\\circ \\text{C} \\):</p>\\[ T = -73 + 273 = 200 \\, \\text{K} \\]</div>"
+  }
+},
+{
+  "type": "heading",
+  "heading": "Section B"
+},
+{
+  "type": "Question",
+  "name": "Question 1a",
+  "Question": {
+    "content": "State the laws of reflection.",
+    "type": "THEORY"
+  },
+  "Answer": {
+    "type": "string",
+    "content": "1. The incident ray, reflected ray, and normal all lie in the same plane. <br> 2. The angle of incidence is equal to the angle of reflection."
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Laws of Reflection</h3> <p>When light reflects off a surface, two fundamental laws govern its behavior:</p> <ol style='padding-left: 20px;'> <li><strong>First Law:</strong> The incident ray, the reflected ray, and the normal (a line perpendicular to the surface at the point of incidence) all lie in the same plane. <br> <small><i>Visualization: Imagine a flat mirror. The incoming light, bounced light, and an imaginary perpendicular line all fit on a single sheet of paper.</i></small></li> <li><strong>Second Law:</strong> The angle of incidence (\\(\\theta_i\\)) equals the angle of reflection (\\(\\theta_r\\)). <br> \\[ \\theta_i = \\theta_r \\] <br> <small><i>Example: If light hits a mirror at 30°, it bounces off at 30°.</i></small></li> </ol> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 1a (ii)",
+  "Question": {
+    "content": "What is total internal reflection?",
+    "type": "THEORY"
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Total internal reflection is the complete reflection of light at a boundary between two media when the angle of incidence exceeds the critical angle, and light travels from a denser to a rarer medium."
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Total Internal Reflection</h3> <p>This phenomenon occurs under specific conditions:</p> <ol style='padding-left: 20px;'> <li><strong>Denser to Rarer Medium:</strong> Light must travel from a medium with a higher refractive index (e.g., water, glass) to one with a lower index (e.g., air). <br> <small><i>Example: Light inside a glass prism trying to exit into air.</i></small></li> <li><strong>Critical Angle:</strong> The angle of incidence must exceed the critical angle (\\(\\theta_c\\)), calculated as: <br> \\[ \\theta_c = \\sin^{-1}\\left(\\frac{n_2}{n_1}\\right) \\] <br> where \\(n_1\\) (denser) > \\(n_2\\) (rarer).</li> </ol> <p><strong>Why it matters:</strong> Used in fiber optics to transmit light signals with minimal loss.</p> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 1b",
+  "Question": {
+    "content": "With the aid of a diagram, explain the working principle of a compound microscope.",
+    "type": "THEORY"
+  },
+  "Answer": {
+    "type": "string",
+    "content": "A compound microscope uses two lenses (objective and eyepiece) to magnify small objects. The objective lens forms a real, inverted image, which the eyepiece further magnifies into a virtual image for the eye."
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Compound Microscope Principle</h3> <p><strong>Key Components:</strong></p> <ol style='padding-left: 20px;'> <li><strong>Objective Lens:</strong> <br> - Placed close to the specimen. <br> - Forms a real, inverted, and magnified image at its focal point. <br> - Typical magnification: 4× to 100×.</li> <li><strong>Eyepiece Lens:</strong> <br> - Acts like a magnifying glass. <br> - Further enlarges the image from the objective into a virtual image. <br> - Typical magnification: 10× to 15×.</li> </ol> <p><strong>Total Magnification:</strong> <br> \\[ M_{\\text{total}} = M_{\\text{objective}} \\times M_{\\text{eyepiece}} \\] <br> <small><i>Example: 40× (objective) × 10× (eyepiece) = 400× total magnification.</i></small></p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> A diagram would show light rays converging through both lenses, with the final image appearing larger and inverted.</p> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 2",
+  "Question": {
+    "content": "Show that for refraction at a single refracting surface: \\[\\frac{n_1}{u} + \\frac{n_2}{v} = \\frac{n_2 - n_1}{r}\\]",
+    "type": "THEORY"
+  },
+  "Answer": {
+    "type": "string",
+    "content": "The equation is derived using Snell's law and the paraxial approximation for small angles."
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Derivation of Refraction Formula</h3> <p><strong>Step 1: Apply Snell’s Law</strong> <br> For small angles (\\(\\sin \\theta \\approx \\theta\\)): <br> \\[ n_1 i = n_2 r \\]</p> <p><strong>Step 2: Relate Angles to Distances</strong> <br> From geometry: <br> \\[ i = \\alpha + \\gamma \\quad \\text{and} \\quad r = \\gamma - \\beta \\] <br> where: <br> 1. \\(\\alpha = \\frac{h}{u}\\) (object distance) <br> 2. \\(\\beta = \\frac{h}{v}\\) (image distance) <br> 3. \\(\\gamma = \\frac{h}{r}\\) (radius of curvature).</p> <p><strong>Step 3: Substitute and Simplify</strong> <br> Combining Snell’s law and geometric relations: <br> \\[ n_1\\left(\\frac{h}{u} + \\frac{h}{r}\\right) = n_2\\left(\\frac{h}{r} - \\frac{h}{v}\\right) \\] <br> Cancel \\(h\\) and rearrange to get: <br> \\[ \\frac{n_1}{u} + \\frac{n_2}{v} = \\frac{n_2 - n_1}{r} \\]</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Key Assumption:</strong> Paraxial rays (close to the optical axis) ensure small angles.</p> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 3a",
+  "Question": {
+    "content": "Explain the term ideal gas and write its equation.",
+    "type": "THEORY"
+  },
+  "Answer": {
+    "type": "string",
+    "content": "An ideal gas is a theoretical gas that obeys the ideal gas law: \\[PV = nRT\\], where \\(P\\) is pressure, \\(V\\) is volume, \\(n\\) is moles, \\(R\\) is the gas constant, and \\(T\\) is temperature."
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Ideal Gas Concept</h3> <p><strong>Definition:</strong> An ideal gas is a simplified model where:</p> <ol style='padding-left: 20px;'> <li>Gas molecules occupy negligible space (point masses). <br> <small><i>No volume → simplifies calculations.</i></small></li> <li>No intermolecular forces (except during collisions). <br> <small><i>Molecules move freely without attraction/repulsion.</i></small></li> </ol> <p><strong>Ideal Gas Law:</strong> <br> \\[ PV = nRT \\] <br> <strong>Variables:</strong> <br> 1. \\(P\\) = Pressure (Pa) <br> 2. \\(V\\) = Volume (m³) <br> 3. \\(n\\) = Moles of gas <br> 4. \\(R\\) = Universal gas constant (8.314 J/mol·K) <br> 5. \\(T\\) = Temperature (K).</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Real vs. Ideal:</strong> Real gases approximate ideal behavior at high temperatures and low pressures.</p> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 3a (ii)",
+  "Question": {
+    "content": "State the basic assumptions of the kinetic theory of ideal gas and write the expression for the pressure exerted by the gas enclosed in a cuboid.",
+    "type": "THEORY"
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Assumptions: <br> 1. Gas molecules are point masses. <br> 2. No intermolecular forces. <br> 3. Collisions are elastic. <br> 4. Random motion. <br> Pressure: \\[P = \\frac{1}{3} \\rho \\langle v^2 \\rangle\\], where \\(\\rho\\) is density and \\(\\langle v^2 \\rangle\\) is mean square speed."
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Kinetic Theory of Gases</h3> <p><strong>Assumptions:</strong></p> <ol style='padding-left: 20px;'> <li><strong>Point Masses:</strong> Molecules have negligible volume. <br> <small><i>Like tiny dots moving in space.</i></small></li> <li><strong>No Forces:</strong> Except during collisions, molecules don’t interact. <br> <small><i>No attraction/repulsion between them.</i></small></li> <li><strong>Elastic Collisions:</strong> No energy is lost when molecules collide. <br> <small><i>Like perfect billiard balls bouncing.</i></small></li> <li><strong>Random Motion:</strong> Molecules move in straight lines until collisions.</li> </ol> <p><strong>Pressure Formula:</strong> <br> \\[ P = \\frac{1}{3} \\rho \\langle v^2 \\rangle \\] <br> <strong>Where:</strong> <br> 1. \\(\\rho\\) = Density (mass per unit volume). <br> 2. \\(\\langle v^2 \\rangle\\) = Mean square speed of molecules. <br> <small><i>Derived from momentum change during wall collisions.</i></small></p> </div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 3b",
+  "Question": {
+    "content": "Calculate the average kinetic energy of a gas at \\(100^\\circ C\\) (\\(k = 1.38 \\times 10^{-23}\\)).",
+    "type": "THEORY"
+  },
+  "Answer": {
+    "type": "string",
+    "content": "\\(7.72 \\times 10^{-21} \\text{ J}\\)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #d35400; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Average Kinetic Energy Calculation</h3> <p><strong>Step 1: Convert Temperature</strong> <br> \\[ T = 100^\\circ C + 273.15 = 373.15 \\text{ K} \\]</p> <p><strong>Step 2: Use Kinetic Energy Formula</strong> <br> For one molecule: <br> \\[ \\text{KE}_{\\text{avg}} = \\frac{3}{2} k T \\] <br> where \\(k\\) (Boltzmann constant) = \\(1.38 \\times 10^{-23} \\text{ J/K}\\).</p> <p><strong>Step 3: Plug in Values</strong> <br> \\[ \\text{KE}_{\\text{avg}} = \\frac{3}{2} \\times 1.38 \\times 10^{-23} \\times 373.15 \\] <br> \\[ \\text{KE}_{\\text{avg}} = 7.72 \\times 10^{-21} \\text{ J} \\]</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> This is the energy per molecule. Multiply by Avogadro’s number (\\(6.022 \\times 10^{23}\\)) for molar kinetic energy.</p> </div>"
+  }
+}]

@@ -11,7 +11,10 @@
     "type": "Instruction",
     "content": "Answer all Questions"
   },
-  
+  {
+    "type": "heading",
+    "heading": "Section A"
+  },
   {
     "type": "Question",
     "name": "Question 1",
@@ -675,7 +678,7 @@
   },
   {
     "type": "Question",
-    "name": "Question B1",
+    "name": "Question 1",
     "Question": {
       "content": "(a) Explain the difference between a mechanical wave and an electromagnetic wave<br/>(b) A pipe 15cm long is closed at one end. If the velocity of sound in air is 350m/s, find the frequency of the first note emitted",
       "type": "THEORY"
@@ -691,7 +694,7 @@
   },
   {
     "type": "Question",
-    "name": "Question B2",
+    "name": "Question 2",
     "Question": {
       "content": "(a) State (i) the laws of reflection (ii) laws of refraction<br/>(b) Blue light (\\(4.7 \\times 10^{-5}\\) cm) is diffracted by a grating (5000 lines/cm). Find the angular deviation of the 2nd order image",
       "type": "THEORY"
@@ -707,7 +710,7 @@
   },
   {
     "type": "Question",
-    "name": "Question B3",
+    "name": "Question 3",
     "Question": {
       "content": "(a) What are thermometric substances? Give examples<br/>(b) Platinum wire resistance at temperature \\(\\theta\\) is \\[ R_\\theta = R_0 (1 + \\alpha \\theta + \\beta \\theta^2) \\] with \\(\\alpha = 2.7 \\times 10^{-4}\\) and \\(\\beta = 4.9 \\times 10^{-8}\\). Find indicated temperature at \\(250^\\circ C\\) gas scale",
       "type": "THEORY"
