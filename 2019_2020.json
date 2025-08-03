@@ -11,14 +11,10 @@
     "content": "Answer all Questions"
   },
   {
-    "type": "heading",
-    "heading": "Section A"
-  },
-  {
     "type": "Question",
     "name": "Question 1",
     "Question": {
-      "content": "A wave travels 80 m in 4 s. The distance between successive crests is 50 cm. Find the frequency. (A) 0.4 Hz (B) 40 Hz (C) 2.5 Hz (D) 12 Hz",
+      "content": "A wave travels 80 m in 4 s. The distance between successive crests is 50 cm. Find the frequency.",
       "type": "OBJ",
       "options": ["0.4 Hz", "40 Hz", "2.5 Hz", "12 Hz"]
     },
@@ -28,14 +24,14 @@
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wave Frequency Calculation</h3> <p><strong>Given:</strong> <br> - Wave speed (\\( v \\)) = Distance / Time = 80 m / 4 s = 20 m/s. <br> - Wavelength (\\( \\lambda \\)) = 50 cm = 0.5 m.</p> <p><strong>Formula:</strong> <br> \\[ v = f \\lambda \\] <br> \\[ f = \\frac{v}{\\lambda} = \\frac{20}{0.5} = 40 \\text{ Hz} \\] </div>"
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wave Frequency Calculation</h3> <p><strong>Given:</strong> <br> - Wave speed (v) = 80 m / 4 s = 20 m/s <br> - Wavelength (λ) = 50 cm = 0.5 m</p> <p><strong>Formula:</strong> <br> v = fλ → f = v/λ = 20/0.5 = 40 Hz</p> </div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 2",
     "Question": {
-      "content": "A radio station broadcasts at 200 kHz. If the wave speed is \\( 3 \\times 10^8 \\) m/s, what is the wavelength? (A) 1.5 km (B) 5.0 km (C) 3.5 km (D) 2.7 km",
+      "content": "A radio station broadcasts at 200 kHz. If the wave speed is 3 × 10⁸ m/s, what is the wavelength?",
       "type": "OBJ",
       "options": ["1.5 km", "5.0 km", "3.5 km", "2.7 km"]
     },
@@ -45,14 +41,14 @@
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wavelength Calculation</h3> <p><strong>Given:</strong> <br> - Frequency (\\( f \\)) = 200 kHz = \\( 2 \\times 10^5 \\) Hz. <br> - Wave speed (\\( v \\)) = \\( 3 \\times 10^8 \\) m/s.</p> <p><strong>Formula:</strong> <br> \\[ \\lambda = \\frac{v}{f} = \\frac{3 \\times 10^8}{2 \\times 10^5} = 1500 \\text{ m} = 1.5 \\text{ km} \\] </div>"
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wavelength Calculation</h3> <p><strong>Given:</strong> <br> - Frequency (f) = 200 kHz = 2 × 10⁵ Hz <br> - Wave speed (v) = 3 × 10⁸ m/s</p> <p><strong>Formula:</strong> <br> λ = v/f = (3 × 10⁸)/(2 × 10⁵) = 1500 m = 1.5 km</p> </div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 3",
     "Question": {
-      "content": "A wave equation is \\( Y(x,t) = 0.55 \\sin(450\\pi t - \\pi x/1.7) \\). Calculate the wavelength. (A) 17.0 m (B) 8.5 m (C) 34.0 m (D) 44.0 m",
+      "content": "A wave equation is Y(x,t) = 0.55 sin(450πt - πx/1.7). Calculate the wavelength.",
       "type": "OBJ",
       "options": ["17.0 m", "8.5 m", "34.0 m", "44.0 m"]
     },
@@ -62,14 +58,14 @@
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wavelength from Wave Equation</h3> <p><strong>General Form:</strong> <br> \\[ Y(x,t) = A \\sin(\\omega t - kx) \\] <br> where \\( k = \\frac{2\\pi}{\\lambda} \\).</p> <p><strong>Given:</strong> <br> - \\( k = \\frac{\\pi}{1.7} \\). <br> Thus: <br> \\[ \\frac{2\\pi}{\\lambda} = \\frac{\\pi}{1.7} \\implies \\lambda = 3.4 \\text{ m} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The correct answer (3.4 m) is not listed; the closest is (A) 17.0 m.</p> </div>"
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wavelength from Wave Equation</h3> <p><strong>From equation:</strong> <br> k = π/1.7 <br> Since k = 2π/λ → λ = 2π/k = 2π/(π/1.7) = 3.4 m</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'>Note: Correct answer (3.4 m) not listed</p> </div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 4",
     "Question": {
-      "content": "A stationary siren emits 440 Hz. A train approaches it at 30 m/s. What frequency is received on the train? (Speed of sound = 331 m/s). (A) 250 Hz (B) 255 Hz (C) 370 Hz (D) 480 Hz",
+      "content": "A stationary siren emits 440 Hz. A train approaches it at 30 m/s. What frequency is received on the train? (Speed of sound = 331 m/s).",
       "type": "OBJ",
       "options": ["250 Hz", "255 Hz", "370 Hz", "480 Hz"]
     },
@@ -79,14 +75,14 @@
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Doppler Effect (Moving Observer)</h3> <p><strong>Formula:</strong> <br> \\[ f' = f \\left( \\frac{v + v_o}{v} \\right) \\] <br> where \\( v_o \\) is the observer's speed toward the source.</p> <p><strong>Given:</strong> <br> - \\( f = 440 \\) Hz, \\( v = 331 \\) m/s, \\( v_o = 30 \\) m/s.</p> <p><strong>Calculation:</strong> <br> \\[ f' = 440 \\times \\left( \\frac{331 + 30}{331} \\right) \\approx 480 \\text{ Hz} \\] </div>"
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Doppler Effect</h3> <p><strong>Formula:</strong> <br> f' = f(v + v₀)/v <br> <strong>Calculation:</strong> <br> f' = 440 × (331 + 30)/331 ≈ 480 Hz</p> </div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 5",
     "Question": {
-      "content": "Which is a musical wind instrument? (A) Senometer (B) Outer (C) Clarinet (D) Piano",
+      "content": "Which is a musical wind instrument?",
       "type": "OBJ",
       "options": ["Senometer", "Outer", "Clarinet", "Piano"]
     },
@@ -96,14 +92,14 @@
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wind Instruments</h3> <p><strong>Clarinet:</strong> A woodwind instrument that produces sound via a vibrating reed. <br> <strong>Other Options:</strong> <br> - Piano: String/percussion instrument. <br> - Senometer/Outer: Not standard musical terms.</p> </div>"
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wind Instruments</h3> <p>The clarinet is a woodwind instrument that produces sound via a vibrating reed.</p> </div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 6",
     "Question": {
-      "content": "Which property is a consequence of wave superposition? (A) Reflection (B) Refraction (C) Interference (D) Polarization",
+      "content": "Which property is a consequence of wave superposition?",
       "type": "OBJ",
       "options": ["Reflection", "Refraction", "Interference", "Polarization"]
     },
@@ -113,14 +109,14 @@
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wave Superposition</h3> <p><strong>Interference:</strong> <br> - Occurs when waves overlap, creating constructive (additive) or destructive (subtractive) effects. <br> - Example: Ripples in water combining to form larger/smaller waves.</p> <p><strong>Why Others Are Incorrect:</strong> <br> Reflection, refraction, and polarization are not directly caused by superposition.</p> </div>"
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wave Superposition</h3> <p>Interference occurs when waves overlap and combine, creating new wave patterns.</p> </div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 7",
     "Question": {
-      "content": "A wave has a 2.0 cm wavelength. Calculate the phase difference between two points 5 cm apart. (A) \\( 0.2\\pi \\) (B) 0.5 (C) \\( 2\\pi \\) (D) \\( \\pi \\)",
+      "content": "A wave has a 2.0 cm wavelength. Calculate the phase difference between two points 5 cm apart.",
       "type": "OBJ",
       "options": ["0.2π", "0.5", "2π", "π"]
     },
@@ -130,14 +126,14 @@
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #d35400; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Phase Difference Calculation</h3> <p><strong>Formula:</strong> <br> \\[ \\Delta \\phi = \\frac{2\\pi}{\\lambda} \\times \\Delta x \\] <br> <strong>Given:</strong> <br> - \\( \\lambda = 2.0 \\) cm, \\( \\Delta x = 5 \\) cm.</p> <p><strong>Calculation:</strong> <br> \\[ \\Delta \\phi = \\frac{2\\pi}{2} \\times 5 = 5\\pi \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The correct answer (5π) is not listed; the question may have errors.</p> </div>"
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #d35400; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Phase Difference</h3> <p><strong>Formula:</strong> <br> Δφ = (2π/λ) × Δx = (2π/2) × 5 = 5π</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'>Note: Correct answer (5π) not listed</p> </div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 8",
     "Question": {
-      "content": "Which property results from wave spreading after passing through a tiny opening? (A) Interference (B) Reflection (C) Refraction (D) Diffraction",
+      "content": "Which property results from wave spreading after passing through a tiny opening?",
       "type": "OBJ",
       "options": ["Interference", "Reflection", "Refraction", "Diffraction"]
     },
@@ -147,14 +143,14 @@
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Diffraction</h3> <p><strong>Definition:</strong> <br> - The bending and spreading of waves around obstacles or through openings. <br> - Example: Light spreading through a narrow slit.</p> <p><strong>Key Point:</strong> <br> Diffraction is most noticeable when the opening size is comparable to the wavelength.</p> </div>"
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Diffraction</h3> <p>Diffraction is the bending and spreading of waves around obstacles or through openings.</p> </div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 9",
     "Question": {
-      "content": "An open pipe has a fundamental frequency of 16.35 Hz. If the speed of sound is 343 m/s, what is the pipe length? (A) 10.49 m (B) 7.2 m (C) 6.0 m (D) 12 m (E) 17 m",
+      "content": "An open pipe has a fundamental frequency of 16.35 Hz. If the speed of sound is 343 m/s, what is the pipe length?",
       "type": "OBJ",
       "options": ["10.49 m", "7.2 m", "6.0 m", "12 m", "17 m"]
     },
@@ -164,14 +160,14 @@
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Open Pipe Length</h3> <p><strong>Formula (Fundamental Frequency):</strong> <br> \\[ f = \\frac{v}{2L} \\] <br> <strong>Given:</strong> <br> - \\( f = 16.35 \\) Hz, \\( v = 343 \\) m/s.</p> <p><strong>Calculation:</strong> <br> \\[ L = \\frac{v}{2f} = \\frac{343}{2 \\times 16.35} \\approx 10.49 \\text{ m} \\] </div>"
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Open Pipe Length</h3> <p><strong>Formula:</strong> <br> f = v/2L → L = v/2f = 343/(2 × 16.35) ≈ 10.49 m</p> </div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 10",
     "Question": {
-      "content": "An empty 25 cm deep bottle resonates when blown. What is its fundamental frequency? (Speed of sound = 340 m/s). (A) 340 Hz (B) 135 Hz (C) 68 Hz (D) 72 Hz",
+      "content": "An empty 25 cm deep bottle resonates when blown. What is its fundamental frequency? (Speed of sound = 340 m/s).",
       "type": "OBJ",
       "options": ["340 Hz", "135 Hz", "68 Hz", "72 Hz"]
     },
@@ -181,14 +177,14 @@
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Bottle Resonance</h3> <p><strong>Formula:</strong> <br> For a closed pipe (bottle), the fundamental frequency is: <br> \\[ f = \\frac{v}{4L} \\] <br> <strong>Given:</strong> <br> - \\( L = 25 \\) cm = 0.25 m, \\( v = 340 \\) m/s.</p> <p><strong>Calculation:</strong> <br> \\[ f = \\frac{340}{4 \\times 0.25} = 340 \\text{ Hz} \\] </div>"
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Bottle Resonance</h3> <p><strong>Formula:</strong> <br> f = v/4L = 340/(4 × 0.25) = 340 Hz</p> </div>"
     }
   },
-  {
+{
     "type": "Question",
     "name": "Question 11",
     "Question": {
-      "content": "A 2.0 m piano string has a wave speed of 140 m/s. What is its fundamental frequency? (A) 35 Hz (B) 70 Hz (C) 105 Hz (D) 15 Hz",
+      "content": "A 2.0 m piano string has a wave speed of 140 m/s. What is its fundamental frequency?",
       "type": "OBJ",
       "options": ["35 Hz", "70 Hz", "105 Hz", "15 Hz"]
     },
@@ -205,7 +201,7 @@
     "type": "Question",
     "name": "Question 12",
     "Question": {
-      "content": "The speed of sound at 20°C is 244 m/s. What is its speed at 43°C? (A) 254.2 m/s (B) 338 m/s (C) 450 m/s (D) 150.3 m/s",
+      "content": "The speed of sound at 20°C is 244 m/s. What is its speed at 43°C?",
       "type": "OBJ",
       "options": ["254.2 m/s", "338 m/s", "450 m/s", "150.3 m/s"]
     },
@@ -215,14 +211,14 @@
     },
     "Explanation": {
       "type": "string",
-      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Speed of Sound vs. Temperature</h3> <p><strong>Formula:</strong> <br> \\[ v \\propto \\sqrt{T} \\] <br> where \\( T \\) is absolute temperature (Kelvin).</p> <p><strong>Given:</strong> <br> - \\( v_1 = 244 \\) m/s at \\( T_1 = 293 \\) K (20°C). <br> - \\( T_2 = 316 \\) K (43°C).</p> <p><strong>Calculation:</strong> <br> \\[ \\frac{v_2}{v_1} = \\sqrt{\\frac{T_2}{T_1}} \\implies v_2 = 244 \\times \\sqrt{\\frac{316}{293}} \\approx 254.2 \\text{ m/s} \\] </div>"
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Speed of Sound vs. Temperature</h3> <p><strong>Formula:</strong> <br> \\[ v \\propto \\sqrt{T} \\] <br> where \\( T \\) is absolute temperature (Kelvin).</p> <p><strong>Given:</strong> <br> - \\( v_1 = 244 \\) m/s at \\( T_1 = 293 \\) K (20°C). <br> - \\( T_2 = 316 \\) K (43°C).</p> <p><strong>Calculation:</strong> <br> \\[ \\frac{v_2}{v_1} = \\sqrt{\\frac{T_2}{T_1}} \\implies v_2 = 244 \\times \\sqrt{\\frac{316}{293}} \\approx 254.2 \\text{ m/s} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The correct answer (3.4 m) is not listed; the closest is (A) 17.0 m.</p> </div>"
     }
   },
   {
     "type": "Question",
     "name": "Question 13",
     "Question": {
-      "content": "What is the intensity level of sound at 10 dB? (A) 40 dB (B) 20 dB (C) 10 dB (D) 4 dB",
+      "content": "What is the intensity level of sound at 10 dB?",
       "type": "OBJ",
       "options": ["40 dB", "20 dB", "10 dB", "4 dB"]
     },
@@ -239,7 +235,7 @@
     "type": "Question",
     "name": "Question 14",
     "Question": {
-      "content": "Which is NOT a psychological effect of noise? (A) Disturbs conversation (B) Disturbs sleep (C) Causes mental fatigue (D) Causes cracking of walls",
+      "content": "Which is NOT a psychological effect of noise?",
       "type": "OBJ",
       "options": ["Disturbs conversation", "Disturbs sleep", "Causes mental fatigue", "Causes cracking of walls"]
     },
@@ -256,7 +252,7 @@
     "type": "Question",
     "name": "Question 15",
     "Question": {
-      "content": "The inner ear is made up of: (A) Malleus and incus (B) Cochlea and auditory nerves (C) Eardrum and canal (D) None",
+      "content": "The inner ear is made up of:",
       "type": "OBJ",
       "options": ["Malleus and incus", "Cochlea and auditory nerves", "Eardrum and canal", "None"]
     },
@@ -273,7 +269,7 @@
     "type": "Question",
     "name": "Question 16",
     "Question": {
-      "content": "Find the speed of sound in water with bulk modulus \\( 2.1 \\times 10^9 \\, \\text{N/m}^2 \\) and density \\( 1.00 \\times 10^3 \\, \\text{kg/m}^3 \\). (A) 2.6 km/s (B) 1.4 km/s (C) 3.5 km/s (D) 6.2 km/s",
+      "content": "Find the speed of sound in water with bulk modulus \\( 2.1 \\times 10^9 \\, \\text{N/m}^2 \\) and density \\( 1.00 \\times 10^3 \\, \\text{kg/m}^3 \\).",
       "type": "OBJ",
       "options": ["2.6 km/s", "1.4 km/s", "3.5 km/s", "6.2 km/s"]
     },
@@ -290,7 +286,7 @@
     "type": "Question",
     "name": "Question 17",
     "Question": {
-      "content": "The body temperature of a normal human being is: (A) 300 K (B) 320 K (C) 310 K (D) 273 K",
+      "content": "The body temperature of a normal human being is:",
       "type": "OBJ",
       "options": ["300 K", "320 K", "310 K", "273 K"]
     },
@@ -307,7 +303,7 @@
     "type": "Question",
     "name": "Question 18",
     "Question": {
-      "content": "The correct temperature range for thermocouple measurements is: (A) -39°C to 500°C (B) -200°C to 1200°C (C) -270°C to 1200°C (D) -250°C to 1500°C",
+      "content": "The correct temperature range for thermocouple measurements is:",
       "type": "OBJ",
       "options": ["-39°C to 500°C", "-200°C to 1200°C", "-270°C to 1200°C", "-250°C to 1500°C"]
     },
@@ -324,7 +320,7 @@
     "type": "Question",
     "name": "Question 19",
     "Question": {
-      "content": "Determine the thermodynamic temperature at 850 mmHg if the triple point of water is 760 mmHg. (A) 305.51 K (B) 303.15 K (C) 273.16 K (D) 500.51 K",
+      "content": "Determine the thermodynamic temperature at 850 mmHg if the triple point of water is 760 mmHg.",
       "type": "OBJ",
       "options": ["305.51 K", "303.15 K", "273.16 K", "500.51 K"]
     },
@@ -341,7 +337,7 @@
     "type": "Question",
     "name": "Question 20",
     "Question": {
-      "content": "Convert 122°F to Celsius. (A) 20°C (B) 50°C (C) 30°C (D) 40°C",
+      "content": "Convert 122°F to Celsius.",
       "type": "OBJ",
       "options": ["20°C", "50°C", "30°C", "40°C"]
     },
@@ -358,7 +354,7 @@
     "type": "Question",
     "name": "Question 21",
     "Question": {
-      "content": "A thermometer's mercury thread lengths are 3 cm (ice point) and 23 cm (steam point). What is the temperature at 18 cm? (A) 275 K (B) 350 K (C) 348 K (D) 75 K",
+      "content": "A thermometer's mercury thread lengths are 3 cm (ice point) and 23 cm (steam point). What is the temperature at 18 cm?",
       "type": "OBJ",
       "options": ["275 K", "350 K", "348 K", "75 K"]
     },
@@ -375,7 +371,7 @@
     "type": "Question",
     "name": "Question 22",
     "Question": {
-      "content": "Calculate the RMS velocity of a gas (molar mass = 500 g/mol) at 300 K. (R = 8.31 J/mol·K). (A) 122.3 m/s (B) 12.23 m/s (C) 1.223 m/s (D) 132.3 m/s",
+      "content": "Calculate the RMS velocity of a gas (molar mass = 500 g/mol) at 300 K. (R = 8.31 J/mol·K).",
       "type": "OBJ",
       "options": ["122.3 m/s", "12.23 m/s", "1.223 m/s", "132.3 m/s"]
     },
@@ -392,7 +388,7 @@
     "type": "Question",
     "name": "Question 23",
     "Question": {
-      "content": "Calculate the heat absorbed by 800 g of a substance (specific heat = 150 J/kg·K) heated from 30°C to 120°C. (A) 10.8 kJ (B) 7000 J (C) 6000 kJ (D) 10800 J",
+      "content": "Calculate the heat absorbed by 800 g of a substance (specific heat = 150 J/kg·K) heated from 30°C to 120°C.",
       "type": "OBJ",
       "options": ["10.8 kJ", "7000 J", "6000 kJ", "10800 J"]
     },
@@ -405,11 +401,11 @@
       "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Heat Absorbed</h3> <p><strong>Formula:</strong> <br> \\[ Q = mc\\Delta T \\] <br> <strong>Given:</strong> <br> - \\( m = 800 \\, \\text{g} = 0.8 \\, \\text{kg} \\). <br> - \\( c = 150 \\, \\text{J/kg·K} \\). <br> - \\( \\Delta T = 120 - 30 = 90°C \\).</p> <p><strong>Calculation:</strong> <br> \\[ Q = 0.8 \\times 150 \\times 90 = 10,800 \\, \\text{J} = 10.8 \\, \\text{kJ} \\] </div>"
     }
   },
-  {
+{
     "type": "Question",
     "name": "Question 24",
     "Question": {
-      "content": "Which heat transfer mode does not require a material medium? (A) Convection & radiation (B) Conduction & radiation (C) Convection only (D) Radiation only",
+      "content": "Which heat transfer mode does not require a material medium?",
       "type": "OBJ",
       "options": ["Convection & radiation", "Conduction & radiation", "Convection only", "Radiation only"]
     },
@@ -426,7 +422,7 @@
     "type": "Question",
     "name": "Question 25",
     "Question": {
-      "content": "Calculate the average kinetic energy of an ideal gas at 300 K (\\( k = 1.38 \\times 10^{-23} \\, \\text{J/K} \\)). (A) \\( 5.21 \\times 10^{-21} \\, \\text{J} \\) (B) \\( 6.21 \\times 10^{-21} \\, \\text{J} \\) (C) \\( 6.21 \\times 10^{-21} \\, \\text{J} \\) (D) \\( 8.21 \\times 10^{-21} \\, \\text{J} \\)",
+      "content": "Calculate the average kinetic energy of an ideal gas at 300 K (\\( k = 1.38 \\times 10^{-23} \\, \\text{J/K} \\)).",
       "type": "OBJ",
       "options": ["5.21 × 10⁻²¹ J", "6.21 × 10⁻²¹ J", "6.21 × 10⁻²¹ J", "8.21 × 10⁻²¹ J"]
     },
@@ -443,7 +439,7 @@
     "type": "Question",
     "name": "Question 26",
     "Question": {
-      "content": "A gas occupies 600 dm³ at 500 N/m². What is its new volume if pressure reduces to 1/3? (A) 1000 dm³ (B) 1500 dm³ (C) 2000 dm³ (D) 3000 dm³",
+      "content": "A gas occupies 600 dm³ at 500 N/m². What is its new volume if pressure reduces to 1/3?",
       "type": "OBJ",
       "options": ["1000 dm³", "1500 dm³", "2000 dm³", "3000 dm³"]
     },
@@ -460,7 +456,7 @@
     "type": "Question",
     "name": "Question 27",
     "Question": {
-      "content": "Convert -126°C to Kelvin. (A) 277 K (B) 276 K (C) 247 K (D) 147 K",
+      "content": "Convert -126°C to Kelvin.",
       "type": "OBJ",
       "options": ["277 K", "276 K", "247 K", "147 K"]
     },
@@ -477,7 +473,7 @@
     "type": "Question",
     "name": "Question 28",
     "Question": {
-      "content": "The linear expansivity of a metal is \\( 2.4 \\times 10^{-5} \\, \\text{K}^{-1} \\). What is its area expansivity? (A) \\( 4.8 \\times 10^{-5} \\, \\text{K}^{-1} \\) (B) \\( 2.4 \\times 10^{-5} \\, \\text{K}^{-1} \\) (C) \\( 1.2 \\times 10^{-5} \\, \\text{K}^{-1} \\) (D) \\( 3.6 \\times 10^{-5} \\, \\text{K}^{-1} \\)",
+      "content": "The linear expansivity of a metal is \\( 2.4 \\times 10^{-5} \\, \\text{K}^{-1} \\). What is its area expansivity?",
       "type": "OBJ",
       "options": ["4.8 × 10⁻⁵ K⁻¹", "2.4 × 10⁻⁵ K⁻¹", "1.2 × 10⁻⁵ K⁻¹", "3.6 × 10⁻⁵ K⁻¹"]
     },
@@ -494,7 +490,7 @@
     "type": "Question",
     "name": "Question 29",
     "Question": {
-      "content": "Which is NOT a physical property used for temperature measurement? (A) Liquid expansion (B) Gas pressure at constant volume (C) Liquid volume at constant pressure (D) Electrical resistance",
+      "content": "Which is NOT a physical property used for temperature measurement?",
       "type": "OBJ",
       "options": ["Liquid expansion", "Gas pressure at constant volume", "Liquid volume at constant pressure", "Electrical resistance"]
     },
@@ -511,7 +507,7 @@
     "type": "Question",
     "name": "Question 30",
     "Question": {
-      "content": "Heat is supplied at 50 J/s for 1 hr 40 mins. Calculate total heat absorbed. (A) 300 J (B) 3000 J (C) 3000 kJ (D) 1000 kJ",
+      "content": "Heat is supplied at 50 J/s for 1 hr 40 mins. Calculate total heat absorbed.",
       "type": "OBJ",
       "options": ["300 J", "3000 J", "3000 kJ", "1000 kJ"]
     },
@@ -528,7 +524,7 @@
     "type": "Question",
     "name": "Question 31",
     "Question": {
-      "content": "A thermometer reads 120 Ω at the triple point of water. What is the temperature when resistance increases by 30 Ω? (A) 314.46 K (B) 341.45 K (C) 351.14 K (D) 315.45 K",
+      "content": "A thermometer reads 120 Ω at the triple point of water. What is the temperature when resistance increases by 30 Ω?",
       "type": "OBJ",
       "options": ["314.46 K", "341.45 K", "351.14 K", "315.45 K"]
     },
@@ -545,7 +541,7 @@
     "type": "Question",
     "name": "Question 33",
     "Question": {
-      "content": "Which instrument is used to detect radiant heat? (A) Thermocouple (B) Thermostat (C) Black body (D) Thermopile",
+      "content": "Which instrument is used to detect radiant heat?",
       "type": "OBJ",
       "options": ["Thermocouple", "Thermostat", "Black body", "Thermopile"]
     },
@@ -562,7 +558,7 @@
     "type": "Question",
     "name": "Question 34",
     "Question": {
-      "content": "The speed of sound is greater in solids than gases due to high: (A) Density (B) Pressure (C) Elasticity (D) Temperature",
+      "content": "The speed of sound is greater in solids than gases due to high:",
       "type": "OBJ",
       "options": ["Density", "Pressure", "Elasticity", "Temperature"]
     },
@@ -579,7 +575,7 @@
     "type": "Question",
     "name": "Question 35",
     "Question": {
-      "content": "Beats can be heard when the frequency difference is not more than: (A) \\( \\text{k} \\) (B) 4 (C) 10 (D) 6",
+      "content": "Beats can be heard when the frequency difference is not more than:",
       "type": "OBJ",
       "options": ["k", "4", "10", "6"]
     },
@@ -596,7 +592,7 @@
     "type": "Question",
     "name": "Question 36",
     "Question": {
-      "content": "A metal container (heat capacity = 200 J/°C) is heated from 15°C to 45°C. What is the heat required? (A) 600 J (B) 370 N (C) 6000 kJ (D) 370 kN",
+      "content": "A metal container (heat capacity = 200 J/°C) is heated from 15°C to 45°C. What is the heat required?",
       "type": "OBJ",
       "options": ["600 J", "370 N", "6000 kJ", "370 kN"]
     },
@@ -613,7 +609,7 @@
     "type": "Question",
     "name": "Question 37",
     "Question": {
-      "content": "All EM spectrum components share: (A) Wavelength (B) Frequency (C) Velocity (D) Displacement (E) Acceleration",
+      "content": "All EM spectrum components share:",
       "type": "OBJ",
       "options": ["Wavelength", "Frequency", "Velocity", "Displacement", "Acceleration"]
     },
@@ -630,7 +626,7 @@
     "type": "Question",
     "name": "Question 38",
     "Question": {
-      "content": "Which is NOT part of the EM spectrum? (A) Visible light (B) Radio waves (C) Ultraviolet (D) Gamma rays (E) X-rays",
+      "content": "Which is NOT part of the EM spectrum?",
       "type": "OBJ",
       "options": ["Visible light", "Radio waves", "Ultraviolet", "Gamma rays", "X-rays"]
     },
@@ -647,7 +643,7 @@
     "type": "Question",
     "name": "Question 39",
     "Question": {
-      "content": "The wavelength range of visible light is: (A) 0.2-0.3 μm (B) 0.3-0.5 μm (C) 0.4-0.6 μm (D) 0.4-0.7 μm (E) 0.3-0.7 μm",
+      "content": "The wavelength range of visible light is:",
       "type": "OBJ",
       "options": ["0.2-0.3 μm", "0.3-0.5 μm", "0.4-0.6 μm", "0.4-0.7 μm", "0.3-0.7 μm"]
     },
@@ -664,7 +660,7 @@
     "type": "Question",
     "name": "Question 40",
     "Question": {
-      "content": "What is the relationship between focal length (\\( f \\)) and radius of curvature (\\( r \\)) of a curved mirror? (A) \\( f = 2r \\) (B) \\( r = f/2 \\) (C) \\( r = 2/f \\) (D) \\( f = r/2 \\) (E) \\( f = 2/r \\)",
+      "content": "What is the relationship between focal length (\\( f \\)) and radius of curvature (\\( r \\)) of a curved mirror?",
       "type": "OBJ",
       "options": ["f = 2r", "r = f/2", "r = 2/f", "f = r/2", "f = 2/r"]
     },
@@ -681,7 +677,7 @@
     "type": "Question",
     "name": "Question 41",
     "Question": {
-      "content": "A light beam parallel to the principal axis of a concave mirror converges at: (A) Radius of curvature (B) Pole (C) Principal focus (D) Principal axis (E) Converging point",
+      "content": "A light beam parallel to the principal axis of a concave mirror converges at:",
       "type": "OBJ",
       "options": ["Radius of curvature", "Pole", "Principal focus", "Principal axis", "Converging point"]
     },
@@ -698,7 +694,7 @@
     "type": "Question",
     "name": "Question 42",
     "Question": {
-      "content": "Refraction is caused by: (A) Density differences (B) Frequency differences (C) Wavelength differences (D) Velocity differences (E) Media type differences",
+      "content": "Refraction is caused by:",
       "type": "OBJ",
       "options": ["Density differences", "Frequency differences", "Wavelength differences", "Velocity differences", "Media type differences"]
     },
@@ -715,7 +711,7 @@
     "type": "Question",
     "name": "Question 43",
     "Question": {
-      "content": "When a mirror is rotated by angle θ, the reflected ray rotates by: (A) θ (B) 2θ (C) 4θ (D) 5θ (E) None",
+      "content": "When a mirror is rotated by angle θ, the reflected ray rotates by:",
       "type": "OBJ",
       "options": ["θ", "2θ", "4θ", "5θ", "None"]
     },
@@ -732,7 +728,7 @@
     "type": "Question",
     "name": "Question 44",
     "Question": {
-      "content": "An object is placed in front of a convex mirror (focal length = 10 cm). If the image is 8 cm from the mirror, find the object distance. (A) 20 cm (B) 10 cm (C) 30 cm (D) 35 cm (E) 40 cm",
+      "content": "An object is placed in front of a convex mirror (focal length = 10 cm). If the image is 8 cm from the mirror, find the object distance.",
       "type": "OBJ",
       "options": ["20 cm", "10 cm", "30 cm", "35 cm", "40 cm"]
     },
@@ -749,7 +745,7 @@
     "type": "Question",
     "name": "Question 45",
     "Question": {
-      "content": "All real objects/images/foci are positive, while virtual ones are negative. (A) True (B) False",
+      "content": "All real objects/images/foci are positive, while virtual ones are negative.",
       "type": "OBJ",
       "options": ["True", "False"]
     },
@@ -766,7 +762,7 @@
     "type": "Question",
     "name": "Question 46",
     "Question": {
-      "content": "Which statements about spherical mirrors are correct? (i) Parallel rays converge at F. (ii) Rays through C reflect normally. (iii) All rays obey reflection laws. (A) (i) (B) (ii) (C) (iii) (D) (i)-(iii) (E) (i)-(ii)",
+      "content": "Which statements about spherical mirrors are correct? (i) Parallel rays converge at F. (ii) Rays through C reflect normally. (iii) All rays obey reflection laws.",
       "type": "OBJ",
       "options": ["(i)", "(ii)", "(iii)", "(i)-(iii)", "(i)-(ii)"]
     },
@@ -783,7 +779,7 @@
     "type": "Question",
     "name": "Question 47",
     "Question": {
-      "content": "An object is 10 cm from a concave mirror. The image is 40 cm behind the mirror. Find the focal length. (A) 8 cm (B) 8.5 cm (C) 9 cm (D) 7.5 cm (E) 6 cm",
+      "content": "An object is 10 cm from a concave mirror. The image is 40 cm behind the mirror. Find the focal length.",
       "type": "OBJ",
       "options": ["8 cm", "8.5 cm", "9 cm", "7.5 cm", "6 cm"]
     },
@@ -800,7 +796,7 @@
     "type": "Question",
     "name": "Question 48",
     "Question": {
-      "content": "Light travels at \\( 1.94 \\times 10^8 \\, \\text{m/s} \\) in quartz (wavelength = 355 nm). What is quartz's refractive index? (A) 1.60 (B) 1.55 (C) 1.45 (D) 1.35",
+      "content": "Light travels at \\( 1.94 \\times 10^8 \\, \\text{m/s} \\) in quartz (wavelength = 355 nm). What is quartz's refractive index?",
       "type": "OBJ",
       "options": ["1.60", "1.55", "1.45", "1.35"]
     },
@@ -817,7 +813,7 @@
     "type": "Question",
     "name": "Question 49",
     "Question": {
-      "content": "Light with a frequency of \\( 5.8 \\times 10^{14} \\, \\text{Hz} \\) travels in a block of glass that has an index of refraction of 1.52. If the speed of light in the vacuum is \\( 3.0 \\times 10^8 \\, \\text{m/s} \\), the wavelength of the light in vacuum and glass would be? (A) \\( 5.17 \\times 10^{-7} \\, \\text{m and } 3.40 \\times 10^{-7} \\, \\text{m} \\) (B) \\( 6.17 \\times 10^{-7} \\, \\text{m and } 1.40 \\times 10^{-7} \\, \\text{m} \\) (C) \\( 4.17 \\times 10^{-7} \\, \\text{m and } 2.40 \\times 10^{-7} \\, \\text{m} \\) (D) \\( 3.17 \\times 10^{-7} \\, \\text{m and } 2.40 \\times 10^{-7} \\, \\text{m} \\) (E) \\( 3.14 \\times 10^{-7} \\, \\text{m and } 3.40 \\times 10^{-7} \\, \\text{m} \\)",
+      "content": "Light with a frequency of \\( 5.8 \\times 10^{14} \\, \\text{Hz} \\) travels in a block of glass that has an index of refraction of 1.52. If the speed of light in the vacuum is \\( 3.0 \\times 10^8 \\, \\text{m/s} \\), the wavelength of the light in vacuum and glass would be?",
       "type": "OBJ",
       "options": ["\\( 5.17 \\times 10^{-7} \\, \\text{m and } 3.40 \\times 10^{-7} \\, \\text{m} \\)", "\\( 6.17 \\times 10^{-7} \\, \\text{m and } 1.40 \\times 10^{-7} \\, \\text{m} \\)", "\\( 4.17 \\times 10^{-7} \\, \\text{m and } 2.40 \\times 10^{-7} \\, \\text{m} \\)", "\\( 3.17 \\times 10^{-7} \\, \\text{m and } 2.40 \\times 10^{-7} \\, \\text{m} \\)", "\\( 3.14 \\times 10^{-7} \\, \\text{m and } 3.40 \\times 10^{-7} \\, \\text{m} \\)"]
     },
@@ -834,7 +830,7 @@
     "type": "Question",
     "name": "Question 50",
     "Question": {
-      "content": "Where must an object be placed with respect to a convex mirror with a focal length of \\( 25 \\, \\text{cm} \\), in order to obtain an image two-thirds as far behind the mirror as the object is in front? (A) \\( 10.5 \\, \\text{cm} \\) (B) \\( 11.0 \\, \\text{cm} \\) (C) \\( 12.5 \\, \\text{cm} \\) (D) \\( 13.5 \\, \\text{cm} \\) (E) \\( 13.0 \\, \\text{cm} \\)",
+      "content": "Where must an object be placed with respect to a convex mirror with a focal length of \\( 25 \\, \\text{cm} \\), in order to obtain an image two-thirds as far behind the mirror as the object is in front?",
       "type": "OBJ",
       "options": ["\\( 10.5 \\, \\text{cm} \\)", "\\( 11.0 \\, \\text{cm} \\)", "\\( 12.5 \\, \\text{cm} \\)", "\\( 13.5 \\, \\text{cm} \\)", "\\( 13.0 \\, \\text{cm} \\)"]
     },
@@ -847,6 +843,5 @@
       "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Object Placement for Convex Mirror</h3> <p><strong>Given:</strong> <br> - Focal length \\( f = -25 \\, \\text{cm} \\) (negative for convex mirror) <br> - Image distance \\( d_i = -\\frac{2}{3}d_o \\) (negative because the image is virtual and behind the mirror, and two-thirds the object distance \\( d_o \\))</p> <p><strong>Step 1: Mirror formula:</strong> <br> \\[ \\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i} \\] <br> Substitute \\( d_i \\): <br> \\[ \\frac{1}{-25} = \\frac{1}{d_o} + \\frac{1}{-\\frac{2}{3}d_o} \\]</p> <p><strong>Step 2: Solve for \\( d_o \\):</strong> <br> Simplify the equation: <br> \\[ \\frac{1}{-25} = \\frac{1}{d_o} - \\frac{3}{2d_o} = -\\frac{1}{2d_o} \\] <br> Multiply both sides by \\( -2d_o \\): <br> \\[ \\frac{2d_o}{25} = 1 \\] <br> \\[ d_o = \\frac{25}{2} = 12.5 \\, \\text{cm} \\]</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Correct option:</strong> (C) \\( 12.5 \\, \\text{cm} \\).</p> </div>"
     }
   }
-  
 ]
 
