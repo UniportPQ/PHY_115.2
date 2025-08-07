@@ -184,7 +184,7 @@
     },
     "Answer": {
       "type": "string",
-      "content": "35Hz and 105Hz"
+      "content": "70Hz and 105Hz"
     },
     "Explanation": {
       "type": "string",
