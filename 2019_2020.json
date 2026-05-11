@@ -1,15 +1,15 @@
 [{
-    "type": "pageInfo",
-    "kind": "pureOBJ",
-    "course_title": "Waves, Optics and Thermal Physics",
-    "code": "PHY 115.2",
-    "session": "2019/2020",
-    "time": "90"
-  },
-  {
-    "type": "Instruction",
-    "content": "Answer all Questions"
-  },
+  "type": "pageInfo",
+  "kind": "pureOBJ",
+  "course_title": "Waves, Optics and Thermal Physics",
+  "code": "PHY 115.2",
+  "session": "2019/2020",
+  "time": "90"
+},
+{
+  "type": "Instruction",
+  "content": "Answer all Questions"
+},
   {
     "type": "Question",
     "name": "Question 1",
