@@ -1,1 +1,1001 @@
-{}
+[
+  {
+    "type": "pageInfo",
+    "kind": "subjective",
+    "course_title": "Waves, Optics and Thermal Physics",
+    "code": "PHY 115.2",
+    "session": "2024/2025",
+    "topics": [
+      "Physics",
+      "Waves",
+      "Wave Mechanics",
+      "Optics",
+      "Reflection",
+      "Mirrors",
+      "Sound",
+      "Wave Equations",
+      "Refraction",
+      "Thermal Physics",
+      "Heat Capacity",
+      "Geometrical Optics",
+      "Electromagnetic Waves",
+      "Stretched Strings",
+      "Light Spectrum",
+      "Atmospheric Optics",
+      "Temperature Measurement",
+      "Acoustics",
+      "Doppler Effect",
+      "Sound Velocity",
+      "Wave Intensity",
+      "Dispersion",
+      "Lenses",
+      "Temperature Conversion",
+      "Prisms",
+      "Temperature Scales"
+    ],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "heading",
+    "heading": "Section A"
+  },
+  
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": [
+      "Physics",
+      "Waves",
+      "Wave Mechanics"
+    ],
+    "Question": {
+      "content": "Transverse and longitudinal waves travelling in the same direction in a medium differ mainly in their:",
+      "type": "OBJ",
+      "options": [
+        "Amplitude",
+        "The direction of vibration of the particles of the medium",
+        "Frequency",
+        "Wavelength"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The direction of vibration of the particles of the medium"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Wave Particle Motion</h4><p>The correct option is <strong>The direction of vibration of the particles of the medium</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>In transverse waves, particles vibrate perpendicular to the direction of wave travel.<br>In longitudinal waves, particles vibrate parallel to the direction of wave travel.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": [
+      "Physics",
+      "Optics"
+    ],
+    "Question": {
+      "content": "The branch of physics concerned with the study of light and its phenomena is called ________.",
+      "type": "OBJ",
+      "options": [
+        "Optics",
+        "Kinematic",
+        "Dynamic",
+        "Heat"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Optics"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Definition of Optics</h4><p>The correct option is <strong>Optics</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>Optics is explicitly defined as the subfield of physics that studies the behavior and properties of light.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": [
+      "Physics",
+      "Optics",
+      "Reflection"
+    ],
+    "Question": {
+      "content": "If light rays intersect a plane mirror at an angle of 25° from the vertical line to the surface, find the angle between the incident and reflected rays.",
+      "type": "OBJ",
+      "options": [
+        "45°",
+        "50°",
+        "55°",
+        "60°"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "50°"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Angle Between Rays</h4><p>The correct option is <strong>50°</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>The vertical line to the mirror surface is the normal line, so the angle of incidence is \\( i = 25^\\circ \\).<br>By the law of reflection, the angle of reflection is \\( r = i = 25^\\circ \\).<br>The total angle between incident and reflected rays is \\( i + r = 25^\\circ + 25^\\circ = 50^\\circ \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": [
+      "Physics",
+      "Optics",
+      "Mirrors"
+    ],
+    "Question": {
+      "content": "An object 3 cm high is placed 16 cm in front of a converging mirror so that it produces an image of 40 cm from the mirror. Find the height of the image.",
+      "type": "OBJ",
+      "options": [
+        "6.5 cm",
+        "5.5 cm",
+        "7.5 cm",
+        "4.5 cm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "7.5 cm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Magnification Formula</h4><p>The correct option is <strong>7.5 cm</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>Magnification: \\( M = \\frac{\\text{Image distance } (v)}{\\text{Object distance } (u)} = \\frac{\\text{Image height } (h_i)}{\\text{Object height } (h_o)} \\)<br>\\( \\frac{40}{16} = \\frac{h_i}{3} \\)<br>\\( h_i = \\frac{40 \\times 3}{16} = 7.5 \\text{ cm} \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": [
+      "Physics",
+      "Waves",
+      "Sound"
+    ],
+    "Question": {
+      "content": "A vibrating source has a frequency of 450 Hz. If the velocity of sound it produces in air is 350 m/s, how far does the sound travels when the source complete 50 vibrations.",
+      "type": "OBJ",
+      "options": [
+        "76.6 m",
+        "15.45 m",
+        "30.4 m",
+        "36.67 m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "38.89 m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Distance of Sound Waves</h4><p>Note: The calculated value 38.89 m is closest to option (d) 36.67 m on the test print.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>Wavelength: \\( \\lambda = \\frac{v}{f} = \\frac{350}{450} = \\frac{7}{9} \\text{ m} \\).<br>One full vibration covers a distance of one wavelength.<br>Total distance for 50 vibrations: \\( d = 50 \\times \\frac{7}{9} = 38.89 \\text{ m} \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": [
+      "Physics",
+      "Waves",
+      "Wave Equations"
+    ],
+    "Question": {
+      "content": "If a plane progressive wave represented by the equation \\( y = 2\\sin(2000\\pi t - 0.5x) \\). What is the frequency of the wave?",
+      "type": "OBJ",
+      "options": [
+        "2000 Hz",
+        "1000 Hz",
+        "500 Hz",
+        "3000 Hz"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1000 Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Wave Equation Frequency</h4><p>The correct option is <strong>1000 Hz</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>Standard wave format: \\( y = A\\sin(\\omega t - kx) \\), where \\( \\omega = 2\\pi f \\).<br>From the given equation: \\( \\omega = 2000\\pi \\).<br>Therefore: \\( 2\\pi f = 2000\\pi \\implies f = 1000 \\text{ Hz} \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7a",
+    "topic": [
+      "Physics",
+      "Optics",
+      "Mirrors"
+    ],
+    "Question": {
+      "content": "A man stands 50 cm from a concave mirror with radius of curvature 10 cm. Find the position of the image.",
+      "type": "OBJ",
+      "options": [
+        "5.56 cm",
+        "6.65 cm",
+        "7.5 cm",
+        "7.80 cm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5.56 cm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Concave Mirror Image Position</h4><p>The correct option is <strong>5.56 cm</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>Focal length: \\( f = \\frac{R}{2} = \\frac{10}{2} = 5 \\text{ cm} \\). Object distance \\( u = 50 \\text{ cm} \\).<br>Mirror equation: \\( \\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v} \\implies \\frac{1}{5} = \\frac{1}{50} + \\frac{1}{v} \\).<br>\\( \\frac{1}{v} = \\frac{1}{5} - \\frac{1}{50} = \\frac{9}{50} \\implies v = \\frac{50}{9} = 5.56 \\text{ cm} \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7b",
+    "topic": [
+      "Physics",
+      "Optics",
+      "Mirrors"
+    ],
+    "Question": {
+      "content": "A man stands 50 cm from a concave mirror with radius of curvature 10 cm. Find the magnification of the image.",
+      "type": "OBJ",
+      "options": [
+        "0.11",
+        "0.12",
+        "0.13",
+        "0.14"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.11"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Concave Mirror Magnification</h4><p>The correct option is <strong>0.11</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>Magnification Formula: \\( M = \\frac{v}{u} \\).<br>From the previous part: \\( v = 5.56 \\text{ cm} \\) and \\( u = 50 \\text{ cm} \\).<br>\\( M = \\frac{5.56}{50} = 0.1111 \\approx 0.11 \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": [
+      "Physics",
+      "Optics",
+      "Refraction"
+    ],
+    "Question": {
+      "content": "The critical angle at an air-liquid interface is 50°. Calculate the refractive index of the liquid.",
+      "type": "OBJ",
+      "options": [
+        "1.60",
+        "1.50",
+        "1.31",
+        "1.42"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.31"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Critical Angle Calculation</h4><p>The correct option is <strong>1.31</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>Refractive index formula: \\( n = \\frac{1}{\\sin(C)} \\).<br>Given critical angle \\( C = 50^\\circ \\):<br>\\( n = \\frac{1}{\\sin(50^\\circ)} = \\frac{1}{0.7660} \\approx 1.31 \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": [
+      "Physics",
+      "Optics",
+      "Refraction"
+    ],
+    "Question": {
+      "content": "Refractive index of a material depends on the ________ of the light.",
+      "type": "OBJ",
+      "options": [
+        "Colour",
+        "Dispersion",
+        "Energy",
+        "Displacement"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Colour"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Refractive Index Dependence</h4><p>The correct option is <strong>Colour</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>Refractive index changes with the wavelength (which corresponds directly to the colour) of the incident light light.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": [
+      "Physics",
+      "Thermal Physics",
+      "Heat Capacity"
+    ],
+    "Question": {
+      "content": "The quantity of heat in a body of mass 800g and specific heat capacity \\( 150 \\text{ Jkg}^{-1}\\text{K}^{-1} \\) when heated from a temperature of 30°C to 120°C is:",
+      "type": "OBJ",
+      "options": [
+        "10800kJ",
+        "7000kg",
+        "6000kJ",
+        "10800J"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "10800J"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Heat Energy Calculation</h4><p>The correct option is <strong>10800J</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>Convert mass to kg: \\( m = 0.8 \\text{ kg} \\). Temperature change: \\( \\Delta T = 120 - 30 = 90^\\circ\\text{C} \\).<br>Heat formula: \\( Q = mc\\Delta T \\)<br>\\( Q = 0.8 \\times 150 \\times 90 = 10,800 \\text{ J} \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": [
+      "Physics",
+      "Optics",
+      "Geometrical Optics"
+    ],
+    "Question": {
+      "content": "Which of the following principles govern light phenomena in geometrical optics: (i) rectilinear propagation of light, (ii) independence of light rays, (iii) reversibility of light rays, (iv) photoelectric effect.",
+      "type": "OBJ",
+      "options": [
+        "i & ii",
+        "i & iii",
+        "i, ii & iii",
+        "all of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "i, ii & iii"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Geometrical Optics Principles</h4><p>The correct option is <strong>i, ii & iii</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>Rectilinear propagation, independence, and reversibility are core foundational postulates of classical geometrical optics.<br>The photoelectric effect belongs to modern quantum mechanics.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": [
+      "Physics",
+      "Waves",
+      "Electromagnetic Waves"
+    ],
+    "Question": {
+      "content": "Which of the following is not a mechanical wave?",
+      "type": "OBJ",
+      "options": [
+        "wave in a string",
+        "radio wave",
+        "sound wave",
+        "wave in a closed pipe"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "radio wave"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Mechanical vs EM Waves</h4><p>The correct option is <strong>radio wave</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>Radio waves are electromagnetic waves, meaning they travel through a vacuum and do not require a physical material medium.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": [
+      "Physics",
+      "Waves",
+      "Stretched Strings"
+    ],
+    "Question": {
+      "content": "A wire of mass 1.0 g and length 50 cm is stretched by a tension of 80 N. What is the fundamental frequency?",
+      "type": "OBJ",
+      "options": [
+        "200Hz",
+        "400Hz",
+        "600Hz",
+        "100Hz"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "200Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Fundamental Frequency of String</h4><p>The correct option is <strong>200Hz</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>Mass per unit length: \\( \\mu = \\frac{0.001 \\text{ kg}}{0.5 \\text{ m}} = 0.002 \\text{ kg/m} \\).<br>Fundamental frequency: \\( f_1 = \\frac{1}{2L}\\sqrt{\\frac{T}{\\mu}} \\)<br>\\( f_1 = \\frac{1}{2(0.5)}\\sqrt{\\frac{80}{0.002}} = 1 \\times \\sqrt{40000} = 200 \\text{ Hz} \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": [
+      "Physics",
+      "Waves",
+      "Sound"
+    ],
+    "Question": {
+      "content": "The characteristics of sound that enable us to distinguish between the cry of a baby and her mother is:",
+      "type": "OBJ",
+      "options": [
+        "velocity",
+        "pitch",
+        "power",
+        "loudness"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "pitch"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Sound Characteristics</h4><p>The correct option is <strong>pitch</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>Pitch depends on the wave frequency. A baby's vocal cords produce higher frequencies than an adult's, creating a clear difference in pitch.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": [
+      "Physics",
+      "Optics",
+      "Light Spectrum"
+    ],
+    "Question": {
+      "content": "The correct sequence of visible light in increasing wavelength is:",
+      "type": "OBJ",
+      "options": [
+        "VIBGYOR",
+        "BIGVYOR",
+        "BRYOGIV",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "VIBGYOR"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Visible Spectrum Sequence</h4><p>The correct option is <strong>VIBGYOR</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>VIBGYOR stands for Violet, Indigo, Blue, Green, Yellow, Orange, Red.<br>Violet has the shortest wavelength (highest energy), and Red has the longest wavelength.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": [
+      "Physics",
+      "Optics",
+      "Atmospheric Optics"
+    ],
+    "Question": {
+      "content": "When sunlight passes through water droplets in the atmosphere to form a rainbow, it undergoes: (i) refraction (ii) reflection (iii) dispersion (iv) diffraction",
+      "type": "OBJ",
+      "options": [
+        "all of the above",
+        "none of the above",
+        "i, ii & iii",
+        "iii & iv"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "i, ii & iii"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Rainbow Formation</h4><p>The correct option is <strong>i, ii & iii</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>Rainbow formation requires light entering a drop (refraction), separating into colours (dispersion), and bounding off the back inner surface (total internal reflection).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": [
+      "Physics",
+      "Thermal Physics",
+      "Temperature Measurement"
+    ],
+    "Question": {
+      "content": "Which of the following makes use of radiant energy as a thermometric substance?",
+      "type": "OBJ",
+      "options": [
+        "Thermocouple",
+        "Optical pyrometer",
+        "Clinical thermometer",
+        "Gas thermometer"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Optical pyrometer"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Radiation Pyrometry</h4><p>The correct option is <strong>Optical pyrometer</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>An optical pyrometer estimates high temperatures by looking at the intensity of thermal radiation emitted by a glowing object without direct contact.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": [
+      "Physics",
+      "Waves",
+      "Acoustics"
+    ],
+    "Question": {
+      "content": "The instrument used for studying the frequency of notes from string instrument is:",
+      "type": "OBJ",
+      "options": [
+        "Sonometer",
+        "Barometer",
+        "Thermogram",
+        "Telescope"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Sonometer"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Acoustic Measuring Tools</h4><p>The correct option is <strong>Sonometer</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>A sonometer is a diagnostic lab apparatus used to test the relationship between the frequency of a stretched string, its tension, and its length.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": [
+      "Physics",
+      "Waves",
+      "Doppler Effect"
+    ],
+    "Question": {
+      "content": "A train blowing a whistle of frequency 320Hz approaches a stationary observer at a speed of 66 m/s. What is the frequency observed by the observer if the speed of sound in air is 330m/s?",
+      "type": "OBJ",
+      "options": [
+        "400Hz",
+        "350Hz",
+        "20Hz",
+        "150Hz"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "400Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Doppler Shift Shift Formula</h4><p>The correct option is <strong>400Hz</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>Doppler effect equation: \\( f' = f \\left( \\frac{v}{v - v_s} \\right) \\)<br>\\( f' = 320 \\left( \\frac{330}{330 - 66} \\right) = 320 \\left( \\frac{330}{264} \\right) = 400 \\text{ Hz} \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "topic": [
+      "Physics",
+      "Waves",
+      "Sound Velocity"
+    ],
+    "Question": {
+      "content": "When the temperature of a medium increases, the velocity of sound will:",
+      "type": "OBJ",
+      "options": [
+        "Decreases",
+        "Increases",
+        "remain the same",
+        "becomes zero"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Increases"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Temperature Effect on Sound</h4><p>The correct option is <strong>Increases</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>The velocity of sound in a gas is directly proportional to the square root of its absolute temperature (\\( v \\propto \\sqrt{T} \\)). Higher temperature increases gas molecular kinetic energy.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21",
+    "topic": [
+      "Physics",
+      "Waves",
+      "Wave Intensity"
+    ],
+    "Question": {
+      "content": "The intensity of sound wave is proportional to the ----- of the amplitude.",
+      "type": "OBJ",
+      "options": [
+        "Square root",
+        "Cube root",
+        "Square",
+        "Cube"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Square"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Wave Intensity Proportion</h4><p>The correct option is <strong>Square</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>In wave dynamics, the total power or intensity delivered per unit area is proportional to the square of its maximum displacement amplitude (\\( I \\propto A^2 \\)).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "topic": [
+      "Physics",
+      "Optics",
+      "Dispersion"
+    ],
+    "Question": {
+      "content": "When considering the spectrum of white light, the most and least deviated rays are ____ and ____ respectively.",
+      "type": "OBJ",
+      "options": [
+        "Red, Green",
+        "Violet, Red",
+        "Orange, Blue",
+        "Blue, Red"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Violet, Red"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Chromatic Dispersion</h4><p>The correct option is <strong>Violet, Red</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>Violet light is slowed down the most inside a glass prism and bends (deviates) the most.<br>Red light travels faster with less interaction, bending the least.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "topic": [
+      "Physics",
+      "Optics",
+      "Lenses"
+    ],
+    "Question": {
+      "content": "A converging lens formed an image which is erect and magnified four times. Calculate the object distance if the focal length is 20 cm.",
+      "type": "OBJ",
+      "options": [
+        "20 cm",
+        "25 cm",
+        "18 cm",
+        "15 cm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "15 cm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. For an erect (virtual) image in a converging lens, magnification is positive: \\( m = +4 \\).<br>2. Using the magnification formula \\( m = \\frac{v}{u} \\), we get \\( 4 = \\frac{v}{u} \\implies v = -4u \\) (negative sign indicates virtual image).<br>3. Substitute into the lens formula \\( \\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v} \\):<br>\\( \\frac{1}{20} = \\frac{1}{u} - \\frac{1}{4u} \\)<br>\\( \\frac{1}{20} = \\frac{4 - 1}{4u} = \\frac{3}{4u} \\)<br>4. Cross-multiplying gives \\( 4u = 60 \\implies u = 15\\text{ cm} \\).<br><br><strong>Final Answer:</strong> 15 cm</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24",
+    "topic": [
+      "Physics",
+      "Thermal Physics",
+      "Temperature Conversion"
+    ],
+    "Question": {
+      "content": "A temperature value of 122°F is equivalent to:",
+      "type": "OBJ",
+      "options": [
+        "20°C",
+        "50°C",
+        "30°C",
+        "40°C"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "50°C"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. Use the conversion formula: \\( C = \\frac{5}{9}(F - 32) \\).<br>2. Substitute the given value \\( F = 122 \\):<br>\\( C = \\frac{5}{9}(122 - 32) \\)<br>\\( C = \\frac{5}{9}(90) \\)<br>3. Simplifying the calculation: \\( C = 5 \\times 10 = 50^\\circ\\text{C} \\).<br><br><strong>Final Answer:</strong> 50°C</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25",
+    "topic": [
+      "Physics",
+      "Optics",
+      "Mirrors"
+    ],
+    "Question": {
+      "content": "Two plane mirrors are inclined at an angle of 90° to each other. An object is placed between them. How many images will be formed?",
+      "type": "OBJ",
+      "options": [
+        "5 images",
+        "3 images",
+        "6 images",
+        "4 images"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3 images"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. The formula for the number of images formed by two inclined mirrors is \\( n = \\frac{360^\\circ}{\\theta} - 1 \\).<br>2. Given the angle of inclination \\( \\theta = 90^\\circ \\), substitute this into the formula:<br>\\( n = \\frac{360}{90} - 1 \\)<br>3. Compute the division and subtraction: \\( n = 4 - 1 = 3 \\).<br><br><strong>Final Answer:</strong> 3 images</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26",
+    "topic": [
+      "Physics",
+      "Waves",
+      "Sound"
+    ],
+    "Question": {
+      "content": "A sound source emits a power of 500 Watts uniformly in all direction. What is the sound intensity at a distance of 4m from the source.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2.49 W/m²"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. Sound spreads uniformly in a spherical wave front. The intensity formula is \\( I = \\frac{P}{A} = \\frac{P}{4\\pi r^2} \\).<br>2. Substitute power \\( P = 500\\text{ W} \\) and radius \\( r = 4\\text{ m} \\):<br>\\( I = \\frac{500}{4 \\times \\pi \\times 4^2} = \\frac{500}{64\\pi} \\)<br>3. Calculate the numerical value: \\( I = \\frac{500}{201.06} \\approx 2.487\\text{ W/m}^2 \\).<br><br><strong>Final Answer:</strong> 2.49 W/m²</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27a",
+    "topic": [
+      "Physics",
+      "Waves",
+      "Acoustics"
+    ],
+    "Question": {
+      "content": "A pipe closed at one end has a length of 10 cm. If the velocity of sound in air of the piped is 340 m/s, calculate the frequency of the fundamental note.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "850 Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. Convert length to meters: \\( L = 10\\text{ cm} = 0.1\\text{ m} \\).<br>2. For a pipe closed at one end, the fundamental frequency is given by \\( f_1 = \\frac{v}{4L} \\).<br>3. Substitute velocity \\( v = 340\\text{ m/s} \\) and length \\( L = 0.1\\text{ m} \\):<br>\\( f_1 = \\frac{340}{4 \\times 0.1} = \\frac{340}{0.4} = 850\\text{ Hz} \\).<br><br><strong>Final Answer:</strong> 850 Hz</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27b",
+    "topic": [
+      "Physics",
+      "Waves",
+      "Acoustics"
+    ],
+    "Question": {
+      "content": "A pipe closed at one end has a length of 10 cm. If the velocity of sound in air of the piped is 340 m/s, calculate the frequency of the first overtone.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2550 Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. In a closed pipe, only odd harmonics are present. The first overtone is the third harmonic (\\( 3f_1 \\)).<br>2. From the previous calculation, the fundamental frequency is \\( f_1 = 850\\text{ Hz} \\).<br>3. Compute the first overtone: \\( f_3 = 3 \\times f_1 = 3 \\times 850 = 2550\\text{ Hz} \\).<br><br><strong>Final Answer:</strong> 2550 Hz</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28a",
+    "topic": [
+      "Physics",
+      "Waves",
+      "Acoustics"
+    ],
+    "Question": {
+      "content": "Give one example of a natural sound detector.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The human ear"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. A natural sound detector refers to biological sensory organs developed by living organisms to capture acoustic vibrations.<br>2. The most common and direct example is the ear found in humans and animals.<br><br><strong>Final Answer:</strong> The human ear</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28b",
+    "topic": [
+      "Physics",
+      "Waves",
+      "Acoustics"
+    ],
+    "Question": {
+      "content": "Give one example of a man-made sound detector.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Microphone"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. A man-made sound detector is an electronic or mechanical transducer designed to convert sound pressure waves into alternative signals (like electricity).<br>2. A common example is a microphone or hydrophone.<br><br><strong>Final Answer:</strong> Microphone</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29",
+    "topic": [
+      "Physics",
+      "Optics",
+      "Prisms"
+    ],
+    "Question": {
+      "content": "A ray of light passes through an equilateral prism (A = 60°) with refractive index μ = 1.5. If the angle of incidence equals the angle of emergence (i = e), calculate the angle of deviation (δ).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "37.16°"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. When \\( i = e \\), the prism is at minimum deviation (\\( \\delta = \\delta_m \\)).<br>2. Use the prism formula: \\( \\mu = \\frac{\\sin\\left(\\frac{A + \\delta_m}{2}\\right)}{\\sin\\left(\\frac{A}{2}\\right)} \\).<br>3. Substitute \\( \\mu = 1.5 \\) and \\( A = 60^\\circ \\):<br>\\( 1.5 = \\frac{\\sin\\left(\\frac{60^\\circ + \\delta_m}{2}\\right)}{\\sin(30^\\circ)} \\)<br>\\( 1.5 \\times 0.5 = \\sin\\left(\\frac{60^\\circ + \\delta_m}{2}\\right) \\implies 0.75 = \\sin\\left(\\frac{60^\\circ + \\delta_m}{2}\\right) \\)<br>4. Take inverse sine: \\( \\frac{60^\\circ + \\delta_m}{2} = \\sin^{-1}(0.75) = 48.59^\\circ \\).<br>5. Solve for \\( \\delta_m \\): \\( 60^\\circ + \\delta_m = 97.18^\\circ \\implies \\delta_m = 37.16^\\circ \\).<br><br><strong>Final Answer:</strong> 37.16°</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30",
+    "topic": [
+      "Physics",
+      "Optics",
+      "Refraction"
+    ],
+    "Question": {
+      "content": "A diver shines a flashlight upward from beneath the water at a 60° angle to the vertical. At what angle does the light leave the water?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The light undergoes total internal reflection and does not leave the water."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. Find the critical angle of water using \\( n = 1.33 \\): \\( \\theta_c = \\sin^{-1}\\left(\\frac{1}{1.33}\\right) \\approx 48.8^\\circ \\).<br>2. The angle with the vertical corresponds to the angle of incidence inside the medium, so \\( i = 60^\\circ \\).<br>3. Compare the incident angle with the critical angle: Since \\( 60^\\circ > 48.8^\\circ \\), the light exceeds the critical threshold.<br>4. Therefore, total internal reflection occurs, meaning the light reflects back entirely into the water and cannot escape into air.<br><br><strong>Final Answer:</strong> The light undergoes total internal reflection and does not leave the water.</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31",
+    "topic": [
+      "Physics",
+      "Thermal Physics",
+      "Temperature Scales"
+    ],
+    "Question": {
+      "content": "On the Fahrenheit scale of temperature, the ice point is given a temperature of 32°F and the boiling point of water a temperature of 212°F. What is the fundamental interval?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "180"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. The fundamental interval is defined as the difference in temperature values between the upper fixed point (boiling point) and the lower fixed point (ice point).<br>2. Identify values from the prompt: Upper fixed point = 212°F, Lower fixed point = 32°F.<br>3. Perform subtraction: \\( \text{Fundamental Interval} = 212 - 32 = 180 \\).<br><br><strong>Final Answer:</strong> 180</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32",
+    "topic": [
+      "Physics",
+      "Optics",
+      "Refraction"
+    ],
+    "Question": {
+      "content": "A layer of oil (n=1.45) floats on water (n=1.33). A ray of light shines onto the oil with an incidence angle of 55°. Find the angle the ray makes in the water.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "38.01°"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. According to Snell's Law across multiple parallel boundary layers: \\( n_{\\text{air}}\\sin(\\theta_{\\text{air}}) = n_{\\text{oil}}\\sin(\\theta_{\\text{oil}}) = n_{\\text{water}}\\sin(\\theta_{\\text{water}}) \\).<br>2. We can relate air directly to water: \\( 1 \\times \\sin(55^\\circ) = 1.33 \\times \\sin(\\theta_{\\text{water}}) \\).<br>3. Rearrange to find the target angle fraction: \\( \\sin(\\theta_{\\text{water}}) = \\frac{\\sin(55^\\circ)}{1.33} = \\frac{0.8192}{1.33} \\approx 0.6159 \\).<br>4. Take inverse sine: \\( \\theta_{\\text{water}} = \\sin^{-1}(0.6159) \\approx 38.01^\\circ \\).<br><br><strong>Final Answer:</strong> 38.01°</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33",
+    "topic": [
+      "Physics",
+      "Optics",
+      "Refraction"
+    ],
+    "Question": {
+      "content": "A security guard's torchlight beam shines at a pool of water. The reflected ray makes an angle of 38° with the normal. What is the angle of the refracted ray inside the water? Take refractive index of water n_water=1.33.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "27.53°"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. By the law of reflection, angle of incidence equals angle of reflection, so \\( i = 38^\\circ \\).<br>2. Apply Snell's Law at the air-water boundary interface: \\( n_1\\sin(i) = n_2\\sin(r) \\).<br>3. Substitute known values: \\( 1 \\times \\sin(38^\\circ) = 1.33 \\times \\sin(r) \\).<br>4. Isolate target variable function: \\( \\sin(r) = \\frac{\\sin(38^\\circ)}{1.33} = \\frac{0.6157}{1.33} \\approx 0.4629 \\).<br>5. Compute inverse function: \\( r = \\sin^{-1}(0.4629) \\approx 27.53^\\circ \\).<br><br><strong>Final Answer:</strong> 27.53°</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 34",
+    "topic": [
+      "Physics",
+      "Thermal Physics",
+      "Temperature Scales"
+    ],
+    "Question": {
+      "content": "At what unique temperature would a Celsius and a Fahrenheit thermometer record the same numerical value?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-40"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. Set the two scale variables equal to a single value variable: \\( C = F = x \\).<br>2. Substitute into the scale formula link: \\( F = \\frac{9}{5}C + 32 \\implies x = \\frac{9}{5}x + 32 \\).<br>3. Regroup terms on one side: \\( x - \\frac{9}{5}x = 32 \\implies -\\frac{4}{5}x = 32 \\).<br>4. Multiply out to solve: \\( -4x = 160 \\implies x = -40 \\).<br><br><strong>Final Answer:</strong> -40</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 35",
+    "topic": [
+      "Physics",
+      "Thermal Physics",
+      "Temperature Conversion"
+    ],
+    "Question": {
+      "content": "Write down the conversion equation between degrees Fahrenheit and degrees Celsius.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "F = 9/5*C + 32"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. Temperature values trace straight operational lines between shared baseline nodes (0°C map to 32°F; 100°C map to 212°F).<br>2. Linear formula structure shows: \\( \\frac{F - 32}{212 - 32} = \\frac{C - 0}{100 - 0} \\implies \\frac{F - 32}{180} = \\frac{C}{100} \\).<br>3. Simplify fractions to arrive at expression: \\( F - 32 = \\frac{9}{5}C \\implies F = \\frac{9}{5}C + 32 \\).<br><br><strong>Final Answer:</strong> F = 9/5*C + 32</div>"
+    }
+  }
+  
+]
