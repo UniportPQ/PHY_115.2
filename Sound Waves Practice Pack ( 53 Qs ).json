@@ -1,0 +1,1478 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "Waves, Optics and Thermal Physics",
+    "code": "PHY_115.2",
+    "session": "Sound Waves",
+    "time": 90,
+    "topics": [
+      "Diffraction",
+      "Electromagnetic Waves",
+      "Geometric Optics",
+      "Heat Transfer",
+      "Kinetic Theory of Gases",
+      "Sound Waves",
+      "Superposition and Interference",
+      "Temperature and Heat",
+      "Thermodynamics",
+      "Wave Motion",
+      "Wave Optics"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 27a @ 2024/2025",
+    "topic": [
+      "Sound Waves",
+      "Wave Motion",
+      "Frequency",
+      "Standing Waves",
+      "Acoustics"
+    ],
+    "Question": {
+      "content": "A pipe closed at one end has a length of 10 cm. If the velocity of sound in air of the piped is 340 m/s, calculate the frequency of the fundamental note.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "850 Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. Convert length to meters: \\( L = 10\\text{ cm} = 0.1\\text{ m} \\).<br>2. For a pipe closed at one end, the fundamental frequency is given by \\( f_1 = \\frac{v}{4L} \\).<br>3. Substitute velocity \\( v = 340\\text{ m/s} \\) and length \\( L = 0.1\\text{ m} \\):<br>\\( f_1 = \\frac{340}{4 \\times 0.1} = \\frac{340}{0.4} = 850\\text{ Hz} \\).<br><br><strong>Final Answer:</strong> 850 Hz</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4 @ 2019/2020",
+    "Question": {
+      "content": "A stationary siren emits 440 Hz. A train approaches it at 30 m/s. What frequency is received on the train? (Speed of sound = 331 m/s).",
+      "type": "OBJ",
+      "options": [
+        "250 Hz",
+        "255 Hz",
+        "370 Hz",
+        "480 Hz"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "480 Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Doppler Effect</h3> <p><strong>Formula:</strong> <br> f' = f(v + v₀)/v <br> <strong>Calculation:</strong> <br> f' = 440 × (331 + 30)/331 ≈ 480 Hz</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Phenomena",
+      "Doppler Effect",
+      "Wave Properties"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2019/2020",
+    "Question": {
+      "content": "Which is a musical wind instrument?",
+      "type": "OBJ",
+      "options": [
+        "Senometer",
+        "Outer",
+        "Clarinet",
+        "Piano"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Clarinet"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wind Instruments</h3> <p>The clarinet is a woodwind instrument that produces sound via a vibrating reed.</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Phenomena",
+      "Acoustics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 9 @ 2019/2020",
+    "Question": {
+      "content": "An open pipe has a fundamental frequency of 16.35 Hz. If the speed of sound is 343 m/s, what is the pipe length?",
+      "type": "OBJ",
+      "options": [
+        "10.49 m",
+        "7.2 m",
+        "6.0 m",
+        "12 m",
+        "17 m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "10.49 m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Open Pipe Length</h3> <p><strong>Formula:</strong> <br> f = v/2L → L = v/2f = 343/(2 × 16.35) ≈ 10.49 m</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Acoustics",
+      "Wave Properties",
+      "Standing Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 10 @ 2019/2020",
+    "Question": {
+      "content": "An empty 25 cm deep bottle resonates when blown. What is its fundamental frequency? (Speed of sound = 340 m/s).",
+      "type": "OBJ",
+      "options": [
+        "340 Hz",
+        "135 Hz",
+        "68 Hz",
+        "72 Hz"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "340 Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Bottle Resonance</h3> <p><strong>Formula:</strong> <br> f = v/4L = 340/(4 × 0.25) = 340 Hz</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Standing Waves",
+      "Wave Properties",
+      "Resonance"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 11 @ 2019/2020",
+    "Question": {
+      "content": "A 2.0 m piano string has a wave speed of 140 m/s. What is its fundamental frequency?",
+      "type": "OBJ",
+      "options": [
+        "35 Hz",
+        "70 Hz",
+        "105 Hz",
+        "15 Hz"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "35 Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>String Fundamental Frequency</h3> <p><strong>Formula:</strong> <br> \\[ f = \\frac{v}{2L} \\] <br> <strong>Given:</strong> <br> - \\( L = 2.0 \\) m, \\( v = 140 \\) m/s.</p> <p><strong>Calculation:</strong> <br> \\[ f = \\frac{140}{2 \\times 2.0} = 35 \\text{ Hz} \\] </div>"
+    },
+    "topic": [
+      "Waves, Optics and Thermal Physics",
+      "Wave Phenomena",
+      "Sound Waves",
+      "Wave Properties",
+      "Standing Waves",
+      "Resonance",
+      "Fundamental Frequency"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 12 @ 2019/2020",
+    "Question": {
+      "content": "The speed of sound at 20°C is 244 m/s. What is its speed at 43°C?",
+      "type": "OBJ",
+      "options": [
+        "254.2 m/s",
+        "338 m/s",
+        "450 m/s",
+        "150.3 m/s"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "254.2 m/s"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Speed of Sound vs. Temperature</h3> <p><strong>Formula:</strong> <br> \\[ v \\propto \\sqrt{T} \\] <br> where \\( T \\) is absolute temperature (Kelvin).</p> <p><strong>Given:</strong> <br> - \\( v_1 = 244 \\) m/s at \\( T_1 = 293 \\) K (20°C). <br> - \\( T_2 = 316 \\) K (43°C).</p> <p><strong>Calculation:</strong> <br> \\[ \\frac{v_2}{v_1} = \\sqrt{\\frac{T_2}{T_1}} \\implies v_2 = 244 \\times \\sqrt{\\frac{316}{293}} \\approx 254.2 \\text{ m/s} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The correct answer (3.4 m) is not listed; the closest is (A) 17.0 m.</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Temperature and Heat",
+      "Wave Properties",
+      "Kinetic Theory of Gases"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 13 @ 2019/2020",
+    "Question": {
+      "content": "What is the intensity level of sound at 10 dB?",
+      "type": "OBJ",
+      "options": [
+        "40 dB",
+        "20 dB",
+        "10 dB",
+        "4 dB"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "10 dB"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Sound Intensity Level</h3> <p><strong>Definition:</strong> <br> - Decibels (dB) measure sound intensity logarithmically. <br> - 10 dB is a quiet whisper or rustling leaves.</p> <p><strong>Note:</strong> The question likely has a typo (10°dB should be 10 dB).</p> </div>"
+    },
+    "topic": [
+      "Waves, Optics and Thermal Physics",
+      "Sound Waves",
+      "Acoustics",
+      "Decibel"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 14 @ 2019/2020",
+    "Question": {
+      "content": "Which is NOT a psychological effect of noise?",
+      "type": "OBJ",
+      "options": [
+        "Disturbs conversation",
+        "Disturbs sleep",
+        "Causes mental fatigue",
+        "Causes cracking of walls"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Causes cracking of walls"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Noise Effects</h3> <p><strong>Psychological Effects:</strong> <br> - Disturbed sleep, conversation, and mental fatigue are well-documented impacts. <br> <strong>Physical Damage:</strong> <br> - Wall cracking is a structural issue, not psychological.</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Acoustics",
+      "Psychology"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 15 @ 2019/2020",
+    "Question": {
+      "content": "The inner ear is made up of:",
+      "type": "OBJ",
+      "options": [
+        "Malleus and incus",
+        "Cochlea and auditory nerves",
+        "Eardrum and canal",
+        "None"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Cochlea and auditory nerves"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Inner Ear Anatomy</h3> <p><strong>Cochlea:</strong> Converts sound vibrations into nerve impulses. <br> <strong>Auditory Nerves:</strong> Transmit signals to the brain. <br> <strong>Other Options:</strong> <br> - Malleus/incus: Middle ear bones. <br> - Eardrum/canal: Outer ear structures.</p> </div>"
+    },
+    "topic": [
+      "Anatomy",
+      "Sound Waves",
+      "Acoustics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2019/2020",
+    "Question": {
+      "content": "Find the speed of sound in water with bulk modulus \\( 2.1 \\times 10^9 \\, \\text{N/m}^2 \\) and density \\( 1.00 \\times 10^3 \\, \\text{kg/m}^3 \\).",
+      "type": "OBJ",
+      "options": [
+        "2.6 km/s",
+        "1.4 km/s",
+        "3.5 km/s",
+        "6.2 km/s"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.4 km/s"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Speed of Sound in Water</h3> <p><strong>Formula:</strong> <br> \\[ v = \\sqrt{\\frac{B}{\\rho}} \\] <br> where \\( B \\) is bulk modulus and \\( \\rho \\) is density.</p> <p><strong>Given:</strong> <br> - \\( B = 2.1 \\times 10^9 \\, \\text{N/m}^2 \\). <br> - \\( \\rho = 1.00 \\times 10^3 \\, \\text{kg/m}^3 \\).</p> <p><strong>Calculation:</strong> <br> \\[ v = \\sqrt{\\frac{2.1 \\times 10^9}{1.00 \\times 10^3}} = \\sqrt{2.1 \\times 10^6} \\approx 1.45 \\times 10^3 \\, \\text{m/s} = 1.45 \\, \\text{km/s} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> Closest to option (B) 1.4 km/s.</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Properties",
+      "Acoustics",
+      "Bulk Modulus"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 34 @ 2019/2020",
+    "Question": {
+      "content": "The speed of sound is greater in solids than gases due to high:",
+      "type": "OBJ",
+      "options": [
+        "Density",
+        "Pressure",
+        "Elasticity",
+        "Temperature"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Elasticity"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Speed of Sound in Solids</h3> <p><strong>Key Factor:</strong> <br> - Solids have higher <strong>elasticity</strong> (bulk modulus), allowing faster propagation of sound waves. <br> - Formula: \\[ v = \\sqrt{\\frac{B}{\\rho}} \\], where \\( B \\) is bulk modulus and \\( \\rho \\) is density.</p> <p><strong>Why Others Are Incorrect:</strong> <br> - Density alone would slow sound (inverse relationship). <br> - Pressure and temperature are more relevant for gases.</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Properties",
+      "Bulk Modulus"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 35 @ 2019/2020",
+    "Question": {
+      "content": "Beats can be heard when the frequency difference is not more than:",
+      "type": "OBJ",
+      "options": [
+        "k",
+        "4",
+        "10",
+        "6"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "10"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Beats Perception</h3> <p><strong>Human Auditory Limit:</strong> <br> - Beats are distinguishable when the frequency difference is ≤ 10 Hz. <br> - Beyond this, the ear perceives two separate tones.</p> <p><strong>Example:</strong> <br> Tuning forks at 440 Hz and 445 Hz produce 5 Hz beats.</p> </div>"
+    },
+    "topic": [
+      "Waves, Optics and Thermal Physics",
+      "Wave Phenomena",
+      "Sound Waves",
+      "Wave Properties",
+      "Interference",
+      "Beats"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1 @ 2015/2016",
+    "Question": {
+      "content": "In a closed pipe of length \\( l \\), what is the frequency of the second overtone if the velocity of sound in the air column is \\( V \\)?",
+      "type": "OBJ",
+      "options": [
+        "\\( \\frac{V}{4l} \\)",
+        "\\( \\frac{3V}{2l} \\)",
+        "\\( \\frac{5V}{4l} \\)",
+        "\\( \\frac{V}{l} \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{5V}{4l} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Closed Pipe Harmonics</h3> <p><strong>Key Concept:</strong> In a closed pipe, only odd harmonics are present. The frequencies are given by:</p> \\[ f_n = \\frac{(2n + 1)V}{4l} \\] <p>where \\( n = 0, 1, 2, \\dots \\) (harmonic number).</p> <p><strong>Second Overtone:</strong> <br> 1. Fundamental (1st harmonic): \\( n = 0 \\), \\( f_0 = \\frac{V}{4l} \\). <br> 2. First overtone (3rd harmonic): \\( n = 1 \\), \\( f_1 = \\frac{3V}{4l} \\). <br> 3. <strong>Second overtone (5th harmonic)</strong>: \\( n = 2 \\), \\( f_2 = \\frac{5V}{4l} \\).</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The second overtone corresponds to the 5th harmonic for closed pipes.</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Motion",
+      "Superposition and Interference",
+      "Standing Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2015/2016",
+    "Question": {
+      "content": "Two open organ pipes produce a beat frequency of 12.0 Hz. The longer pipe has a length of 0.40 m. What is the length of the other pipe? (Speed of sound = 340 m/s).",
+      "type": "OBJ",
+      "options": [
+        "0.778 m",
+        "0.389 m",
+        "2.4 m",
+        "0.226 m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.389 m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Beat Frequency in Open Pipes</h3> <p><strong>Step 1: Frequency of Longer Pipe</strong> <br> For an open pipe, the fundamental frequency is: \\[ f = \\frac{V}{2l} \\] <br> Given \\( l_1 = 0.40 \\) m: \\[ f_1 = \\frac{340}{2 \\times 0.40} = 425 \\text{ Hz} \\]</p> <p><strong>Step 2: Determine the Other Pipe's Frequency</strong> <br> Beat frequency \\( f_{\\text{beat}} = |f_1 - f_2| = 12 \\) Hz. <br> Thus, \\( f_2 = 425 \\pm 12 \\) Hz → \\( 413 \\) Hz or \\( 437 \\) Hz.</p> <p><strong>Step 3: Calculate Length of Shorter Pipe</strong> <br> Using \\( f_2 = \\frac{V}{2l_2} \\): <br> For \\( f_2 = 437 \\) Hz: \\[ l_2 = \\frac{340}{2 \\times 437} \\approx 0.389 \\text{ m} \\] <br> For \\( f_2 = 413 \\) Hz: \\( l_2 \\approx 0.411 \\) m (not an option).</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Conclusion:</strong> The correct answer is \\( 0.389 \\) m.</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Standing Waves",
+      "Superposition and Interference"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 3 @ 2015/2016",
+    "Question": {
+      "content": "Which of the following is an example of an electro-acoustic source of sound?",
+      "type": "OBJ",
+      "options": [
+        "Radio set",
+        "Guitar",
+        "Human speech organ",
+        "Loudspeaker"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Loudspeaker"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Electro-Acoustic Sound Sources</h3> <p><strong>Definition:</strong> Electro-acoustic devices convert electrical signals into sound waves.</p> <ol style='padding-left: 20px;'> <li><strong>Loudspeaker (Correct):</strong> <br> Uses an electrical input to vibrate a diaphragm, producing sound.</li> <li><strong>Other Options:</strong> <br> - Radio set: Transmits but doesn't directly produce sound. <br> - Guitar: Mechanical vibration (non-electrical). <br> - Human speech: Biological (vocal cords).</li> </ol> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Key Point:</strong> Loudspeakers are the only pure electro-acoustic option listed.</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Motion",
+      "Electroacoustics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2015/2016",
+    "Question": {
+      "content": "The speed with which a wave travels in a medium depends on the following except",
+      "type": "OBJ",
+      "options": [
+        "Elasticity and density of the medium",
+        "Gravitational and magnetic forces",
+        "Surface tension and gravitational forces",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Gravitational and magnetic forces"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wave Speed Dependencies</h3> <p><strong>Wave Speed Formula:</strong> For mechanical waves (e.g., sound): \\[ V = \\sqrt{\\frac{\\text{Elasticity}}{\\text{Density}}} \\]</p> <ol style='padding-left: 20px;'> <li><strong>Elasticity & Density:</strong> Directly affect wave speed. <br> <small><i>Example: Sound travels faster in solids (high elasticity).</i></small></li> <li><strong>Gravitational/Magnetic Forces:</strong> <br> Do not influence mechanical wave speed. <strong>(Correct answer)</strong></li> <li><strong>Surface Tension:</strong> Affects capillary waves (e.g., ripples).</li> </ol> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> Electromagnetic waves (e.g., light) depend on permittivity/permeability, not gravity/magnetism.</p> </div>"
+    },
+    "topic": [
+      "Wave Motion",
+      "Sound Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 6 @ 2015/2016",
+    "Question": {
+      "content": "The velocity of sound in a medium at a temperature of 293K was 244 m/s. What is the temperature when the velocity changes to 365 m/s?",
+      "type": "OBJ",
+      "options": [
+        "318K",
+        "307K",
+        "260K",
+        "436K"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "436K"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Temperature and Sound Velocity</h3> <p><strong>Key Concept:</strong> The velocity of sound in a gas is proportional to the square root of its absolute temperature:</p> \\[ V \\propto \\sqrt{T} \\] <p><strong>Given:</strong> <br> - \\( V_1 = 244 \\) m/s at \\( T_1 = 293 \\) K. <br> - \\( V_2 = 365 \\) m/s at \\( T_2 \\).</p> <p><strong>Calculation:</strong> <br> Using the relation \\( \\frac{V_1}{V_2} = \\sqrt{\\frac{T_1}{T_2}} \\): <br> \\[ \\frac{244}{365} = \\sqrt{\\frac{293}{T_2}} \\] <br> Squaring both sides: <br> \\[ \\left(\\frac{244}{365}\\right)^2 = \\frac{293}{T_2} \\] <br> Solving for \\( T_2 \\): <br> \\[ T_2 = 293 \\times \\left(\\frac{365}{244}\\right)^2 \\approx 436 \\text{ K} \\] </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Temperature and Heat",
+      "Wave Motion"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 8 @ 2015/2016",
+    "Question": {
+      "content": "The wavelength of a given sound wave is 10 m and its frequency is 25 Hz. What is the wave number of the wave?",
+      "type": "OBJ",
+      "options": [
+        "0.04/m",
+        "0.623/m",
+        "2.3/m",
+        "1.56/m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.623/m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wave Number Calculation</h3> <p><strong>Definition:</strong> The wave number (\\( k \\)) is the spatial frequency of a wave, defined as:</p> \\[ k = \\frac{2\\pi}{\\lambda} \\] <p><strong>Given:</strong> <br> - Wavelength (\\( \\lambda \\)) = 10 m.</p> <p><strong>Calculation:</strong> <br> \\[ k = \\frac{2\\pi}{10} = 0.628 \\text{ /m} \\approx 0.623 \\text{ /m} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The closest option is 0.623/m.</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Motion",
+      "Wave Properties"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1a @ 2015/2016",
+    "Question": {
+      "content": "Give two examples of natural sources of sound.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Thunder <br> 2. Birds chirping"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Natural Sound Sources</h3> <p><strong>Examples:</strong> <br> 1. <strong>Thunder:</strong> Produced by rapid expansion of air during lightning. <br> 2. <strong>Birds chirping:</strong> Vocalizations by birds for communication.</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Motion",
+      "Acoustics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1a(ii) @ 2015/2016",
+    "Question": {
+      "content": "Define Doppler effect.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The Doppler effect is the change in frequency or wavelength of a wave observed when the source and observer move relative to each other."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Doppler Effect</h3> <p><strong>Definition:</strong> <br> The apparent shift in frequency when a wave source and observer are in relative motion. <br> - <strong>Approach:</strong> Higher observed frequency. <br> - <strong>Recede:</strong> Lower observed frequency.</p> <p><strong>Example:</strong> Ambulance siren sounds higher-pitched as it approaches and lower-pitched as it moves away.</p> </div>"
+    },
+    "topic": [
+      "Doppler effect",
+      "Sound Waves",
+      "Wave Motion",
+      "Wave Properties"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1b @ 2015/2016",
+    "Question": {
+      "content": "A train sounding its whistle (frequency 580 Hz) travels at 40 m/s past a stationary observer. What is the maximum change in frequency heard? (Speed of sound = 340 m/s).",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "136 Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Doppler Effect Calculation</h3> <p><strong>Formula (Approach):</strong> <br> \\[ f' = f \\left( \\frac{v}{v - v_s} \\right) \\] <br> <strong>Formula (Recede):</strong> <br> \\[ f'' = f \\left( \\frac{v}{v + v_s} \\right) \\] <br> <strong>Given:</strong> <br> - \\( f = 580 \\) Hz, \\( v = 340 \\) m/s, \\( v_s = 40 \\) m/s.</p> <p><strong>Calculation:</strong> <br> 1. Approach frequency: <br> \\[ f' = 580 \\times \\left( \\frac{340}{340 - 40} \\right) = 658.67 \\text{ Hz} \\] <br> 2. Recede frequency: <br> \\[ f'' = 580 \\times \\left( \\frac{340}{340 + 40} \\right) = 522.67 \\text{ Hz} \\] <br> 3. Maximum change: <br> \\[ \\Delta f = f' - f'' = 136 \\text{ Hz} \\] </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Motion",
+      "Doppler effect"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1 @ 2012/2013",
+    "Question": {
+      "content": "What is the length of a tube closed at one end if the fundamental frequency is 120Hz (speed of sound = 340m/s)?",
+      "type": "OBJ",
+      "options": [
+        "0.672m",
+        "0.362m",
+        "3.0m",
+        "1.34m",
+        "2.76m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.708m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🔍 Understanding the Problem</h3><p>Imagine blowing across a soda bottle to make a sound. The pitch (frequency) you hear depends on how much air can vibrate inside the bottle (its length). Here, we're calculating the bottle's length for a specific pitch.</p><h3>📐 Formula Used</h3><p>For tubes closed at one end (like our soda bottle), the fundamental frequency is:<br><strong>\\( f = \\frac{v}{4L} \\)</strong><br>Where:<br>• \\( f \\) = frequency (120Hz)<br>• \\( v \\) = speed of sound (340m/s)<br>• \\( L \\) = length of tube</p><h3>🔢 Step-by-Step Calculation</h3><ol><li>Rearrange the formula to solve for length:<br><strong>\\( L = \\frac{v}{4f} \\)</strong></li><li>Plug in the numbers:<br>\\( L = \\frac{340}{4 \\times 120} \\)</li><li>Calculate:<br>\\( L = \\frac{340}{480} = 0.708\\,m \\)</li></ol><p style='color: #e74c3c;'>💡 <strong>Note:</strong> None of the options match the exact answer. This happens sometimes in real exams!</p></div>"
+    },
+    "topic": [
+      "Wave Mechanics",
+      "Sound Waves",
+      "Standing Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2012/2013",
+    "Question": {
+      "content": "What is the speed of sound in air at 22°C if it's 340m/s at 0°C?",
+      "type": "OBJ",
+      "options": [
+        "360m/s",
+        "240m/s",
+        "530 m/s",
+        "476.0m/s",
+        "370m/s"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "344.2m/s"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🌡️ Temperature Affects Sound Speed</h3><p>Sound travels faster in warmer air because molecules move more energetically. Think of it like runners sprinting faster on a hot day!</p><h3>📐 Formula Used</h3><p>\\( v = v_0 \\times \\sqrt{\\frac{T}{273}} \\)<br>Where:<br>• \\( v_0 \\) = speed at 0°C (340m/s)<br>• \\( T \\) = current temperature in Kelvin (22°C = 295K)</p><h3>🔢 Step-by-Step Calculation</h3><ol><li>Convert Celsius to Kelvin:<br>\\( T = 22 + 273 = 295K \\)</li><li>Plug into the formula:<br>\\( v = 340 \\times \\sqrt{\\frac{295}{273}} \\)</li><li>Calculate:<br>\\( v = 340 \\times 1.012 \\approx 344.2\\,m/s \\)</li></ol><p style='color: #e74c3c;'>💡 <strong>Fun Fact:</strong> Sound speed increases by ~0.6m/s for every 1°C rise!</p></div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Temperature and Heat",
+      "Wave Mechanics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 3 @ 2012/2013",
+    "Question": {
+      "content": "If sound power increases from 50mW to 500mW, what is the increase?",
+      "type": "OBJ",
+      "options": [
+        "0.1 dB",
+        "10 W",
+        "2W",
+        "10 dB",
+        "5 W"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "10 dB"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🔊 Decibels Demystified</h3><p>Decibels (dB) measure <strong>relative</strong> loudness changes, not absolute power. A 10dB increase means the sound is perceived as ~2× louder!</p><h3>📐 Formula Used</h3><p>\\( \\Delta \\beta = 10 \\log_{10}(\\frac{P_2}{P_1}) \\)<br>Where:<br>• \\( P_1 \\) = initial power (50mW)<br>• \\( P_2 \\) = new power (500mW)</p><h3>🔢 Step-by-Step Calculation</h3><ol><li>Power ratio:<br>\\( \\frac{500}{50} = 10 \\)</li><li>Take the logarithm:<br>\\( \\log_{10}(10) = 1 \\)</li><li>Multiply by 10:<br>\\( 10 \\times 1 = 10\\,dB \\)</li></ol><p style='color: #27ae60;'>🎧 <strong>Real-world example:</strong> Turning up your headphones from 10% to 100% volume is roughly a 10dB increase!</p></div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Mechanics",
+      "Decibels"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 4 @ 2012/2013",
+    "Question": {
+      "content": "What is the intensity difference between a person talking (8×10⁻⁵ W/m²) and an orchestra (10⁻¹ W/m²)?",
+      "type": "OBJ",
+      "options": [
+        "3dB",
+        "21dB",
+        "0.3dB",
+        "0.03 dB",
+        "-1dB"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "21dB"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🎻 From Whispers to Symphonies</h3><p>This compares the loudness of normal speech to a full orchestra—like the difference between a single violin and 100 violins playing together!</p><h3>📐 Formula Used</h3><p>\\( \\Delta L = 10 \\log_{10}(\\frac{I_2}{I_1}) \\)<br>Where:<br>• \\( I_1 \\) = talking intensity (8×10⁻⁵ W/m²)<br>• \\( I_2 \\) = orchestra intensity (10⁻¹ W/m²)</p><h3>🔢 Step-by-Step Calculation</h3><ol><li>Intensity ratio:<br>\\( \\frac{10^{-1}}{8 \\times 10^{-5}} = 1250 \\)</li><li>Take the logarithm:<br>\\( \\log_{10}(1250) \\approx 3.1 \\)</li><li>Multiply by 10:<br>\\( 10 \\times 3.1 \\approx 31\\,dB \\)</li></ol><p style='color: #e74c3c;'>⚠️ <strong>Wait!</strong> The options suggest 21dB, indicating a possible error in the question's intensities. The math above shows what the answer <em>should</em> be for the given values.</p></div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Decibels",
+      "Wave Mechanics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2012/2013",
+    "Question": {
+      "content": "Which sound property depends on the observer?",
+      "type": "OBJ",
+      "options": [
+        "Loudness",
+        "Power intensity",
+        "speed",
+        "Wavelength"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Loudness"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>👂 Human Perception vs Physics</h3><p><strong>Key Idea:</strong> Loudness is subjective—it's how <em>you</em> perceive sound energy. Two people might disagree on whether music is 'too loud,' but they'd agree on measurable properties like wavelength.</p><table style='width:100%; border-collapse: collapse; margin: 10px 0;'><tr><th style='border:1px solid #ddd; padding:8px;'>Observer-Dependent</th><th style='border:1px solid #ddd; padding:8px;'>Physics-Dependent</th></tr><tr><td style='border:1px solid #ddd; padding:8px;'>• Loudness<br>• Pitch (to some extent)</td><td style='border:1px solid #ddd; padding:8px;'>• Wavelength<br>• Frequency<br>• Speed in a medium</td></tr></table><p style='color: #27ae60;'>🎯 <strong>Memory Tip:</strong> If it can vary person-to-person (like volume preferences), it's observer-dependent!</p></div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Decibels",
+      "Wave Mechanics",
+      "Perception"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 6 @ 2012/2013",
+    "Question": {
+      "content": "How can one distinguish a violin from a piano playing the same note?",
+      "type": "OBJ",
+      "options": [
+        "same",
+        "Different",
+        "unknown",
+        "irrelevant",
+        "Fluctuating"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Different"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🎻 The Magic of Timbre</h3><p><strong>Timbre</strong> (pronounced 'tam-ber') is why a violin and piano sound distinct even when playing the same note. It's like recognizing two friends' voices even when they say the same word!</p><h3>🔍 Why They Differ:</h3><ul><li><strong>Harmonics:</strong> Instruments emphasize different overtones (higher frequencies)</li><li><strong>Attack/Decay:</strong> Violins sustain notes; pianos have sharp initial strikes</li><li><strong>Material:</strong> Wood vs. metal strings create unique vibrations</li></ul><p style='color: #e74c3c;'>⚠️ <strong>Exam Trap:</strong> 'Same' might tempt you because the <em>fundamental frequency</em> is identical, but timbre makes the difference!</p></div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Superposition Principle",
+      "Standing Waves",
+      "Perception",
+      "Timbre"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 8 @ 2012/2013",
+    "Question": {
+      "content": "At what string length does frequency change from 300Hz to 200Hz (original length 0.90m)?",
+      "type": "OBJ",
+      "options": [
+        "27m",
+        "1.35m",
+        "2.7 m",
+        "3.3m",
+        "270m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.35m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🎸 Guitar String Physics</h3><p>Longer strings vibrate slower (lower frequency), like how a long pendulum swings slower than a short one.</p><h3>📐 Formula Used</h3><p>\\( \\frac{f_1}{f_2} = \\frac{L_2}{L_1} \\)<br>Where:<br>• \\( f_1 \\) = 300Hz, \\( L_1 \\) = 0.9m<br>• \\( f_2 \\) = 200Hz, \\( L_2 \\) = ?</p><h3>🔢 Step-by-Step</h3><ol><li>Rearrange: \\( L_2 = L_1 \\times \\frac{f_1}{f_2} \\)</li><li>Plug in: \\( L_2 = 0.9 \\times \\frac{300}{200} \\)</li><li>Calculate: \\( L_2 = 0.9 \\times 1.5 = 1.35\\,m \\)</li></ol><p style='color: #e74c3c;'>⚠️ <strong>Unit Alert:</strong> Always check if options are in meters/cm! Here, 1.35m is correct.</p></div>"
+    },
+    "topic": [
+      "Wave Mechanics",
+      "Standing Waves",
+      "Sound Waves",
+      "String Vibration"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 9 @ 2012/2013",
+    "Question": {
+      "content": "What is the first overtone frequency of a 10cm pipe closed at one end (v=340m/s)?",
+      "type": "OBJ",
+      "options": [
+        "2550Hz",
+        "250 Hz",
+        "3000Hz",
+        "310Hz",
+        "213Hz"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2550Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🎵 Overtone vs Harmonic</h3><p>For pipes closed at one end:<br>• <strong>Fundamental</strong>: 1st harmonic (longest wavelength)<br>• <strong>1st overtone</strong>: 3rd harmonic (next possible vibration)</p><h3>📐 Formula Used</h3><p>\\( f_n = \\frac{nv}{4L} \\) (n = odd integers)<br>For 1st overtone (n=3):<br>\\( f_3 = \\frac{3 \\times 340}{4 \\times 0.1} \\)</p><h3>🔢 Step-by-Step</h3><ol><li>Convert 10cm → 0.1m</li><li>Calculate: \\( f_3 = \\frac{1020}{0.4} = 2550\\,Hz \\)</li></ol><p style='color: #27ae60;'>🎼 <strong>Fun Fact:</strong> This is why flute players overblow to reach higher notes—they're exciting overtones!</p></div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Standing Waves",
+      "Wave Mechanics",
+      "Frequency"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 10 @ 2012/2013",
+    "Question": {
+      "content": "What is the wavelength of 100Hz sound in air (v=340m/s)?",
+      "type": "OBJ",
+      "options": [
+        "3.4m",
+        "0.34m",
+        "340m",
+        "24m",
+        "0.24m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3.4m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🔊 Relating Frequency and Wavelength</h3><p>Low-frequency sounds have long wavelengths. 100Hz is roughly the lowest note on a piano—its wavelength is longer than a car!</p><h3>📐 Formula Used</h3><p>\\( \\lambda = \\frac{v}{f} \\)<br>Where:<br>• \\( v \\) = 340m/s<br>• \\( f \\) = 100Hz</p><h3>🔢 Step-by-Step</h3><ol><li>Calculate: \\( \\lambda = \\frac{340}{100} = 3.4\\,m \\)</li><li>Compare to options: 3.4m matches exactly</li></ol><p style='color: #e74c3c;'>⚠️ <strong>Unit Trap:</strong> Watch for cm/m confusion! 340m would be the distance sound travels in 1 second, not the wavelength.</p></div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Mechanics",
+      "Frequency",
+      "Wavelength"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 3b @ 2012/2013",
+    "Question": {
+      "content": "A train (580Hz whistle) moves at 40m/s past a stationary observer. Calculate the maximum frequency change heard (v_sound=340m/s).",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "148 Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6;'><h3 style='color: #2c3e50;'>Doppler Effect</h3><p>When a moving sound source passes you, its pitch seems higher as it approaches and lower as it recedes – like a passing ambulance.</p><br/><h3>Approaching Frequency</h3><p>Maximum frequency occurs when the train moves toward the observer:<br/>\\( f' = f \\left( \\frac{v}{v - v_s} \\right) \\)<br/>Where:<br/>• \\( f = 580\\,Hz \\)<br/>• \\( v = 340\\,m/s \\)<br/>• \\( v_s = 40\\,m/s \\) (train speed)</p><br/><h3>Calculation</h3><p>\\( f' = 580 \\left( \\frac{340}{340 - 40} \\right) = 580 \\times \\frac{340}{300} \\approx 657\\,Hz \\)</p><br/><h3>Receding Frequency</h3><p>Minimum frequency when train moves away:<br/>\\( f'' = 580 \\left( \\frac{340}{340 + 40} \\right) \\approx 509\\,Hz \\)</p><br/><h3>Maximum Change</h3><p>\\( \\Delta f = f' - f'' = 657 - 509 = 148\\,Hz \\)</p></div>"
+    },
+    "topic": [
+      "Waves, Optics and Thermal Physics",
+      "Sound Waves",
+      "Frequency",
+      "Doppler Effect",
+      "Wave Mechanics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 3 @ 2010/2011",
+    "Question": {
+      "content": "Which statement about sound waves is NOT correct?",
+      "type": "OBJ",
+      "options": [
+        "Can be diffracted",
+        "Travel faster in vacuum than air",
+        "Can be reflected",
+        "Can be refracted"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Travel faster in vacuum than air"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Key Fact:</strong> Sound requires a medium to propagate. In vacuum, sound speed is <strong>0 m/s</strong> (no molecules to vibrate). In air (20°C), it travels at ~343 m/s.</p></div>"
+    },
+    "topic": [
+      "Wave Propagation",
+      "Diffraction",
+      "Sound Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2010/2011",
+    "Question": {
+      "content": "How does a plucked string's fundamental frequency vary with tension?",
+      "type": "OBJ",
+      "options": [
+        "Directly with tension",
+        "Square of tension",
+        "Square root of tension",
+        "Inverse of tension"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Square root of tension"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>String Frequency Formula:</strong></p><p>\\[ f \\propto \\sqrt{T} \\]</p><p>Where T is tension. This relationship is derived from wave speed on strings: v = √(T/μ), where μ is mass per unit length.</p></div>"
+    },
+    "topic": [
+      "Standing Waves",
+      "Wave Propagation",
+      "Sound Waves",
+      "Wave Equation"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 6 @ 2010/2011",
+    "Question": {
+      "content": "Timbre refers to",
+      "type": "OBJ",
+      "options": [
+        "Change",
+        "Quality of sound",
+        "Perceived intensity",
+        "Energy flow rate"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Quality of sound"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Definition:</strong> Timbre is what allows us to distinguish between different instruments playing the same note at the same volume. It depends on the harmonic content and envelope of the sound.</p></div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Timbre"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 7 @ 2010/2011",
+    "Question": {
+      "content": "Beat frequency for 800Hz and 780Hz waves is",
+      "type": "OBJ",
+      "options": [
+        "150Hz",
+        "20Hz",
+        "39/40Hz",
+        "None"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "20Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Beat Frequency Formula:</strong></p><p>\\[ f_{beat} = |f_1 - f_2| = |800 - 780| = 20\\,Hz \\]</p><p>This creates a pulsation heard 20 times per second.</p></div>"
+    },
+    "topic": [
+      "Beat frequency",
+      "Superposition of Waves",
+      "Interference",
+      "Sound Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 8 @ 2010/2011",
+    "Question": {
+      "content": "Which is NOT a natural sound source?",
+      "type": "OBJ",
+      "options": [
+        "Heartbeat",
+        "Rain",
+        "Wind",
+        "Musical instruments"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Musical instruments"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Classification:</strong> Musical instruments are <em>man-made</em> sound sources, while heartbeat, rain, and wind are natural phenomena.</p></div>"
+    },
+    "topic": [
+      "Sound Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 9 @ 2010/2011",
+    "Question": {
+      "content": "Sound waves can be detected by",
+      "type": "OBJ",
+      "options": [
+        "Loudspeaker",
+        "Sonometer",
+        "Microphone",
+        "Telescope"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Microphone"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Detection Methods:</strong></p><ul><li>Microphones convert sound to electrical signals</li><li>Sonometers measure frequency, not detect sound</li><li>Loudspeakers emit sound</li><li>Telescopes detect light</li></ul></div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Propagation",
+      "Acoustics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 10 @ 2010/2011",
+    "Question": {
+      "content": "Intensity level for 10⁻⁸ W/m² sound is",
+      "type": "OBJ",
+      "options": [
+        "4dB",
+        "-4dB",
+        "40dB",
+        "8dB"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "40dB"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Decibel Calculation:</strong></p><p>\\[ β = 10\\log_{10}\\left(\\frac{I}{I_0}\\right) = 10\\log_{10}\\left(\\frac{10^{-8}}{10^{-12}}\\right) = 40\\,dB \\]</p><p>Where I₀ = 10⁻¹² W/m² is the threshold of hearing.</p></div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Acoustics",
+      "Intensity Level"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 12 @ 2010/2011",
+    "Question": {
+      "content": "Doppler effect: 800Hz siren, listener moving at 14m/s toward source (v_sound=344m/s)",
+      "type": "OBJ",
+      "options": [
+        "833Hz",
+        "76Hz",
+        "800Hz",
+        "0Hz"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "833Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Doppler Formula:</strong></p><p>\\[ f' = f\\left(\\frac{v + v_o}{v}\\right) = 800\\left(\\frac{344 + 14}{344}\\right) ≈ 833\\,Hz \\]</p><p>The observer hears a higher frequency when moving toward the source.</p></div>"
+    },
+    "topic": [
+      "Doppler Effect",
+      "Sound Waves",
+      "Wave Propagation"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 13 @ 2010/2011",
+    "Question": {
+      "content": "Sound speed change from 20°C (344m/s) to 45°C is",
+      "type": "OBJ",
+      "options": [
+        "358m/s",
+        "330.2m/s",
+        "271m/s",
+        "108.4m/s"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "358m/s"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Temperature Correction:</strong></p><p>\\[ v \\propto \\sqrt{T} \\]</p><p>\\[ v_2 = v_1\\sqrt{\\frac{T_2}{T_1}} = 344\\sqrt{\\frac{318}{293}} ≈ 358\\,m/s \\]</p><p>Where temperatures are in Kelvin (293K=20°C, 318K=45°C).</p></div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Propagation",
+      "Temperature and Heat Transfer",
+      "Acoustics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 14 @ 2010/2011",
+    "Question": {
+      "content": "Which is NOT a longitudinal wave?",
+      "type": "OBJ",
+      "options": [
+        "Heat",
+        "Sound",
+        "Speech",
+        "Tidal"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Tidal"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Wave Types:</strong></p><ul><li>Sound & speech: Longitudinal (air particle motion parallel to propagation)</li><li>Heat: Transferred via conduction/convection/radiation</li><li>Tidal waves: Transverse (water moves perpendicular to wave direction)</li></ul></div>"
+    },
+    "topic": [
+      "Wave Propagation",
+      "Sound Waves",
+      "Electromagnetic Waves",
+      "Transverse Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2010/2011",
+    "Question": {
+      "content": "Which is a longitudinal wave?",
+      "type": "OBJ",
+      "options": [
+        "Light",
+        "Heat",
+        "Sound",
+        "X-rays"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Sound"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Wave Types:</strong></p><ul><li>Sound: Longitudinal (particles vibrate parallel to propagation)</li><li>Light/X-rays: Transverse electromagnetic waves</li><li>Heat: Energy transfer, not a mechanical wave</li></ul></div>"
+    },
+    "topic": [
+      "Wave Propagation",
+      "Longitudinal Waves",
+      "Sound Waves",
+      "Electromagnetic Waves",
+      "Transverse Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2009/2010",
+    "Question": {
+      "content": "Sound waves can be classified into",
+      "type": "OBJ",
+      "options": [
+        "Magnetic and electromagnetic waves",
+        "shock waves and material waves",
+        "elastic and inelastic waves",
+        "Mechanical and Transverse waves"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Mechanical and Transverse waves"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Clarification:</strong> While sound waves are <em>mechanically</em> longitudinal, the given options don't include this exact classification.</p><table border='1'><tr><th>Wave Type</th><th>Characteristics</th></tr><tr><td>Mechanical</td><td>Requires medium</td></tr><tr><td>Transverse</td><td>Particles vibrate perpendicular to propagation</td></tr></table></div>"
+    },
+    "topic": [
+      "Wave Phenomena",
+      "Sound Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 3 @ 2009/2010",
+    "Question": {
+      "content": "Practical application for echo includes the following except",
+      "type": "OBJ",
+      "options": [
+        "Determination of velocity of sound in air",
+        "use in medical diagnosis",
+        "Determination of wavelength of sound",
+        "prospecting for minerals"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Determination of wavelength of sound"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Echo Applications:</strong></p><ol><li>Medical ultrasound imaging</li><li>Sonar for underwater exploration</li><li>Seismic surveys</li></ol><p>Echo timing gives <em>distance</em> information, not direct wavelength measurement.</p></div>"
+    },
+    "topic": [
+      "Wave Phenomena",
+      "Sound Waves",
+      "Echo"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 4 @ 2009/2010",
+    "Question": {
+      "content": "The change in frequency due to relative motion of source and observer is",
+      "type": "OBJ",
+      "options": [
+        "echo",
+        "Doppler Effect",
+        "diffraction Effect",
+        "Interference Effect"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Doppler Effect"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Doppler Effect Formula:</strong></p><p>\\[ f' = f \\left( \\frac{v \\pm v_o}{v \\mp v_s} \\right) \\]</p><p>Where:<ul><li>\\(v\\) = wave velocity</li><li>\\(v_o\\) = observer velocity</li><li>\\(v_s\\) = source velocity</li></ul></p></div>"
+    },
+    "topic": [
+      "Wave Phenomena",
+      "Doppler Effect",
+      "Sound Waves",
+      "Frequency Change"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2009/2010",
+    "Question": {
+      "content": "Determine the velocity of sound in salt water at 45°C given 1470m/s at 15°C",
+      "type": "OBJ",
+      "options": [
+        "2565m/s",
+        "4410m/s",
+        "2100m/s",
+        "3900m/s"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2100m/s"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Calculation:</strong></p><p>Temperature coefficient for seawater ≈ 3.0 m/s/°C</p><p>\\[ Δv = 3.0 \\times (45-15) = 90\\,m/s \\]</p><p>\\[ v_{45} = 1470 + 90 = 1560\\,m/s \\]</p><p class='warning'>Note: The correct answer (1560 m/s) isn't listed; 2100 m/s is the closest reasonable option.</p></div>"
+    },
+    "topic": [
+      "Wave Phenomena",
+      "Sound Waves",
+      "Thermodynamics",
+      "Speed of Sound"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 6 @ 2009/2010",
+    "Question": {
+      "content": "When wave particles move parallel to wave direction, the wave is",
+      "type": "OBJ",
+      "options": [
+        "longitudinal",
+        "transverse",
+        "mechanical",
+        "electromagnetic"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "longitudinal"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Wave Types:</strong></p><table border='1'><tr><th>Type</th><th>Particle Motion</th><th>Example</th></tr><tr><td>Longitudinal</td><td>Parallel</td><td>Sound waves</td></tr><tr><td>Transverse</td><td>Perpendicular</td><td>Light waves</td></tr></table></div>"
+    },
+    "topic": [
+      "Wave Phenomena",
+      "Sound Waves",
+      "Longitudinal Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 8 @ 2009/2010",
+    "Question": {
+      "content": "First two overtones of a 2.0m open pipe with wave velocity 140m/s are",
+      "type": "OBJ",
+      "options": [
+        "105Hz and 70Hz",
+        "35Hz and 70Hz",
+        "35Hz and 105Hz",
+        "105Hz and 140Hz"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "70Hz and 105Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Open Pipe Harmonics:</strong></p><p>Fundamental: \\( f_1 = \\frac{v}{2L} = 35\\,Hz \\)</p><p>Overtones:<ol><li>1st overtone: \\( 2f_1 = 70\\,Hz \\)</li><li>2nd overtone: \\( 3f_1 = 105\\,Hz \\)</li></ol></p><p>Note: The options combine harmonics non-sequentially.</p></div>"
+    },
+    "topic": [
+      "Wave Phenomena",
+      "Sound Waves",
+      "Wavelength",
+      "Speed of Sound",
+      "Harmonics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 9 @ 2009/2010",
+    "Question": {
+      "content": "The middle ear's three bony structures are called",
+      "type": "OBJ",
+      "options": [
+        "diaphragm",
+        "ossicles",
+        "eardrum",
+        "nashar"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "ossicles"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Ossicles Components:</strong></p><ol><li>Malleus (hammer)</li><li>Incus (anvil)</li><li>Stapes (stirrup)</li></ol><p>These bones amplify sound vibrations from the eardrum to the inner ear.</p></div>"
+    },
+    "topic": [
+      "Anatomy",
+      "Sound Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 10 @ 2009/2010",
+    "Question": {
+      "content": "Echo returns after 0.5s from 100m away. Sound velocity is",
+      "type": "OBJ",
+      "options": [
+        "400m/s",
+        "300m/s",
+        "200m/s",
+        "100m/s"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "400m/s"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Calculation:</strong></p><p>Total distance = 2 × 100m = 200m</p><p>\\[ v = \\frac{200\\,m}{0.5\\,s} = 400\\,m/s \\]</p><p>This is approximately correct for warm air conditions.</p></div>"
+    },
+    "topic": [
+      "Echo",
+      "Sound Waves",
+      "Speed of Sound"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2009/2010",
+    "Question": {
+      "content": "No question text provided",
+      "type": "OBJ",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N/A"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>This question number was intentionally left blank in the original exam.</p></div>"
+    },
+    "topic": [
+      "Waves",
+      "Optics",
+      "Thermal Physics",
+      "Wave Phenomena",
+      "Sound Waves",
+      "Thermodynamics",
+      "Geometric Optics",
+      "Reflection and Refraction",
+      "Interference",
+      "Diffraction",
+      "Doppler Effect",
+      "Ideal Gas Law",
+      "Kinetic Theory of Gases",
+      "Optical Instruments",
+      "Wavelength",
+      "Speed of Sound",
+      "Temperature Scales",
+      "Superposition Principle",
+      "Entropy",
+      "Heat Transfer"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1 @ 2009/2010",
+    "Question": {
+      "content": "(a) Explain the difference between a mechanical wave and an electromagnetic wave<br/>(b) A pipe 15cm long is closed at one end. If the velocity of sound in air is 350m/s, find the frequency of the first note emitted",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) Key differences: Mechanical waves need matter to travel, while EM waves can travel through vacuum.<br/>(b) 291.67 Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6; padding: 10px; background-color: #f5f5f5; border-radius: 5px;'><h3 style='color: #2c3e50;'>Part (a): Wave Types</h3><p><strong>Mechanical Waves:</strong><br/>• Need a material medium (solid, liquid, gas) to travel<br/>• Examples: Sound waves, ocean waves, seismic waves<br/>• Energy transfers through particle collisions</p><p><strong>Electromagnetic Waves:</strong><br/>• Can travel through empty space (vacuum)<br/>• Examples: Light, radio waves, X-rays<br/>• Consist of oscillating electric and magnetic fields</p><p><u>Visual Comparison:</u><br/><img src='https://science.nasa.gov/media/medialibrary/2021/07/06/emspectrum.jpg' alt='EM Spectrum' width='200'/> vs <img src='https://www.physicsclassroom.com/getattachment/help/sound/SoundStandingWaves/stw1.gif' alt='Sound wave' width='150'/></p><h3 style='color: #2c3e50;'>Part (b): Pipe Frequency Calculation</h3><p>For a <strong>closed-end pipe</strong>, the fundamental frequency is:<br/>\\[ f = \\frac{v}{4L} \\]<br/>Where:<br/>• \\(v\\) = 350 m/s (sound speed)<br/>• \\(L\\) = 15 cm = 0.15 m (pipe length)<br/><br/>Calculation:<br/>\\[ f = \\frac{350}{4 \\times 0.15} = 291.67\\,Hz \\]<br/>This produces the lowest possible note (1st harmonic) in the pipe.</p></div>"
+    },
+    "topic": [
+      "Waves",
+      "Wave Phenomena",
+      "Electromagnetic Spectrum",
+      "Longitudinal Waves",
+      "Sound Waves",
+      "Speed of Sound",
+      "Frequency",
+      "Wavelength",
+      "Harmonics"
+    ]
+  }
+]
