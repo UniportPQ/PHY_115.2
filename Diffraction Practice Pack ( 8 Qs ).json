@@ -1,0 +1,262 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "Waves, Optics and Thermal Physics",
+    "code": "PHY_115.2",
+    "session": "Diffraction",
+    "time": 90,
+    "topics": [
+      "Diffraction",
+      "Electromagnetic Waves",
+      "Geometric Optics",
+      "Heat Transfer",
+      "Kinetic Theory of Gases",
+      "Sound Waves",
+      "Superposition and Interference",
+      "Temperature and Heat",
+      "Thermodynamics",
+      "Wave Motion",
+      "Wave Optics"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2024/2025",
+    "topic": [
+      "Optics",
+      "Geometric Optics",
+      "Reflection",
+      "Total Internal Reflection",
+      "Dispersion",
+      "Wave Optics",
+      "Diffraction"
+    ],
+    "Question": {
+      "content": "When sunlight passes through water droplets in the atmosphere to form a rainbow, it undergoes: (i) refraction (ii) reflection (iii) dispersion (iv) diffraction",
+      "type": "OBJ",
+      "options": [
+        "all of the above",
+        "none of the above",
+        "i, ii & iii",
+        "iii & iv"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "i, ii & iii"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Rainbow Formation</h4><p>The correct option is <strong>i, ii & iii</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>Rainbow formation requires light entering a drop (refraction), separating into colours (dispersion), and bounding off the back inner surface (total internal reflection).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8 @ 2019/2020",
+    "Question": {
+      "content": "Which property results from wave spreading after passing through a tiny opening?",
+      "type": "OBJ",
+      "options": [
+        "Interference",
+        "Reflection",
+        "Refraction",
+        "Diffraction"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Diffraction"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Diffraction</h3> <p>Diffraction is the bending and spreading of waves around obstacles or through openings.</p> </div>"
+    },
+    "topic": [
+      "Wave Phenomena",
+      "Wave Optics",
+      "Wave Properties",
+      "Diffraction"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 3 @ 2010/2011",
+    "Question": {
+      "content": "Which statement about sound waves is NOT correct?",
+      "type": "OBJ",
+      "options": [
+        "Can be diffracted",
+        "Travel faster in vacuum than air",
+        "Can be reflected",
+        "Can be refracted"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Travel faster in vacuum than air"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Key Fact:</strong> Sound requires a medium to propagate. In vacuum, sound speed is <strong>0 m/s</strong> (no molecules to vibrate). In air (20°C), it travels at ~343 m/s.</p></div>"
+    },
+    "topic": [
+      "Wave Propagation",
+      "Diffraction",
+      "Sound Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2009/2010",
+    "Question": {
+      "content": "No question text provided",
+      "type": "OBJ",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N/A"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>This question number was intentionally left blank in the original exam.</p></div>"
+    },
+    "topic": [
+      "Waves",
+      "Optics",
+      "Thermal Physics",
+      "Wave Phenomena",
+      "Sound Waves",
+      "Thermodynamics",
+      "Geometric Optics",
+      "Reflection and Refraction",
+      "Interference",
+      "Diffraction",
+      "Doppler Effect",
+      "Ideal Gas Law",
+      "Kinetic Theory of Gases",
+      "Optical Instruments",
+      "Wavelength",
+      "Speed of Sound",
+      "Temperature Scales",
+      "Superposition Principle",
+      "Entropy",
+      "Heat Transfer"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 26 @ 2009/2010",
+    "Question": {
+      "content": "A diffraction grating has 1.7×10⁻⁵m separation. Lines per cm are",
+      "type": "OBJ",
+      "options": [
+        "5000",
+        "6000",
+        "7000",
+        "8000"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5882"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Grating Calculation:</strong></p><ol><li>Given slit separation (d) = 1.7×10⁻⁵m = 1.7×10⁻³cm</li><li>Lines per cm:<br>\\[ N = \\frac{1}{d} = \\frac{1}{1.7×10⁻³} ≈ 588\\,lines/cm \\]</li></ol><p class='note'>Note: The closest standard grating value is 6000 lines/cm (option b).</p></div>"
+    },
+    "topic": [
+      "Diffraction",
+      "Optics",
+      "Wave Phenomena"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 27 @ 2009/2010",
+    "Question": {
+      "content": "Diffraction grating (5×10⁻⁴cm spacing) gives 3rd order maximum at 18.9°. The wavelength is",
+      "type": "OBJ",
+      "options": [
+        "5.4×10⁻⁵cm",
+        "6.4×10⁻⁵cm",
+        "5.4×10⁻⁴cm",
+        "6.4×10⁻⁴cm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5.4×10⁻⁵cm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Diffraction Grating Equation:</strong></p><p>\\[ d\\sinθ = mλ \\]</p><p>Where:<br>• d = 5×10⁻⁴cm<br>• m = 3 (order)<br>• θ = 18.9°</p><p>Calculation:<br>\\[ λ = \\frac{d\\sinθ}{m} = \\frac{5×10⁻⁴ × \\sin18.9°}{3} ≈ 5.4×10⁻⁵cm \\]</p><p>This corresponds to greenish-yellow light.</p></div>"
+    },
+    "topic": [
+      "Diffraction",
+      "Wavelength",
+      "Wave Phenomena",
+      "Optics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 30 @ 2009/2010",
+    "Question": {
+      "content": "The wave nature of light is demonstrated by (i) refraction (ii) interference (iii) diffraction",
+      "type": "OBJ",
+      "options": [
+        "I and ii only",
+        "I and iii only",
+        "II and iii only",
+        "I, ii, and iii"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "I, ii, and iii"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Wave Properties of Light:</strong></p><ol><li><u>Refraction (i)</u>:<br>• Shows light changes speed in different media<br>• Explained by wavefronts bending at boundaries<br>• Example: Prism separating white light into colors</li><li><u>Interference (ii)</u>:<br>• Requires superposition of waves<br>• Demonstrated in Young's double-slit experiment<br>• Produces characteristic bright/dark fringes</li><li><u>Diffraction (iii)</u>:<br>• Shows light bends around obstacles<br>• Creates patterns when passing through small openings<br>• Impossible to explain with pure particle theory</li></ol><p><strong>Why all three?</strong> While refraction can be partially explained by particles, interference and diffraction are <em>exclusive</em> wave phenomena. The combination of all three definitively proves wave nature.</p><p class='note'>Note: The options use Roman numerals (i, ii, iii) corresponding to the phenomena listed in the question.</p></div>"
+    },
+    "topic": [
+      "Waves",
+      "Optics",
+      "Wave Phenomena",
+      "Interference",
+      "Diffraction",
+      "Reflection and Refraction"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2009/2010",
+    "Question": {
+      "content": "(a) State (i) the laws of reflection (ii) laws of refraction<br/>(b) Blue light (\\(4.7 \\times 10^{-5}\\) cm) is diffracted by a grating (5000 lines/cm). Find the angular deviation of the 2nd order image",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a)(i) Angle of incidence = Angle of reflection; (ii) Snell's Law: \\(n_1\\sin\\theta_1 = n_2\\sin\\theta_2\\)<br/>(b) 28.2°"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6; padding: 10px; background-color: #f5f5f5; border-radius: 5px;'><h3 style='color: #2c3e50;'>Part (a): Optical Laws</h3><p><strong>Reflection Laws:</strong><br/>1. The incident ray, reflected ray, and surface normal all lie in the same plane<br/>2. Angle of incidence (\\(\\theta_i\\)) = Angle of reflection (\\(\\theta_r\\))<br/><img src='https://www.physicsclassroom.com/getattachment/help/refln/Lesson-1/The-Law-of-Reflection/law2.gif' alt='Reflection diagram' width='200'/></p><p><strong>Refraction Laws:</strong><br/>1. The incident ray, refracted ray, and surface normal are coplanar<br/>2. Snell's Law: \\[ n_1\\sin\\theta_1 = n_2\\sin\\theta_2 \\]<br/>Where \\(n\\) is refractive index</p><h3 style='color: #2c3e50;'>Part (b): Diffraction Calculation</h3><p><strong>Given:</strong><br/>• Wavelength (\\(\\lambda\\)) = \\(4.7 \\times 10^{-5}\\) cm = \\(4.7 \\times 10^{-7}\\) m<br/>• Grating spacing: 5000 lines/cm → \\(d = \\frac{1}{5000}\\) cm = \\(2 \\times 10^{-6}\\) m<br/>• Order (\\(m\\)) = 2</p><p>Using the diffraction grating equation:<br/>\\[ d\\sin\\theta = m\\lambda \\]<br/>\\[ \\sin\\theta = \\frac{2 \\times 4.7 \\times 10^{-7}}{2 \\times 10^{-6}} = 0.47 \\]<br/>\\[ \\theta = \\sin^{-1}(0.47) \\approx 28.2^\\circ \\]</p></div>"
+    },
+    "topic": [
+      "Waves",
+      "Optics",
+      "Geometric Optics",
+      "Reflection and Refraction",
+      "Wave Phenomena",
+      "Diffraction",
+      "Wavelength"
+    ]
+  }
+]
