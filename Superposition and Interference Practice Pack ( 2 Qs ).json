@@ -1,0 +1,82 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "Waves, Optics and Thermal Physics",
+    "code": "PHY_115.2",
+    "session": "Superposition and Interference",
+    "time": 90,
+    "topics": [
+      "Diffraction",
+      "Electromagnetic Waves",
+      "Geometric Optics",
+      "Heat Transfer",
+      "Kinetic Theory of Gases",
+      "Sound Waves",
+      "Superposition and Interference",
+      "Temperature and Heat",
+      "Thermodynamics",
+      "Wave Motion",
+      "Wave Optics"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1 @ 2015/2016",
+    "Question": {
+      "content": "In a closed pipe of length \\( l \\), what is the frequency of the second overtone if the velocity of sound in the air column is \\( V \\)?",
+      "type": "OBJ",
+      "options": [
+        "\\( \\frac{V}{4l} \\)",
+        "\\( \\frac{3V}{2l} \\)",
+        "\\( \\frac{5V}{4l} \\)",
+        "\\( \\frac{V}{l} \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{5V}{4l} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Closed Pipe Harmonics</h3> <p><strong>Key Concept:</strong> In a closed pipe, only odd harmonics are present. The frequencies are given by:</p> \\[ f_n = \\frac{(2n + 1)V}{4l} \\] <p>where \\( n = 0, 1, 2, \\dots \\) (harmonic number).</p> <p><strong>Second Overtone:</strong> <br> 1. Fundamental (1st harmonic): \\( n = 0 \\), \\( f_0 = \\frac{V}{4l} \\). <br> 2. First overtone (3rd harmonic): \\( n = 1 \\), \\( f_1 = \\frac{3V}{4l} \\). <br> 3. <strong>Second overtone (5th harmonic)</strong>: \\( n = 2 \\), \\( f_2 = \\frac{5V}{4l} \\).</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The second overtone corresponds to the 5th harmonic for closed pipes.</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Motion",
+      "Superposition and Interference",
+      "Standing Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2015/2016",
+    "Question": {
+      "content": "Two open organ pipes produce a beat frequency of 12.0 Hz. The longer pipe has a length of 0.40 m. What is the length of the other pipe? (Speed of sound = 340 m/s).",
+      "type": "OBJ",
+      "options": [
+        "0.778 m",
+        "0.389 m",
+        "2.4 m",
+        "0.226 m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.389 m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Beat Frequency in Open Pipes</h3> <p><strong>Step 1: Frequency of Longer Pipe</strong> <br> For an open pipe, the fundamental frequency is: \\[ f = \\frac{V}{2l} \\] <br> Given \\( l_1 = 0.40 \\) m: \\[ f_1 = \\frac{340}{2 \\times 0.40} = 425 \\text{ Hz} \\]</p> <p><strong>Step 2: Determine the Other Pipe's Frequency</strong> <br> Beat frequency \\( f_{\\text{beat}} = |f_1 - f_2| = 12 \\) Hz. <br> Thus, \\( f_2 = 425 \\pm 12 \\) Hz → \\( 413 \\) Hz or \\( 437 \\) Hz.</p> <p><strong>Step 3: Calculate Length of Shorter Pipe</strong> <br> Using \\( f_2 = \\frac{V}{2l_2} \\): <br> For \\( f_2 = 437 \\) Hz: \\[ l_2 = \\frac{340}{2 \\times 437} \\approx 0.389 \\text{ m} \\] <br> For \\( f_2 = 413 \\) Hz: \\( l_2 \\approx 0.411 \\) m (not an option).</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Conclusion:</strong> The correct answer is \\( 0.389 \\) m.</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Standing Waves",
+      "Superposition and Interference"
+    ]
+  }
+]
