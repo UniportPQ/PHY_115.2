@@ -1,0 +1,1171 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "Waves, Optics and Thermal Physics",
+    "code": "PHY_115.2",
+    "session": "Heat Transfer",
+    "time": 90,
+    "topics": [
+      "Geometrical Optics",
+      "Heat Transfer",
+      "Kinetic Theory of Gases and Ideal Gases",
+      "Sound Waves and Acoustics",
+      "Superposition, Interference, and Diffraction",
+      "Temperature and Heat",
+      "Thermodynamics",
+      "Wave Motion and Properties",
+      "Wave Optics"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 17 @ 2015/2016 @ Thermodynamics",
+    "Question": {
+      "content": "Which equation represents Stefan's law of radiation?",
+      "type": "OBJ",
+      "options": [
+        "E = σT²",
+        "E = σT⁴",
+        "E = σT²",
+        "E = kT"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "E = σT⁴"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Stefan's Law</h3> <p>Stefan-Boltzmann law states: <br> \\[ E = σT⁴ \\] <br> where σ is the Stefan-Boltzmann constant</p> </div>"
+    },
+    "topic": [
+      "Temperature and Heat",
+      "Heat Transfer",
+      "Thermodynamics",
+      "Radiation"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2b @ 2015/2016 @ Thermodynamics",
+    "Question": {
+      "content": "Distinguish between thermal capacity and thermal conductivity.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Thermal capacity: Heat energy required to raise an object's temperature by 1°C. <br> Thermal conductivity: Rate of heat transfer through a material."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Thermal Capacity vs. Conductivity</h3> <p><strong>Thermal Capacity:</strong> <br> - Depends on mass and material. <br> - Units: J/°C or J/K. <br> - Example: Water has high thermal capacity.</p> <p><strong>Thermal Conductivity:</strong> <br> - Measures heat flow rate per unit area/temperature gradient. <br> - Units: W/m·K. <br> - Example: Metals have high conductivity.</p> </div>"
+    },
+    "topic": [
+      "Temperature and Heat",
+      "Heat Transfer",
+      "Thermodynamics",
+      "Specific Heat Capacity",
+      "Thermal Conductivity"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2c @ 2015/2016 @ Thermodynamics",
+    "Question": {
+      "content": "Calculate the thermal conductivity of a solid (cross-section \\( 2 \\times 10^{-2} \\, \\text{m}^2 \\), length 50 cm) if heat flows at \\( 3.5 \\, \\text{kJ/s} \\) with a \\( 27^\\circ \\text{C} \\) temperature difference.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "32.41 W/m·K"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Thermal Conductivity Calculation</h3> <p><strong>Formula:</strong> <br> \\[ Q = kA \\frac{\\Delta T}{L} \\] <br> where \\( Q \\) is heat flow rate, \\( A \\) is area, \\( \\Delta T \\) is temperature difference, and \\( L \\) is length.</p> <p><strong>Given:</strong> <br> - \\( Q = 3.5 \\, \\text{kJ/s} = 3500 \\, \\text{W} \\). <br> - \\( A = 2 \\times 10^{-2} \\, \\text{m}^2 \\), \\( L = 0.5 \\, \\text{m} \\), \\( \\Delta T = 27^\\circ \\text{C} \\).</p> <p><strong>Calculation:</strong> <br> \\[ k = \\frac{Q \\cdot L}{A \\cdot \\Delta T} = \\frac{3500 \\times 0.5}{0.02 \\times 27} \\approx 32.41 \\, \\text{W/m·K} \\] </div>"
+    },
+    "topic": [
+      "Thermal Conductivity",
+      "Heat Transfer",
+      "Temperature and Heat",
+      "Thermodynamics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2009/2010 @ Thermodynamics",
+    "Question": {
+      "content": "No question text provided",
+      "type": "OBJ",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N/A"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>This question number was intentionally left blank in the original exam.</p></div>"
+    },
+    "topic": [
+      "Waves",
+      "Optics",
+      "Thermal Physics",
+      "Wave Phenomena",
+      "Sound Waves",
+      "Thermodynamics",
+      "Geometric Optics",
+      "Reflection and Refraction",
+      "Interference",
+      "Diffraction",
+      "Doppler Effect",
+      "Ideal Gas Law",
+      "Kinetic Theory of Gases",
+      "Optical Instruments",
+      "Wavelength",
+      "Speed of Sound",
+      "Temperature Scales",
+      "Superposition Principle",
+      "Entropy",
+      "Heat Transfer"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 24 @ 2019/2020 @ Temperature and Heat",
+    "Question": {
+      "content": "Which heat transfer mode does not require a material medium?",
+      "type": "OBJ",
+      "options": [
+        "Convection & radiation",
+        "Conduction & radiation",
+        "Convection only",
+        "Radiation only"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Radiation only"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Heat Transfer Modes</h3> <p><strong>Radiation:</strong> <br> - Transfers heat via electromagnetic waves (e.g., sunlight). <br> - Requires no medium (works in a vacuum).</p> <p><strong>Others:</strong> <br> - Conduction/convection require a medium (solid/fluid).</p> </div>"
+    },
+    "topic": [
+      "Waves, Optics and Thermal Physics",
+      "Temperature and Heat",
+      "Heat Transfer",
+      "Radiation"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 30 @ 2019/2020 @ Temperature and Heat",
+    "Question": {
+      "content": "Heat is supplied at 50 J/s for 1 hr 40 mins. Calculate total heat absorbed.",
+      "type": "OBJ",
+      "options": [
+        "300 J",
+        "3000 J",
+        "3000 kJ",
+        "1000 kJ"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "300 kJ"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Heat Absorbed</h3> <p><strong>Given:</strong> <br> - Power = 50 J/s. <br> - Time = 1 hr 40 mins = 6000 s.</p> <p><strong>Calculation:</strong> <br> \\[ Q = \\text{Power} \\times \\text{Time} = 50 \\times 6000 = 300,000 \\, \\text{J} = 300 \\, \\text{kJ} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The correct answer (300 kJ) is not listed; the closest is (C) 3000 kJ.</p> </div>"
+    },
+    "topic": [
+      "Temperature and Heat",
+      "Heat Transfer"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 17 @ 2015/2016 @ Temperature and Heat",
+    "Question": {
+      "content": "Which equation represents Stefan's law of radiation?",
+      "type": "OBJ",
+      "options": [
+        "E = σT²",
+        "E = σT⁴",
+        "E = σT²",
+        "E = kT"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "E = σT⁴"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Stefan's Law</h3> <p>Stefan-Boltzmann law states: <br> \\[ E = σT⁴ \\] <br> where σ is the Stefan-Boltzmann constant</p> </div>"
+    },
+    "topic": [
+      "Temperature and Heat",
+      "Heat Transfer",
+      "Thermodynamics",
+      "Radiation"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 19 @ 2015/2016 @ Temperature and Heat",
+    "Question": {
+      "content": "Calculate the temperature gradient in a 50 cm metal bar with ends at 127°C and 37°C.",
+      "type": "OBJ",
+      "options": [
+        "15°C/m",
+        "17°C/m",
+        "18°C/m",
+        "20°C/m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "180°C/m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Temperature Gradient</h3> <p><strong>Calculation:</strong> <br> ΔT = 127°C - 37°C = 90°C <br> Length = 0.5 m <br> Gradient = 90/0.5 = 180°C/m</p> </div>"
+    },
+    "topic": [
+      "Temperature and Heat",
+      "Heat Transfer",
+      "Temperature Gradient"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 20 @ 2015/2016 @ Temperature and Heat",
+    "Question": {
+      "content": "Which instrument detects radiant heat?",
+      "type": "OBJ",
+      "options": [
+        "Thermocouple",
+        "Thermopile",
+        "Black body",
+        "Thermostat"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Thermopile"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Radiant Heat Detection</h3> <p>A thermopile converts thermal radiation into electrical signals, making it ideal for detecting radiant heat.</p> </div>"
+    },
+    "topic": [
+      "Temperature and Heat",
+      "Heat Transfer",
+      "Radiation",
+      "Instrumentation"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2b @ 2015/2016 @ Temperature and Heat",
+    "Question": {
+      "content": "Distinguish between thermal capacity and thermal conductivity.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Thermal capacity: Heat energy required to raise an object's temperature by 1°C. <br> Thermal conductivity: Rate of heat transfer through a material."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Thermal Capacity vs. Conductivity</h3> <p><strong>Thermal Capacity:</strong> <br> - Depends on mass and material. <br> - Units: J/°C or J/K. <br> - Example: Water has high thermal capacity.</p> <p><strong>Thermal Conductivity:</strong> <br> - Measures heat flow rate per unit area/temperature gradient. <br> - Units: W/m·K. <br> - Example: Metals have high conductivity.</p> </div>"
+    },
+    "topic": [
+      "Temperature and Heat",
+      "Heat Transfer",
+      "Thermodynamics",
+      "Specific Heat Capacity",
+      "Thermal Conductivity"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2c @ 2015/2016 @ Temperature and Heat",
+    "Question": {
+      "content": "Calculate the thermal conductivity of a solid (cross-section \\( 2 \\times 10^{-2} \\, \\text{m}^2 \\), length 50 cm) if heat flows at \\( 3.5 \\, \\text{kJ/s} \\) with a \\( 27^\\circ \\text{C} \\) temperature difference.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "32.41 W/m·K"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Thermal Conductivity Calculation</h3> <p><strong>Formula:</strong> <br> \\[ Q = kA \\frac{\\Delta T}{L} \\] <br> where \\( Q \\) is heat flow rate, \\( A \\) is area, \\( \\Delta T \\) is temperature difference, and \\( L \\) is length.</p> <p><strong>Given:</strong> <br> - \\( Q = 3.5 \\, \\text{kJ/s} = 3500 \\, \\text{W} \\). <br> - \\( A = 2 \\times 10^{-2} \\, \\text{m}^2 \\), \\( L = 0.5 \\, \\text{m} \\), \\( \\Delta T = 27^\\circ \\text{C} \\).</p> <p><strong>Calculation:</strong> <br> \\[ k = \\frac{Q \\cdot L}{A \\cdot \\Delta T} = \\frac{3500 \\times 0.5}{0.02 \\times 27} \\approx 32.41 \\, \\text{W/m·K} \\] </div>"
+    },
+    "topic": [
+      "Thermal Conductivity",
+      "Heat Transfer",
+      "Temperature and Heat",
+      "Thermodynamics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 35 @ 2012/2013 @ Temperature and Heat",
+    "Question": {
+      "content": "Which device uses radiant energy for temperature measurement?",
+      "type": "OBJ",
+      "options": [
+        "Thermocouple",
+        "Optical pyrometer",
+        "Clinical thermometer",
+        "Gas thermometer"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Optical pyrometer"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🌡️ Radiation Thermometry</h3><p>Optical pyrometers measure temperature by detecting:<br>• <strong>Thermal radiation</strong> (infrared/visible light)<br>• <strong>Color intensity</strong> (for very high temps like furnaces)</p><h3>⚙️ How Others Work</h3><ul><li>Thermocouples: Voltage from metal junctions</li><li>Clinical thermometers: Liquid expansion</li><li>Gas thermometers: Pressure-volume changes</li></ul></div>"
+    },
+    "topic": [
+      "Thermal Physics",
+      "Temperature and Heat",
+      "Electromagnetic Waves",
+      "Heat Transfer",
+      "Optical Pyrometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 36 @ 2012/2013 @ Temperature and Heat",
+    "Question": {
+      "content": "Which heat transfer methods require a material medium?",
+      "type": "OBJ",
+      "options": [
+        "Conduction",
+        "Conduction and radiation",
+        "Conduction and convection",
+        "Convection and radiation"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Conduction and convection"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🔥 Heat Transfer Types</h3><table style='width:100%; border-collapse: collapse;'><tr><th style='border:1px solid #ddd; padding:8px;'>Method</th><th style='border:1px solid #ddd; padding:8px;'>Medium Required?</th></tr><tr><td style='border:1px solid #ddd; padding:8px;'>Conduction</td><td style='border:1px solid #ddd; padding:8px;'>Yes (solids/liquids/gases)</td></tr><tr><td style='border:1px solid #ddd; padding:8px;'>Convection</td><td style='border:1px solid #ddd; padding:8px;'>Yes (fluids only)</td></tr><tr><td style='border:1px solid #ddd; padding:8px;'>Radiation</td><td style='border:1px solid #ddd; padding:8px;'>No (works in vacuum)</td></tr></table></div>"
+    },
+    "topic": [
+      "Heat Transfer",
+      "Thermal Physics",
+      "Temperature and Heat",
+      "Modes of Heat Transfer"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2009/2010 @ Sound Waves",
+    "Question": {
+      "content": "No question text provided",
+      "type": "OBJ",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N/A"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>This question number was intentionally left blank in the original exam.</p></div>"
+    },
+    "topic": [
+      "Waves",
+      "Optics",
+      "Thermal Physics",
+      "Wave Phenomena",
+      "Sound Waves",
+      "Thermodynamics",
+      "Geometric Optics",
+      "Reflection and Refraction",
+      "Interference",
+      "Diffraction",
+      "Doppler Effect",
+      "Ideal Gas Law",
+      "Kinetic Theory of Gases",
+      "Optical Instruments",
+      "Wavelength",
+      "Speed of Sound",
+      "Temperature Scales",
+      "Superposition Principle",
+      "Entropy",
+      "Heat Transfer"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2009/2010 @ Kinetic Theory of Gases",
+    "Question": {
+      "content": "No question text provided",
+      "type": "OBJ",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N/A"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>This question number was intentionally left blank in the original exam.</p></div>"
+    },
+    "topic": [
+      "Waves",
+      "Optics",
+      "Thermal Physics",
+      "Wave Phenomena",
+      "Sound Waves",
+      "Thermodynamics",
+      "Geometric Optics",
+      "Reflection and Refraction",
+      "Interference",
+      "Diffraction",
+      "Doppler Effect",
+      "Ideal Gas Law",
+      "Kinetic Theory of Gases",
+      "Optical Instruments",
+      "Wavelength",
+      "Speed of Sound",
+      "Temperature Scales",
+      "Superposition Principle",
+      "Entropy",
+      "Heat Transfer"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 24 @ 2019/2020 @ Heat Transfer",
+    "Question": {
+      "content": "Which heat transfer mode does not require a material medium?",
+      "type": "OBJ",
+      "options": [
+        "Convection & radiation",
+        "Conduction & radiation",
+        "Convection only",
+        "Radiation only"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Radiation only"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Heat Transfer Modes</h3> <p><strong>Radiation:</strong> <br> - Transfers heat via electromagnetic waves (e.g., sunlight). <br> - Requires no medium (works in a vacuum).</p> <p><strong>Others:</strong> <br> - Conduction/convection require a medium (solid/fluid).</p> </div>"
+    },
+    "topic": [
+      "Waves, Optics and Thermal Physics",
+      "Temperature and Heat",
+      "Heat Transfer",
+      "Radiation"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 30 @ 2019/2020 @ Heat Transfer",
+    "Question": {
+      "content": "Heat is supplied at 50 J/s for 1 hr 40 mins. Calculate total heat absorbed.",
+      "type": "OBJ",
+      "options": [
+        "300 J",
+        "3000 J",
+        "3000 kJ",
+        "1000 kJ"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "300 kJ"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Heat Absorbed</h3> <p><strong>Given:</strong> <br> - Power = 50 J/s. <br> - Time = 1 hr 40 mins = 6000 s.</p> <p><strong>Calculation:</strong> <br> \\[ Q = \\text{Power} \\times \\text{Time} = 50 \\times 6000 = 300,000 \\, \\text{J} = 300 \\, \\text{kJ} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The correct answer (300 kJ) is not listed; the closest is (C) 3000 kJ.</p> </div>"
+    },
+    "topic": [
+      "Temperature and Heat",
+      "Heat Transfer"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 33 @ 2019/2020 @ Heat Transfer",
+    "Question": {
+      "content": "Which instrument is used to detect radiant heat?",
+      "type": "OBJ",
+      "options": [
+        "Thermocouple",
+        "Thermostat",
+        "Black body",
+        "Thermopile"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Thermopile"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Radiant Heat Detection</h3> <p><strong>Thermopile:</strong> Converts thermal radiation into electrical signals, making it ideal for detecting radiant heat. <br> <strong>Other Options:</strong> <br> - Thermocouple: Measures temperature differences. <br> - Thermostat: Regulates temperature. <br> - Black body: Absorbs radiation but does not detect it.</p> </div>"
+    },
+    "topic": [
+      "Radiation",
+      "Heat Transfer",
+      "Thermometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 17 @ 2015/2016 @ Heat Transfer",
+    "Question": {
+      "content": "Which equation represents Stefan's law of radiation?",
+      "type": "OBJ",
+      "options": [
+        "E = σT²",
+        "E = σT⁴",
+        "E = σT²",
+        "E = kT"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "E = σT⁴"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Stefan's Law</h3> <p>Stefan-Boltzmann law states: <br> \\[ E = σT⁴ \\] <br> where σ is the Stefan-Boltzmann constant</p> </div>"
+    },
+    "topic": [
+      "Temperature and Heat",
+      "Heat Transfer",
+      "Thermodynamics",
+      "Radiation"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 19 @ 2015/2016 @ Heat Transfer",
+    "Question": {
+      "content": "Calculate the temperature gradient in a 50 cm metal bar with ends at 127°C and 37°C.",
+      "type": "OBJ",
+      "options": [
+        "15°C/m",
+        "17°C/m",
+        "18°C/m",
+        "20°C/m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "180°C/m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Temperature Gradient</h3> <p><strong>Calculation:</strong> <br> ΔT = 127°C - 37°C = 90°C <br> Length = 0.5 m <br> Gradient = 90/0.5 = 180°C/m</p> </div>"
+    },
+    "topic": [
+      "Temperature and Heat",
+      "Heat Transfer",
+      "Temperature Gradient"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 20 @ 2015/2016 @ Heat Transfer",
+    "Question": {
+      "content": "Which instrument detects radiant heat?",
+      "type": "OBJ",
+      "options": [
+        "Thermocouple",
+        "Thermopile",
+        "Black body",
+        "Thermostat"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Thermopile"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Radiant Heat Detection</h3> <p>A thermopile converts thermal radiation into electrical signals, making it ideal for detecting radiant heat.</p> </div>"
+    },
+    "topic": [
+      "Temperature and Heat",
+      "Heat Transfer",
+      "Radiation",
+      "Instrumentation"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2b @ 2015/2016 @ Heat Transfer",
+    "Question": {
+      "content": "Distinguish between thermal capacity and thermal conductivity.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Thermal capacity: Heat energy required to raise an object's temperature by 1°C. <br> Thermal conductivity: Rate of heat transfer through a material."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Thermal Capacity vs. Conductivity</h3> <p><strong>Thermal Capacity:</strong> <br> - Depends on mass and material. <br> - Units: J/°C or J/K. <br> - Example: Water has high thermal capacity.</p> <p><strong>Thermal Conductivity:</strong> <br> - Measures heat flow rate per unit area/temperature gradient. <br> - Units: W/m·K. <br> - Example: Metals have high conductivity.</p> </div>"
+    },
+    "topic": [
+      "Temperature and Heat",
+      "Heat Transfer",
+      "Thermodynamics",
+      "Specific Heat Capacity",
+      "Thermal Conductivity"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2c @ 2015/2016 @ Heat Transfer",
+    "Question": {
+      "content": "Calculate the thermal conductivity of a solid (cross-section \\( 2 \\times 10^{-2} \\, \\text{m}^2 \\), length 50 cm) if heat flows at \\( 3.5 \\, \\text{kJ/s} \\) with a \\( 27^\\circ \\text{C} \\) temperature difference.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "32.41 W/m·K"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Thermal Conductivity Calculation</h3> <p><strong>Formula:</strong> <br> \\[ Q = kA \\frac{\\Delta T}{L} \\] <br> where \\( Q \\) is heat flow rate, \\( A \\) is area, \\( \\Delta T \\) is temperature difference, and \\( L \\) is length.</p> <p><strong>Given:</strong> <br> - \\( Q = 3.5 \\, \\text{kJ/s} = 3500 \\, \\text{W} \\). <br> - \\( A = 2 \\times 10^{-2} \\, \\text{m}^2 \\), \\( L = 0.5 \\, \\text{m} \\), \\( \\Delta T = 27^\\circ \\text{C} \\).</p> <p><strong>Calculation:</strong> <br> \\[ k = \\frac{Q \\cdot L}{A \\cdot \\Delta T} = \\frac{3500 \\times 0.5}{0.02 \\times 27} \\approx 32.41 \\, \\text{W/m·K} \\] </div>"
+    },
+    "topic": [
+      "Thermal Conductivity",
+      "Heat Transfer",
+      "Temperature and Heat",
+      "Thermodynamics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 35 @ 2012/2013 @ Heat Transfer",
+    "Question": {
+      "content": "Which device uses radiant energy for temperature measurement?",
+      "type": "OBJ",
+      "options": [
+        "Thermocouple",
+        "Optical pyrometer",
+        "Clinical thermometer",
+        "Gas thermometer"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Optical pyrometer"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🌡️ Radiation Thermometry</h3><p>Optical pyrometers measure temperature by detecting:<br>• <strong>Thermal radiation</strong> (infrared/visible light)<br>• <strong>Color intensity</strong> (for very high temps like furnaces)</p><h3>⚙️ How Others Work</h3><ul><li>Thermocouples: Voltage from metal junctions</li><li>Clinical thermometers: Liquid expansion</li><li>Gas thermometers: Pressure-volume changes</li></ul></div>"
+    },
+    "topic": [
+      "Thermal Physics",
+      "Temperature and Heat",
+      "Electromagnetic Waves",
+      "Heat Transfer",
+      "Optical Pyrometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 36 @ 2012/2013 @ Heat Transfer",
+    "Question": {
+      "content": "Which heat transfer methods require a material medium?",
+      "type": "OBJ",
+      "options": [
+        "Conduction",
+        "Conduction and radiation",
+        "Conduction and convection",
+        "Convection and radiation"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Conduction and convection"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🔥 Heat Transfer Types</h3><table style='width:100%; border-collapse: collapse;'><tr><th style='border:1px solid #ddd; padding:8px;'>Method</th><th style='border:1px solid #ddd; padding:8px;'>Medium Required?</th></tr><tr><td style='border:1px solid #ddd; padding:8px;'>Conduction</td><td style='border:1px solid #ddd; padding:8px;'>Yes (solids/liquids/gases)</td></tr><tr><td style='border:1px solid #ddd; padding:8px;'>Convection</td><td style='border:1px solid #ddd; padding:8px;'>Yes (fluids only)</td></tr><tr><td style='border:1px solid #ddd; padding:8px;'>Radiation</td><td style='border:1px solid #ddd; padding:8px;'>No (works in vacuum)</td></tr></table></div>"
+    },
+    "topic": [
+      "Heat Transfer",
+      "Thermal Physics",
+      "Temperature and Heat",
+      "Modes of Heat Transfer"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2009/2010 @ Heat Transfer",
+    "Question": {
+      "content": "No question text provided",
+      "type": "OBJ",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N/A"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>This question number was intentionally left blank in the original exam.</p></div>"
+    },
+    "topic": [
+      "Waves",
+      "Optics",
+      "Thermal Physics",
+      "Wave Phenomena",
+      "Sound Waves",
+      "Thermodynamics",
+      "Geometric Optics",
+      "Reflection and Refraction",
+      "Interference",
+      "Diffraction",
+      "Doppler Effect",
+      "Ideal Gas Law",
+      "Kinetic Theory of Gases",
+      "Optical Instruments",
+      "Wavelength",
+      "Speed of Sound",
+      "Temperature Scales",
+      "Superposition Principle",
+      "Entropy",
+      "Heat Transfer"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2009/2010 @ Geometric Optics",
+    "Question": {
+      "content": "No question text provided",
+      "type": "OBJ",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N/A"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>This question number was intentionally left blank in the original exam.</p></div>"
+    },
+    "topic": [
+      "Waves",
+      "Optics",
+      "Thermal Physics",
+      "Wave Phenomena",
+      "Sound Waves",
+      "Thermodynamics",
+      "Geometric Optics",
+      "Reflection and Refraction",
+      "Interference",
+      "Diffraction",
+      "Doppler Effect",
+      "Ideal Gas Law",
+      "Kinetic Theory of Gases",
+      "Optical Instruments",
+      "Wavelength",
+      "Speed of Sound",
+      "Temperature Scales",
+      "Superposition Principle",
+      "Entropy",
+      "Heat Transfer"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 35 @ 2012/2013 @ Electromagnetic Waves",
+    "Question": {
+      "content": "Which device uses radiant energy for temperature measurement?",
+      "type": "OBJ",
+      "options": [
+        "Thermocouple",
+        "Optical pyrometer",
+        "Clinical thermometer",
+        "Gas thermometer"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Optical pyrometer"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🌡️ Radiation Thermometry</h3><p>Optical pyrometers measure temperature by detecting:<br>• <strong>Thermal radiation</strong> (infrared/visible light)<br>• <strong>Color intensity</strong> (for very high temps like furnaces)</p><h3>⚙️ How Others Work</h3><ul><li>Thermocouples: Voltage from metal junctions</li><li>Clinical thermometers: Liquid expansion</li><li>Gas thermometers: Pressure-volume changes</li></ul></div>"
+    },
+    "topic": [
+      "Thermal Physics",
+      "Temperature and Heat",
+      "Electromagnetic Waves",
+      "Heat Transfer",
+      "Optical Pyrometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2009/2010 @ Diffraction",
+    "Question": {
+      "content": "No question text provided",
+      "type": "OBJ",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N/A"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>This question number was intentionally left blank in the original exam.</p></div>"
+    },
+    "topic": [
+      "Waves",
+      "Optics",
+      "Thermal Physics",
+      "Wave Phenomena",
+      "Sound Waves",
+      "Thermodynamics",
+      "Geometric Optics",
+      "Reflection and Refraction",
+      "Interference",
+      "Diffraction",
+      "Doppler Effect",
+      "Ideal Gas Law",
+      "Kinetic Theory of Gases",
+      "Optical Instruments",
+      "Wavelength",
+      "Speed of Sound",
+      "Temperature Scales",
+      "Superposition Principle",
+      "Entropy",
+      "Heat Transfer"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 24 @ 2019/2020",
+    "Question": {
+      "content": "Which heat transfer mode does not require a material medium?",
+      "type": "OBJ",
+      "options": [
+        "Convection & radiation",
+        "Conduction & radiation",
+        "Convection only",
+        "Radiation only"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Radiation only"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Heat Transfer Modes</h3> <p><strong>Radiation:</strong> <br> - Transfers heat via electromagnetic waves (e.g., sunlight). <br> - Requires no medium (works in a vacuum).</p> <p><strong>Others:</strong> <br> - Conduction/convection require a medium (solid/fluid).</p> </div>"
+    },
+    "topic": [
+      "Waves, Optics and Thermal Physics",
+      "Temperature and Heat",
+      "Heat Transfer",
+      "Radiation"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 30 @ 2019/2020",
+    "Question": {
+      "content": "Heat is supplied at 50 J/s for 1 hr 40 mins. Calculate total heat absorbed.",
+      "type": "OBJ",
+      "options": [
+        "300 J",
+        "3000 J",
+        "3000 kJ",
+        "1000 kJ"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "300 kJ"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Heat Absorbed</h3> <p><strong>Given:</strong> <br> - Power = 50 J/s. <br> - Time = 1 hr 40 mins = 6000 s.</p> <p><strong>Calculation:</strong> <br> \\[ Q = \\text{Power} \\times \\text{Time} = 50 \\times 6000 = 300,000 \\, \\text{J} = 300 \\, \\text{kJ} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The correct answer (300 kJ) is not listed; the closest is (C) 3000 kJ.</p> </div>"
+    },
+    "topic": [
+      "Temperature and Heat",
+      "Heat Transfer"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 33 @ 2019/2020",
+    "Question": {
+      "content": "Which instrument is used to detect radiant heat?",
+      "type": "OBJ",
+      "options": [
+        "Thermocouple",
+        "Thermostat",
+        "Black body",
+        "Thermopile"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Thermopile"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Radiant Heat Detection</h3> <p><strong>Thermopile:</strong> Converts thermal radiation into electrical signals, making it ideal for detecting radiant heat. <br> <strong>Other Options:</strong> <br> - Thermocouple: Measures temperature differences. <br> - Thermostat: Regulates temperature. <br> - Black body: Absorbs radiation but does not detect it.</p> </div>"
+    },
+    "topic": [
+      "Radiation",
+      "Heat Transfer",
+      "Thermometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 17 @ 2015/2016",
+    "Question": {
+      "content": "Which equation represents Stefan's law of radiation?",
+      "type": "OBJ",
+      "options": [
+        "E = σT²",
+        "E = σT⁴",
+        "E = σT²",
+        "E = kT"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "E = σT⁴"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Stefan's Law</h3> <p>Stefan-Boltzmann law states: <br> \\[ E = σT⁴ \\] <br> where σ is the Stefan-Boltzmann constant</p> </div>"
+    },
+    "topic": [
+      "Temperature and Heat",
+      "Heat Transfer",
+      "Thermodynamics",
+      "Radiation"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 19 @ 2015/2016",
+    "Question": {
+      "content": "Calculate the temperature gradient in a 50 cm metal bar with ends at 127°C and 37°C.",
+      "type": "OBJ",
+      "options": [
+        "15°C/m",
+        "17°C/m",
+        "18°C/m",
+        "20°C/m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "180°C/m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Temperature Gradient</h3> <p><strong>Calculation:</strong> <br> ΔT = 127°C - 37°C = 90°C <br> Length = 0.5 m <br> Gradient = 90/0.5 = 180°C/m</p> </div>"
+    },
+    "topic": [
+      "Temperature and Heat",
+      "Heat Transfer",
+      "Temperature Gradient"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 20 @ 2015/2016",
+    "Question": {
+      "content": "Which instrument detects radiant heat?",
+      "type": "OBJ",
+      "options": [
+        "Thermocouple",
+        "Thermopile",
+        "Black body",
+        "Thermostat"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Thermopile"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Radiant Heat Detection</h3> <p>A thermopile converts thermal radiation into electrical signals, making it ideal for detecting radiant heat.</p> </div>"
+    },
+    "topic": [
+      "Temperature and Heat",
+      "Heat Transfer",
+      "Radiation",
+      "Instrumentation"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2b @ 2015/2016",
+    "Question": {
+      "content": "Distinguish between thermal capacity and thermal conductivity.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Thermal capacity: Heat energy required to raise an object's temperature by 1°C. <br> Thermal conductivity: Rate of heat transfer through a material."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Thermal Capacity vs. Conductivity</h3> <p><strong>Thermal Capacity:</strong> <br> - Depends on mass and material. <br> - Units: J/°C or J/K. <br> - Example: Water has high thermal capacity.</p> <p><strong>Thermal Conductivity:</strong> <br> - Measures heat flow rate per unit area/temperature gradient. <br> - Units: W/m·K. <br> - Example: Metals have high conductivity.</p> </div>"
+    },
+    "topic": [
+      "Temperature and Heat",
+      "Heat Transfer",
+      "Thermodynamics",
+      "Specific Heat Capacity",
+      "Thermal Conductivity"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2c @ 2015/2016",
+    "Question": {
+      "content": "Calculate the thermal conductivity of a solid (cross-section \\( 2 \\times 10^{-2} \\, \\text{m}^2 \\), length 50 cm) if heat flows at \\( 3.5 \\, \\text{kJ/s} \\) with a \\( 27^\\circ \\text{C} \\) temperature difference.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "32.41 W/m·K"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Thermal Conductivity Calculation</h3> <p><strong>Formula:</strong> <br> \\[ Q = kA \\frac{\\Delta T}{L} \\] <br> where \\( Q \\) is heat flow rate, \\( A \\) is area, \\( \\Delta T \\) is temperature difference, and \\( L \\) is length.</p> <p><strong>Given:</strong> <br> - \\( Q = 3.5 \\, \\text{kJ/s} = 3500 \\, \\text{W} \\). <br> - \\( A = 2 \\times 10^{-2} \\, \\text{m}^2 \\), \\( L = 0.5 \\, \\text{m} \\), \\( \\Delta T = 27^\\circ \\text{C} \\).</p> <p><strong>Calculation:</strong> <br> \\[ k = \\frac{Q \\cdot L}{A \\cdot \\Delta T} = \\frac{3500 \\times 0.5}{0.02 \\times 27} \\approx 32.41 \\, \\text{W/m·K} \\] </div>"
+    },
+    "topic": [
+      "Thermal Conductivity",
+      "Heat Transfer",
+      "Temperature and Heat",
+      "Thermodynamics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 35 @ 2012/2013",
+    "Question": {
+      "content": "Which device uses radiant energy for temperature measurement?",
+      "type": "OBJ",
+      "options": [
+        "Thermocouple",
+        "Optical pyrometer",
+        "Clinical thermometer",
+        "Gas thermometer"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Optical pyrometer"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🌡️ Radiation Thermometry</h3><p>Optical pyrometers measure temperature by detecting:<br>• <strong>Thermal radiation</strong> (infrared/visible light)<br>• <strong>Color intensity</strong> (for very high temps like furnaces)</p><h3>⚙️ How Others Work</h3><ul><li>Thermocouples: Voltage from metal junctions</li><li>Clinical thermometers: Liquid expansion</li><li>Gas thermometers: Pressure-volume changes</li></ul></div>"
+    },
+    "topic": [
+      "Thermal Physics",
+      "Temperature and Heat",
+      "Electromagnetic Waves",
+      "Heat Transfer",
+      "Optical Pyrometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 36 @ 2012/2013",
+    "Question": {
+      "content": "Which heat transfer methods require a material medium?",
+      "type": "OBJ",
+      "options": [
+        "Conduction",
+        "Conduction and radiation",
+        "Conduction and convection",
+        "Convection and radiation"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Conduction and convection"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🔥 Heat Transfer Types</h3><table style='width:100%; border-collapse: collapse;'><tr><th style='border:1px solid #ddd; padding:8px;'>Method</th><th style='border:1px solid #ddd; padding:8px;'>Medium Required?</th></tr><tr><td style='border:1px solid #ddd; padding:8px;'>Conduction</td><td style='border:1px solid #ddd; padding:8px;'>Yes (solids/liquids/gases)</td></tr><tr><td style='border:1px solid #ddd; padding:8px;'>Convection</td><td style='border:1px solid #ddd; padding:8px;'>Yes (fluids only)</td></tr><tr><td style='border:1px solid #ddd; padding:8px;'>Radiation</td><td style='border:1px solid #ddd; padding:8px;'>No (works in vacuum)</td></tr></table></div>"
+    },
+    "topic": [
+      "Heat Transfer",
+      "Thermal Physics",
+      "Temperature and Heat",
+      "Modes of Heat Transfer"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2009/2010",
+    "Question": {
+      "content": "No question text provided",
+      "type": "OBJ",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N/A"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>This question number was intentionally left blank in the original exam.</p></div>"
+    },
+    "topic": [
+      "Waves",
+      "Optics",
+      "Thermal Physics",
+      "Wave Phenomena",
+      "Sound Waves",
+      "Thermodynamics",
+      "Geometric Optics",
+      "Reflection and Refraction",
+      "Interference",
+      "Diffraction",
+      "Doppler Effect",
+      "Ideal Gas Law",
+      "Kinetic Theory of Gases",
+      "Optical Instruments",
+      "Wavelength",
+      "Speed of Sound",
+      "Temperature Scales",
+      "Superposition Principle",
+      "Entropy",
+      "Heat Transfer"
+    ]
+  }
+]
