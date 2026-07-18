@@ -1,0 +1,1158 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "Waves, Optics and Thermal Physics",
+    "code": "PHY_115.2",
+    "session": "Electromagnetic Waves",
+    "time": 90,
+    "topics": [
+      "Diffraction",
+      "Electromagnetic Waves",
+      "Geometric Optics",
+      "Heat Transfer",
+      "Kinetic Theory of Gases",
+      "Sound Waves",
+      "Superposition and Interference",
+      "Temperature and Heat",
+      "Thermodynamics",
+      "Wave Motion",
+      "Wave Optics"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2024/2025",
+    "topic": [
+      "Optics",
+      "Geometric Optics",
+      "Wave Optics",
+      "Electromagnetic Waves"
+    ],
+    "Question": {
+      "content": "The branch of physics concerned with the study of light and its phenomena is called ________.",
+      "type": "OBJ",
+      "options": [
+        "Optics",
+        "Kinematic",
+        "Dynamic",
+        "Heat"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Optics"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Definition of Optics</h4><p>The correct option is <strong>Optics</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>Optics is explicitly defined as the subfield of physics that studies the behavior and properties of light.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9 @ 2024/2025",
+    "topic": [
+      "Optics",
+      "Wave Optics",
+      "Electromagnetic Waves",
+      "Frequency",
+      "Dispersion"
+    ],
+    "Question": {
+      "content": "Refractive index of a material depends on the ________ of the light.",
+      "type": "OBJ",
+      "options": [
+        "Colour",
+        "Dispersion",
+        "Energy",
+        "Displacement"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Colour"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Refractive Index Dependence</h4><p>The correct option is <strong>Colour</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>Refractive index changes with the wavelength (which corresponds directly to the colour) of the incident light light.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12 @ 2024/2025",
+    "topic": [
+      "Wave Classification",
+      "Wave Motion",
+      "Electromagnetic Waves",
+      "Sound Waves and Acoustics",
+      "Mechanical Waves"
+    ],
+    "Question": {
+      "content": "Which of the following is not a mechanical wave?",
+      "type": "OBJ",
+      "options": [
+        "wave in a string",
+        "radio wave",
+        "sound wave",
+        "wave in a closed pipe"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "radio wave"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Mechanical vs EM Waves</h4><p>The correct option is <strong>radio wave</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>Radio waves are electromagnetic waves, meaning they travel through a vacuum and do not require a physical material medium.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15 @ 2024/2025",
+    "topic": [
+      "Electromagnetic Waves",
+      "Dispersion",
+      "Optics"
+    ],
+    "Question": {
+      "content": "The correct sequence of visible light in increasing wavelength is:",
+      "type": "OBJ",
+      "options": [
+        "VIBGYOR",
+        "BIGVYOR",
+        "BRYOGIV",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "VIBGYOR"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Visible Spectrum Sequence</h4><p>The correct option is <strong>VIBGYOR</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>VIBGYOR stands for Violet, Indigo, Blue, Green, Yellow, Orange, Red.<br>Violet has the shortest wavelength (highest energy), and Red has the longest wavelength.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17 @ 2024/2025",
+    "topic": [
+      "Temperature and Heat",
+      "Electromagnetic Waves",
+      "Optics"
+    ],
+    "Question": {
+      "content": "Which of the following makes use of radiant energy as a thermometric substance?",
+      "type": "OBJ",
+      "options": [
+        "Thermocouple",
+        "Optical pyrometer",
+        "Clinical thermometer",
+        "Gas thermometer"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Optical pyrometer"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Radiation Pyrometry</h4><p>The correct option is <strong>Optical pyrometer</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>An optical pyrometer estimates high temperatures by looking at the intensity of thermal radiation emitted by a glowing object without direct contact.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22 @ 2024/2025",
+    "topic": [
+      "Optics",
+      "Wave Optics",
+      "Electromagnetic Waves",
+      "Dispersion"
+    ],
+    "Question": {
+      "content": "When considering the spectrum of white light, the most and least deviated rays are ____ and ____ respectively.",
+      "type": "OBJ",
+      "options": [
+        "Red, Green",
+        "Violet, Red",
+        "Orange, Blue",
+        "Blue, Red"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Violet, Red"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Chromatic Dispersion</h4><p>The correct option is <strong>Violet, Red</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>Violet light is slowed down the most inside a glass prism and bends (deviates) the most.<br>Red light travels faster with less interaction, bending the least.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2019/2020",
+    "Question": {
+      "content": "A radio station broadcasts at 200 kHz. If the wave speed is 3 × 10⁸ m/s, what is the wavelength?",
+      "type": "OBJ",
+      "options": [
+        "1.5 km",
+        "5.0 km",
+        "3.5 km",
+        "2.7 km"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.5 km"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wavelength Calculation</h3> <p><strong>Given:</strong> <br> - Frequency (f) = 200 kHz = 2 × 10⁵ Hz <br> - Wave speed (v) = 3 × 10⁸ m/s</p> <p><strong>Formula:</strong> <br> λ = v/f = (3 × 10⁸)/(2 × 10⁵) = 1500 m = 1.5 km</p> </div>"
+    },
+    "topic": [
+      "Electromagnetic Waves",
+      "Wave Properties",
+      "Wave Phenomena"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 37 @ 2019/2020",
+    "Question": {
+      "content": "All EM spectrum components share:",
+      "type": "OBJ",
+      "options": [
+        "Wavelength",
+        "Frequency",
+        "Velocity",
+        "Displacement",
+        "Acceleration"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Velocity"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>EM Spectrum Commonality</h3> <p><strong>Speed of Light:</strong> <br> - All EM waves travel at \\( 3 \\times 10^8 \\, \\text{m/s} \\) in a vacuum, regardless of wavelength or frequency.</p> <p><strong>Why Others Vary:</strong> <br> - Wavelength and frequency are inversely related (\\( c = \\lambda f \\)). <br> - Displacement/acceleration are not wave properties.</p> </div>"
+    },
+    "topic": [
+      "Electromagnetic Waves",
+      "Wave Properties"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 38 @ 2019/2020",
+    "Question": {
+      "content": "Which is NOT part of the EM spectrum?",
+      "type": "OBJ",
+      "options": [
+        "Visible light",
+        "Radio waves",
+        "Ultraviolet",
+        "Gamma rays",
+        "X-rays"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "None (All are part of the EM spectrum)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>EM Spectrum Components</h3> <p><strong>All Options Are Valid:</strong> <br> The EM spectrum includes: <br> - Radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays.</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The question may be flawed as all options are correct.</p> </div>"
+    },
+    "topic": [
+      "Electromagnetic Waves",
+      "Electromagnetic Spectrum",
+      "Wave Properties",
+      "Waves, Optics and Thermal Physics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 39 @ 2019/2020",
+    "Question": {
+      "content": "The wavelength range of visible light is:",
+      "type": "OBJ",
+      "options": [
+        "0.2-0.3 μm",
+        "0.3-0.5 μm",
+        "0.4-0.6 μm",
+        "0.4-0.7 μm",
+        "0.3-0.7 μm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.4-0.7 μm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #d35400; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Visible Light Range</h3> <p><strong>Standard Range:</strong> <br> - Violet: ~400 nm (0.4 μm) <br> - Red: ~700 nm (0.7 μm).</p> <p><strong>Key Colors:</strong> <br> - Blue: 450-495 nm <br> - Green: 495-570 nm <br> - Yellow: 570-590 nm.</p> </div>"
+    },
+    "topic": [
+      "Electromagnetic Spectrum",
+      "Electromagnetic Waves",
+      "Wave Properties",
+      "Waves, Optics and Thermal Physics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 48 @ 2019/2020",
+    "Question": {
+      "content": "Light travels at \\( 1.94 \\times 10^8 \\, \\text{m/s} \\) in quartz (wavelength = 355 nm). What is quartz's refractive index?",
+      "type": "OBJ",
+      "options": [
+        "1.60",
+        "1.55",
+        "1.45",
+        "1.35"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.55"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #d35400; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Refractive Index Calculation</h3> <p><strong>Formula:</strong> <br> \\[ n = \\frac{c}{v} \\] <br> <strong>Given:</strong> <br> - \\( v = 1.94 \\times 10^8 \\, \\text{m/s} \\), \\( c = 3 \\times 10^8 \\, \\text{m/s} \\).</p> <p><strong>Calculation:</strong> <br> \\[ n = \\frac{3 \\times 10^8}{1.94 \\times 10^8} \\approx 1.55 \\] </div>"
+    },
+    "topic": [
+      "Refraction",
+      "Wave Properties",
+      "Electromagnetic Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 49 @ 2019/2020",
+    "Question": {
+      "content": "Light with a frequency of \\( 5.8 \\times 10^{14} \\, \\text{Hz} \\) travels in a block of glass that has an index of refraction of 1.52. If the speed of light in the vacuum is \\( 3.0 \\times 10^8 \\, \\text{m/s} \\), the wavelength of the light in vacuum and glass would be?",
+      "type": "OBJ",
+      "options": [
+        "\\( 5.17 \\times 10^{-7} \\, \\text{m and } 3.40 \\times 10^{-7} \\, \\text{m} \\)",
+        "\\( 6.17 \\times 10^{-7} \\, \\text{m and } 1.40 \\times 10^{-7} \\, \\text{m} \\)",
+        "\\( 4.17 \\times 10^{-7} \\, \\text{m and } 2.40 \\times 10^{-7} \\, \\text{m} \\)",
+        "\\( 3.17 \\times 10^{-7} \\, \\text{m and } 2.40 \\times 10^{-7} \\, \\text{m} \\)",
+        "\\( 3.14 \\times 10^{-7} \\, \\text{m and } 3.40 \\times 10^{-7} \\, \\text{m} \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 5.17 \\times 10^{-7} \\, \\text{m and } 3.40 \\times 10^{-7} \\, \\text{m} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wavelength of Light in Vacuum and Glass</h3> <p><strong>Step 1: Calculate wavelength in vacuum:</strong> <br> \\[ \\lambda_{\\text{vacuum}} = \\frac{c}{f} = \\frac{3.0 \\times 10^8}{5.8 \\times 10^{14}} = 5.17 \\times 10^{-7} \\, \\text{m} \\]</p> <p><strong>Step 2: Calculate wavelength in glass:</strong> <br> The speed of light in glass is reduced by the refractive index \\( n \\): <br> \\[ v_{\\text{glass}} = \\frac{c}{n} = \\frac{3.0 \\times 10^8}{1.52} = 1.97 \\times 10^8 \\, \\text{m/s} \\] <br> The frequency remains the same, so: <br> \\[ \\lambda_{\\text{glass}} = \\frac{v_{\\text{glass}}}{f} = \\frac{1.97 \\times 10^8}{5.8 \\times 10^{14}} = 3.40 \\times 10^{-7} \\, \\text{m} \\]</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Correct option:</strong> (A) \\( 5.17 \\times 10^{-7} \\, \\text{m and } 3.40 \\times 10^{-7} \\, \\text{m} \\).</p> </div>"
+    },
+    "topic": [
+      "Electromagnetic Waves",
+      "Wave Properties",
+      "Refraction"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 4 @ 2015/2016",
+    "Question": {
+      "content": "Which of the following properties of light does not depend on the material medium in which the light travels?",
+      "type": "OBJ",
+      "options": [
+        "Speed",
+        "Wavelength",
+        "Frequency",
+        "Index of refraction"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Frequency"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Light Properties and Medium Dependence</h3> <p><strong>Frequency Independence:</strong> <br> The frequency of light is determined by the source and remains constant across media. Other properties change:</p> <ol style='padding-left: 20px;'> <li><strong>Speed:</strong> Depends on medium (\\( V = \\frac{c}{n} \\)).</li> <li><strong>Wavelength:</strong> Changes with speed (\\( \\lambda = \\frac{V}{f} \\)).</li> <li><strong>Index of Refraction:</strong> Medium-specific (\\( n = \\frac{c}{V} \\)).</li> </ol> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Example:</strong> Red light (400 THz) stays 400 THz in air/glass, but its speed and wavelength reduce in glass.</p> </div>"
+    },
+    "topic": [
+      "Electromagnetic Waves",
+      "Physical Optics",
+      "Refraction"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 7 @ 2015/2016",
+    "Question": {
+      "content": "A light beam travels at \\( 1.94 \\times 10^8 \\) m/s in quartz. The wavelength of the light in quartz is 355 nm. What is the index of refraction of quartz at this wavelength?",
+      "type": "OBJ",
+      "options": [
+        "1.60",
+        "1.55",
+        "1.45",
+        "1.35"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.55"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Index of Refraction</h3> <p><strong>Formula:</strong> The index of refraction (\\( n \\)) is the ratio of the speed of light in vacuum (\\( c \\)) to its speed in the medium (\\( v \\)):</p> \\[ n = \\frac{c}{v} \\] <p><strong>Given:</strong> <br> - \\( v = 1.94 \\times 10^8 \\) m/s (speed in quartz). <br> - \\( c = 3 \\times 10^8 \\) m/s (speed in vacuum).</p> <p><strong>Calculation:</strong> <br> \\[ n = \\frac{3 \\times 10^8}{1.94 \\times 10^8} \\approx 1.55 \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The wavelength (355 nm) is irrelevant here as \\( n \\) depends on speed, not wavelength.</p> </div>"
+    },
+    "topic": [
+      "Refraction",
+      "Physical Optics",
+      "Electromagnetic Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 21 @ 2015/2016",
+    "Question": {
+      "content": "The component of electromagnetic spectrum that makes up radiant energy is:",
+      "type": "OBJ",
+      "options": [
+        "Ultraviolet rays",
+        "Visible light",
+        "Infrared radiation",
+        "Gamma rays"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Infrared radiation"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Radiant Energy</h3> <p>Infrared radiation (700 nm - 1 mm) is primarily responsible for radiant heat energy transfer.</p> </div>"
+    },
+    "topic": [
+      "Electromagnetic Waves",
+      "Radiation",
+      "Electromagnetic Spectrum"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 23 @ 2015/2016",
+    "Question": {
+      "content": "Components of the electromagnetic spectrum are the following except:",
+      "type": "OBJ",
+      "options": [
+        "Visible light",
+        "Radio waves",
+        "Ultraviolet",
+        "Gamma rays",
+        "X-rays"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "None (All are EM spectrum components)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>EM Spectrum</h3> <p>All listed options are valid components of the electromagnetic spectrum.</p> </div>"
+    },
+    "topic": [
+      "Electromagnetic Waves",
+      "Electromagnetic Spectrum"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 24 @ 2015/2016",
+    "Question": {
+      "content": "All components of the electromagnetic spectrum have what in common?",
+      "type": "OBJ",
+      "options": [
+        "Wavelength",
+        "Frequency",
+        "Velocity",
+        "Displacement",
+        "Acceleration"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Velocity"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>EM Spectrum Commonality</h3> <p>All EM waves travel at the speed of light (c ≈ 3×10⁸ m/s) in vacuum, regardless of wavelength or frequency.</p> </div>"
+    },
+    "topic": [
+      "Electromagnetic Waves",
+      "Electromagnetic Spectrum",
+      "Wave Properties"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 25 @ 2015/2016",
+    "Question": {
+      "content": "The wavelength range of visible light is:",
+      "type": "OBJ",
+      "options": [
+        "0.2-0.3 μm",
+        "0.3-0.5 μm",
+        "0.4-0.6 μm",
+        "0.4-0.7 μm",
+        "0.3-0.7 μm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.4-0.7 μm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Visible Light Range</h3> <p>Visible light spans approximately 400-700 nm (0.4-0.7 μm).</p> </div>"
+    },
+    "topic": [
+      "Electromagnetic Spectrum",
+      "Electromagnetic Waves",
+      "Physical Optics",
+      "Wave Properties"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 26 @ 2015/2016",
+    "Question": {
+      "content": "A spectrometer measures:",
+      "type": "OBJ",
+      "options": [
+        "Light velocity",
+        "Light frequency",
+        "Light phase",
+        "Light wavelength"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Light wavelength"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Spectrometer Function</h3> <p>Spectrometers measure wavelength of light using diffraction principles.</p> </div>"
+    },
+    "topic": [
+      "Instrumentation",
+      "Physical Optics",
+      "Electromagnetic Waves",
+      "Wave Properties",
+      "Spectroscopy"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 28 @ 2015/2016",
+    "Question": {
+      "content": "Refraction is caused by:",
+      "type": "OBJ",
+      "options": [
+        "Density differences",
+        "Frequency differences",
+        "Wavelength differences",
+        "Velocity differences",
+        "Media type differences"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Velocity differences"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Refraction Cause</h3> <p>Refraction occurs due to changes in light's velocity when moving between media with different optical densities.</p> </div>"
+    },
+    "topic": [
+      "Refraction",
+      "Wave Properties",
+      "Geometric Optics",
+      "Electromagnetic Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 11 @ 2012/2013",
+    "Question": {
+      "content": "Which is NOT part of the EM spectrum?",
+      "type": "OBJ",
+      "options": [
+        "visible light",
+        "Radio waves",
+        "ultraviolet",
+        "Gamma rays",
+        "X-rays"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "None (All are part of EM spectrum)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🌈 The EM Spectrum Family</h3><p>All options are members of the electromagnetic spectrum, differing only in wavelength/frequency:</p><table style='width:100%; border-collapse: collapse; margin: 10px 0;'><tr><th style='border:1px solid #ddd; padding:8px;'>Type</th><th style='border:1px solid #ddd; padding:8px;'>Wavelength Range</th><th style='border:1px solid #ddd; padding:8px;'>Example Use</th></tr><tr><td style='border:1px solid #ddd; padding:8px;'>Radio</td><td style='border:1px solid #ddd; padding:8px;'>1m-100km</td><td style='border:1px solid #ddd; padding:8px;'>FM radio</td></tr><tr><td style='border:1px solid #ddd; padding:8px;'>Visible</td><td style='border:1px solid #ddd; padding:8px;'>400-700nm</td><td style='border:1px solid #ddd; padding:8px;'>Human vision</td></tr><tr><td style='border:1px solid #ddd; padding:8px;'>X-rays</td><td style='border:1px solid #ddd; padding:8px;'>0.01-10nm</td><td style='border:1px solid #ddd; padding:8px;'>Medical imaging</td></tr></table><p style='color: #e74c3c;'>🚨 <strong>Exam Trick:</strong> If a question asks 'which is NOT,' and all options seem valid, the answer might be 'None'!</p></div>"
+    },
+    "topic": [
+      "Electromagnetic Waves",
+      "Electromagnetic Spectrum",
+      "Waves, Optics and Thermal Physics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 12 @ 2012/2013",
+    "Question": {
+      "content": "What do all EM waves have in common?",
+      "type": "OBJ",
+      "options": [
+        "wavelength",
+        "frequency",
+        "velocity",
+        "displacement",
+        "Acceleration"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "velocity"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>⚡ The EM Wave Superpower</h3><p>All electromagnetic waves—from radio to gamma rays—travel at the <strong>speed of light (\\( 3 \\times 10^8\\,m/s \\)) in a vacuum</strong>. This is Einstein's ultimate speed limit!</p><h3>❌ Why Other Options Fail:</h3><ul><li><strong>Wavelength/Frequency:</strong> These vary (radio vs. X-rays)</li><li><strong>Displacement/Acceleration:</strong> EM waves don't involve physical motion</li></ul><p style='color: #27ae60;'>🌌 <strong>Cosmic Proof:</strong> Light from the Sun (visible) and radio signals from distant galaxies arrive at Earth at the same speed!</p></div>"
+    },
+    "topic": [
+      "Electromagnetic Waves",
+      "Waves",
+      "Electromagnetic Spectrum",
+      "Wave Properties"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 13 @ 2012/2013",
+    "Question": {
+      "content": "What is the visible light wavelength range?",
+      "type": "OBJ",
+      "options": [
+        "0.2μm-0.5μm",
+        "0.3μm-0.5μm",
+        "0.4μm-0.6μm",
+        "0.4μm-0.7μm",
+        "0.3μm-0.7μm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.4μm-0.7μm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>👁️ The Rainbow Spectrum</h3><p>Human eyes detect wavelengths from:<br>• <strong>Violet</strong> (~400nm or 0.4μm)<br>• <strong>Red</strong> (~700nm or 0.7μm)</p><h3>🌈 Color Breakdown</h3><ul><li>0.4-0.5μm: Blues/Greens</li><li>0.5-0.6μm: Yellows/Oranges</li><li>0.6-0.7μm: Reds</li></ul><p style='color: #e74c3c;'>⚠️ <strong>Memory Trap:</strong> Don't confuse with UV range (0.1-0.4μm) or infrared (>0.7μm)!</p></div>"
+    },
+    "topic": [
+      "Electromagnetic Spectrum",
+      "Electromagnetic Waves",
+      "Wavelength",
+      "Wave Optics",
+      "Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2012/2013",
+    "Question": {
+      "content": "What causes refraction?",
+      "type": "OBJ",
+      "options": [
+        "Density difference between media",
+        "Frequency difference between media",
+        "Wavelength difference between media",
+        "Velocity difference of light between media",
+        "Type of media difference"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Velocity difference of light between media"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🌊 Refraction Mechanism</h3><p>Refraction occurs because light <strong>changes speed</strong> when moving between media (e.g., air to glass). This speed change bends the light's path.</p><h3>❌ Why Others Are Wrong:</h3><ul><li>Frequency remains constant during refraction</li><li>Wavelength changes <em>because</em> of velocity change</li><li>Density affects velocity but isn't the direct cause</li></ul><p style='color: #27ae60;'>💡 <strong>Real-World:</strong> A straw looks bent in water due to light slowing down!</p></div>"
+    },
+    "topic": [
+      "Waves, Optics and Thermal Physics",
+      "Geometric Optics",
+      "Wave Optics",
+      "Wave Properties",
+      "Electromagnetic Waves",
+      "Refraction"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 19 @ 2012/2013",
+    "Question": {
+      "content": "A spectrometer measures which property of light?",
+      "type": "OBJ",
+      "options": [
+        "Velocity",
+        "Frequency",
+        "Phase",
+        "Wavelength"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Wavelength"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🌈 Spectrometer Function</h3><p>Spectrometers <strong>disperse light into its wavelengths</strong> (colors) using prisms or diffraction gratings. They're used to analyze chemical compositions via spectral lines!</p><h3>🔬 How It Works</h3><ol><li>Light enters through a slit</li><li>A grating splits light by wavelength</li><li>Detector measures angular positions (→ wavelengths)</li></ol><p style='color: #e74c3c;'>⚠️ <strong>Note:</strong> While frequency is fundamental, spectrometers directly measure wavelength in practice.</p></div>"
+    },
+    "topic": [
+      "Wave Optics",
+      "Electromagnetic Waves",
+      "Wavelength",
+      "Electromagnetic Spectrum"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 21 @ 2012/2013",
+    "Question": {
+      "content": "Which light property is medium-independent?",
+      "type": "OBJ",
+      "options": [
+        "Speed",
+        "Wavelength",
+        "Frequency",
+        "Index of refraction"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Frequency"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>⚛️ Light's Invariant Property</h3><p><strong>Frequency</strong> is determined by the light source and never changes, even when light slows down in a medium. This is why colors don't change underwater!</p><h3>📊 Medium-Dependent Properties</h3><ul><li>Speed: Slows in denser media</li><li>Wavelength: Compresses proportionally</li><li>Refractive index: Defined as speed ratio</li></ul></div>"
+    },
+    "topic": [
+      "Waves, Optics and Thermal Physics",
+      "Electromagnetic Waves",
+      "Wave Properties",
+      "Frequency",
+      "Wavelength",
+      "Refraction"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 22 @ 2012/2013",
+    "Question": {
+      "content": "Why do oil films on water appear colorful?",
+      "type": "OBJ",
+      "options": [
+        "Interference",
+        "Diffraction",
+        "Refraction",
+        "Reflection"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Interference"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🎨 Thin-Film Interference</h3><p>Light reflecting off the <strong>top and bottom</strong> of the oil film interferes:<br>• Constructive interference → Bright colors<br>• Destructive interference → Dark bands</p><h3>🌈 Color Variation</h3><p>Colors change with viewing angle because the path difference depends on film thickness and angle.</p><p style='color: #e74c3c;'>⚠️ <strong>Not Diffraction:</strong> Diffraction requires narrow slits/gratings!</p></div>"
+    },
+    "topic": [
+      "Waves, Optics and Thermal Physics",
+      "Wave Optics",
+      "Interference and Diffraction",
+      "Electromagnetic Waves",
+      "Wave Properties"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 23 @ 2012/2013",
+    "Question": {
+      "content": "Why does refraction angle depend on wavelength but reflection angle doesn't?",
+      "type": "OBJ",
+      "options": [
+        "Incident/refracted waves are in same media",
+        "Incident/refracted waves are in different media",
+        "Angle of incidence = Angle of reflection",
+        "Angle of incidence = Half angle of refraction"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Angle of incidence = Angle of reflection"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🔍 Reflection vs Refraction</h3><p><strong>Reflection:</strong> Always follows \\( i = r \\) regardless of wavelength because it's a surface phenomenon.</p><p><strong>Refraction:</strong> Angle depends on the refractive index, which varies with wavelength (dispersion). This is why prisms split white light!</p><p style='color: #27ae60;'>🌉 <strong>Example:</strong> Rainbows occur because different colors refract at slightly different angles in water droplets.</p></div>"
+    },
+    "topic": [
+      "Refraction",
+      "Reflection",
+      "Wavelength",
+      "Wave Optics",
+      "Electromagnetic Waves",
+      "Dispersion"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 24 @ 2012/2013",
+    "Question": {
+      "content": "Light (f=5.8×10¹⁴Hz) travels in glass (n=1.52). What are its wavelengths in vacuum and glass?",
+      "type": "OBJ",
+      "options": [
+        "5.17×10⁻⁷m (vacuum), 3.40×10⁻⁷m (glass)",
+        "6.17×10⁻⁷m, 4.40×10⁻⁷m",
+        "4.17×10⁻⁷mm, 2.40×10⁻⁷m",
+        "3.17×10⁻⁷m, 2.40×10⁻⁷m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5.17×10⁻⁷m (vacuum), 3.40×10⁻⁷m (glass)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🔮 Wavelength Calculation</h3><p><strong>In vacuum:</strong><br>\\( \\lambda_0 = \\frac{c}{f} = \\frac{3 \\times 10^8}{5.8 \\times 10^{14}} = 5.17 \\times 10^{-7}\\,m \\) (green light)</p><p><strong>In glass:</strong><br>\\( \\lambda = \\frac{\\lambda_0}{n} = \\frac{5.17 \\times 10^{-7}}{1.52} = 3.40 \\times 10^{-7}\\,m \\)</p><p style='color: #e74c3c;'>⚠️ <strong>Unit Alert:</strong> Option C incorrectly uses mm for vacuum wavelength!</p></div>"
+    },
+    "topic": [
+      "Waves, Optics and Thermal Physics",
+      "Electromagnetic Waves",
+      "Wavelength",
+      "Frequency",
+      "Refraction",
+      "Wave Optics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 25 @ 2012/2013",
+    "Question": {
+      "content": "A light beam travels at \\(1.94 \\times 10^8 \\, m/s\\) in quartz. The wavelength in quartz is 355 nm. What is the index of refraction?",
+      "type": "OBJ",
+      "options": [
+        "1.60",
+        "1.55",
+        "1.45",
+        "1.35"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.55"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>💎 Understanding Refraction</h3><p>The index of refraction (<strong>n</strong>) measures how much light slows down in a material compared to vacuum. Quartz makes light travel at ~65% of light speed!</p><h3>📐 Formula Used</h3><p>\\( n = \\frac{c}{v} \\)<br>Where:<br>• \\( c \\) = speed of light in vacuum (\\( 3 \times 10^8\\,m/s \\))<br>• \\( v \\) = speed in quartz (\\( 1.94 \times 10^8\\,m/s \\))</p><h3>🔢 Step-by-Step</h3><ol><li>Calculate: \\( n = \\frac{3 \times 10^8}{1.94 \times 10^8} \\)</li><li>Simplify: \\( n \\approx 1.55 \\)</li></ol><p style='color: #e74c3c;'>⚠️ <strong>Wavelength Distraction:</strong> The 355nm wavelength is irrelevant for this calculation!</p></div>"
+    },
+    "topic": [
+      "Electromagnetic Waves",
+      "Wave Properties",
+      "Wavelength",
+      "Refraction",
+      "Wave Optics",
+      "Frequency"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 26 @ 2012/2013",
+    "Question": {
+      "content": "What is coherent light?",
+      "type": "OBJ",
+      "options": [
+        "Light of one frequency and same phase",
+        "Light wave having one frequency",
+        "Light that cannot be diffracted",
+        "Scattered light"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Light of one frequency and same phase"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🌟 Coherence Explained</h3><p>Coherent light waves are like synchronized swimmers—they maintain:<br>1. <strong>Constant phase relationship</strong> (peaks/troughs align)<br>2. <strong>Single frequency</strong> (monochromatic)</p><h3>🔬 Real-World Examples</h3><ul><li>Laser light (perfect coherence)</li><li>Radio transmissions (engineered coherence)</li></ul><p style='color: #e74c3c;'>❌ <strong>Why Others Are Wrong:</strong><br>• Single frequency alone isn't enough (needs phase alignment)<br>• All light can be diffracted<br>• Scattering destroys coherence</p></div>"
+    },
+    "topic": [
+      "Wave Optics",
+      "Electromagnetic Waves",
+      "Wave Properties",
+      "Frequency"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 35 @ 2012/2013",
+    "Question": {
+      "content": "Which device uses radiant energy for temperature measurement?",
+      "type": "OBJ",
+      "options": [
+        "Thermocouple",
+        "Optical pyrometer",
+        "Clinical thermometer",
+        "Gas thermometer"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Optical pyrometer"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🌡️ Radiation Thermometry</h3><p>Optical pyrometers measure temperature by detecting:<br>• <strong>Thermal radiation</strong> (infrared/visible light)<br>• <strong>Color intensity</strong> (for very high temps like furnaces)</p><h3>⚙️ How Others Work</h3><ul><li>Thermocouples: Voltage from metal junctions</li><li>Clinical thermometers: Liquid expansion</li><li>Gas thermometers: Pressure-volume changes</li></ul></div>"
+    },
+    "topic": [
+      "Thermal Physics",
+      "Temperature and Heat",
+      "Electromagnetic Waves",
+      "Heat Transfer",
+      "Optical Pyrometry"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1 @ 2010/2011",
+    "Question": {
+      "content": "What is the frequency of yellow light (λ=6×10⁻⁵cm, v=3×10⁸m/s)?",
+      "type": "OBJ",
+      "options": [
+        "2×10⁻¹¹Hz",
+        "2×10⁻⁹Hz",
+        "5×10¹²Hz",
+        "5×10¹⁴Hz"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5×10¹⁴Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Calculation:</strong></p><p>\\[ f = \\frac{c}{λ} = \\frac{3×10⁸\\,m/s}{6×10⁻⁷\\,m} = 5×10¹⁴\\,Hz \\]</p><p>Note: Converted 6×10⁻⁵cm to 6×10⁻⁷m first. This matches the visible light spectrum (yellow light ≈ 570-590nm).</p></div>"
+    },
+    "topic": [
+      "Electromagnetic Waves",
+      "Wave Propagation",
+      "Wave Equation"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 14 @ 2010/2011",
+    "Question": {
+      "content": "Which is NOT a longitudinal wave?",
+      "type": "OBJ",
+      "options": [
+        "Heat",
+        "Sound",
+        "Speech",
+        "Tidal"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Tidal"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Wave Types:</strong></p><ul><li>Sound & speech: Longitudinal (air particle motion parallel to propagation)</li><li>Heat: Transferred via conduction/convection/radiation</li><li>Tidal waves: Transverse (water moves perpendicular to wave direction)</li></ul></div>"
+    },
+    "topic": [
+      "Wave Propagation",
+      "Sound Waves",
+      "Electromagnetic Waves",
+      "Transverse Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2010/2011",
+    "Question": {
+      "content": "Which is a longitudinal wave?",
+      "type": "OBJ",
+      "options": [
+        "Light",
+        "Heat",
+        "Sound",
+        "X-rays"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Sound"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Wave Types:</strong></p><ul><li>Sound: Longitudinal (particles vibrate parallel to propagation)</li><li>Light/X-rays: Transverse electromagnetic waves</li><li>Heat: Energy transfer, not a mechanical wave</li></ul></div>"
+    },
+    "topic": [
+      "Wave Propagation",
+      "Longitudinal Waves",
+      "Sound Waves",
+      "Electromagnetic Waves",
+      "Transverse Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 21 @ 2010/2011",
+    "Question": {
+      "content": "Light changes from 620nm to 480nm in a liquid. The refractive index is",
+      "type": "OBJ",
+      "options": [
+        "1.292",
+        "1.188",
+        "1.177",
+        "1.155"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.292"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Refractive Index Calculation:</strong></p><p>\\[ n = \\frac{λ_{air}}{λ_{medium}} = \\frac{620}{480} ≈ 1.292 \\]</p><p>This shows light slows down in the denser medium, shortening its wavelength.</p></div>"
+    },
+    "topic": [
+      "Electromagnetic Waves",
+      "Wave Propagation",
+      "Refractive Index",
+      "Wave Velocity",
+      "Frequency"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 23 @ 2010/2011",
+    "Question": {
+      "content": "Total internal reflection is NOT used in",
+      "type": "OBJ",
+      "options": [
+        "Optics meter",
+        "Fingerprint device",
+        "Path sensor",
+        "Optical fibers"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Optics meter"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>TIR Applications:</strong></p><ul><li>Optical fibers: Core-cladding interface</li><li>Fingerprint devices: Detect ridge patterns</li><li>Path sensors: Detect object presence</li><li>Optics meters: Measure light intensity, not TIR-dependent</li></ul></div>"
+    },
+    "topic": [
+      "Total Internal Reflection",
+      "Geometrical Optics",
+      "Refractive Index",
+      "Electromagnetic Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 28 @ 2010/2011",
+    "Question": {
+      "content": "The visible spectrum from a prism contains",
+      "type": "OBJ",
+      "options": [
+        "5 colors",
+        "6 colors",
+        "7 colors",
+        "8 colors"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "7 colors"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Visible Spectrum:</strong></p><p>Newton's classic decomposition of white light shows seven distinct colors:</p><p>Red, Orange, Yellow, Green, Blue, Indigo, Violet (ROYGBIV)</p></div>"
+    },
+    "topic": [
+      "Refraction",
+      "Refractive Index",
+      "Electromagnetic Waves",
+      "Physical Optics",
+      "Dispersion"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 33 @ 2010/2011",
+    "Question": {
+      "content": "Find the absolute refractive index of a medium in which the speed is \\(2.2 \\times 10^3 \\, \\text{m/s}\\)",
+      "type": "OBJ",
+      "options": [
+        "5.2",
+        "0.8",
+        "6.6",
+        "1.4"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.4"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 12px; border-radius: 6px; border-left: 4px solid #3498db;'><p><strong>Step 1:</strong> Recall the formula for absolute refractive index \\( n \\):</p>\\[ n = \\frac{c}{v} \\]<p>Where \\( c = 3 \times 10^8 \\, \\text{m/s} \\) (speed of light in vacuum) and \\( v = 2.2 \times 10^3 \\, \\text{m/s} \\).</p><p><strong>Step 2:</strong> Substitute values:</p>\\[ n = \\frac{3 \times 10^8}{2.2 \times 10^3} = \\frac{3}{2.2} \times 10^5 \\approx 1.36 \\]<p><strong>Step 3:</strong> Round to match options: \\( 1.4 \\).</p></div>"
+    },
+    "topic": [
+      "Refractive Index",
+      "Wave Velocity",
+      "Electromagnetic Waves",
+      "Refraction"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1a (ii) @ 2010/2011",
+    "Question": {
+      "content": "What is total internal reflection?",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Total internal reflection is the complete reflection of light at a boundary between two media when the angle of incidence exceeds the critical angle, and light travels from a denser to a rarer medium."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Total Internal Reflection</h3> <p>This phenomenon occurs under specific conditions:</p> <ol style='padding-left: 20px;'> <li><strong>Denser to Rarer Medium:</strong> Light must travel from a medium with a higher refractive index (e.g., water, glass) to one with a lower index (e.g., air). <br> <small><i>Example: Light inside a glass prism trying to exit into air.</i></small></li> <li><strong>Critical Angle:</strong> The angle of incidence must exceed the critical angle (\\(\\theta_c\\)), calculated as: <br> \\[ \\theta_c = \\sin^{-1}\\left(\\frac{n_2}{n_1}\\right) \\] <br> where \\(n_1\\) (denser) > \\(n_2\\) (rarer).</li> </ol> <p><strong>Why it matters:</strong> Used in fiber optics to transmit light signals with minimal loss.</p> </div>"
+    },
+    "topic": [
+      "Total Internal Reflection",
+      "Geometrical Optics",
+      "Refraction",
+      "Refractive Index",
+      "Electromagnetic Waves"
+    ]
+  }
+]
