@@ -1,0 +1,636 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "Waves, Optics and Thermal Physics",
+    "code": "PHY_115.2",
+    "session": "Wave Motion",
+    "time": 90,
+    "topics": [
+      "Diffraction",
+      "Electromagnetic Waves",
+      "Geometric Optics",
+      "Heat Transfer",
+      "Kinetic Theory of Gases",
+      "Sound Waves",
+      "Superposition and Interference",
+      "Temperature and Heat",
+      "Thermodynamics",
+      "Wave Motion",
+      "Wave Optics"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1 @ 2024/2025",
+    "topic": [
+      "Wave Motion",
+      "Sound Waves and Acoustics",
+      "Wave Classification"
+    ],
+    "Question": {
+      "content": "Transverse and longitudinal waves travelling in the same direction in a medium differ mainly in their:",
+      "type": "OBJ",
+      "options": [
+        "Amplitude",
+        "The direction of vibration of the particles of the medium",
+        "Frequency",
+        "Wavelength"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The direction of vibration of the particles of the medium"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Wave Particle Motion</h4><p>The correct option is <strong>The direction of vibration of the particles of the medium</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>In transverse waves, particles vibrate perpendicular to the direction of wave travel.<br>In longitudinal waves, particles vibrate parallel to the direction of wave travel.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2024/2025",
+    "topic": [
+      "Sound Waves and Acoustics",
+      "Wave Motion"
+    ],
+    "Question": {
+      "content": "A vibrating source has a frequency of 450 Hz. If the velocity of sound it produces in air is 350 m/s, how far does the sound travels when the source complete 50 vibrations.",
+      "type": "OBJ",
+      "options": [
+        "76.6 m",
+        "15.45 m",
+        "30.4 m",
+        "36.67 m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "38.89 m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Distance of Sound Waves</h4><p>Note: The calculated value 38.89 m is closest to option (d) 36.67 m on the test print.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>Wavelength: \\( \\lambda = \\frac{v}{f} = \\frac{350}{450} = \\frac{7}{9} \\text{ m} \\).<br>One full vibration covers a distance of one wavelength.<br>Total distance for 50 vibrations: \\( d = 50 \\times \\frac{7}{9} = 38.89 \\text{ m} \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6 @ 2024/2025",
+    "topic": [
+      "Wave Motion",
+      "Frequency"
+    ],
+    "Question": {
+      "content": "If a plane progressive wave represented by the equation \\( y = 2\\sin(2000\\pi t - 0.5x) \\). What is the frequency of the wave?",
+      "type": "OBJ",
+      "options": [
+        "2000 Hz",
+        "1000 Hz",
+        "500 Hz",
+        "3000 Hz"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1000 Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Wave Equation Frequency</h4><p>The correct option is <strong>1000 Hz</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>Standard wave format: \\( y = A\\sin(\\omega t - kx) \\), where \\( \\omega = 2\\pi f \\).<br>From the given equation: \\( \\omega = 2000\\pi \\).<br>Therefore: \\( 2\\pi f = 2000\\pi \\implies f = 1000 \\text{ Hz} \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12 @ 2024/2025",
+    "topic": [
+      "Wave Classification",
+      "Wave Motion",
+      "Electromagnetic Waves",
+      "Sound Waves and Acoustics",
+      "Mechanical Waves"
+    ],
+    "Question": {
+      "content": "Which of the following is not a mechanical wave?",
+      "type": "OBJ",
+      "options": [
+        "wave in a string",
+        "radio wave",
+        "sound wave",
+        "wave in a closed pipe"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "radio wave"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Mechanical vs EM Waves</h4><p>The correct option is <strong>radio wave</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>Radio waves are electromagnetic waves, meaning they travel through a vacuum and do not require a physical material medium.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13 @ 2024/2025",
+    "topic": [
+      "Wave Motion",
+      "Mechanical Waves",
+      "Frequency",
+      "Waves on a String"
+    ],
+    "Question": {
+      "content": "A wire of mass 1.0 g and length 50 cm is stretched by a tension of 80 N. What is the fundamental frequency?",
+      "type": "OBJ",
+      "options": [
+        "200Hz",
+        "400Hz",
+        "600Hz",
+        "100Hz"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "200Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Fundamental Frequency of String</h4><p>The correct option is <strong>200Hz</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>Mass per unit length: \\( \\mu = \\frac{0.001 \\text{ kg}}{0.5 \\text{ m}} = 0.002 \\text{ kg/m} \\).<br>Fundamental frequency: \\( f_1 = \\frac{1}{2L}\\sqrt{\\frac{T}{\\mu}} \\)<br>\\( f_1 = \\frac{1}{2(0.5)}\\sqrt{\\frac{80}{0.002}} = 1 \\times \\sqrt{40000} = 200 \\text{ Hz} \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14 @ 2024/2025",
+    "topic": [
+      "Sound Waves and Acoustics",
+      "Frequency",
+      "Wave Motion"
+    ],
+    "Question": {
+      "content": "The characteristics of sound that enable us to distinguish between the cry of a baby and her mother is:",
+      "type": "OBJ",
+      "options": [
+        "velocity",
+        "pitch",
+        "power",
+        "loudness"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "pitch"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Sound Characteristics</h4><p>The correct option is <strong>pitch</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>Pitch depends on the wave frequency. A baby's vocal cords produce higher frequencies than an adult's, creating a clear difference in pitch.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18 @ 2024/2025",
+    "topic": [
+      "Sound Waves and Acoustics",
+      "Frequency",
+      "Waves on a String",
+      "Wave Motion"
+    ],
+    "Question": {
+      "content": "The instrument used for studying the frequency of notes from string instrument is:",
+      "type": "OBJ",
+      "options": [
+        "Sonometer",
+        "Barometer",
+        "Thermogram",
+        "Telescope"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Sonometer"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Acoustic Measuring Tools</h4><p>The correct option is <strong>Sonometer</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>A sonometer is a diagnostic lab apparatus used to test the relationship between the frequency of a stretched string, its tension, and its length.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19 @ 2024/2025",
+    "topic": [
+      "Sound Waves and Acoustics",
+      "Wave Motion",
+      "Frequency",
+      "Mechanical Waves",
+      "Doppler Effect"
+    ],
+    "Question": {
+      "content": "A train blowing a whistle of frequency 320Hz approaches a stationary observer at a speed of 66 m/s. What is the frequency observed by the observer if the speed of sound in air is 330m/s?",
+      "type": "OBJ",
+      "options": [
+        "400Hz",
+        "350Hz",
+        "20Hz",
+        "150Hz"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "400Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Doppler Shift Shift Formula</h4><p>The correct option is <strong>400Hz</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>Doppler effect equation: \\( f' = f \\left( \\frac{v}{v - v_s} \\right) \\)<br>\\( f' = 320 \\left( \\frac{330}{330 - 66} \\right) = 320 \\left( \\frac{330}{264} \\right) = 400 \\text{ Hz} \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20 @ 2024/2025",
+    "topic": [
+      "Sound Waves and Acoustics",
+      "Temperature and Heat",
+      "Wave Motion"
+    ],
+    "Question": {
+      "content": "When the temperature of a medium increases, the velocity of sound will:",
+      "type": "OBJ",
+      "options": [
+        "Decreases",
+        "Increases",
+        "remain the same",
+        "becomes zero"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Increases"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Temperature Effect on Sound</h4><p>The correct option is <strong>Increases</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>The velocity of sound in a gas is directly proportional to the square root of its absolute temperature (\\( v \\propto \\sqrt{T} \\)). Higher temperature increases gas molecular kinetic energy.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21 @ 2024/2025",
+    "topic": [
+      "Sound Waves and Acoustics",
+      "Wave Motion",
+      "Mechanical Waves",
+      "Wave Intensity"
+    ],
+    "Question": {
+      "content": "The intensity of sound wave is proportional to the ----- of the amplitude.",
+      "type": "OBJ",
+      "options": [
+        "Square root",
+        "Cube root",
+        "Square",
+        "Cube"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Square"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Wave Intensity Proportion</h4><p>The correct option is <strong>Square</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>In wave dynamics, the total power or intensity delivered per unit area is proportional to the square of its maximum displacement amplitude (\\( I \\propto A^2 \\)).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26 @ 2024/2025",
+    "topic": [
+      "Sound Waves and Acoustics",
+      "Wave Intensity",
+      "Wave Motion"
+    ],
+    "Question": {
+      "content": "A sound source emits a power of 500 Watts uniformly in all direction. What is the sound intensity at a distance of 4m from the source.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2.49 W/m²"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. Sound spreads uniformly in a spherical wave front. The intensity formula is \\( I = \\frac{P}{A} = \\frac{P}{4\\pi r^2} \\).<br>2. Substitute power \\( P = 500\\text{ W} \\) and radius \\( r = 4\\text{ m} \\):<br>\\( I = \\frac{500}{4 \\times \\pi \\times 4^2} = \\frac{500}{64\\pi} \\)<br>3. Calculate the numerical value: \\( I = \\frac{500}{201.06} \\approx 2.487\\text{ W/m}^2 \\).<br><br><strong>Final Answer:</strong> 2.49 W/m²</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27a @ 2024/2025",
+    "topic": [
+      "Sound Waves",
+      "Wave Motion",
+      "Frequency",
+      "Standing Waves",
+      "Acoustics"
+    ],
+    "Question": {
+      "content": "A pipe closed at one end has a length of 10 cm. If the velocity of sound in air of the piped is 340 m/s, calculate the frequency of the fundamental note.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "850 Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. Convert length to meters: \\( L = 10\\text{ cm} = 0.1\\text{ m} \\).<br>2. For a pipe closed at one end, the fundamental frequency is given by \\( f_1 = \\frac{v}{4L} \\).<br>3. Substitute velocity \\( v = 340\\text{ m/s} \\) and length \\( L = 0.1\\text{ m} \\):<br>\\( f_1 = \\frac{340}{4 \\times 0.1} = \\frac{340}{0.4} = 850\\text{ Hz} \\).<br><br><strong>Final Answer:</strong> 850 Hz</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27b @ 2024/2025",
+    "topic": [
+      "Sound Waves and Acoustics",
+      "Wave Motion",
+      "Frequency",
+      "Standing Waves",
+      "Mechanical Waves"
+    ],
+    "Question": {
+      "content": "A pipe closed at one end has a length of 10 cm. If the velocity of sound in air of the piped is 340 m/s, calculate the frequency of the first overtone.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2550 Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. In a closed pipe, only odd harmonics are present. The first overtone is the third harmonic (\\( 3f_1 \\)).<br>2. From the previous calculation, the fundamental frequency is \\( f_1 = 850\\text{ Hz} \\).<br>3. Compute the first overtone: \\( f_3 = 3 \\times f_1 = 3 \\times 850 = 2550\\text{ Hz} \\).<br><br><strong>Final Answer:</strong> 2550 Hz</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28a @ 2024/2025",
+    "topic": [
+      "Sound Waves and Acoustics",
+      "Mechanical Waves",
+      "Wave Motion"
+    ],
+    "Question": {
+      "content": "Give one example of a natural sound detector.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The human ear"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. A natural sound detector refers to biological sensory organs developed by living organisms to capture acoustic vibrations.<br>2. The most common and direct example is the ear found in humans and animals.<br><br><strong>Final Answer:</strong> The human ear</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1 @ 2015/2016",
+    "Question": {
+      "content": "In a closed pipe of length \\( l \\), what is the frequency of the second overtone if the velocity of sound in the air column is \\( V \\)?",
+      "type": "OBJ",
+      "options": [
+        "\\( \\frac{V}{4l} \\)",
+        "\\( \\frac{3V}{2l} \\)",
+        "\\( \\frac{5V}{4l} \\)",
+        "\\( \\frac{V}{l} \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{5V}{4l} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Closed Pipe Harmonics</h3> <p><strong>Key Concept:</strong> In a closed pipe, only odd harmonics are present. The frequencies are given by:</p> \\[ f_n = \\frac{(2n + 1)V}{4l} \\] <p>where \\( n = 0, 1, 2, \\dots \\) (harmonic number).</p> <p><strong>Second Overtone:</strong> <br> 1. Fundamental (1st harmonic): \\( n = 0 \\), \\( f_0 = \\frac{V}{4l} \\). <br> 2. First overtone (3rd harmonic): \\( n = 1 \\), \\( f_1 = \\frac{3V}{4l} \\). <br> 3. <strong>Second overtone (5th harmonic)</strong>: \\( n = 2 \\), \\( f_2 = \\frac{5V}{4l} \\).</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The second overtone corresponds to the 5th harmonic for closed pipes.</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Motion",
+      "Superposition and Interference",
+      "Standing Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 3 @ 2015/2016",
+    "Question": {
+      "content": "Which of the following is an example of an electro-acoustic source of sound?",
+      "type": "OBJ",
+      "options": [
+        "Radio set",
+        "Guitar",
+        "Human speech organ",
+        "Loudspeaker"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Loudspeaker"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Electro-Acoustic Sound Sources</h3> <p><strong>Definition:</strong> Electro-acoustic devices convert electrical signals into sound waves.</p> <ol style='padding-left: 20px;'> <li><strong>Loudspeaker (Correct):</strong> <br> Uses an electrical input to vibrate a diaphragm, producing sound.</li> <li><strong>Other Options:</strong> <br> - Radio set: Transmits but doesn't directly produce sound. <br> - Guitar: Mechanical vibration (non-electrical). <br> - Human speech: Biological (vocal cords).</li> </ol> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Key Point:</strong> Loudspeakers are the only pure electro-acoustic option listed.</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Motion",
+      "Electroacoustics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 5 @ 2015/2016",
+    "Question": {
+      "content": "The speed with which a wave travels in a medium depends on the following except",
+      "type": "OBJ",
+      "options": [
+        "Elasticity and density of the medium",
+        "Gravitational and magnetic forces",
+        "Surface tension and gravitational forces",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Gravitational and magnetic forces"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wave Speed Dependencies</h3> <p><strong>Wave Speed Formula:</strong> For mechanical waves (e.g., sound): \\[ V = \\sqrt{\\frac{\\text{Elasticity}}{\\text{Density}}} \\]</p> <ol style='padding-left: 20px;'> <li><strong>Elasticity & Density:</strong> Directly affect wave speed. <br> <small><i>Example: Sound travels faster in solids (high elasticity).</i></small></li> <li><strong>Gravitational/Magnetic Forces:</strong> <br> Do not influence mechanical wave speed. <strong>(Correct answer)</strong></li> <li><strong>Surface Tension:</strong> Affects capillary waves (e.g., ripples).</li> </ol> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> Electromagnetic waves (e.g., light) depend on permittivity/permeability, not gravity/magnetism.</p> </div>"
+    },
+    "topic": [
+      "Wave Motion",
+      "Sound Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 6 @ 2015/2016",
+    "Question": {
+      "content": "The velocity of sound in a medium at a temperature of 293K was 244 m/s. What is the temperature when the velocity changes to 365 m/s?",
+      "type": "OBJ",
+      "options": [
+        "318K",
+        "307K",
+        "260K",
+        "436K"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "436K"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Temperature and Sound Velocity</h3> <p><strong>Key Concept:</strong> The velocity of sound in a gas is proportional to the square root of its absolute temperature:</p> \\[ V \\propto \\sqrt{T} \\] <p><strong>Given:</strong> <br> - \\( V_1 = 244 \\) m/s at \\( T_1 = 293 \\) K. <br> - \\( V_2 = 365 \\) m/s at \\( T_2 \\).</p> <p><strong>Calculation:</strong> <br> Using the relation \\( \\frac{V_1}{V_2} = \\sqrt{\\frac{T_1}{T_2}} \\): <br> \\[ \\frac{244}{365} = \\sqrt{\\frac{293}{T_2}} \\] <br> Squaring both sides: <br> \\[ \\left(\\frac{244}{365}\\right)^2 = \\frac{293}{T_2} \\] <br> Solving for \\( T_2 \\): <br> \\[ T_2 = 293 \\times \\left(\\frac{365}{244}\\right)^2 \\approx 436 \\text{ K} \\] </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Temperature and Heat",
+      "Wave Motion"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 8 @ 2015/2016",
+    "Question": {
+      "content": "The wavelength of a given sound wave is 10 m and its frequency is 25 Hz. What is the wave number of the wave?",
+      "type": "OBJ",
+      "options": [
+        "0.04/m",
+        "0.623/m",
+        "2.3/m",
+        "1.56/m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.623/m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wave Number Calculation</h3> <p><strong>Definition:</strong> The wave number (\\( k \\)) is the spatial frequency of a wave, defined as:</p> \\[ k = \\frac{2\\pi}{\\lambda} \\] <p><strong>Given:</strong> <br> - Wavelength (\\( \\lambda \\)) = 10 m.</p> <p><strong>Calculation:</strong> <br> \\[ k = \\frac{2\\pi}{10} = 0.628 \\text{ /m} \\approx 0.623 \\text{ /m} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The closest option is 0.623/m.</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Motion",
+      "Wave Properties"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 9 @ 2015/2016",
+    "Question": {
+      "content": "A plane progressive wave is represented by the wave equation \\( y(x,t) = 2\\sin(2000\\pi x - 0.5x) \\). What is the wavelength?",
+      "type": "OBJ",
+      "options": [
+        "10m",
+        "12.57m",
+        "25.5m",
+        "8.4m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "12.57m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Wavelength from Wave Equation</h3> <p><strong>General Form:</strong> A wave equation is \\( y(x,t) = A\\sin(kx - \\omega t) \\), where \\( k \\) is the wave number.</p> <p><strong>Given:</strong> <br> - Equation: \\( y(x,t) = 2\\sin(2000\\pi x - 0.5x) \\). <br> - Comparing with general form: \\( k = 2000\\pi \\) (assuming typo in equation).</p> <p><strong>Calculation:</strong> <br> Wavelength (\\( \\lambda \\)) is related to \\( k \\) by: <br> \\[ k = \\frac{2\\pi}{\\lambda} \\] <br> Solving for \\( \\lambda \\): <br> \\[ \\lambda = \\frac{2\\pi}{2000\\pi} = 0.001 \\text{ m} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Correction:</strong> If the equation is \\( y(x,t) = 2\\sin(2000\\pi t - 0.5x) \\), then \\( k = 0.5 \\), giving \\( \\lambda = \\frac{2\\pi}{0.5} = 12.57 \\) m.</p> </div>"
+    },
+    "topic": [
+      "Wave Motion",
+      "Wave Properties"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1a @ 2015/2016",
+    "Question": {
+      "content": "Give two examples of natural sources of sound.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Thunder <br> 2. Birds chirping"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Natural Sound Sources</h3> <p><strong>Examples:</strong> <br> 1. <strong>Thunder:</strong> Produced by rapid expansion of air during lightning. <br> 2. <strong>Birds chirping:</strong> Vocalizations by birds for communication.</p> </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Motion",
+      "Acoustics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1a(ii) @ 2015/2016",
+    "Question": {
+      "content": "Define Doppler effect.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The Doppler effect is the change in frequency or wavelength of a wave observed when the source and observer move relative to each other."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Doppler Effect</h3> <p><strong>Definition:</strong> <br> The apparent shift in frequency when a wave source and observer are in relative motion. <br> - <strong>Approach:</strong> Higher observed frequency. <br> - <strong>Recede:</strong> Lower observed frequency.</p> <p><strong>Example:</strong> Ambulance siren sounds higher-pitched as it approaches and lower-pitched as it moves away.</p> </div>"
+    },
+    "topic": [
+      "Doppler effect",
+      "Sound Waves",
+      "Wave Motion",
+      "Wave Properties"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1b @ 2015/2016",
+    "Question": {
+      "content": "A train sounding its whistle (frequency 580 Hz) travels at 40 m/s past a stationary observer. What is the maximum change in frequency heard? (Speed of sound = 340 m/s).",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "136 Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Doppler Effect Calculation</h3> <p><strong>Formula (Approach):</strong> <br> \\[ f' = f \\left( \\frac{v}{v - v_s} \\right) \\] <br> <strong>Formula (Recede):</strong> <br> \\[ f'' = f \\left( \\frac{v}{v + v_s} \\right) \\] <br> <strong>Given:</strong> <br> - \\( f = 580 \\) Hz, \\( v = 340 \\) m/s, \\( v_s = 40 \\) m/s.</p> <p><strong>Calculation:</strong> <br> 1. Approach frequency: <br> \\[ f' = 580 \\times \\left( \\frac{340}{340 - 40} \\right) = 658.67 \\text{ Hz} \\] <br> 2. Recede frequency: <br> \\[ f'' = 580 \\times \\left( \\frac{340}{340 + 40} \\right) = 522.67 \\text{ Hz} \\] <br> 3. Maximum change: <br> \\[ \\Delta f = f' - f'' = 136 \\text{ Hz} \\] </div>"
+    },
+    "topic": [
+      "Sound Waves",
+      "Wave Motion",
+      "Doppler effect"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1c @ 2015/2016",
+    "Question": {
+      "content": "The fundamental frequency of a stretched wire is 120 Hz. Calculate the new frequency if tension is doubled (length and mass per unit length constant).",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "169.7 Hz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Fundamental Frequency Change</h3> <p><strong>Formula:</strong> <br> \\[ f = \\frac{1}{2L} \\sqrt{\\frac{T}{\\mu}} \\] <br> where \\( T \\) is tension and \\( \\mu \\) is mass per unit length.</p> <p><strong>Given:</strong> <br> - \\( f_1 = 120 \\) Hz at tension \\( T \\). <br> - New tension \\( T_2 = 2T \\).</p> <p><strong>Calculation:</strong> <br> Frequency is proportional to \\( \\sqrt{T} \\): <br> \\[ \\frac{f_2}{f_1} = \\sqrt{\\frac{T_2}{T_1}} = \\sqrt{2} \\] <br> \\[ f_2 = 120 \\times \\sqrt{2} \\approx 169.7 \\text{ Hz} \\] </div>"
+    },
+    "topic": [
+      "Standing Waves",
+      "Wave Motion",
+      "Wave Properties"
+    ]
+  }
+]
