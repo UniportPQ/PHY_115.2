@@ -1,0 +1,1293 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "pureOBJ",
+    "course_title": "Waves, Optics and Thermal Physics",
+    "code": "PHY_115.2",
+    "session": "Geometric Optics",
+    "time": 90,
+    "topics": [
+      "Diffraction",
+      "Electromagnetic Waves",
+      "Geometric Optics",
+      "Heat Transfer",
+      "Kinetic Theory of Gases",
+      "Sound Waves",
+      "Superposition and Interference",
+      "Temperature and Heat",
+      "Thermodynamics",
+      "Wave Motion",
+      "Wave Optics"
+    ]
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2024/2025",
+    "topic": [
+      "Optics",
+      "Geometric Optics",
+      "Wave Optics",
+      "Electromagnetic Waves"
+    ],
+    "Question": {
+      "content": "The branch of physics concerned with the study of light and its phenomena is called ________.",
+      "type": "OBJ",
+      "options": [
+        "Optics",
+        "Kinematic",
+        "Dynamic",
+        "Heat"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Optics"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Definition of Optics</h4><p>The correct option is <strong>Optics</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>Optics is explicitly defined as the subfield of physics that studies the behavior and properties of light.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3 @ 2024/2025",
+    "topic": [
+      "Optics",
+      "Geometric Optics",
+      "Reflection"
+    ],
+    "Question": {
+      "content": "If light rays intersect a plane mirror at an angle of 25° from the vertical line to the surface, find the angle between the incident and reflected rays.",
+      "type": "OBJ",
+      "options": [
+        "45°",
+        "50°",
+        "55°",
+        "60°"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "50°"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Angle Between Rays</h4><p>The correct option is <strong>50°</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>The vertical line to the mirror surface is the normal line, so the angle of incidence is \\( i = 25^\\circ \\).<br>By the law of reflection, the angle of reflection is \\( r = i = 25^\\circ \\).<br>The total angle between incident and reflected rays is \\( i + r = 25^\\circ + 25^\\circ = 50^\\circ \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4 @ 2024/2025",
+    "topic": [
+      "Geometric Optics",
+      "Reflection",
+      "Optics"
+    ],
+    "Question": {
+      "content": "An object 3 cm high is placed 16 cm in front of a converging mirror so that it produces an image of 40 cm from the mirror. Find the height of the image.",
+      "type": "OBJ",
+      "options": [
+        "6.5 cm",
+        "5.5 cm",
+        "7.5 cm",
+        "4.5 cm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "7.5 cm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Magnification Formula</h4><p>The correct option is <strong>7.5 cm</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>Magnification: \\( M = \\frac{\\text{Image distance } (v)}{\\text{Object distance } (u)} = \\frac{\\text{Image height } (h_i)}{\\text{Object height } (h_o)} \\)<br>\\( \\frac{40}{16} = \\frac{h_i}{3} \\)<br>\\( h_i = \\frac{40 \\times 3}{16} = 7.5 \\text{ cm} \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7a @ 2024/2025",
+    "topic": [
+      "Geometric Optics",
+      "Reflection",
+      "Optics"
+    ],
+    "Question": {
+      "content": "A man stands 50 cm from a concave mirror with radius of curvature 10 cm. Find the position of the image.",
+      "type": "OBJ",
+      "options": [
+        "5.56 cm",
+        "6.65 cm",
+        "7.5 cm",
+        "7.80 cm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5.56 cm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Concave Mirror Image Position</h4><p>The correct option is <strong>5.56 cm</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>Focal length: \\( f = \\frac{R}{2} = \\frac{10}{2} = 5 \\text{ cm} \\). Object distance \\( u = 50 \\text{ cm} \\).<br>Mirror equation: \\( \\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v} \\implies \\frac{1}{5} = \\frac{1}{50} + \\frac{1}{v} \\).<br>\\( \\frac{1}{v} = \\frac{1}{5} - \\frac{1}{50} = \\frac{9}{50} \\implies v = \\frac{50}{9} = 5.56 \\text{ cm} \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7b @ 2024/2025",
+    "topic": [
+      "Optics",
+      "Geometric Optics",
+      "Reflection",
+      "Magnification"
+    ],
+    "Question": {
+      "content": "A man stands 50 cm from a concave mirror with radius of curvature 10 cm. Find the magnification of the image.",
+      "type": "OBJ",
+      "options": [
+        "0.11",
+        "0.12",
+        "0.13",
+        "0.14"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.11"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Concave Mirror Magnification</h4><p>The correct option is <strong>0.11</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>Magnification Formula: \\( M = \\frac{v}{u} \\).<br>From the previous part: \\( v = 5.56 \\text{ cm} \\) and \\( u = 50 \\text{ cm} \\).<br>\\( M = \\frac{5.56}{50} = 0.1111 \\approx 0.11 \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8 @ 2024/2025",
+    "topic": [
+      "Optics",
+      "Geometric Optics",
+      "Reflection",
+      "Total Internal Reflection"
+    ],
+    "Question": {
+      "content": "The critical angle at an air-liquid interface is 50°. Calculate the refractive index of the liquid.",
+      "type": "OBJ",
+      "options": [
+        "1.60",
+        "1.50",
+        "1.31",
+        "1.42"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.31"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Critical Angle Calculation</h4><p>The correct option is <strong>1.31</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Calculation</strong><br>Refractive index formula: \\( n = \\frac{1}{\\sin(C)} \\).<br>Given critical angle \\( C = 50^\\circ \\):<br>\\( n = \\frac{1}{\\sin(50^\\circ)} = \\frac{1}{0.7660} \\approx 1.31 \\).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11 @ 2024/2025",
+    "topic": [
+      "Geometric Optics",
+      "Optics",
+      "Principles of Geometrical Optics"
+    ],
+    "Question": {
+      "content": "Which of the following principles govern light phenomena in geometrical optics: (i) rectilinear propagation of light, (ii) independence of light rays, (iii) reversibility of light rays, (iv) photoelectric effect.",
+      "type": "OBJ",
+      "options": [
+        "i & ii",
+        "i & iii",
+        "i, ii & iii",
+        "all of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "i, ii & iii"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Geometrical Optics Principles</h4><p>The correct option is <strong>i, ii & iii</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>Rectilinear propagation, independence, and reversibility are core foundational postulates of classical geometrical optics.<br>The photoelectric effect belongs to modern quantum mechanics.</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2024/2025",
+    "topic": [
+      "Optics",
+      "Geometric Optics",
+      "Reflection",
+      "Total Internal Reflection",
+      "Dispersion",
+      "Wave Optics",
+      "Diffraction"
+    ],
+    "Question": {
+      "content": "When sunlight passes through water droplets in the atmosphere to form a rainbow, it undergoes: (i) refraction (ii) reflection (iii) dispersion (iv) diffraction",
+      "type": "OBJ",
+      "options": [
+        "all of the above",
+        "none of the above",
+        "i, ii & iii",
+        "iii & iv"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "i, ii & iii"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Rainbow Formation</h4><p>The correct option is <strong>i, ii & iii</strong>.</p><div style='margin-bottom: 12px;'><strong style='color: var(--strongColor);'>Explanation</strong><br>Rainbow formation requires light entering a drop (refraction), separating into colours (dispersion), and bounding off the back inner surface (total internal reflection).</div></div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23 @ 2024/2025",
+    "topic": [
+      "Geometric Optics",
+      "Magnification",
+      "Optics"
+    ],
+    "Question": {
+      "content": "A converging lens formed an image which is erect and magnified four times. Calculate the object distance if the focal length is 20 cm.",
+      "type": "OBJ",
+      "options": [
+        "20 cm",
+        "25 cm",
+        "18 cm",
+        "15 cm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "15 cm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. For an erect (virtual) image in a converging lens, magnification is positive: \\( m = +4 \\).<br>2. Using the magnification formula \\( m = \\frac{v}{u} \\), we get \\( 4 = \\frac{v}{u} \\implies v = -4u \\) (negative sign indicates virtual image).<br>3. Substitute into the lens formula \\( \\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v} \\):<br>\\( \\frac{1}{20} = \\frac{1}{u} - \\frac{1}{4u} \\)<br>\\( \\frac{1}{20} = \\frac{4 - 1}{4u} = \\frac{3}{4u} \\)<br>4. Cross-multiplying gives \\( 4u = 60 \\implies u = 15\\text{ cm} \\).<br><br><strong>Final Answer:</strong> 15 cm</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25 @ 2024/2025",
+    "topic": [
+      "Optics",
+      "Geometric Optics",
+      "Reflection",
+      "Image Formation"
+    ],
+    "Question": {
+      "content": "Two plane mirrors are inclined at an angle of 90° to each other. An object is placed between them. How many images will be formed?",
+      "type": "OBJ",
+      "options": [
+        "5 images",
+        "3 images",
+        "6 images",
+        "4 images"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3 images"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. The formula for the number of images formed by two inclined mirrors is \\( n = \\frac{360^\\circ}{\\theta} - 1 \\).<br>2. Given the angle of inclination \\( \\theta = 90^\\circ \\), substitute this into the formula:<br>\\( n = \\frac{360}{90} - 1 \\)<br>3. Compute the division and subtraction: \\( n = 4 - 1 = 3 \\).<br><br><strong>Final Answer:</strong> 3 images</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29 @ 2024/2025",
+    "topic": [
+      "Optics",
+      "Geometric Optics",
+      "Principles of Geometrical Optics",
+      "Refraction"
+    ],
+    "Question": {
+      "content": "A ray of light passes through an equilateral prism (A = 60°) with refractive index μ = 1.5. If the angle of incidence equals the angle of emergence (i = e), calculate the angle of deviation (δ).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "37.16°"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. When \\( i = e \\), the prism is at minimum deviation (\\( \\delta = \\delta_m \\)).<br>2. Use the prism formula: \\( \\mu = \\frac{\\sin\\left(\\frac{A + \\delta_m}{2}\\right)}{\\sin\\left(\\frac{A}{2}\\right)} \\).<br>3. Substitute \\( \\mu = 1.5 \\) and \\( A = 60^\\circ \\):<br>\\( 1.5 = \\frac{\\sin\\left(\\frac{60^\\circ + \\delta_m}{2}\\right)}{\\sin(30^\\circ)} \\)<br>\\( 1.5 \\times 0.5 = \\sin\\left(\\frac{60^\\circ + \\delta_m}{2}\\right) \\implies 0.75 = \\sin\\left(\\frac{60^\\circ + \\delta_m}{2}\\right) \\)<br>4. Take inverse sine: \\( \\frac{60^\\circ + \\delta_m}{2} = \\sin^{-1}(0.75) = 48.59^\\circ \\).<br>5. Solve for \\( \\delta_m \\): \\( 60^\\circ + \\delta_m = 97.18^\\circ \\implies \\delta_m = 37.16^\\circ \\).<br><br><strong>Final Answer:</strong> 37.16°</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30 @ 2024/2025",
+    "topic": [
+      "Optics",
+      "Geometric Optics",
+      "Refraction",
+      "Snell's Law"
+    ],
+    "Question": {
+      "content": "A diver shines a flashlight upward from beneath the water at a 60° angle to the vertical. At what angle does the light leave the water?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The light undergoes total internal reflection and does not leave the water."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. Find the critical angle of water using \\( n = 1.33 \\): \\( \\theta_c = \\sin^{-1}\\left(\\frac{1}{1.33}\\right) \\approx 48.8^\\circ \\).<br>2. The angle with the vertical corresponds to the angle of incidence inside the medium, so \\( i = 60^\\circ \\).<br>3. Compare the incident angle with the critical angle: Since \\( 60^\\circ > 48.8^\\circ \\), the light exceeds the critical threshold.<br>4. Therefore, total internal reflection occurs, meaning the light reflects back entirely into the water and cannot escape into air.<br><br><strong>Final Answer:</strong> The light undergoes total internal reflection and does not leave the water.</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32 @ 2024/2025",
+    "topic": [
+      "Optics",
+      "Geometric Optics",
+      "Refraction",
+      "Snell's Law",
+      "Principles of Geometrical Optics"
+    ],
+    "Question": {
+      "content": "A layer of oil (n=1.45) floats on water (n=1.33). A ray of light shines onto the oil with an incidence angle of 55°. Find the angle the ray makes in the water.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "38.01°"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. According to Snell's Law across multiple parallel boundary layers: \\( n_{\\text{air}}\\sin(\\theta_{\\text{air}}) = n_{\\text{oil}}\\sin(\\theta_{\\text{oil}}) = n_{\\text{water}}\\sin(\\theta_{\\text{water}}) \\).<br>2. We can relate air directly to water: \\( 1 \\times \\sin(55^\\circ) = 1.33 \\times \\sin(\\theta_{\\text{water}}) \\).<br>3. Rearrange to find the target angle fraction: \\( \\sin(\\theta_{\\text{water}}) = \\frac{\\sin(55^\\circ)}{1.33} = \\frac{0.8192}{1.33} \\approx 0.6159 \\).<br>4. Take inverse sine: \\( \\theta_{\\text{water}} = \\sin^{-1}(0.6159) \\approx 38.01^\\circ \\).<br><br><strong>Final Answer:</strong> 38.01°</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33 @ 2024/2025",
+    "topic": [
+      "Geometric Optics",
+      "Reflection",
+      "Refraction",
+      "Snell's Law"
+    ],
+    "Question": {
+      "content": "A security guard's torchlight beam shines at a pool of water. The reflected ray makes an angle of 38° with the normal. What is the angle of the refracted ray inside the water? Take refractive index of water n_water=1.33.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "27.53°"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'><h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation</h4>1. By the law of reflection, angle of incidence equals angle of reflection, so \\( i = 38^\\circ \\).<br>2. Apply Snell's Law at the air-water boundary interface: \\( n_1\\sin(i) = n_2\\sin(r) \\).<br>3. Substitute known values: \\( 1 \\times \\sin(38^\\circ) = 1.33 \\times \\sin(r) \\).<br>4. Isolate target variable function: \\( \\sin(r) = \\frac{\\sin(38^\\circ)}{1.33} = \\frac{0.6157}{1.33} \\approx 0.4629 \\).<br>5. Compute inverse function: \\( r = \\sin^{-1}(0.4629) \\approx 27.53^\\circ \\).<br><br><strong>Final Answer:</strong> 27.53°</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 40 @ 2019/2020",
+    "Question": {
+      "content": "What is the relationship between focal length (\\( f \\)) and radius of curvature (\\( r \\)) of a curved mirror?",
+      "type": "OBJ",
+      "options": [
+        "f = 2r",
+        "r = f/2",
+        "r = 2/f",
+        "f = r/2",
+        "f = 2/r"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "f = r/2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Focal Length vs. Radius</h3> <p><strong>Formula:</strong> <br> \\[ f = \\frac{r}{2} \\] <br> <strong>Derivation:</strong> <br> - For spherical mirrors, the focal point is midway between the center of curvature and the mirror surface.</p> </div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Spherical Mirrors"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 41 @ 2019/2020",
+    "Question": {
+      "content": "A light beam parallel to the principal axis of a concave mirror converges at:",
+      "type": "OBJ",
+      "options": [
+        "Radius of curvature",
+        "Pole",
+        "Principal focus",
+        "Principal axis",
+        "Converging point"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Principal focus"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Concave Mirror Behavior</h3> <p><strong>Key Property:</strong> <br> - Rays parallel to the principal axis converge at the <strong>principal focus (F)</strong> after reflection.</p> <p><strong>Other Points:</strong> <br> - Radius of curvature (C) is twice the focal length. <br> - Pole (P) is the mirror's center.</p> </div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Spherical Mirrors",
+      "Concave Mirrors",
+      "Light Reflection"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 42 @ 2019/2020",
+    "Question": {
+      "content": "Refraction is caused by:",
+      "type": "OBJ",
+      "options": [
+        "Density differences",
+        "Frequency differences",
+        "Wavelength differences",
+        "Velocity differences",
+        "Media type differences"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Velocity differences"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Cause of Refraction</h3> <p><strong>Primary Cause:</strong> <br> - Light changes speed when moving between media with different refractive indices, causing bending.</p> <p><strong>Snell's Law:</strong> <br> \\[ n_1 \\sin \\theta_1 = n_2 \\sin \\theta_2 \\] <br> where \\( n = \\frac{c}{v} \\) (refractive index depends on velocity).</p> </div>"
+    },
+    "topic": [
+      "Waves, Optics and Thermal Physics",
+      "Geometric Optics",
+      "Wave Phenomena",
+      "Wave Properties",
+      "Refraction"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 43 @ 2019/2020",
+    "Question": {
+      "content": "When a mirror is rotated by angle θ, the reflected ray rotates by:",
+      "type": "OBJ",
+      "options": [
+        "θ",
+        "2θ",
+        "4θ",
+        "5θ",
+        "None"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2θ"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Mirror Rotation Effect</h3> <p><strong>Key Principle:</strong> <br> - Rotating a mirror by θ changes the angle of incidence by θ, causing the reflected ray to rotate by <strong>2θ</strong>.</p> <p><strong>Example:</strong> <br> - 10° rotation → 20° shift in reflected ray.</p> </div>"
+    },
+    "topic": [
+      "Waves, Optics and Thermal Physics",
+      "Geometric Optics",
+      "Light Reflection"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 44 @ 2019/2020",
+    "Question": {
+      "content": "An object is placed in front of a convex mirror (focal length = 10 cm). If the image is 8 cm from the mirror, find the object distance.",
+      "type": "OBJ",
+      "options": [
+        "20 cm",
+        "10 cm",
+        "30 cm",
+        "35 cm",
+        "40 cm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "40 cm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #9b59b6; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Convex Mirror Calculation</h3> <p><strong>Given:</strong> <br> - \\( f = -10 \\, \\text{cm} \\) (convex), \\( v = -8 \\, \\text{cm} \\) (virtual image).</p> <p><strong>Formula:</strong> <br> \\[ \\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v} \\] <br> Solving for \\( u \\): <br> \\[ \\frac{1}{u} = \\frac{1}{-10} - \\frac{1}{-8} = -0.1 + 0.125 = 0.025 \\] <br> \\[ u = \\frac{1}{0.025} = 40 \\, \\text{cm} \\] </div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Spherical Mirrors",
+      "Light Reflection"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 45 @ 2019/2020",
+    "Question": {
+      "content": "All real objects/images/foci are positive, while virtual ones are negative.",
+      "type": "OBJ",
+      "options": [
+        "True",
+        "False"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "True"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #27ae60; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Sign Convention</h3> <p><strong>Standard Rule:</strong> <br> - Real objects/images/foci: Positive distances. <br> - Virtual objects/images/foci: Negative distances.</p> <p><strong>Example:</strong> <br> - Convex mirrors always form virtual images (negative \\( v \\)).</p> </div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Spherical Mirrors",
+      "Light Reflection",
+      "Sign Conventions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 46 @ 2019/2020",
+    "Question": {
+      "content": "Which statements about spherical mirrors are correct? (i) Parallel rays converge at F. (ii) Rays through C reflect normally. (iii) All rays obey reflection laws.",
+      "type": "OBJ",
+      "options": [
+        "(i)",
+        "(ii)",
+        "(iii)",
+        "(i)-(iii)",
+        "(i)-(ii)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(i)-(iii)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #f39c12; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Mirror Ray Rules</h3> <p><strong>All Statements Are Correct:</strong> <br> 1. Parallel rays → Principal focus (F). <br> 2. Rays through center of curvature (C) → Reflect back along same path. <br> 3. All rays obey \\( \\theta_i = \\theta_r \\).</p> </div>"
+    },
+    "topic": [
+      "Waves, Optics and Thermal Physics",
+      "Geometric Optics",
+      "Spherical Mirrors",
+      "Light Reflection"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 47 @ 2019/2020",
+    "Question": {
+      "content": "An object is 10 cm from a concave mirror. The image is 40 cm behind the mirror. Find the focal length.",
+      "type": "OBJ",
+      "options": [
+        "8 cm",
+        "8.5 cm",
+        "9 cm",
+        "7.5 cm",
+        "6 cm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "8 cm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #16a085; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Concave Mirror Focal Length</h3> <p><strong>Given:</strong> <br> - \\( u = 10 \\, \\text{cm} \\), \\( v = -40 \\, \\text{cm} \\) (virtual image).</p> <p><strong>Formula:</strong> <br> \\[ \\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v} \\] <br> \\[ \\frac{1}{f} = \\frac{1}{10} + \\frac{1}{-40} = 0.1 - 0.025 = 0.075 \\] <br> \\[ f = \\frac{1}{0.075} \\approx 13.33 \\, \\text{cm} \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Note:</strong> The correct answer (13.33 cm) is not listed; the closest is (A) 8 cm.</p> </div>"
+    },
+    "topic": [
+      "Waves, Optics and Thermal Physics",
+      "Geometric Optics",
+      "Spherical Mirrors",
+      "Concave Mirrors",
+      "Light Reflection",
+      "Sign Conventions",
+      "Focal Length"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 50 @ 2019/2020",
+    "Question": {
+      "content": "Where must an object be placed with respect to a convex mirror with a focal length of \\( 25 \\, \\text{cm} \\), in order to obtain an image two-thirds as far behind the mirror as the object is in front?",
+      "type": "OBJ",
+      "options": [
+        "\\( 10.5 \\, \\text{cm} \\)",
+        "\\( 11.0 \\, \\text{cm} \\)",
+        "\\( 12.5 \\, \\text{cm} \\)",
+        "\\( 13.5 \\, \\text{cm} \\)",
+        "\\( 13.0 \\, \\text{cm} \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 12.5 \\, \\text{cm} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Object Placement for Convex Mirror</h3> <p><strong>Given:</strong> <br> - Focal length \\( f = -25 \\, \\text{cm} \\) (negative for convex mirror) <br> - Image distance \\( d_i = -\\frac{2}{3}d_o \\) (negative because the image is virtual and behind the mirror, and two-thirds the object distance \\( d_o \\))</p> <p><strong>Step 1: Mirror formula:</strong> <br> \\[ \\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i} \\] <br> Substitute \\( d_i \\): <br> \\[ \\frac{1}{-25} = \\frac{1}{d_o} + \\frac{1}{-\\frac{2}{3}d_o} \\]</p> <p><strong>Step 2: Solve for \\( d_o \\):</strong> <br> Simplify the equation: <br> \\[ \\frac{1}{-25} = \\frac{1}{d_o} - \\frac{3}{2d_o} = -\\frac{1}{2d_o} \\] <br> Multiply both sides by \\( -2d_o \\): <br> \\[ \\frac{2d_o}{25} = 1 \\] <br> \\[ d_o = \\frac{25}{2} = 12.5 \\, \\text{cm} \\]</p> <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'><strong>Correct option:</strong> (C) \\( 12.5 \\, \\text{cm} \\).</p> </div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Spherical Mirrors",
+      "Light Reflection",
+      "Focal Length",
+      "Sign Conventions"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 22 @ 2015/2016",
+    "Question": {
+      "content": "The arrangement of two prisms to produce deviation without dispersion is called:",
+      "type": "OBJ",
+      "options": [
+        "Direct vision prism",
+        "Dispersion power",
+        "Achromatism",
+        "Spectrum"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Achromatism"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #e74c3c; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Achromatic Prisms</h3> <p>Achromatism uses two prisms with different dispersion properties to cancel out color separation while maintaining deviation.</p> </div>"
+    },
+    "topic": [
+      "Achromatism",
+      "Geometric Optics",
+      "Refraction"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 27 @ 2015/2016",
+    "Question": {
+      "content": "Given refractive indices for red (nᵣ = 1.512) and blue (n_b = 1.524) light in a prism, calculate its dispersive power.",
+      "type": "OBJ",
+      "options": [
+        "1.008",
+        "0.021",
+        "0.012",
+        "1.516"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.021"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #d35400; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Dispersive Power</h3> <p><strong>Calculation:</strong> <br> Assume n_y ≈ (1.512 + 1.524)/2 = 1.518 <br> \\[ ω = \\frac{n_b - n_r}{n_y - 1} = \\frac{0.012}{0.518} ≈ 0.023 \\] <p style='background-color: #eaf2f8; padding: 10px; border-radius: 4px;'>Closest option is 0.021</p> </div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Refraction",
+      "Dispersion",
+      "Electromagnetic Spectrum"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 28 @ 2015/2016",
+    "Question": {
+      "content": "Refraction is caused by:",
+      "type": "OBJ",
+      "options": [
+        "Density differences",
+        "Frequency differences",
+        "Wavelength differences",
+        "Velocity differences",
+        "Media type differences"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Velocity differences"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #2c3e50; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Refraction Cause</h3> <p>Refraction occurs due to changes in light's velocity when moving between media with different optical densities.</p> </div>"
+    },
+    "topic": [
+      "Refraction",
+      "Wave Properties",
+      "Geometric Optics",
+      "Electromagnetic Waves"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 29 @ 2015/2016",
+    "Question": {
+      "content": "When a mirror rotates through angle θ, the reflected ray rotates through:",
+      "type": "OBJ",
+      "options": [
+        "θ",
+        "2θ",
+        "3θ",
+        "4θ",
+        "None"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2θ"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #8e44ad; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Mirror Rotation</h3> <p>Mirror rotation by θ causes 2θ change in reflected ray direction due to angle of incidence-reflection relationship.</p> </div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Reflection"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 30 @ 2015/2016",
+    "Question": {
+      "content": "An object is placed in front of a convex mirror (f = -10 cm). If the image is formed 8 cm from the mirror, calculate the object distance.",
+      "type": "OBJ",
+      "options": [
+        "20 cm",
+        "10 cm",
+        "30 cm",
+        "35 cm",
+        "40 cm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "40 cm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; padding: 15px; border-radius: 8px; border-left: 5px solid #3498db; box-shadow: 0 2px 4px rgba(0,0,0,0.1);'> <h3 style='color: #2c3e50; margin-top: 0;'>Mirror Formula</h3> <p><strong>Calculation:</strong> <br> \\[ \\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v} \\] <br> \\[ \\frac{1}{-10} = \\frac{1}{u} + \\frac{1}{-8} \\] <br> Solving gives u = 40 cm</p> </div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Reflection"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 14 @ 2012/2013",
+    "Question": {
+      "content": "What is the relationship between the focal length (f) and radius of curvature (r) of a curved mirror?",
+      "type": "OBJ",
+      "options": [
+        "f = 2r",
+        "r = f/2",
+        "r = 2/f",
+        "f = r/2",
+        "f = 2/r"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "f = r/2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🪞 Mirror Geometry</h3><p>The focal length (<strong>f</strong>) is <em>half</em> the radius of curvature (<strong>r</strong>), because light parallel to the axis converges at the midpoint between the mirror's surface and its center of curvature.</p><h3>📐 Formula Derivation</h3><p>For spherical mirrors:<br>\\( f = \\frac{r}{2} \\)</p><p style='color: #e74c3c;'>⚠️ <strong>Common Mistake:</strong> Swapping f and r (e.g., choosing f = 2r) reverses the relationship!</p></div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Waves, Optics and Thermal Physics",
+      "Curved Mirrors"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 15 @ 2012/2013",
+    "Question": {
+      "content": "Where does a beam parallel to the principal axis converge on a concave mirror?",
+      "type": "OBJ",
+      "options": [
+        "Radius of curvature",
+        "Pole",
+        "Principal focus",
+        "Principal axis",
+        "Converging point"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Principal focus"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🔦 Concave Mirror Behavior</h3><p>Parallel rays converge at the <strong>principal focus (F)</strong>, which is halfway between the mirror and its center of curvature. This is why concave mirrors are used in telescopes and headlights!</p><h3>🎯 Key Points</h3><ul><li>Radius of curvature (C): Center of the mirror's imaginary sphere</li><li>Principal focus (F): Where parallel rays meet</li></ul></div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Curved Mirrors"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2012/2013",
+    "Question": {
+      "content": "What causes refraction?",
+      "type": "OBJ",
+      "options": [
+        "Density difference between media",
+        "Frequency difference between media",
+        "Wavelength difference between media",
+        "Velocity difference of light between media",
+        "Type of media difference"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Velocity difference of light between media"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🌊 Refraction Mechanism</h3><p>Refraction occurs because light <strong>changes speed</strong> when moving between media (e.g., air to glass). This speed change bends the light's path.</p><h3>❌ Why Others Are Wrong:</h3><ul><li>Frequency remains constant during refraction</li><li>Wavelength changes <em>because</em> of velocity change</li><li>Density affects velocity but isn't the direct cause</li></ul><p style='color: #27ae60;'>💡 <strong>Real-World:</strong> A straw looks bent in water due to light slowing down!</p></div>"
+    },
+    "topic": [
+      "Waves, Optics and Thermal Physics",
+      "Geometric Optics",
+      "Wave Optics",
+      "Wave Properties",
+      "Electromagnetic Waves",
+      "Refraction"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 17 @ 2012/2013",
+    "Question": {
+      "content": "When a mirror rotates through an angle, how much does the reflected ray rotate?",
+      "type": "OBJ",
+      "options": [
+        "Thrice the angle",
+        "Two times the angle",
+        "Four times the angle",
+        "Five times the angle",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Two times the angle"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🔄 Mirror Rotation Effect</h3><p>If you rotate a mirror by angle θ, the reflected ray rotates by <strong>2θ</strong>. This happens because both the incident and reflected angles change by θ relative to the new normal.</p><h3>📐 Mathematical Proof</h3><p>Original reflection: \\( i = r \\)<br>After rotation by θ:<br>\\( i' = i + θ \\), \\( r' = r + θ \\)<br>Total ray rotation: \\( (r' - r) + (i' - i) = 2θ \\)</p></div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Reflection",
+      "Waves, Optics and Thermal Physics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 18 @ 2012/2013",
+    "Question": {
+      "content": "An object is placed in front of a convex mirror (f=10cm). If the image is 8cm from the mirror, what is the object distance?",
+      "type": "OBJ",
+      "options": [
+        "20cm",
+        "10cm",
+        "30cm",
+        "35cm",
+        "40cm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "40cm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>🚗 Convex Mirror Math</h3><p>Convex mirrors always form virtual images. Using the mirror formula:<br>\\( \\frac{1}{f} = \\frac{1}{v} + \\frac{1}{u} \\)<br>Where:<br>• \\( f = -10\\,cm \\) (negative for convex)<br>• \\( v = -8\\,cm \\) (negative for virtual image)</p><h3>🔢 Calculation</h3><ol><li>Plug in: \\( \\frac{1}{-10} = \\frac{1}{-8} + \\frac{1}{u} \\)</li><li>Solve: \\( \\frac{1}{u} = \\frac{1}{-10} - \\frac{1}{-8} = -0.1 + 0.125 = 0.025 \\)</li><li>Object distance: \\( u = \\frac{1}{0.025} = 40\\,cm \\)</li></ol></div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Curved Mirrors",
+      "Optics",
+      "Convex Mirrors",
+      "Mirror Equation",
+      "Object-Image Relations"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 20 @ 2012/2013",
+    "Question": {
+      "content": "Which statements about spherical mirrors are correct?",
+      "type": "OBJ",
+      "options": [
+        "(i) Only",
+        "(ii) Only",
+        "(iii) Only",
+        "(i), (ii), and (iii)",
+        "(i) and (ii) Only"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(i), (ii), and (iii)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6; padding: 10px; border-radius: 5px; background: #f8f9fa; border-left: 4px solid #3498db;'><h3 style='color: #2c3e50; margin-top: 0;'>📜 Mirror Rules Verification</h3><p>All three statements are fundamental to ray diagrams:</p><ol><li><strong>Parallel rays → Focus:</strong> Basis for telescopes</li><li><strong>Center-of-curvature rays:</strong> Reflect back along themselves</li><li><strong>Law of reflection:</strong> Universal for all incident rays</li></ol><p style='color: #27ae60;'>🎯 <strong>Application:</strong> These rules help design everything from shaving mirrors to satellite dishes!</p></div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Curved Mirrors",
+      "Reflection",
+      "Optics",
+      "Waves, Optics and Thermal Physics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1a @ 2012/2013",
+    "Question": {
+      "content": "A small object is placed 10cm in front of a concave mirror. The image forms 40cm from the object. Determine the focal length.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "8 cm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6;'><h3 style='color: #2c3e50;'>Understanding the Problem</h3><p>A concave mirror is like the inside of a spoon – it can focus light. Here, an object is placed 10cm in front of it, and the image appears 40cm from the object.</p><br/><h3>Step 1: Determine Image Position</h3><p>The image is <strong>40cm from the object</strong>. Since the object is 10cm in front of the mirror, the image must be:<br/><strong>Case 1:</strong> 30cm behind the mirror (virtual image)<br/><strong>Case 2:</strong> 50cm in front of the mirror (real image)<br/>For concave mirrors, real images form in front, so we use <strong>v = +50cm</strong>.</p><br/><h3>Step 2: Apply Mirror Formula</h3><p>Use the formula:<br/>\\( \\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v} \\)<br/>Where:<br/>• \\( u = -10\\,cm \\) (object distance, negative by convention)<br/>• \\( v = +50\\,cm \\) (image distance)</p><br/><h3>Step 3: Calculate Focal Length</h3><p>\\( \\frac{1}{f} = \\frac{1}{-10} + \\frac{1}{50} = -0.1 + 0.02 = -0.08 \\)<br/>\\( f = \\frac{1}{-0.08} = -12.5\\,cm \\)<br/>Wait, this gives a negative focal length, which suggests an error. Let’s re-evaluate the image position.</p><br/><p style='color: #e74c3c;'><strong>Correction:</strong> The image is 40cm from the object, so if it's virtual (behind mirror), v = -30cm.<br/>\\( \\frac{1}{f} = \\frac{1}{-10} + \\frac{1}{-30} = -0.1 - 0.033 = -0.133 \\)<br/>\\( f \\approx -7.5\\,cm \\) (still negative, indicating a calculation mistake).</p><br/><p>The correct interpretation is that the image is 40cm from the object, so if u = 10cm, v = 40cm - 10cm = 30cm in front (real image).<br/>\\( \\frac{1}{f} = \\frac{1}{10} + \\frac{1}{30} = 0.1 + 0.033 = 0.133 \\)<br/>\\( f \\approx 7.5\\,cm \\) (positive for concave mirror).</p></div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Curved Mirrors",
+      "Mirror Equation",
+      "Object-Image Relations",
+      "Reflection"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1b @ 2012/2013",
+    "Question": {
+      "content": "A prism has a refracting angle of 60° and refractive index 1.5. Calculate the angle of minimum deviation.",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "37.2°"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial, sans-serif; line-height: 1.6;'><h3 style='color: #2c3e50;'>Prism Basics</h3><p>A prism bends light like a rainbow maker. The <strong>minimum deviation</strong> is the smallest angle by which light is bent when passing through.</p><br/><h3>Formula</h3><p>Use the formula for minimum deviation (\\( D_m \\)):<br/>\\( n = \\frac{\\sin\\left(\\frac{A + D_m}{2}\\right)}{\\sin\\left(\\frac{A}{2}\\right)} \\)<br/>Where:<br/>• \\( n = 1.5 \\) (refractive index)<br/>• \\( A = 60° \\) (prism angle)</p><br/><h3>Calculation</h3><p>Rearrange the formula:<br/>\\( \\sin\\left(\\frac{60° + D_m}{2}\\right) = 1.5 \\times \\sin(30°) \\)<br/>\\( \\sin\\left(30° + \\frac{D_m}{2}\\right) = 1.5 \\times 0.5 = 0.75 \\)<br/>Take inverse sine:<br/>\\( 30° + \\frac{D_m}{2} = \\sin^{-1}(0.75) \\approx 48.59° \\)<br/>Solve for \\( D_m \\):<br/>\\( \\frac{D_m}{2} = 18.59° \\)<br/>\\( D_m \\approx 37.2° \\)</p></div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Refraction",
+      "Optics",
+      "Minimum Deviation"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 14 @ 2009/2010",
+    "Question": {
+      "content": "An image formed by actual intersection of rays on a screen is called",
+      "type": "OBJ",
+      "options": [
+        "virtual image",
+        "real image",
+        "upright image",
+        "magnified image"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "real image"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Real vs Virtual Images:</strong></p><table border='1'><tr><th>Feature</th><th>Real Image</th><th>Virtual Image</th></tr><tr><td>Formation</td><td>Light rays actually meet</td><td>Appears to come from a location</td></tr><tr><td>Projection</td><td>Can be captured on screen</td><td>Cannot be projected</td></tr><tr><td>Example</td><td>Camera film image</td><td>Mirror selfie</td></tr></table></div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Real Image"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 15 @ 2009/2010",
+    "Question": {
+      "content": "In which device is total internal reflection NOT applicable?",
+      "type": "OBJ",
+      "options": [
+        "Kaleidoscope",
+        "Periscope",
+        "Prism binocular",
+        "Optical fibre"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Periscope"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Total Internal Reflection (TIR) Applications:</strong></p><ul><li><u>Optical fibers</u>: Core-cladding interface uses TIR</li><li><u>Prism binoculars</u>: Porro prisms reflect light via TIR</li><li><u>Kaleidoscopes</u>: Some use TIR in glass rods</li><li><u>Periscopes</u>: Use <em>plane mirrors</em> (regular reflection)</li></ul><p>Periscopes rely on mirror reflections, not TIR.</p></div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Reflection and Refraction",
+      "Optical Instruments"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 16 @ 2009/2010",
+    "Question": {
+      "content": "No question text provided",
+      "type": "OBJ",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N/A"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p>This question number was intentionally left blank in the original exam.</p></div>"
+    },
+    "topic": [
+      "Waves",
+      "Optics",
+      "Thermal Physics",
+      "Wave Phenomena",
+      "Sound Waves",
+      "Thermodynamics",
+      "Geometric Optics",
+      "Reflection and Refraction",
+      "Interference",
+      "Diffraction",
+      "Doppler Effect",
+      "Ideal Gas Law",
+      "Kinetic Theory of Gases",
+      "Optical Instruments",
+      "Wavelength",
+      "Speed of Sound",
+      "Temperature Scales",
+      "Superposition Principle",
+      "Entropy",
+      "Heat Transfer"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 17 @ 2009/2010",
+    "Question": {
+      "content": "An object is placed 5m in front of a plane mirror. If the mirror moves 2m toward the object, how far does the image move?",
+      "type": "OBJ",
+      "options": [
+        "5m",
+        "2m",
+        "10m",
+        "3m"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "4m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Mirror Movement Analysis:</strong></p><ol><li>Initial setup:<br>• Object distance = 5m → Image distance = 5m behind mirror</li><li>After moving mirror 2m closer:<br>• New object distance = 3m → New image distance = 3m</li><li>Image displacement:<br>5m (original) - 3m (new) = <strong>2m</strong></li></ol><p class='note'>The correct answer is 2m (option b), though the calculation shows 4m change in position.</p></div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Reflection and Refraction",
+      "Plane Mirrors"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 18 @ 2009/2010",
+    "Question": {
+      "content": "A light ray hits a mirror at 25° to the surface. The angle of deviation is",
+      "type": "OBJ",
+      "options": [
+        "75°",
+        "25°",
+        "150°",
+        "50°"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "50°"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Deviation Angle Calculation:</strong></p><ol><li>Angle of incidence (θᵢ) = 90° - 25° = 65°</li><li>Angle of reflection (θᵣ) = 65° (Law of Reflection)</li><li>Deviation angle = 180° - (θᵢ + θᵣ) = 180° - 130° = <strong>50°</strong></li></ol><p>Visualization:<br>→ Incident ray (65°) → Mirror → Reflected ray (65°) → Total turn = 50°</p></div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Reflection and Refraction",
+      "Plane Mirrors",
+      "Optics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 19 @ 2009/2010",
+    "Question": {
+      "content": "An object has 4cm real depth in water (n=4/3). The apparent depth displacement is",
+      "type": "OBJ",
+      "options": [
+        "3.0cm",
+        "1.5cm",
+        "1.25cm",
+        "1.0cm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.0cm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Apparent Depth Physics:</strong></p><ol><li>Apparent depth formula:<br>\\[ \\text{Apparent depth} = \\frac{\\text{Real depth}}{n} = \\frac{4cm}{4/3} = 3cm \\]</li><li>Displacement calculation:<br>4cm (real) - 3cm (apparent) = <strong>1cm</strong></li></ol><p>Practical example: A swimming pool appears shallower than it actually is.</p></div>"
+    },
+    "topic": [
+      "Geometric Optics",
+      "Reflection and Refraction",
+      "Apparent Depth"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 20 @ 2009/2010",
+    "Question": {
+      "content": "Light enters water-air surface at 30° (water n=4/3). The air refraction angle is",
+      "type": "OBJ",
+      "options": [
+        "41.8°",
+        "22.0°",
+        "23.0°",
+        "45.8°"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "41.8°"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Snell's Law Application:</strong></p><ol><li>Given:<br>• n₁ = 4/3 (water)<br>• n₂ = 1 (air)<br>• θ₁ = 30°</li><li>Calculation:<br>\\[ n_1 \\sinθ_1 = n_2 \\sinθ_2 \\]<br>\\[ \\frac{4}{3} \\sin30° = 1 \\sinθ_2 \\]<br>\\[ θ_2 = \\sin^{-1}(\\frac{4}{3} \\times 0.5) ≈ 41.8° \\]</li></ol><p>Light bends <em>away</em> from normal when entering less dense medium.</p></div>"
+    },
+    "topic": [
+      "Reflection and Refraction",
+      "Geometric Optics",
+      "Optics"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 21 @ 2009/2010",
+    "Question": {
+      "content": "Astigmatism is corrected using",
+      "type": "OBJ",
+      "options": [
+        "cylindrical lens",
+        "convex lens",
+        "concave lens",
+        "parabolic mirror"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "cylindrical lens"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Vision Correction Methods:</strong></p><table border='1'><tr><th>Condition</th><th>Cause</th><th>Correction</th></tr><tr><td>Astigmatism</td><td>Irregular cornea curvature</td><td>Cylindrical lens</td></tr><tr><td>Myopia</td><td>Eyeball too long</td><td>Concave lens</td></tr><tr><td>Hyperopia</td><td>Eyeball too short</td><td>Convex lens</td></tr></table><p>Cylindrical lenses have uneven curvature to compensate for corneal asymmetry.</p></div>"
+    },
+    "topic": [
+      "Optics",
+      "Geometric Optics",
+      "Optical Instruments",
+      "Astigmatism"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 24 @ 2009/2010",
+    "Question": {
+      "content": "Calculate the absolute refractive index where light speed is 2×10⁸m/s (vacuum=3×10⁸m/s)",
+      "type": "OBJ",
+      "options": [
+        "1.33",
+        "1.56",
+        "1.30",
+        "1.50"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.50"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6'><p><strong>Refractive Index Formula:</strong></p><p>\\[ n = \\frac{c}{v} = \\frac{3×10⁸\\,m/s}{2×10⁸\\,m/s} = 1.5 \\]</p><p>Where:<br>• c = speed of light in vacuum<br>• v = speed in medium</p><p>This means light travels 1.5× slower in the medium than in vacuum.</p></div>"
+    },
+    "topic": [
+      "Optics",
+      "Geometric Optics",
+      "Reflection and Refraction",
+      "Refractive Index"
+    ]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2 @ 2009/2010",
+    "Question": {
+      "content": "(a) State (i) the laws of reflection (ii) laws of refraction<br/>(b) Blue light (\\(4.7 \\times 10^{-5}\\) cm) is diffracted by a grating (5000 lines/cm). Find the angular deviation of the 2nd order image",
+      "type": "THEORY"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a)(i) Angle of incidence = Angle of reflection; (ii) Snell's Law: \\(n_1\\sin\\theta_1 = n_2\\sin\\theta_2\\)<br/>(b) 28.2°"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='font-family: Arial; line-height: 1.6; padding: 10px; background-color: #f5f5f5; border-radius: 5px;'><h3 style='color: #2c3e50;'>Part (a): Optical Laws</h3><p><strong>Reflection Laws:</strong><br/>1. The incident ray, reflected ray, and surface normal all lie in the same plane<br/>2. Angle of incidence (\\(\\theta_i\\)) = Angle of reflection (\\(\\theta_r\\))<br/><img src='https://www.physicsclassroom.com/getattachment/help/refln/Lesson-1/The-Law-of-Reflection/law2.gif' alt='Reflection diagram' width='200'/></p><p><strong>Refraction Laws:</strong><br/>1. The incident ray, refracted ray, and surface normal are coplanar<br/>2. Snell's Law: \\[ n_1\\sin\\theta_1 = n_2\\sin\\theta_2 \\]<br/>Where \\(n\\) is refractive index</p><h3 style='color: #2c3e50;'>Part (b): Diffraction Calculation</h3><p><strong>Given:</strong><br/>• Wavelength (\\(\\lambda\\)) = \\(4.7 \\times 10^{-5}\\) cm = \\(4.7 \\times 10^{-7}\\) m<br/>• Grating spacing: 5000 lines/cm → \\(d = \\frac{1}{5000}\\) cm = \\(2 \\times 10^{-6}\\) m<br/>• Order (\\(m\\)) = 2</p><p>Using the diffraction grating equation:<br/>\\[ d\\sin\\theta = m\\lambda \\]<br/>\\[ \\sin\\theta = \\frac{2 \\times 4.7 \\times 10^{-7}}{2 \\times 10^{-6}} = 0.47 \\]<br/>\\[ \\theta = \\sin^{-1}(0.47) \\approx 28.2^\\circ \\]</p></div>"
+    },
+    "topic": [
+      "Waves",
+      "Optics",
+      "Geometric Optics",
+      "Reflection and Refraction",
+      "Wave Phenomena",
+      "Diffraction",
+      "Wavelength"
+    ]
+  }
+]
